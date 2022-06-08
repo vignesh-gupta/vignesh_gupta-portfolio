@@ -101,7 +101,7 @@ const Work = () => {
               <p className='p-text' style={{marginTop:10 , justifyContent:'center'}}>{work.description}</p>
 
               <div className='app__work-tag app__flex'>
-                <p className='p-text'> {work.tags[0]}</p>
+                <p className='p-text'> {work.tags}</p>
               </div>
             </div>
 

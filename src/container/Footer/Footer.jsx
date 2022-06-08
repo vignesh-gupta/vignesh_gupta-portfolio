@@ -3,7 +3,6 @@ import { BsEnvelopeOpen , BsPhone } from 'react-icons/bs';
 
 import { AppWrap , MotionWrap } from '../../wrapper';
 import {client } from '../../client';
-import {images} from '../../constants'
 import './Footer.scss';
 
 
