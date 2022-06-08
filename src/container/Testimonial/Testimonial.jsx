@@ -24,7 +24,6 @@ const Testimonial = () => {
     client.fetch(brandQuery)
     .then((data) => {
       setBrands(data);
-      // console.log("exp: "+experiences);
     });
 
     client.fetch(testimonialsQuery)

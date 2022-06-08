@@ -10,7 +10,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    margin: 4rem 2rem 2rem;
+    margin: 2rem 1rem ;
 
     .app__footer-card{
         min-width: 290px;
@@ -25,7 +25,6 @@
         background-color: #fef4f5;
         transition: all 0.3s ease-in-out;
     
-        // TODO: change img to svg
         svg{
             width: 20px;
             height: 20px;
@@ -42,7 +41,7 @@
         }
     
         &:hover{
-            box-shadow: 0 0 25px #fef4f5;
+            box-shadow: 0 0 25px #d3c7c8;
         }
     
         @media screen and (max-width:450px) {

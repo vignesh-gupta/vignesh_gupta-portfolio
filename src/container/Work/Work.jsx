@@ -18,7 +18,6 @@ const Work = () => {
 
     client.fetch(query)
     .then((data) => {
-      // console.log(data);
       setWorks(data)
       setFilterWork(data)
     });
@@ -46,7 +45,7 @@ const Work = () => {
       <h2 className='head-text'>My <span>Creative Portfolio</span> Section</h2>
 
       <div className='app__work-filter'>
-        {['UI/UX' , 'Web App' , 'Websites' , 'All'].map((item , i ) => (
+        {['All' , 'Web App' , 'Website' , 'API'].map((item , i ) => (
           <div 
             key={i} 
             onClick={()=> handleWorkFilter(item)}
@@ -116,6 +115,6 @@ const Work = () => {
 // export default AppWrap(Work , 'work')
 export default AppWrap(
   MotionWrap(Work , 'app__work'),
-  'works',
+  'work',
   'app__primarybg'
 );
