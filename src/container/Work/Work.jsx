@@ -61,7 +61,7 @@ const Work = () => {
         transition={{duration:0.5 , delayChildren:0.5}}
         className="app__work-portfolio"
       >
-        {filterWork.map((work, i ) => (
+        {filterWork?.map((work, i ) => (
           <div 
             className='app__work-item app__flex' key={i}
           >

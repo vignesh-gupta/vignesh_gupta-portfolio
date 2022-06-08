@@ -22,7 +22,7 @@ const About = () => {
       <h2 className='head-text'>I know that <span>Good Apps</span> <br/> means <span>Good Business</span></h2>
 
       <div className='app__profiles'>
-        {abouts.map((about, i) => (
+        {abouts?.map((about, i) => (
           <motion.div 
             whileInView={{opacity:1}}
             whileHover={{scale:1.1}}
