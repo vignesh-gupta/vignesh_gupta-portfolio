@@ -1,16 +1,15 @@
 import { createClient, groq } from "next-sanity";
 import clientConfig from '../config'
 
-export async function getProjects(){
+
+// TODO: Remove the below function. Just an eg.
+export async function getPages(){
   return createClient(clientConfig).fetch(
-    groq`*[_type == "project"]{
+    groq`*[_type == "page"]{
       _id,
       _createdAt,
-      name,
+      title,
       "slug": slug.current,
-      "image": image.asset->url,
-      url,
-      content
     }`
   )
 }
