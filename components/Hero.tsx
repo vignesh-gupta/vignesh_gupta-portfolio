@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex md:self-start md:py-32 py-20 flex-col md:flex-row justify-center md:justify-start gap-3 w-full">
+    <div className="flex md:pt-32 pt-20 flex-col md:flex-row justify-center md:justify-start gap-3 w-full">
       <div id="hero-img" className="relative flex justify-center items-start">
         <Image
           src="/radiant-circle.svg"
