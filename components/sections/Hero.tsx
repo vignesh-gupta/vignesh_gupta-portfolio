@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex md:pt-32 pt-20 flex-col md:flex-row justify-center md:justify-start gap-3 w-full">
+    <div className="flex md:pt-32 pt-10 flex-col md:flex-row justify-center md:justify-start gap-3 w-full">
       <div id="hero-img" className="relative flex justify-center items-start">
         <Image
           src="/radiant-circle.svg"
@@ -23,11 +23,11 @@ const Hero = () => {
           <span className="text-primary-text"> Vignesh Gupta</span>
         </p>
 
-        <div className="ml-7">
+        <div className="md:ml-7">
           <p>An Engineer who...</p>
           <h1 className="lg:text-5xl md:text-4xl text-3xl">
-            Loves to <br /> having{" "}
-            <span className="text-primary-text">problem</span>...
+            Loves 
+            <span className="text-primary-text"> problem</span>...
           </h1>
           <p className="text-sm">
             Because if there is no problem then what’s there to engineer?

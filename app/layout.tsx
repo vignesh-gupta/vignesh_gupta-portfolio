@@ -2,7 +2,7 @@ import clsx from "clsx";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Preahvihear} from "next/font/google";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/sections/Navbar";
 
 const preahvihear = Preahvihear({ subsets: ["latin"] , weight: ['400'] });
 
@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={clsx("bg-primary text-foreground", preahvihear.className)}>
         <Navbar />
-        <main className="xl:px-80 lg:px-60 px-10 sm:px-16 md:px-32">
+        <main className="xl:px-80 lg:px-48 md:px-32 sm:px-16 px-10">
           {children}
         </main>
       </body>
