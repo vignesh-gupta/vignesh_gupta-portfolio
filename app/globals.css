@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #11071f;
+  --primary-text: #7127ba;
+  --secondary: #1a0b2e;
+  --secondary-text: #CCD6F6;
+  --foreground: #f2f2f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px solid #fff; */
+}
+
+html, body{
+  scroll-behavior: smooth;
+}
+
+.radial-gradient {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+}
+
+.spread-gradient{
+  position: absolute;
+  background: rgba(149, 66, 232, 0.35);
+  filter: blur(175px);
+  /* transform: rotate(-114.2deg); */
+}
+
+.card-gradient-1 {
+  border-radius: 15px;
+  background: linear-gradient(
+    141deg,
+    #130428 7.29%,
+    #251043 70.55%,
+    #38126d 100%
+  );
+  box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-gradient-2,
+.card-gradient-3 {
+  border-radius: 15px;
+  background: linear-gradient(
+    137deg,
+    #130428 7.29%,
+    #251043 34.38%,
+    #38126d 56.77%,
+    #261045 84.9%,
+    #190634 100%
+  );
+  box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-gradient-4 {
+  border-radius: 15px;
+  background: linear-gradient(
+    135deg,
+    #38126d 1.37%,
+    #251043 30.21%,
+    #251043 100%
+  );
+  box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
+}
