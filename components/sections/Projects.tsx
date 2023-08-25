@@ -9,7 +9,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["600", "500"] });
 const Projects = () => {
   return (
     <div
-      className={clsx("w-full my-10 flex flex-col gap-4", poppins.className)}
+      className={clsx("w-full my-10 flex flex-col gap-10", poppins.className)}
     >
       {/* TODO: Fetch Project and display */}
 

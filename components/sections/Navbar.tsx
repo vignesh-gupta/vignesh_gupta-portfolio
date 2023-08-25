@@ -9,12 +9,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const navLinks = [
   {
-    title: "Home",
-    url: "/",
-  },
-  {
     title: "About",
-    url: "/about",
+    url: "#aboutMe",
   },
   {
     title: "Projects",
@@ -35,7 +31,7 @@ const Navbar = () => {
       )}
     >
       <div id="logo" className="flex items-center">
-        <p className="text-3xl">VG</p>
+        <a href="/" className="text-3xl">VG</a>
       </div>
 
       <div className="hidden items-center gap-2 md:flex">

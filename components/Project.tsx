@@ -6,7 +6,7 @@ const Project = ({ isEven }: { isEven: boolean }) => {
   return (
     <div
       className={clsx(
-        "flex flex-col items-center",
+        "flex flex-col items-center gap-1",
         isEven ? "lg:flex-row" : "lg:flex-row-reverse"
       )}
     >
@@ -34,11 +34,11 @@ const Project = ({ isEven }: { isEven: boolean }) => {
         </div>
       </div>
 
-      <div className="lg:p-10 p-6 relative w-full basis-auto flex-grow -order-1 lg:order-2  bg-[#2B0B3A] rounded-lg">
-        <div className={clsx("radial-gradient -z-10 h-full rounded-full blur-sm absolute w-full top-0" , isEven? "-left-1/3 " : "left-1/3")} />
+      <div className="lg:p-10 p-6  relative w-full basis-auto flex-grow bg-[#2B0B3A] rounded-lg">
+        <div className={clsx("radial-gradient brightness-50 -z-10 h-full rounded-full blur-sm absolute w-full top-0 lg:block hidden" , isEven? "-left-1/3 " : "left-1/3")} />
         <Image
           src="https://dummyimage.com/600x400/ffffff/7027ba.png"
-          className="transform  rounded-lg object-cover w-full h-full "
+          className="transform rounded-lg object-cover w-full h-full shadow-xl"
           alt="project name"
           width={300}
           height={200}

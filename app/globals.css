@@ -17,6 +17,10 @@
   /* border: 2px solid #fff; */
 }
 
+html, body{
+  scroll-behavior: smooth;
+}
+
 .radial-gradient {
   background: radial-gradient(
     50% 50% at 50% 50%,
@@ -27,14 +31,9 @@
 
 .spread-gradient{
   position: absolute;
-  width: 300px;
-  height: 500px;
-  right: -25%;
-  top: 15%;
-
   background: rgba(149, 66, 232, 0.35);
   filter: blur(175px);
-  transform: rotate(-114.2deg);
+  /* transform: rotate(-114.2deg); */
 }
 
 .card-gradient-1 {
