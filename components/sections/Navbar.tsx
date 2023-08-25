@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <header
       className={clsx(
-        "bg-secondary z-10 sticky top-0 left-0 right-0 h-20 flex justify-between xl:px-80 lg:px-48 md:px-32 sm:px-16 px-10 py-3",
+        "bg-secondary z-50 sticky top-0 left-0 right-0 h-20 flex justify-between xl:px-80 lg:px-48 md:px-32 sm:px-16 px-10 py-3",
         plusJakartaSans.className
       )}
     >

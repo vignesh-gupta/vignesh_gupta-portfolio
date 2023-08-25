@@ -14,12 +14,10 @@ const config: Config = {
           DEFAULT: 'var(--primary)',
           text: 'var(--primary-text)',
         },
-        secondary: 'var(--secondary)',
-      },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        secondary:{
+          DEFAULT: 'var(--secondary)',
+          text: 'var(--secondary-text)',
+        } 
       },
     },
   },

@@ -6,6 +6,7 @@
   --primary: #11071f;
   --primary-text: #7127ba;
   --secondary: #1a0b2e;
+  --secondary-text: #CCD6F6;
   --foreground: #f2f2f2;
 }
 
@@ -16,17 +17,24 @@
   /* border: 2px solid #fff; */
 }
 
-.gradient1 {
-  position: absolute;
-  height: 100%;
-  border-radius: 700px;
+.radial-gradient {
   background: radial-gradient(
     50% 50% at 50% 50%,
     #763cac 0%,
     rgba(50, 15, 133, 0) 100%
   );
-  filter: brightness(0.6) blur(10px);
-  z-index: -1;
+}
+
+.spread-gradient{
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  right: -25%;
+  top: 15%;
+
+  background: rgba(149, 66, 232, 0.35);
+  filter: blur(175px);
+  transform: rotate(-114.2deg);
 }
 
 .card-gradient-1 {
