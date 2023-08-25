@@ -1,13 +1,14 @@
 import React from "react";
-import Card from "../Card";
+import ExpertiseCard from "../ExpertiseCard";
 
 const Expertise = () => {
   return (
-    <div className=" h-[40vh]">
+    <div>
       <h2 className="lg:text-4xl md:text-3xl text-2xl">Expertise</h2>
 
+      {/* TODO: Update the Card with actually value */}
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 py-10">
-        {[1,2,3,4].map((val, i)=> <Card key={val} variant={i+1} /> )}
+        {[1,2,3,4].map((val, i)=> <ExpertiseCard key={val} variant={i+1} /> )}
       </div>
     </div>
   );

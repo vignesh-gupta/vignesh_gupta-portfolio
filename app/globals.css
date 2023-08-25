@@ -18,10 +18,7 @@
 
 .gradient1 {
   position: absolute;
-  width: 50%;
   height: 100%;
-  left: 25%;
-  top: 10%;
   border-radius: 700px;
   background: radial-gradient(
     50% 50% at 50% 50%,

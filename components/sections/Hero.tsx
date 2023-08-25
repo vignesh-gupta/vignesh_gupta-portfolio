@@ -7,8 +7,8 @@ const Hero = () => {
       <div id="hero-img" className="relative flex justify-center items-start">
         <Image
           src="/radiant-circle.svg"
-          alt=""
-          // className="absolute -top-3 -z-20 max-w-full max-h-full scale-150"
+          alt="Vignesh Gupta"
+          className="blur-lg"
           width={300}
           height={300}
         />
@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
 
       <div id="hero-content" className="flex flex-col justify-evenly">
-        <p className="">
+        <p className="md:-mb-7">
           Hello I&apos;m
           <span className="text-primary-text"> Vignesh Gupta</span>
         </p>
@@ -26,8 +26,8 @@ const Hero = () => {
         <div className="md:ml-7">
           <p>An Engineer who...</p>
           <h1 className="lg:text-5xl md:text-4xl text-3xl">
-            Loves 
-            <span className="text-primary-text"> problem</span>...
+            Loves to <br />
+            have<span className="text-primary-text"> problem</span>...
           </h1>
           <p className="text-sm">
             Because if there is no problem then what’s there to engineer?

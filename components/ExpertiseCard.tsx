@@ -5,15 +5,15 @@ import clsx from "clsx";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["600", "500"] });
 
-const Card = ({variant: variant} : {variant : number}) => {
+const ExpertiseCard = ({variant: variant} : {variant : number}) => {
   return (
     <div
       className={clsx(
-        "flex justify-center items-center px-8 py-5 gap-4 border-t-4 border-[#4F228D] ",
+        "flex justify-center items-center md:px-8 px-2 pl-4 py-5 gap-4 border-t-4 border-[#4F228D] ",
         poppins.className, "card-gradient-"+ variant
       )}
     >
-      <div className="shrink-0">
+      <div className="">
         <Image
           src={`/icons/expertise${variant}.svg`}
           alt="Expertise"
@@ -21,7 +21,7 @@ const Card = ({variant: variant} : {variant : number}) => {
           height={100}
         />
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col shrink">
         <h3 className="text-xl">Frontend</h3>
         <p className="text-xs my-2">
           Take your client onboard seamlessly by our amazing tool of digital
@@ -35,8 +35,11 @@ const Card = ({variant: variant} : {variant : number}) => {
         Learn More
       </button>
       </div>
+
+      {/* TODO: Add a model on learn more btn click */}
+
     </div>
   );
 };
 
-export default Card;
+export default ExpertiseCard;
