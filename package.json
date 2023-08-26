@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/env": "^13.4.19",
     "@portabletext/react": "^3.0.4",
     "@sanity/client": "^6.4.9",
     "@sanity/demo": "^1.0.2",
@@ -24,6 +25,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
     "react-xarrows": "^2.0.2",
+    "sanity": "^3.15.1",
     "sanity-plugin-iframe-pane": "^2.5.5"
   },
   "devDependencies": {
