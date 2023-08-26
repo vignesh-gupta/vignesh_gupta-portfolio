@@ -1,11 +1,6 @@
-import clsx from "clsx";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Preahvihear} from "next/font/google";
-import Navbar from "@/components/sections/Navbar";
-import Footer from "@/components/sections/Footer";
 
-const preahvihear = Preahvihear({ subsets: ["latin"] , weight: ['400'] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,13 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={clsx("bg-primary text-foreground", preahvihear.className)}>
-        <Navbar />
-        <main className="xl:px-80 lg:px-48 md:px-32 sm:px-16 px-10">
-          {children}
-        </main>
-        <Footer />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
