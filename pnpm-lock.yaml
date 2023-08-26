@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@next/env':
-    specifier: ^13.4.19
-    version: 13.4.19
   '@portabletext/react':
     specifier: ^3.0.4
     version: 3.0.4(react@18.2.0)
@@ -17,9 +14,15 @@ dependencies:
   '@sanity/demo':
     specifier: ^1.0.2
     version: 1.0.2(@sanity/color@2.2.5)(tailwindcss@3.3.3)
+  '@sanity/icons':
+    specifier: ^2.4.1
+    version: 2.4.1(react@18.2.0)
   '@sanity/image-url':
     specifier: ^1.0.2
     version: 1.0.2
+  '@sanity/ui':
+    specifier: ^1.7.11
+    version: 1.7.11(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@5.3.11)
   '@sanity/vision':
     specifier: ^3.15.1
     version: 3.15.1(@babel/runtime@7.22.10)(@codemirror/lint@6.4.0)(@codemirror/state@6.2.1)(@codemirror/theme-one-dark@6.1.2)(@lezer/common@1.0.4)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@5.3.11)
