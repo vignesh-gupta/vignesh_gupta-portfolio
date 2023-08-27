@@ -1,10 +1,9 @@
 import React from "react";
 import { IconType } from "react-icons";
 import clsx from "clsx";
-import { Poppins } from "next/font/google";
 import { HiOutlineMail } from "react-icons/hi";
+import { poppins } from "./constants/designConstants";
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["600", "500"] });
 
 type ContactInfoProps = {
   Icon: IconType;

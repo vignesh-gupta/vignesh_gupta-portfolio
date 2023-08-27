@@ -1,10 +1,9 @@
 import React from "react";
-import { Poppins } from "next/font/google";
 
 import Project from "../Project";
 import clsx from "clsx";
+import { poppins } from "../constants/designConstants";
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["600", "500"] });
 
 const Projects = () => {
   return (
