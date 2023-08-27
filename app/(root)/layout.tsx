@@ -1,9 +1,7 @@
 import clsx from "clsx";
-import { Preahvihear } from "next/font/google";
 import Navbar from "@/components/sections/Navbar";
 import Footer from "@/components/sections/Footer";
-
-const preahvihear = Preahvihear({ subsets: ["latin"], weight: ["400"] });
+import { preahvihear } from "@/components/constants/designConstants";
 
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (

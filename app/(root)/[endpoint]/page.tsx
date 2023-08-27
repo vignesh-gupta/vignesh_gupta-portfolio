@@ -1,12 +1,10 @@
 "use client";
 
+import { poppins } from "@/components/constants/designConstants";
 import { navLinks } from "@/components/constants/mappingConstants";
 import clsx from "clsx";
-import { Poppins } from "next/font/google";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["600"] });
 
 export default function Page({
   params: { endpoint },

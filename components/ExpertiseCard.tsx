@@ -1,9 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import { Poppins } from "next/font/google";
 import clsx from "clsx";
+import { poppins } from "./constants/designConstants";
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["600", "500"] });
 
 const ExpertiseCard = ({ variant: variant }: { variant: number }) => {
   return (

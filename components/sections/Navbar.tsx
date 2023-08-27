@@ -1,16 +1,12 @@
 "use client";
 
 import React from "react";
-import { Plus_Jakarta_Sans } from "next/font/google";
 import clsx from "clsx";
 import { BiMenuAltRight } from "react-icons/bi";
 import { RxCross2 } from "react-icons/rx";
 import { navLinks } from "../constants/mappingConstants";
-
-const plusJakartaSans = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  weight: ["700"],
-});
+import { motion } from "framer-motion";
+import { plusJakartaSans } from "@/components/constants/designConstants";
 
 
 const Navbar = () => {
@@ -48,22 +44,22 @@ const Navbar = () => {
         >
           <BiMenuAltRight />
         </button>
-
         {isMenuOpen && (
           // Backdrop for sliding menu
           <div
             onClick={() => setIsMenuOpen((prev) => !prev)}
             className="fixed top-0 right-0 backdrop-brightness-50 h-screen w-full flex justify-end"
           >
-            <div className="bg-secondary w-2/3 h-full right-0 flex flex-col">
+            <motion.div
+              whileInView={{ x: [100, 0] }}
+              transition={{ duration: 0.3, ease: "linear" }}
+              className="bg-secondary w-2/3 h-full right-0 flex flex-col"
+            >
               <div className="flex self-end text-2xl mx-8 px-8 my-5 py-5">
                 <RxCross2 />
               </div>
 
-              <div
-                className="flex flex-col "
-                onClick={() => setIsMenuOpen((prev) => !prev)}
-              >
+              <div className="flex flex-col ">
                 {navLinks.map((link) => (
                   <a
                     key={link.title.toLocaleLowerCase()}
@@ -74,7 +70,7 @@ const Navbar = () => {
                   </a>
                 ))}
               </div>
-            </div>
+            </motion.div>
           </div>
         )}
       </div>
