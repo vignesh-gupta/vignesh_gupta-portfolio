@@ -29,7 +29,7 @@ const Skills = () => {
         <Image
           src="/tech-solar.svg"
           alt="tech-solar"
-          className="mx-auto w-full height-auto object-contain md:w-3/4 z-[1] sticky"
+          className="mx-auto w-full height-auto object-contain md:w-3/4  sticky"
           width={100}
           height={100}
         />

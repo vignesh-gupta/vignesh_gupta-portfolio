@@ -7,7 +7,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div
       className={clsx(
-        "w-full bg-primary text-foreground min-h-screen flex flex-col",
+        "w-full bg-primary text-foreground min-h-screen flex flex-col -z-50",
         preahvihear.className
       )}
     >

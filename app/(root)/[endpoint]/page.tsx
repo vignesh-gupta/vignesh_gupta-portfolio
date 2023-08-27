@@ -24,11 +24,11 @@ export default function Page({
   return (
     <div
       className={clsx(
-        "flex flex-col justify-center items-center grow gap-2 text-center",
+        "flex flex-col justify-center items-center grow gap-5 text-center",
         poppins.className
       )}
     >
-      <h1 className="lg:text-3xl md:text-2xl text-xl capitalize">
+      <h1 className="md:text-2xl text-xl capitalize">
         {
           validLinks.includes(endpoint)
             ? `${endpoint} Page is under construction`
@@ -37,7 +37,7 @@ export default function Page({
       </h1>
       <button
         onClick={handleGoToHome}
-        className="md:text-xl text-base py-3 px-5 bg-blue-950 rounded-lg"
+        className="text-base py-3 px-5 bg-blue-950 rounded-lg"
       >
         Go home
       </button>
