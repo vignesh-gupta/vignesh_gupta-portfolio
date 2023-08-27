@@ -1,28 +1,21 @@
+"use client";
+
 import React from "react";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import clsx from "clsx";
+import { BiMenuAltRight } from "react-icons/bi";
+import { RxCross2 } from "react-icons/rx";
+import { navLinks } from "../constants/mappingConstants";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
   weight: ["700"],
 });
 
-export const navLinks = [
-  {
-    title: "About",
-    url: "#aboutMe",
-  },
-  {
-    title: "Projects",
-    url: "/projects",
-  },
-  {
-    title: "Contact",
-    url: "/contact",
-  },
-];
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
   return (
     <header
       className={clsx(
@@ -31,7 +24,9 @@ const Navbar = () => {
       )}
     >
       <div id="logo" className="flex items-center">
-        <a href="/" className="text-3xl">VG</a>
+        <a href="/" className="text-3xl">
+          VG
+        </a>
       </div>
 
       <div className="hidden items-center gap-2 md:flex">
@@ -44,6 +39,44 @@ const Navbar = () => {
             {link.title}
           </a>
         ))}
+      </div>
+
+      <div className="self-end md:hidden ">
+        <button
+          className="p-2 text-3xl bg-secondary-text text-secondary rounded-full"
+          onClick={() => setIsMenuOpen((prev) => !prev)}
+        >
+          <BiMenuAltRight />
+        </button>
+
+        {isMenuOpen && (
+          // Backdrop for sliding menu
+          <div
+            onClick={() => setIsMenuOpen((prev) => !prev)}
+            className="fixed top-0 right-0 backdrop-brightness-50 h-screen w-full flex justify-end"
+          >
+            <div className="bg-secondary w-2/3 h-full right-0 flex flex-col">
+              <div className="flex self-end text-2xl mx-8 px-8 my-5 py-5">
+                <RxCross2 />
+              </div>
+
+              <div
+                className="flex flex-col "
+                onClick={() => setIsMenuOpen((prev) => !prev)}
+              >
+                {navLinks.map((link) => (
+                  <a
+                    key={link.title.toLocaleLowerCase()}
+                    href={link.url}
+                    className="p-3  text-center"
+                  >
+                    {link.title}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </header>
   );

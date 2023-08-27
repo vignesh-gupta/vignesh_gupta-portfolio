@@ -16,12 +16,13 @@ export default async function Home() {
       <About />
 
       <div className="relative md:mt-20 mt-10 w-full">
-        <div className="radial-gradient -z-10 h-full rounded-full blur-sm absolute w-1/2 left-1/4" />
+        <div className="radial-gradient h-full rounded-full blur-sm absolute w-1/2 left-1/4" />
         <Expertise />
       </div>
 
       <Skills />
 
+      <div id="projects" />
       <Projects />
 
       <div className="relative w-full">

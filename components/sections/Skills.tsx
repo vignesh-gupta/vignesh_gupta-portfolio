@@ -25,11 +25,11 @@ const Skills = () => {
 
 
       <div className="relative md:mt-20 mt-10 w-full mb-10 overflow-visible">
-        <div className="radial-gradient -z-10 h-full rounded-full brightness-50 blur-sm absolute left-1/4 lg:top-8 md:top-6 top-4 w-1/2" />
+        <div className="radial-gradient h-full rounded-full brightness-50 blur-sm absolute left-1/4 lg:top-8 md:top-6 top-4 w-1/2" />
         <Image
           src="/tech-solar.svg"
           alt="tech-solar"
-          className="mx-auto w-full height-auto object-contain md:w-3/4"
+          className="mx-auto w-full height-auto object-contain md:w-3/4 z-[1] sticky"
           width={100}
           height={100}
         />

@@ -33,6 +33,7 @@ html, body{
   position: absolute;
   background: rgba(149, 66, 232, 0.35);
   filter: blur(175px);
+  z-index: -3;
   /* transform: rotate(-114.2deg); */
 }
 

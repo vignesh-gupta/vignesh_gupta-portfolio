@@ -5,12 +5,13 @@ import clsx from "clsx";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["600", "500"] });
 
-const ExpertiseCard = ({variant: variant} : {variant : number}) => {
+const ExpertiseCard = ({ variant: variant }: { variant: number }) => {
   return (
     <div
       className={clsx(
-        "flex justify-center items-center md:px-8 px-2 pl-4 py-5 gap-4 border-t-4 border-[#4F228D] ",
-        poppins.className, "card-gradient-"+ variant
+        "flex z-[1] justify-center items-center md:px-8 px-2 pl-4 py-5 gap-4 border-t-4 border-[#4F228D] ",
+        poppins.className,
+        "card-gradient-" + variant
       )}
     >
       <div className="">
@@ -27,17 +28,16 @@ const ExpertiseCard = ({variant: variant} : {variant : number}) => {
           Take your client onboard seamlessly by our amazing tool of digital
           onboard process.
         </p>
-      <button
-        type="button"
-        // className="w-fit stroke-2 p-3 stroke-[#693B93] text-sm fill-[#2C1250]"
-        className="px-4 py-2  my-1 rounded-lg bg-[#2C1250] border-4 border-[#693B93] text-xs  w-fit"
-      >
-        Learn More
-      </button>
+        <button
+          type="button"
+          // className="w-fit stroke-2 p-3 stroke-[#693B93] text-sm fill-[#2C1250]"
+          className="px-4 py-2  my-1 rounded-lg bg-[#2C1250] border-4 border-[#693B93] text-xs  w-fit"
+        >
+          Learn More
+        </button>
       </div>
 
       {/* TODO: Add a model on learn more btn click */}
-
     </div>
   );
 };
