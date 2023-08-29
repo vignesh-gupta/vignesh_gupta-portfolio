@@ -13,3 +13,14 @@ export async function getPages(){
     }`
   )
 }
+
+export async function getSkills(){
+  return createClient(clientConfig).fetch(
+    groq`*[_type == "skill"]{
+      _id,
+      _createdAt,
+      name,
+      "icon": icon.asset->url,
+    }`
+  )
+}

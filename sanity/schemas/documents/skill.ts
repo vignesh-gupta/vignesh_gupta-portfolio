@@ -9,11 +9,6 @@ const skill = {
             type:'string'
         },
         {
-            name:'bgColor',
-            title:'BgColor',
-            type:'string'
-        },
-        {
             name:'icon',
             title:'Icon',
             type: 'image',
