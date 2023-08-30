@@ -2,7 +2,14 @@ import clsx from "clsx";
 import Image from "next/image";
 import React from "react";
 
-const Project = ({ isEven }: { isEven: boolean }) => {
+type ProjectProps = {
+  title: string;
+  isEven: boolean;
+  description: string;
+  imgUrl: string;
+};
+
+const Project = ({ isEven, title, description, imgUrl }: ProjectProps) => {
   return (
     <div
       className={clsx(
@@ -17,7 +24,7 @@ const Project = ({ isEven }: { isEven: boolean }) => {
         )}
       >
         <p className="font-bold text-primary-text">Featured Project</p>
-        <h4 className="text-3xl text-secondary-text">Project Name</h4>
+        <h4 className="text-3xl text-secondary-text">{title}</h4>
 
         <div
           className={clsx(
@@ -25,19 +32,19 @@ const Project = ({ isEven }: { isEven: boolean }) => {
             isEven ? "lg:-mr-12" : "lg:-ml-12"
           )}
         >
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptates, enim voluptatum quos ab, earum commodi ut vel molestias
-            eos dolores labore a mollitia debitis amet soluta praesentium
-            temporibus ratione rem.
-          </p>
+          <p>{description}</p>
         </div>
       </div>
 
       <div className="lg:p-10 p-6  relative w-full basis-auto flex-grow bg-[#2B0B3A] rounded-lg">
-        <div className={clsx("radial-gradient brightness-50 h-full rounded-full blur-sm absolute w-full top-0 lg:block hidden" , isEven? "-left-1/3 " : "left-1/3")} />
+        <div
+          className={clsx(
+            "radial-gradient brightness-50 h-full rounded-full blur-sm absolute w-full top-0 lg:block hidden",
+            isEven ? "-left-1/3 " : "left-1/3"
+          )}
+        />
         <Image
-          src="https://dummyimage.com/600x400/ffffff/7027ba.png"
+          src={imgUrl}
           className="transform rounded-lg object-cover w-full h-full shadow-xl"
           alt="project name"
           width={300}

@@ -13,3 +13,17 @@ export async function getSkills() {
     "icon": icon.asset->url,
   }`);
 }
+
+export async function getProjects(featuredOnly = false) {
+  return sanityFetch(`*[_type == "project"  ${featuredOnly ? "&& isFeatured == true " : ""}]{
+    _id,
+    _createdAt,
+    title,
+    description,
+    codeLink,
+    projectLink,
+    tags,
+    isFeatured,
+    "imgUrl": imgUrl.asset->url
+  }${featuredOnly ? "[0...3]" : ""}`);
+}
