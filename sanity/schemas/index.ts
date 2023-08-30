@@ -1,7 +1,6 @@
 import about from "@/sanity/schemas/documents/about";
 import brands from "@/sanity/schemas/documents/brands";
 import contact from "@/sanity/schemas/documents/contact";
-import page from "@/sanity/schemas/documents/pageSchema";
 import project from "@/sanity/schemas/documents/project";
 import skill from "@/sanity/schemas/documents/skill";
 import testimonial from "@/sanity/schemas/documents/testimonial";
@@ -9,7 +8,6 @@ import experience from "@/sanity/schemas/documents/experience";
 import duration from "@/sanity/schemas/objects/duration";
 
 const schemas = [
-  page,
   about,
   brands,
   contact,

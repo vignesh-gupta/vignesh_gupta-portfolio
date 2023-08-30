@@ -32,7 +32,12 @@ const project = {
         hotspot: true,
       },
     },
-
+    {
+      name: "isFeatured",
+      title: "Is Featured",
+      type: "boolean",
+      default: false,
+    },
     {
       name: "tags",
       title: "Tags",
