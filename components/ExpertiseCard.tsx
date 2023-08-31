@@ -29,7 +29,6 @@ const ExpertiseCard = ({ variant: variant }: { variant: number }) => {
         </p>
         <button
           type="button"
-          // className="w-fit stroke-2 p-3 stroke-[#693B93] text-sm fill-[#2C1250]"
           className="px-4 py-2  my-1 rounded-lg bg-[#2C1250] border-4 border-[#693B93] text-xs  w-fit"
         >
           Learn More
