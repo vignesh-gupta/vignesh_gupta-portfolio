@@ -1,22 +1,22 @@
-import { ap as qe, aq as Xe } from "./sanity-bc09dbe8.js";
+import { ap as qe, aq as Xe } from './sanity-bc09dbe8.js';
 function Ue(G, Q) {
   for (var y = 0; y < Q.length; y++) {
     const T = Q[y];
-    if (typeof T != "string" && !Array.isArray(T)) {
+    if (typeof T != 'string' && !Array.isArray(T)) {
       for (const _ in T)
-        if (_ !== "default" && !(_ in G)) {
+        if (_ !== 'default' && !(_ in G)) {
           const h = Object.getOwnPropertyDescriptor(T, _);
           h &&
             Object.defineProperty(
               G,
               _,
-              h.get ? h : { enumerable: !0, get: () => T[_] },
+              h.get ? h : { enumerable: !0, get: () => T[_] }
             );
         }
     }
   }
   return Object.freeze(
-    Object.defineProperty(G, Symbol.toStringTag, { value: "Module" }),
+    Object.defineProperty(G, Symbol.toStringTag, { value: 'Module' })
   );
 }
 var de = { exports: {} };
@@ -40,22 +40,22 @@ var de = { exports: {} };
       ve = y.TextEncoder,
       ee = y.AbortController;
     if (
-      (typeof window < "u" &&
-        typeof I < "u" &&
-        !("readyState" in I) &&
+      (typeof window < 'u' &&
+        typeof I < 'u' &&
+        !('readyState' in I) &&
         I.body == null &&
-        ((I.readyState = "loading"),
+        ((I.readyState = 'loading'),
         window.addEventListener(
-          "load",
+          'load',
           function (e) {
-            I.readyState = "complete";
+            I.readyState = 'complete';
           },
-          !1,
+          !1
         )),
       h == null &&
         ce != null &&
         (h = function () {
-          return new ce("Microsoft.XMLHTTP");
+          return new ce('Microsoft.XMLHTTP');
         }),
       Object.create == null &&
         (Object.create = function (e) {
@@ -122,7 +122,7 @@ var de = { exports: {} };
         throw new Error();
       }
       for (
-        var t = 65533, o = "", a = this.bitsNeeded, s = this.codePoint, c = 0;
+        var t = 65533, o = '', a = this.bitsNeeded, s = this.codePoint, c = 0;
         c < e.length;
         c += 1
       ) {
@@ -153,12 +153,12 @@ var de = { exports: {} };
     var De = function () {
       try {
         return (
-          new J().decode(new ve().encode("test"), { stream: !0 }) === "test"
+          new J().decode(new ve().encode('test'), { stream: !0 }) === 'test'
         );
       } catch (e) {
         console.debug(
-          "TextDecoder does not support streaming option. Using polyfill instead: " +
-            e,
+          'TextDecoder does not support streaming option. Using polyfill instead: ' +
+            e
         );
       }
       return !1;
@@ -169,13 +169,13 @@ var de = { exports: {} };
       (this.withCredentials = !1),
         (this.readyState = 0),
         (this.status = 0),
-        (this.statusText = ""),
-        (this.responseText = ""),
+        (this.statusText = ''),
+        (this.responseText = ''),
         (this.onprogress = R),
         (this.onload = R),
         (this.onerror = R),
         (this.onreadystatechange = R),
-        (this._contentType = ""),
+        (this._contentType = ''),
         (this._xhr = e),
         (this._sendTimeout = 0),
         (this._abort = R);
@@ -203,16 +203,16 @@ var de = { exports: {} };
       var s = function () {
           if (o === 1) {
             var i = 0,
-              l = "",
+              l = '',
               D = void 0;
-            if ("contentType" in t) (i = 200), (l = "OK"), (D = t.contentType);
+            if ('contentType' in t) (i = 200), (l = 'OK'), (D = t.contentType);
             else
               try {
                 (i = t.status),
                   (l = t.statusText),
-                  (D = t.getResponseHeader("Content-Type"));
+                  (D = t.getResponseHeader('Content-Type'));
               } catch {
-                (i = 0), (l = ""), (D = void 0);
+                (i = 0), (l = ''), (D = void 0);
               }
             i !== 0 &&
               ((o = 2),
@@ -226,7 +226,7 @@ var de = { exports: {} };
         c = function () {
           if ((s(), o === 2 || o === 3)) {
             o = 3;
-            var i = "";
+            var i = '';
             try {
               i = t.responseText;
             } catch {}
@@ -244,11 +244,11 @@ var de = { exports: {} };
               ((o = 4),
               a !== 0 && (_(a), (a = 0)),
               (n.readyState = 4),
-              i === "load")
+              i === 'load')
             )
               n.onload(l);
-            else if (i === "error") n.onerror(l);
-            else if (i === "abort") n.onabort(l);
+            else if (i === 'error') n.onerror(l);
+            else if (i === 'abort') n.onabort(l);
             else throw new TypeError();
             n.onreadystatechange();
           }
@@ -256,10 +256,10 @@ var de = { exports: {} };
         d = function (i) {
           t != null &&
             (t.readyState === 4
-              ? (!("onload" in t) || !("onerror" in t) || !("onabort" in t)) &&
-                f(t.responseText === "" ? "error" : "load", i)
+              ? (!('onload' in t) || !('onerror' in t) || !('onabort' in t)) &&
+                f(t.responseText === '' ? 'error' : 'load', i)
               : t.readyState === 3
-              ? "onprogress" in t || c()
+              ? 'onprogress' in t || c()
               : t.readyState === 2 && s());
         },
         u = function () {
@@ -268,27 +268,27 @@ var de = { exports: {} };
           }, 500)),
             t.readyState === 3 && c();
         };
-      "onload" in t &&
+      'onload' in t &&
         (t.onload = function (i) {
-          f("load", i);
+          f('load', i);
         }),
-        "onerror" in t &&
+        'onerror' in t &&
           (t.onerror = function (i) {
-            f("error", i);
+            f('error', i);
           }),
-        "onabort" in t &&
+        'onabort' in t &&
           (t.onabort = function (i) {
-            f("abort", i);
+            f('abort', i);
           }),
-        "onprogress" in t && (t.onprogress = c),
-        "onreadystatechange" in t &&
+        'onprogress' in t && (t.onprogress = c),
+        'onreadystatechange' in t &&
           (t.onreadystatechange = function (i) {
             d(i);
           }),
-        ("contentType" in t || !("ontimeout" in h.prototype)) &&
-          (r += (r.indexOf("?") === -1 ? "?" : "&") + "padding=true"),
+        ('contentType' in t || !('ontimeout' in h.prototype)) &&
+          (r += (r.indexOf('?') === -1 ? '?' : '&') + 'padding=true'),
         t.open(e, r, !0),
-        "readyState" in t &&
+        'readyState' in t &&
           (a = T(function () {
             u();
           }, 0));
@@ -301,23 +301,23 @@ var de = { exports: {} };
       }),
       (j.prototype.setRequestHeader = function (e, r) {
         var n = this._xhr;
-        "setRequestHeader" in n && n.setRequestHeader(e, r);
+        'setRequestHeader' in n && n.setRequestHeader(e, r);
       }),
       (j.prototype.getAllResponseHeaders = function () {
         return (
           (this._xhr.getAllResponseHeaders != null &&
             this._xhr.getAllResponseHeaders()) ||
-          ""
+          ''
         );
       }),
       (j.prototype.send = function () {
         if (
-          (!("ontimeout" in h.prototype) ||
-            (!("sendAsBinary" in h.prototype) &&
-              !("mozAnon" in h.prototype))) &&
+          (!('ontimeout' in h.prototype) ||
+            (!('sendAsBinary' in h.prototype) &&
+              !('mozAnon' in h.prototype))) &&
           I != null &&
           I.readyState != null &&
-          I.readyState !== "complete"
+          I.readyState !== 'complete'
         ) {
           var e = this;
           e._sendTimeout = T(function () {
@@ -326,7 +326,7 @@ var de = { exports: {} };
           return;
         }
         var r = this._xhr;
-        "withCredentials" in r && (r.withCredentials = this.withCredentials);
+        'withCredentials' in r && (r.withCredentials = this.withCredentials);
         try {
           r.send(void 0);
         } catch (n) {
@@ -348,9 +348,9 @@ var de = { exports: {} };
         t += 1
       ) {
         var o = n[t],
-          a = o.split(": "),
+          a = o.split(': '),
           s = a.shift(),
-          c = a.join(": ");
+          c = a.join(': ');
         r[pe(s)] = c;
       }
       this._map = r;
@@ -361,7 +361,7 @@ var de = { exports: {} };
       h != null && h.HEADERS_RECEIVED == null && (h.HEADERS_RECEIVED = 2);
     function ge() {}
     ge.prototype.open = function (e, r, n, t, o, a, s) {
-      e.open("GET", o);
+      e.open('GET', o);
       var c = 0;
       (e.onprogress = function () {
         var d = e.responseText,
@@ -369,7 +369,7 @@ var de = { exports: {} };
         (c += u.length), n(u);
       }),
         (e.onerror = function (d) {
-          d.preventDefault(), t(new Error("NetworkError"));
+          d.preventDefault(), t(new Error('NetworkError'));
         }),
         (e.onload = function () {
           t(null);
@@ -381,7 +381,7 @@ var de = { exports: {} };
           if (e.readyState === h.HEADERS_RECEIVED) {
             var d = e.status,
               u = e.statusText,
-              i = e.getResponseHeader("Content-Type"),
+              i = e.getResponseHeader('Content-Type'),
               l = e.getAllResponseHeaders();
             r(d, u, i, new ye(l));
           }
@@ -407,9 +407,9 @@ var de = { exports: {} };
       return (
         Z(o, {
           headers: s,
-          credentials: a ? "include" : "same-origin",
+          credentials: a ? 'include' : 'same-origin',
           signal: d,
-          cache: "no-store",
+          cache: 'no-store',
         })
           .then(function (i) {
             return (
@@ -417,8 +417,8 @@ var de = { exports: {} };
               r(
                 i.status,
                 i.statusText,
-                i.headers.get("Content-Type"),
-                new Ee(i.headers),
+                i.headers.get('Content-Type'),
+                new Ee(i.headers)
               ),
               new Ae(function (l, D) {
                 var $ = function () {
@@ -439,7 +439,7 @@ var de = { exports: {} };
             );
           })
           .catch(function (i) {
-            if (i.name !== "AbortError") return i;
+            if (i.name !== 'AbortError') return i;
           })
           .then(function (i) {
             t(i);
@@ -466,7 +466,7 @@ var de = { exports: {} };
         for (var n = r.length, t = 0; t < n; t += 1) {
           var o = r[t];
           try {
-            typeof o.handleEvent == "function"
+            typeof o.handleEvent == 'function'
               ? o.handleEvent(e)
               : o.call(this, e);
           } catch (a) {
@@ -531,7 +531,7 @@ var de = { exports: {} };
       },
       X = function (e, r, n) {
         try {
-          typeof r == "function" && r.call(e, n);
+          typeof r == 'function' && r.call(e, n);
         } catch (t) {
           me(t);
         }
@@ -550,18 +550,18 @@ var de = { exports: {} };
         je(this, e, r);
     }
     function He() {
-      return (h != null && "withCredentials" in h.prototype) || ue == null
+      return (h != null && 'withCredentials' in h.prototype) || ue == null
         ? new h()
         : new ue();
     }
-    var Le = Z != null && le != null && "body" in le.prototype;
+    var Le = Z != null && le != null && 'body' in le.prototype;
     function je(e, r, n) {
       r = String(r);
       var t = !!n.withCredentials,
-        o = n.lastEventIdQueryParameterName || "lastEventId",
+        o = n.lastEventIdQueryParameterName || 'lastEventId',
         a = ie(1e3),
         s = oe(n.heartbeatTimeout, 45e3),
-        c = "",
+        c = '',
         f = a,
         d = !1,
         u = 0,
@@ -569,7 +569,7 @@ var de = { exports: {} };
         l = n.Transport,
         D = Le && l == null ? void 0 : new j(l != null ? new l() : He()),
         $ =
-          l != null && typeof l != "string"
+          l != null && typeof l != 'string'
             ? new l()
             : D == null
             ? new we()
@@ -577,10 +577,10 @@ var de = { exports: {} };
         C = void 0,
         E = 0,
         x = re,
-        U = "",
-        Y = "",
-        F = "",
-        k = "",
+        U = '',
+        Y = '',
+        F = '',
+        k = '',
         w = L,
         se = 0,
         M = 0,
@@ -588,24 +588,24 @@ var de = { exports: {} };
           if (x === H)
             if (p === 200 && S != null && Oe.test(S)) {
               (x = q), (d = Date.now()), (f = a), (e.readyState = q);
-              var m = new te("open", { status: p, statusText: v, headers: b });
+              var m = new te('open', { status: p, statusText: v, headers: b });
               e.dispatchEvent(m), X(e, e.onopen, m);
             } else {
-              var g = "";
+              var g = '';
               p !== 200
-                ? (v && (v = v.replace(/\s+/g, " ")),
+                ? (v && (v = v.replace(/\s+/g, ' ')),
                   (g =
                     "EventSource's response has a status " +
                     p +
-                    " " +
+                    ' ' +
                     v +
-                    " that is not 200. Aborting the connection."))
+                    ' that is not 200. Aborting the connection.'))
                 : (g =
                     "EventSource's response has a Content-Type specifying an unsupported type: " +
-                    (S == null ? "-" : S.replace(/\s+/g, " ")) +
-                    ". Aborting the connection."),
+                    (S == null ? '-' : S.replace(/\s+/g, ' ')) +
+                    '. Aborting the connection.'),
                 fe();
-              var m = new te("error", { status: p, statusText: v, headers: b });
+              var m = new te('error', { status: p, statusText: v, headers: b });
               e.dispatchEvent(m), X(e, e.onerror, m), console.error(g);
             }
         },
@@ -616,12 +616,12 @@ var de = { exports: {} };
               (b ===
                 `
 `.charCodeAt(0) ||
-                b === "\r".charCodeAt(0)) &&
+                b === '\r'.charCodeAt(0)) &&
                 (v = S);
             }
-            var m = (v !== -1 ? k : "") + p.slice(0, v + 1);
-            (k = (v === -1 ? k : "") + p.slice(v + 1)),
-              p !== "" && ((d = Date.now()), (u += p.length));
+            var m = (v !== -1 ? k : '') + p.slice(0, v + 1);
+            (k = (v === -1 ? k : '') + p.slice(v + 1)),
+              p !== '' && ((d = Date.now()), (u += p.length));
             for (var g = 0; g < m.length; g += 1) {
               var b = m.charCodeAt(g);
               if (
@@ -633,7 +633,7 @@ var de = { exports: {} };
                 w = L;
               else if (
                 (w === ne && (w = L),
-                b === "\r".charCodeAt(0) ||
+                b === '\r'.charCodeAt(0) ||
                   b ===
                     `
 `.charCodeAt(0))
@@ -643,22 +643,22 @@ var de = { exports: {} };
                   var O = m.slice(se, M - 1),
                     N = m.slice(
                       M +
-                        (M < g && m.charCodeAt(M) === " ".charCodeAt(0)
+                        (M < g && m.charCodeAt(M) === ' '.charCodeAt(0)
                           ? 1
                           : 0),
-                      g,
+                      g
                     );
-                  O === "data"
+                  O === 'data'
                     ? ((U += `
 `),
                       (U += N))
-                    : O === "id"
+                    : O === 'id'
                     ? (Y = N)
-                    : O === "event"
+                    : O === 'event'
                     ? (F = N)
-                    : O === "retry"
+                    : O === 'retry'
                     ? ((a = oe(N, a)), (f = a))
-                    : O === "heartbeatTimeout" &&
+                    : O === 'heartbeatTimeout' &&
                       ((s = oe(N, s)),
                       E !== 0 &&
                         (_(E),
@@ -667,27 +667,27 @@ var de = { exports: {} };
                         }, s))));
                 }
                 if (w === L) {
-                  if (U !== "") {
-                    (c = Y), F === "" && (F = "message");
+                  if (U !== '') {
+                    (c = Y), F === '' && (F = 'message');
                     var B = new Te(F, { data: U.slice(1), lastEventId: Y });
                     if (
                       (e.dispatchEvent(B),
-                      F === "open"
+                      F === 'open'
                         ? X(e, e.onopen, B)
-                        : F === "message"
+                        : F === 'message'
                         ? X(e, e.onmessage, B)
-                        : F === "error" && X(e, e.onerror, B),
+                        : F === 'error' && X(e, e.onerror, B),
                       x === W)
                     )
                       return;
                   }
-                  (U = ""), (F = "");
+                  (U = ''), (F = '');
                 }
-                w = b === "\r".charCodeAt(0) ? ne : L;
+                w = b === '\r'.charCodeAt(0) ? ne : L;
               } else
                 w === L && ((se = g), (w = ae)),
                   w === ae
-                    ? b === ":".charCodeAt(0) && ((M = g + 1), (w = Se))
+                    ? b === ':'.charCodeAt(0) && ((M = g + 1), (w = Se))
                     : w === Se && (w = Fe);
             }
           }
@@ -701,7 +701,7 @@ var de = { exports: {} };
               }, f)),
               (f = ie(Math.min(a * 16, f * 2))),
               (e.readyState = H);
-            var v = new Ce("error", { error: p });
+            var v = new Ce('error', { error: p });
             e.dispatchEvent(v),
               X(e, e.onerror, v),
               p != null && console.error(p);
@@ -718,14 +718,14 @@ var de = { exports: {} };
             if (!d && C != null)
               _e(
                 new Error(
-                  "No activity within " +
+                  'No activity within ' +
                     s +
-                    " milliseconds. " +
+                    ' milliseconds. ' +
                     (x === H
-                      ? "No response received."
-                      : u + " chars received.") +
-                    " Reconnecting.",
-                ),
+                      ? 'No response received.'
+                      : u + ' chars received.') +
+                    ' Reconnecting.'
+                )
               ),
                 C != null && (C.abort(), (C = void 0));
             else {
@@ -743,20 +743,20 @@ var de = { exports: {} };
               z();
             }, s)),
             (x = H),
-            (U = ""),
-            (F = ""),
+            (U = ''),
+            (F = ''),
             (Y = c),
-            (k = ""),
+            (k = ''),
             (se = 0),
             (M = 0),
             (w = L);
           var v = r;
           if (
-            r.slice(0, 5) !== "data:" &&
-            r.slice(0, 5) !== "blob:" &&
-            c !== ""
+            r.slice(0, 5) !== 'data:' &&
+            r.slice(0, 5) !== 'blob:' &&
+            c !== ''
           ) {
-            var S = r.indexOf("?");
+            var S = r.indexOf('?');
             (v =
               S === -1
                 ? r
@@ -764,17 +764,17 @@ var de = { exports: {} };
                   r
                     .slice(S + 1)
                     .replace(/(?:^|&)([^=&]*)(?:=[^&]*)?/g, function (N, B) {
-                      return B === o ? "" : N;
+                      return B === o ? '' : N;
                     })),
               (v +=
-                (r.indexOf("?") === -1 ? "?" : "&") +
+                (r.indexOf('?') === -1 ? '?' : '&') +
                 o +
-                "=" +
+                '=' +
                 encodeURIComponent(c));
           }
           var b = e.withCredentials,
             m = {};
-          m.Accept = "text/event-stream";
+          m.Accept = 'text/event-stream';
           var g = e.headers;
           if (g != null)
             for (var O in g)
@@ -804,7 +804,7 @@ var de = { exports: {} };
       (A.CLOSED = W),
       (A.prototype.withCredentials = void 0);
     var be = K;
-    h != null && (K == null || !("withCredentials" in K.prototype)) && (be = A),
+    h != null && (K == null || !('withCredentials' in K.prototype)) && (be = A),
       (function (e) {
         {
           var r = e(Q);
@@ -816,13 +816,13 @@ var de = { exports: {} };
           (e.EventSource = be);
       });
   })(
-    typeof globalThis > "u"
-      ? typeof window < "u"
+    typeof globalThis > 'u'
+      ? typeof window < 'u'
         ? window
-        : typeof self < "u"
+        : typeof self < 'u'
         ? self
         : qe
-      : globalThis,
+      : globalThis
   );
 })(de, de.exports);
 var Be = de.exports,

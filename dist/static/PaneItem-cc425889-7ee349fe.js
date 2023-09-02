@@ -14,13 +14,13 @@ import {
   am as W,
   an as $,
   ao as z,
-} from "./sanity-bc09dbe8.js";
+} from './sanity-bc09dbe8.js';
 const K = (t, n) => ({
-  title: e.jsxs("em", {
-    children: ["No schema found for type ", e.jsx("code", { children: n })],
+  title: e.jsxs('em', {
+    children: ['No schema found for type ', e.jsx('code', { children: n })],
   }),
-  subtitle: e.jsxs("em", {
-    children: ["Document: ", e.jsx("code", { children: t })],
+  subtitle: e.jsxs('em', {
+    children: ['Document: ', e.jsx('code', { children: t })],
   }),
   media: () => e.jsx(z, {}),
 });
@@ -35,7 +35,7 @@ function U(t) {
   const {
       icon: n,
       id: s,
-      layout: i = "default",
+      layout: i = 'default',
       pressed: g,
       schemaType: a,
       selected: u,
@@ -70,14 +70,14 @@ function U(t) {
               layout: i,
               title: l,
             }),
-      [d, h, n, i, a, l, o, f],
+      [d, h, n, i, a, l, o, f]
     ),
     S = c.useMemo(
       () =>
         function (w) {
           return e.jsx(m, { ...w, childId: s });
         },
-      [m, s],
+      [m, s]
     ),
     b = c.useCallback((x) => {
       if (x.metaKey) {
@@ -91,8 +91,8 @@ function U(t) {
     e.jsx(B, {
       __unstable_focusRing: !0,
       as: S,
-      "data-as": "a",
-      "data-ui": "PaneItem",
+      'data-as': 'a',
+      'data-ui': 'PaneItem',
       margin: k,
       marginBottom: P,
       marginTop: y,
@@ -101,9 +101,9 @@ function U(t) {
       pressed: g,
       radius: 2,
       selected: u || v,
-      sizing: "border",
+      sizing: 'border',
       tabIndex: -1,
-      tone: "inherit",
+      tone: 'inherit',
       children: C,
     })
   );

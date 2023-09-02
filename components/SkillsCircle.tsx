@@ -1,6 +1,6 @@
-import Image from "next/image";
-import React from "react";
-import { motion } from "framer-motion";
+import Image from 'next/image';
+import React from 'react';
+import { motion } from 'framer-motion';
 
 type SkillsCircleProps = {
   name: string;
@@ -13,15 +13,15 @@ const SkillsCircle = ({ name, icon, delay }: SkillsCircleProps) => {
     <motion.div
       whileInView={{ scale: [0, 1] }}
       transition={{ delay: delay / 10 }}
-      className="w-20 h-20 p-2 flex justify-center items-center rounded-full bg-secondary"
+      className='flex h-20 w-20 items-center justify-center rounded-full bg-secondary p-2'
     >
       <Image
-        loading="lazy"
+        loading='lazy'
         src={icon}
         alt={name}
         width={50}
         height={50}
-        className="rounded-full object-contain"
+        className='rounded-full object-contain'
       />
     </motion.div>
   );

@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import { poppins } from "@/components/constants/designConstants";
-import { navLinks } from "@/components/constants/mappingConstants";
-import clsx from "clsx";
-import { useRouter } from "next/navigation";
+import { poppins } from '@/components/constants/designConstants';
+import { navLinks } from '@/components/constants/mappingConstants';
+import clsx from 'clsx';
+import { useRouter } from 'next/navigation';
 
 export default function Page({
   params: { endpoint },
@@ -11,30 +11,30 @@ export default function Page({
   params: { endpoint: string };
 }) {
   const validLinks = navLinks.map((link) =>
-    link.url.toLocaleLowerCase().replace("/", ""),
+    link.url.toLocaleLowerCase().replace('/', '')
   );
 
   const router = useRouter();
 
   const handleGoToHome = () => {
-    router.push("/");
+    router.push('/');
   };
 
   return (
     <div
       className={clsx(
-        "flex flex-col justify-center items-center grow gap-5 text-center",
-        poppins.className,
+        'flex grow flex-col items-center justify-center gap-5 text-center',
+        poppins.className
       )}
     >
-      <h1 className="md:text-2xl text-xl capitalize">
+      <h1 className='text-xl capitalize md:text-2xl'>
         {validLinks.includes(endpoint.toLocaleLowerCase())
           ? `${endpoint} Page is under construction`
-          : "404 | Oops seems like a wrong page"}
+          : '404 | Oops seems like a wrong page'}
       </h1>
       <button
         onClick={handleGoToHome}
-        className="text-base py-3 px-5 bg-blue-950 rounded-lg"
+        className='rounded-lg bg-blue-950 px-5 py-3 text-base'
       >
         Go home
       </button>

@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import Project from "@/components/Project";
-import clsx from "clsx";
-import { poppins } from "@/components/constants/designConstants";
-import { getProjects } from "@/sanity/utils";
+import Project from '@/components/Project';
+import clsx from 'clsx';
+import { poppins } from '@/components/constants/designConstants';
+import { getProjects } from '@/sanity/utils';
 
 const Projects = () => {
   const [projects, setProjects] = useState<any[]>([]);
@@ -20,7 +20,7 @@ const Projects = () => {
   }, []);
   return (
     <div
-      className={clsx("w-full my-10 flex flex-col gap-10", poppins.className)}
+      className={clsx('my-10 flex w-full flex-col gap-10', poppins.className)}
     >
       {projects.map((project, i) => (
         <Project

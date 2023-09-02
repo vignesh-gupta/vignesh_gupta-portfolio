@@ -164,10 +164,10 @@ import {
   ch as Gs,
   ci as Ks,
   cj as je,
-} from "./sanity-bc09dbe8.js";
-import { H as Xs, J as Ys } from "./index-ffc1c3cc.js";
+} from './sanity-bc09dbe8.js';
+import { H as Xs, J as Ys } from './index-ffc1c3cc.js';
 function Zn(t, n) {
-  var s = typeof n == "object";
+  var s = typeof n == 'object';
   return new Promise(function (a, o) {
     var i = new ut({
       next: function (r) {
@@ -189,7 +189,7 @@ function Js() {
       ft(n, function (o) {
         var i = s;
         (s = o), a && n.next([i, o]), (a = !0);
-      }),
+      })
     );
   });
 }
@@ -216,7 +216,7 @@ function Qs(t) {
     { panes: h, expand: p } = Le(),
     f = u.useMemo(
       () => (d == null ? void 0 : d.panes) || Zs,
-      [d == null ? void 0 : d.panes],
+      [d == null ? void 0 : d.panes]
     ),
     g = u.useMemo(() => (h == null ? void 0 : h[h.length - 2]), [h]),
     m = a - 1,
@@ -229,7 +229,7 @@ function Qs(t) {
           I = { ...(d || {}), panes: S };
         return setTimeout(() => l(I), 0), I;
       },
-      [m, l, f, d, r],
+      [m, l, f, d, r]
     ),
     _ = u.useCallback(
       (v) => {
@@ -239,13 +239,13 @@ function Qs(t) {
           ...j.slice(r + 1),
         ]);
       },
-      [b, r],
+      [b, r]
     ),
     y = u.useCallback(
       (v) => {
         b((j, w) => [...j.slice(0, r), { ...w, params: v }, ...j.slice(r + 1)]);
       },
-      [b, r],
+      [b, r]
     ),
     x = u.useCallback(
       (v) => {
@@ -263,7 +263,7 @@ function Qs(t) {
           ],
         });
       },
-      [m, l, f],
+      [m, l, f]
     ),
     P = u.useMemo(
       () => ({
@@ -284,7 +284,7 @@ function Qs(t) {
           let v =
             arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
           b(() => [
-            { id: v.id || "", payload: v.payload, params: v.params || {} },
+            { id: v.id || '', payload: v.payload, params: v.params || {} },
           ]);
         },
         closeCurrent: () => {
@@ -309,14 +309,14 @@ function Qs(t) {
           });
         },
         setView: (v) => {
-          const j = $n(o, "view");
+          const j = $n(o, 'view');
           return y(v ? { ...j, view: v } : j);
         },
         setParams: y,
         setPayload: _,
         navigateIntent: c,
       }),
-      [s, m, r, i, o, f, x, y, _, c, b, g, l, p],
+      [s, m, r, i, o, f, x, y, _, c, b, g, l, p]
     );
   return e.jsx(es.Provider, { value: P, children: n });
 }
@@ -410,12 +410,12 @@ function so() {
       M = s.get(k);
     if (M) {
       if (
-        (x === "start" &&
+        (x === 'start' &&
           ((d = !0),
           (o.left = { element: P, flex: T.flex || 1, width: P.offsetWidth }),
           (o.right = { element: k, flex: M.flex || 1, width: k.offsetWidth }),
           y()),
-        x === "move" && o.left && o.right)
+        x === 'move' && o.left && o.right)
       ) {
         c = new Map();
         const {
@@ -426,7 +426,7 @@ function so() {
         } = eo(o, T, M, v);
         c.set(P, { flex: N, width: R }), c.set(k, { flex: A, width: z }), y();
       }
-      if (x === "end") {
+      if (x === 'end') {
         d = !1;
         const R = c.get(P),
           z = c.get(k);
@@ -545,16 +545,16 @@ function oo(t) {
       resize: r.resize,
       resizing: f.resizing,
     }),
-    [p, r, f.expandedElement, f.panes, f.resizing],
+    [p, r, f.expandedElement, f.panes, f.resizing]
   );
   return e.jsx(ms.Provider, {
     value: m,
     children: e.jsx(xs, {
-      "data-ui": "PaneLayout",
+      'data-ui': 'PaneLayout',
       ...i,
-      "data-collapsed": p ? "" : void 0,
-      "data-resizing": f.resizing ? "" : void 0,
-      "data-mounted": h ? "" : void 0,
+      'data-collapsed': p ? '' : void 0,
+      'data-resizing': f.resizing ? '' : void 0,
+      'data-mounted': h ? '' : void 0,
       ref: c,
       children: n,
     }),
@@ -576,16 +576,16 @@ function ao(t) {
   });
   return l.resizablePanes
     ? e.jsx(gs, {
-        as: "aside",
-        "data-ui": "DocumentInspectorPanel",
+        as: 'aside',
+        'data-ui': 'DocumentInspectorPanel',
         flex: a,
         maxWidth: bs,
         minWidth: Ce,
         children: d,
       })
     : e.jsx(E, {
-        as: "aside",
-        "data-ui": "DocumentInspectorPanel",
+        as: 'aside',
+        'data-ui': 'DocumentInspectorPanel',
         flex: a,
         children: d,
       });
@@ -595,14 +595,14 @@ var ro = Object.defineProperty,
     n in t
       ? ro(t, n, { enumerable: !0, configurable: !0, writable: !0, value: s })
       : (t[n] = s),
-  ye = (t, n, s) => (io(t, typeof n != "symbol" ? n + "" : n, s), s);
+  ye = (t, n, s) => (io(t, typeof n != 'symbol' ? n + '' : n, s), s);
 class J extends Error {
   constructor(n) {
     let { message: s, context: a, helpId: o, cause: i } = n;
     super(s),
-      ye(this, "cause"),
-      ye(this, "context"),
-      ye(this, "helpId"),
+      ye(this, 'cause'),
+      ye(this, 'context'),
+      ye(this, 'helpId'),
       (this.context = a),
       (this.helpId = o),
       (this.cause = i);
@@ -623,17 +623,17 @@ function Qn(t, n) {
     if (i) return i;
   }
   const a = t[n];
-  if (typeof a != "function")
+  if (typeof a != 'function')
     throw new Error(
-      "Expected property `"
-        .concat(n, "` to be a function but got ")
-        .concat(typeof a, " instead."),
+      'Expected property `'
+        .concat(n, '` to be a function but got ')
+        .concat(typeof a, ' instead.')
     );
   const o = a.bind(t);
   return s.set(n, o), qe.set(t, s), o;
 }
-const lo = (t) => !!t && typeof (t == null ? void 0 : t.then) == "function",
-  co = (t) => (te(t) ? typeof t.serialize == "function" : !1),
+const lo = (t) => !!t && typeof (t == null ? void 0 : t.then) == 'function',
+  co = (t) => (te(t) ? typeof t.serialize == 'function' : !1),
   uo = (t) => (n, s, a) => {
     try {
       return t(n, s, a);
@@ -642,9 +642,9 @@ const lo = (t) => !!t && typeof (t == null ? void 0 : t.then) == "function",
         ? o
         : new J({
             message:
-              typeof (o == null ? void 0 : o.message) == "string"
+              typeof (o == null ? void 0 : o.message) == 'string'
                 ? o.message
-                : "",
+                : '',
             context: s,
             cause: o,
           });
@@ -660,26 +660,26 @@ function et(t) {
       t((s, a, o) => {
         if (!s)
           throw new J({
-            message: "Pane returned no child",
+            message: 'Pane returned no child',
             context: a,
-            helpId: "structure-item-returned-no-child",
+            helpId: 'structure-item-returned-no-child',
           });
         return lo(s) || Ws(s)
           ? Ns(s).pipe(Be((i) => n(i, a, o)))
           : co(s)
           ? n(s.serialize(a), a, o)
-          : typeof s == "function"
+          : typeof s == 'function'
           ? n(s(a.id, a), a, o)
           : G(s);
-      }),
-    ),
+      })
+    )
   );
   return n;
 }
 async function ho(t) {
   const n = new Map(),
     a = et((c) => (d, h, p) => {
-      const f = d && "".concat(me(d), "-").concat(h.path.join("__")),
+      const f = d && ''.concat(me(d), '-').concat(h.path.join('__')),
         g = f && n.get(f);
       if (g) return g;
       const m = c(d, h, p);
@@ -688,8 +688,8 @@ async function ho(t) {
     o = [
       [
         {
-          id: "__edit__".concat(t.params.id),
-          params: { ...$n(t.params, ["id"]), type: t.params.type },
+          id: '__edit__'.concat(t.params.id),
+          params: { ...$n(t.params, ['id']), type: t.params.type },
           payload: t.payload,
         },
       ],
@@ -723,10 +723,10 @@ async function ho(t) {
             payload: void 0,
             structureContext: x,
           },
-          h,
-        ),
+          h
+        )
       );
-    return S.type === "document" && S.id === v
+    return S.type === 'document' && S.id === v
       ? [
           {
             panes: [
@@ -739,9 +739,9 @@ async function ho(t) {
         ]
       : ((P = S.canHandleIntent) != null &&
           P.call(S, p, f, { pane: S, index: h })) ||
-        (S.type === "documentList" &&
+        (S.type === 'documentList' &&
           S.schemaTypeName === j &&
-          S.options.filter === "_type == $type")
+          S.options.filter === '_type == $type')
       ? [
           {
             panes: [
@@ -752,11 +752,11 @@ async function ho(t) {
             levelIndex: y,
           },
         ]
-      : S.type === "list" && S.child && S.items
+      : S.type === 'list' && S.child && S.items
       ? (
           await Promise.all(
             S.items.map((I, T) =>
-              I.type === "divider"
+              I.type === 'divider'
                 ? Promise.resolve([])
                 : i({
                     currentId: I._id || I.id,
@@ -767,18 +767,18 @@ async function ho(t) {
                     path: [...m, I.id],
                     payload: b,
                     unresolvedPane:
-                      typeof S.child == "function" ? Qn(S, "child") : S.child,
+                      typeof S.child == 'function' ? Qn(S, 'child') : S.child,
                     levelIndex: T,
                     structureContext: x,
-                  }),
-            ),
+                  })
+            )
           )
         ).flat()
       : [];
   }
   const l = (
     await i({
-      currentId: "root",
+      currentId: 'root',
       flatIndex: 0,
       levelIndex: 0,
       intent: t.intent,
@@ -792,12 +792,12 @@ async function ho(t) {
   ).sort((c, d) =>
     c.depthIndex === d.depthIndex
       ? c.levelIndex - d.levelIndex
-      : c.depthIndex - d.depthIndex,
+      : c.depthIndex - d.depthIndex
   )[0];
   return l ? l.panes : o;
 }
 const fo = (t, n) => {
-  const s = t.replace(/^__edit__/, ""),
+  const s = t.replace(/^__edit__/, ''),
     {
       params: a,
       payload: o,
@@ -806,17 +806,17 @@ const fo = (t, n) => {
     { type: r, template: l } = a;
   if (!r)
     throw new Error(
-      "Document type for document with ID ".concat(
+      'Document type for document with ID '.concat(
         s,
-        " was not provided in the router params.",
-      ),
+        ' was not provided in the router params.'
+      )
     );
-  let c = i({ schemaType: r, documentId: s }).id("editor");
+  let c = i({ schemaType: r, documentId: s }).id('editor');
   return l && (c = c.initialValueTemplate(l, o)), c.serialize();
 };
 function mo(t) {
   var n, s;
-  return "contextHash(".concat(
+  return 'contextHash('.concat(
     JSON.stringify({
       id: t.id,
       parentId: parent && me(parent),
@@ -827,7 +827,7 @@ function mo(t) {
         (n = t.serializeOptions) == null ? void 0 : n.index,
       serializeOptionsPath: (s = t.serializeOptions) == null ? void 0 : s.path,
     }),
-    ")",
+    ')'
   );
 }
 const Ze = (t) => {
@@ -840,9 +840,9 @@ const Ze = (t) => {
     groupIndex: t.groupIndex,
     siblingIndex: t.siblingIndex,
     path: t.path,
-    paneNode: t.type === "resolvedMeta" ? me(t.paneNode) : null,
+    paneNode: t.type === 'resolvedMeta' ? me(t.paneNode) : null,
   };
-  return "metaHash(".concat(JSON.stringify(n), ")");
+  return 'metaHash('.concat(JSON.stringify(n), ')');
 };
 function le(t) {
   let {
@@ -868,12 +868,12 @@ function le(t) {
   try {
     return i(n, h, l.flatIndex).pipe(
       Be((p) => {
-        const f = { type: "resolvedMeta", ...l, paneNode: p, path: h.path },
+        const f = { type: 'resolvedMeta', ...l, paneNode: p, path: h.path },
           g = c.map((b, _) => ({
-            type: "loading",
+            type: 'loading',
             path: [
               ...h.path,
-              ...c.slice(_).map((P, v) => "[".concat(b.flatIndex + v, "]")),
+              ...c.slice(_).map((P, v) => '['.concat(b.flatIndex + v, ']')),
             ],
             paneNode: null,
             ...b,
@@ -881,7 +881,7 @@ function le(t) {
         if (!c.length) return G([f]);
         let m;
         return (
-          d != null && d.routerPaneSibling.id.startsWith("__edit__")
+          d != null && d.routerPaneSibling.id.startsWith('__edit__')
             ? (m = le({
                 unresolvedPane: fo,
                 flattenedRouterPanes: c,
@@ -901,7 +901,7 @@ function le(t) {
               }))
             : (m = le({
                 unresolvedPane:
-                  typeof p.child == "function" ? Qn(p, "child") : p.child,
+                  typeof p.child == 'function' ? Qn(p, 'child') : p.child,
                 flattenedRouterPanes: c,
                 parent: p,
                 path: h.path,
@@ -910,26 +910,26 @@ function le(t) {
               })),
           Fn(G([f, ...g]), m.pipe(U((b) => [f, ...b])))
         );
-      }),
+      })
     );
   } catch (p) {
     if (
       p instanceof J &&
       (p.context &&
         console.warn(
-          "Pane resolution error at index "
+          'Pane resolution error at index '
             .concat(p.context.index)
             .concat(
               p.context.splitIndex > 0
-                ? " for split pane index ".concat(p.context.splitIndex)
-                : "",
-              ": ",
+                ? ' for split pane index '.concat(p.context.splitIndex)
+                : '',
+              ': '
             )
             .concat(p.message)
-            .concat(p.helpId ? " - see ".concat(Gn(p.helpId)) : ""),
-          p,
+            .concat(p.helpId ? ' - see '.concat(Gn(p.helpId)) : ''),
+          p
         ),
-      p.helpId === "structure-item-returned-no-child")
+      p.helpId === 'structure-item-returned-no-child')
     )
       return G([]);
     throw p;
@@ -949,7 +949,7 @@ function xo(t) {
   } = t;
   return n
     .pipe(
-      U((r) => [[{ id: "root" }], ...r]),
+      U((r) => [[{ id: 'root' }], ...r]),
       U((r) =>
         r
           .flatMap((c, d) =>
@@ -957,9 +957,9 @@ function xo(t) {
               routerPaneSibling: h,
               groupIndex: d,
               siblingIndex: p,
-            })),
+            }))
           )
-          .map((c, d) => ({ ...c, flatIndex: d })),
+          .map((c, d) => ({ ...c, flatIndex: d }))
       ),
       vs([]),
       Js(),
@@ -985,7 +985,7 @@ function xo(t) {
           cacheKeysByFlatIndex: c,
           resolvedPaneCache: d,
           resolvePane: et((y) => (x, P, v) => {
-            const j = x && "".concat(me(x), "-").concat(mo(P)),
+            const j = x && ''.concat(me(x), '-').concat(mo(P)),
               w = j && d.get(j);
             if (w) return w;
             const C = y(x, P, v);
@@ -1005,20 +1005,20 @@ function xo(t) {
           resolvePane: c,
           structureContext: o,
         });
-      }),
+      })
     )
     .pipe(
       Ge(
         (r, l) =>
           l.map((c, d) => {
             const h = r[d];
-            return !h || c.type !== "loading"
+            return !h || c.type !== 'loading'
               ? c
               : h.routerPaneSibling.id === c.routerPaneSibling.id
               ? h
               : c;
           }),
-        [],
+        []
       ),
       js((r, l) => {
         if (r.length !== l.length) return !1;
@@ -1028,7 +1028,7 @@ function xo(t) {
           if (Ze(d) !== Ze(h)) return !1;
         }
         return !0;
-      }),
+      })
     );
 }
 function go() {
@@ -1036,7 +1036,7 @@ function go() {
     n = u.useMemo(
       () =>
         t.asObservable().pipe(U((a) => (a == null ? void 0 : a.panes) || [])),
-      [t],
+      [t]
     ),
     { state: s } = de();
   return (
@@ -1092,16 +1092,16 @@ function bo() {
                   index: _,
                   itemId: x.id,
                   groupIndex: b,
-                  key: ""
+                  key: ''
                     .concat(
-                      g.type === "loading" ? "unknown" : g.paneNode.id,
-                      "-",
+                      g.type === 'loading' ? 'unknown' : g.paneNode.id,
+                      '-'
                     )
-                    .concat(v, "-")
+                    .concat(v, '-')
                     .concat(y),
-                  pane: g.type === "loading" ? Se : g.paneNode,
+                  pane: g.type === 'loading' ? Se : g.paneNode,
                   params: x.params || {},
-                  path: P.join(";"),
+                  path: P.join(';'),
                   payload: x.payload,
                   selected: _ === d.length - 1,
                   siblingIndex: y,
@@ -1112,7 +1112,7 @@ function bo() {
               routerPanes: h,
               resolvedPanes: f.map((g) => g.pane),
             };
-          }),
+          })
         )
         .subscribe({ next: (d) => i(d), error: (d) => n(d) });
       return () => c.unsubscribe();
@@ -1129,7 +1129,7 @@ async function vo(t, n, s) {
   }
   throw new J({
     message:
-      "Neither document `id` or `type` was provided when trying to resolve intent.",
+      'Neither document `id` or `type` was provided when trying to resolve intent.',
   });
 }
 const jo = {},
@@ -1137,7 +1137,7 @@ const jo = {},
     const { navigate: n } = de(),
       s = Te(
         u.useCallback((c) => {
-          const d = typeof c.intent == "string" ? c.intent : void 0;
+          const d = typeof c.intent == 'string' ? c.intent : void 0;
           return d
             ? {
                 intent: d,
@@ -1145,7 +1145,7 @@ const jo = {},
                 payload: c.payload,
               }
             : void 0;
-        }, []),
+        }, [])
       ),
       { rootPaneNode: a, structureContext: o } = q(),
       i = Tn(),
@@ -1159,8 +1159,8 @@ const jo = {},
           async function f() {
             const { id: g, type: m } = await vo(
               i,
-              typeof d.id == "string" ? d.id : void 0,
-              typeof d.type == "string" ? d.type : void 0,
+              typeof d.id == 'string' ? d.id : void 0,
+              typeof d.type == 'string' ? d.type : void 0
             );
             if (p) return;
             const b = await ho({
@@ -1185,7 +1185,7 @@ const jo = {},
   });
 var Qe = Object.freeze,
   _o = Object.defineProperty,
-  Po = (t, n) => Qe(_o(t, "raw", { value: Qe(n || t.slice()) })),
+  Po = (t, n) => Qe(_o(t, 'raw', { value: Qe(n || t.slice()) })),
   en;
 const wo = B.span(
   en ||
@@ -1196,20 +1196,20 @@ const wo = B.span(
     opacity: 0.5;
   }
 `,
-    ])),
+    ]))
 );
 function So(t) {
   return t
     .replace(
       /\(\.\.\.\)\./g,
       `(...)
-  .`,
+  .`
     )
-    .replace(/__WEBPACK_IMPORTED_MODULE_\d+_+/g, "")
-    .replace(/___default\./g, ".")
+    .replace(/__WEBPACK_IMPORTED_MODULE_\d+_+/g, '')
+    .replace(/___default\./g, '.')
     .replace(
-      new RegExp(" \\(https?:\\/\\/".concat(window.location.host), "g"),
-      " (",
+      new RegExp(' \\(https?:\\/\\/'.concat(window.location.host), 'g'),
+      ' ('
     );
 }
 function Io(t) {
@@ -1217,42 +1217,42 @@ function Io(t) {
   if (!(n instanceof J)) throw n;
   const { cause: s } = n,
     a = (s == null ? void 0 : s.stack) || n.stack,
-    o = a && !(s instanceof ve) && !n.message.includes("Module build failed:"),
+    o = a && !(s instanceof ve) && !n.message.includes('Module build failed:'),
     i = s instanceof ve ? s.path : [],
     r = (s instanceof ve && s.helpId) || n.helpId,
     l = u.useCallback(() => {
       window.location.reload();
     }, []);
   return e.jsx(V, {
-    height: "fill",
-    overflow: "auto",
+    height: 'fill',
+    overflow: 'auto',
     padding: 4,
-    sizing: "border",
-    tone: "critical",
+    sizing: 'border',
+    tone: 'critical',
     children: e.jsxs(Z, {
       children: [
         e.jsx(Ps, {
-          as: "h2",
-          children: "Encountered an error while reading structure",
+          as: 'h2',
+          children: 'Encountered an error while reading structure',
         }),
         e.jsxs(V, {
           marginTop: 4,
           padding: 4,
           radius: 2,
-          overflow: "auto",
+          overflow: 'auto',
           shadow: 1,
-          tone: "inherit",
+          tone: 'inherit',
           children: [
             i.length > 0 &&
               e.jsxs(H, {
                 space: 2,
                 children: [
-                  e.jsx(Ke, { children: "Structure path" }),
+                  e.jsx(Ke, { children: 'Structure path' }),
                   e.jsx(Ee, {
                     children: i
                       .slice(1)
                       .map((c, d) =>
-                        e.jsx(wo, { children: c }, "".concat(c, "-").concat(d)),
+                        e.jsx(wo, { children: c }, ''.concat(c, '-').concat(d))
                       ),
                   }),
                 ],
@@ -1261,7 +1261,7 @@ function Io(t) {
               marginTop: 4,
               space: 2,
               children: [
-                e.jsx(Ke, { children: "Error" }),
+                e.jsx(Ke, { children: 'Error' }),
                 e.jsx(Ee, { children: o ? So(a) : n.message }),
               ],
             }),
@@ -1269,20 +1269,20 @@ function Io(t) {
               e.jsx(E, {
                 marginTop: 4,
                 children: e.jsx(D, {
-                  children: e.jsx("a", {
+                  children: e.jsx('a', {
                     href: Gn(r),
-                    rel: "noopener noreferrer",
-                    target: "_blank",
-                    children: "View documentation",
+                    rel: 'noopener noreferrer',
+                    target: '_blank',
+                    children: 'View documentation',
                   }),
                 }),
               }),
             e.jsx(E, {
               marginTop: 4,
               children: e.jsx(W, {
-                text: "Reload",
+                text: 'Reload',
                 icon: On,
-                tone: "primary",
+                tone: 'primary',
                 onClick: l,
               }),
             }),
@@ -1299,28 +1299,28 @@ function Co(t) {
     id: a,
     selected: n,
     children: [
-      e.jsx(Oe, { title: "Unknown pane type" }),
+      e.jsx(Oe, { title: 'Unknown pane type' }),
       e.jsx(pe, {
         children: e.jsx(E, {
           padding: 4,
           children:
-            typeof o == "string"
+            typeof o == 'string'
               ? e.jsxs(D, {
-                  as: "p",
+                  as: 'p',
                   muted: !0,
                   children: [
-                    "Structure item of type ",
-                    e.jsx("code", { children: o }),
-                    " is not a known entity.",
+                    'Structure item of type ',
+                    e.jsx('code', { children: o }),
+                    ' is not a known entity.',
                   ],
                 })
               : e.jsxs(D, {
-                  as: "p",
+                  as: 'p',
                   muted: !0,
                   children: [
-                    "Structure item is missing required ",
-                    e.jsx("code", { children: "type" }),
-                    " property.",
+                    'Structure item is missing required ',
+                    e.jsx('code', { children: 'type' }),
+                    ' property.',
                   ],
                 }),
         }),
@@ -1330,22 +1330,22 @@ function Co(t) {
 }
 function Eo(t) {
   const n = [
-      { ms: 300, message: "Loading…" },
-      { ms: 5e3, message: "Still loading…" },
+      { ms: 300, message: 'Loading…' },
+      { ms: 5e3, message: 'Still loading…' },
     ],
     s = G(null);
   return ws(
     ...n.map((a) => {
       let { ms: o, message: i } = a;
       return s.pipe(Ss(i), Is(o));
-    }),
+    })
   );
 }
 var nn = Object.freeze,
   Do = Object.defineProperty,
-  Ro = (t, n) => nn(Do(t, "raw", { value: nn(n || t.slice()) })),
+  Ro = (t, n) => nn(Do(t, 'raw', { value: nn(n || t.slice()) })),
   tn;
-const To = "Loading…",
+const To = 'Loading…',
   Mo = B(O)(
     tn ||
       (tn = Ro([
@@ -1357,7 +1357,7 @@ const To = "Loading…",
     opacity: 1;
   }
 `,
-      ])),
+      ]))
   ),
   ne = u.memo((t) => {
     const {
@@ -1372,12 +1372,12 @@ const To = "Loading…",
         tone: d,
       } = t,
       h = u.useMemo(
-        () => (typeof a == "function" ? a(r ? r.split(";") : []) : a),
-        [a, r],
+        () => (typeof a == 'function' ? a(r ? r.split(';') : []) : a),
+        [a, r]
       ),
-      [p, f] = u.useState(() => (typeof h == "string" ? h : To));
+      [p, f] = u.useState(() => (typeof h == 'string' ? h : To));
     u.useEffect(() => {
-      if (typeof h != "object" || typeof h.subscribe == "function") return;
+      if (typeof h != 'object' || typeof h.subscribe == 'function') return;
       const x = h.subscribe(f);
       return () => x.unsubscribe();
     }, [h]);
@@ -1387,11 +1387,11 @@ const To = "Loading…",
       if (g) return mt(() => _(!0));
     }, [g]);
     const y = e.jsxs(Mo, {
-      align: "center",
-      "data-mounted": b ? "" : void 0,
-      direction: "column",
-      height: "fill",
-      justify: "center",
+      align: 'center',
+      'data-mounted': b ? '' : void 0,
+      direction: 'column',
+      height: 'fill',
+      justify: 'center',
       ref: m,
       children: [
         e.jsx(zn, { muted: !0 }),
@@ -1399,7 +1399,7 @@ const To = "Loading…",
           e.jsx(E, {
             marginTop: 3,
             children: e.jsx(D, {
-              align: "center",
+              align: 'center',
               muted: !0,
               size: 1,
               children: c || p,
@@ -1416,44 +1416,44 @@ const To = "Loading…",
       children: e.jsx(pe, { children: y }),
     });
   });
-ne.displayName = "LoadingPane";
+ne.displayName = 'LoadingPane';
 const ko = {
     component: u.lazy(() =>
       ie(
-        () => import("./index-e4d880cb-a957b027.js"),
-        ["static/index-e4d880cb-a957b027.js", "static/sanity-bc09dbe8.js"],
-      ),
+        () => import('./index-e4d880cb-a957b027.js'),
+        ['static/index-e4d880cb-a957b027.js', 'static/sanity-bc09dbe8.js']
+      )
     ),
     document: u.lazy(() =>
       ie(
-        () => import("./index-1dce9e00-abadd703.js"),
+        () => import('./index-1dce9e00-abadd703.js'),
         [
-          "static/index-1dce9e00-abadd703.js",
-          "static/sanity-bc09dbe8.js",
-          "static/index-ffc1c3cc.js",
-        ],
-      ),
+          'static/index-1dce9e00-abadd703.js',
+          'static/sanity-bc09dbe8.js',
+          'static/index-ffc1c3cc.js',
+        ]
+      )
     ),
     documentList: u.lazy(() =>
       ie(
-        () => import("./index-cdcf967d-4057d188.js"),
+        () => import('./index-cdcf967d-4057d188.js'),
         [
-          "static/index-cdcf967d-4057d188.js",
-          "static/sanity-bc09dbe8.js",
-          "static/PaneItem-cc425889-7ee349fe.js",
-          "static/index-ffc1c3cc.js",
-        ],
-      ),
+          'static/index-cdcf967d-4057d188.js',
+          'static/sanity-bc09dbe8.js',
+          'static/PaneItem-cc425889-7ee349fe.js',
+          'static/index-ffc1c3cc.js',
+        ]
+      )
     ),
     list: u.lazy(() =>
       ie(
-        () => import("./index-181eb65d-be6a7727.js"),
+        () => import('./index-181eb65d-be6a7727.js'),
         [
-          "static/index-181eb65d-be6a7727.js",
-          "static/sanity-bc09dbe8.js",
-          "static/PaneItem-cc425889-7ee349fe.js",
-        ],
-      ),
+          'static/index-181eb65d-be6a7727.js',
+          'static/sanity-bc09dbe8.js',
+          'static/PaneItem-cc425889-7ee349fe.js',
+        ]
+      )
     ),
   },
   Oo = u.memo(
@@ -1482,7 +1482,7 @@ const ko = {
         children: e.jsx(u.Suspense, {
           fallback: e.jsx(ne, { paneKey: c, path: p, selected: f }),
           children: e.jsx(m, {
-            childItemId: a || "",
+            childItemId: a || '',
             index: i,
             itemId: r,
             isActive: s,
@@ -1500,7 +1500,7 @@ const ko = {
       const c = new Set([...Object.keys(o), ...Object.keys(l)]);
       for (const d of c) if (o[d] !== l[d]) return !1;
       return !0;
-    },
+    }
   );
 function nt(t) {
   const {
@@ -1509,8 +1509,8 @@ function nt(t) {
     flex: a,
     minWidth: o,
     paneKey: i,
-    title: r = "Error",
-    tone: l = "critical",
+    title: r = 'Error',
+    tone: l = 'critical',
   } = t;
   return e.jsxs(ue, {
     currentMinWidth: s,
@@ -1521,33 +1521,33 @@ function nt(t) {
     children: [
       e.jsx(Oe, { title: r }),
       e.jsx(pe, {
-        overflow: "auto",
+        overflow: 'auto',
         children: e.jsx(E, { paddingX: 4, paddingY: 5, children: n }),
       }),
     ],
   });
 }
 function zo(t) {
-  return t === "delete"
+  return t === 'delete'
     ? `An error occurred while attempting to delete this document.
       This usually means that there are other documents that refers to it.`
-    : t === "unpublish"
+    : t === 'unpublish'
     ? `An error occurred while attempting to unpublish this document.
       This usually means that there are other documents that refers to it.`
-    : "An error occurred during ".concat(t);
+    : 'An error occurred during '.concat(t);
 }
 function Lo(t) {
-  return t === "publish"
-    ? "The document was published"
-    : t === "unpublish"
-    ? "The document was unpublished. A draft has been created from the latest published version."
-    : t === "discardChanges"
-    ? "All changes since last publish has now been discarded. The discarded draft can still be recovered from history"
-    : t === "delete"
-    ? "The document was successfully deleted"
-    : "Successfully performed ".concat(t, " on document");
+  return t === 'publish'
+    ? 'The document was published'
+    : t === 'unpublish'
+    ? 'The document was unpublished. A draft has been created from the latest published version.'
+    : t === 'discardChanges'
+    ? 'All changes since last publish has now been discarded. The discarded draft can still be recovered from history'
+    : t === 'delete'
+    ? 'The document was successfully deleted'
+    : 'Successfully performed '.concat(t, ' on document');
 }
-const Ao = ["patch", "commit"],
+const Ao = ['patch', 'commit'],
   Bo = u.memo(function () {
     const { push: n } = Me(),
       { documentId: s, documentType: a } = L(),
@@ -1559,24 +1559,24 @@ const Ao = ["patch", "commit"],
         if (!o || o === i.current) return;
         let l;
         return (
-          o.type === "error" &&
+          o.type === 'error' &&
             n({
               closable: !0,
               duration: 3e4,
-              status: "error",
+              status: 'error',
               title: zo(o.op),
-              description: e.jsxs("details", {
+              description: e.jsxs('details', {
                 children: [
-                  e.jsx("summary", { children: "Details" }),
+                  e.jsx('summary', { children: 'Details' }),
                   o.error.message,
                 ],
               }),
             }),
-          o.type === "success" &&
+          o.type === 'success' &&
             !Ao.includes(o.op) &&
-            n({ closable: !0, status: "success", title: Lo(o.op) }),
-          o.type === "success" &&
-            o.op === "delete" &&
+            n({ closable: !0, status: 'success', title: Lo(o.op) }),
+          o.type === 'success' &&
+            o.op === 'delete' &&
             (l = setTimeout(() => r.closeCurrentAndAfter(), 0)),
           (i.current = o),
           () => clearTimeout(l)
@@ -1588,10 +1588,10 @@ const Ao = ["patch", "commit"],
 function Wo(t, n, s) {
   const a = gt(),
     [o, i] = u.useState(s),
-    r = u.useMemo(() => a.forNamespace("desk-tool"), [a]),
+    r = u.useMemo(() => a.forNamespace('desk-tool'), [a]),
     l = u.useMemo(
       () => (t ? r.forNamespace(t).forKey(n) : r.forKey(n)),
-      [r, t, n],
+      [r, t, n]
     );
   u.useEffect(() => {
     const d = l.listen(s).subscribe({ next: i });
@@ -1601,12 +1601,12 @@ function Wo(t, n, s) {
     (d) => {
       i(d), l.set(d);
     },
-    [l],
+    [l]
   );
   return u.useMemo(() => [o, c], [c, o]);
 }
-const X = { id: "parsed", title: "Parsed" },
-  Y = { id: "raw", title: "Raw JSON" },
+const X = { id: 'parsed', title: 'Parsed' },
+  Y = { id: 'raw', title: 'Raw JSON' },
   No = [X, Y],
   ce = Xs(1e3);
 function tt(t, n) {
@@ -1638,7 +1638,7 @@ function Ho(t) {
 }
 var on = Object.freeze,
   Vo = Object.defineProperty,
-  Uo = (t, n) => on(Vo(t, "raw", { value: on(n || t.slice()) })),
+  Uo = (t, n) => on(Vo(t, 'raw', { value: on(n || t.slice()) })),
   an;
 const Go = B.div((t) => {
   let { theme: n } = t;
@@ -1804,7 +1804,7 @@ const Go = B.div((t) => {
     ee(o[3]),
     s.syntax.string,
     s.syntax.boolean,
-    s.syntax.number,
+    s.syntax.number
   );
 });
 function Ko(t) {
@@ -1813,19 +1813,19 @@ function Ko(t) {
   return e.jsx(Fs, {
     icon: Hs,
     onChange: a,
-    placeholder: "Search",
+    placeholder: 'Search',
     radius: 2,
-    value: s || "",
+    value: s || '',
   });
 }
 function Xo(t) {
   const { value: n } = t,
     { onInspectClose: s, paneKey: a } = L(),
-    o = "".concat(a, "_inspect_"),
+    o = ''.concat(a, '_inspect_'),
     [i, r] = Wo(
-      "desk-tool",
-      "inspect-view-preferred-view-mode-".concat(a),
-      "parsed",
+      'desk-tool',
+      'inspect-view-preferred-view-mode-'.concat(a),
+      'parsed'
     ),
     l = No.find((h) => h.id === i),
     c = u.useCallback(() => {
@@ -1835,42 +1835,42 @@ function Xo(t) {
       r(Y.id);
     }, [r]);
   return e.jsx(We, {
-    id: "".concat(o, "dialog"),
+    id: ''.concat(o, 'dialog'),
     header: Ho(n)
       ? e.jsxs(e.Fragment, {
           children: [
-            "Inspecting",
-            " ",
-            e.jsx("em", { children: e.jsx(Cs, { document: n }) }),
+            'Inspecting',
+            ' ',
+            e.jsx('em', { children: e.jsx(Cs, { document: n }) }),
           ],
         })
-      : e.jsx("em", { children: "No value" }),
+      : e.jsx('em', { children: 'No value' }),
     onClose: s,
     onClickOutside: s,
     width: 3,
     children: e.jsxs(O, {
-      direction: "column",
-      height: "fill",
+      direction: 'column',
+      height: 'fill',
       children: [
         e.jsx(V, {
           padding: 3,
           shadow: 1,
-          style: { position: "sticky", bottom: 0, zIndex: 3 },
+          style: { position: 'sticky', bottom: 0, zIndex: 3 },
           children: e.jsxs(Hn, {
             space: 1,
             children: [
               e.jsx(Ie, {
-                "aria-controls": "".concat(o, "tabpanel"),
+                'aria-controls': ''.concat(o, 'tabpanel'),
                 fontSize: 1,
-                id: "".concat(o, "tab-").concat(X.id),
+                id: ''.concat(o, 'tab-').concat(X.id),
                 label: X.title,
                 onClick: c,
                 selected: l === X,
               }),
               e.jsx(Ie, {
-                "aria-controls": "".concat(o, "tabpanel"),
+                'aria-controls': ''.concat(o, 'tabpanel'),
                 fontSize: 1,
-                id: "".concat(o, "tab-").concat(Y.id),
+                id: ''.concat(o, 'tab-').concat(Y.id),
                 label: Y.title,
                 onClick: d,
                 selected: l === Y,
@@ -1879,12 +1879,12 @@ function Xo(t) {
           }),
         }),
         e.jsxs(Es, {
-          "aria-labelledby": "".concat(o, "tab-").concat(i),
+          'aria-labelledby': ''.concat(o, 'tab-').concat(i),
           flex: 1,
-          id: "".concat(o, "tabpanel"),
-          overflow: "auto",
+          id: ''.concat(o, 'tabpanel'),
+          overflow: 'auto',
           padding: 4,
-          style: { outline: "none" },
+          style: { outline: 'none' },
           children: [
             l === X &&
               e.jsx(Go, {
@@ -1897,7 +1897,7 @@ function Xo(t) {
               }),
             l === Y &&
               e.jsx(Ee, {
-                language: "json",
+                language: 'json',
                 tabIndex: 0,
                 onKeyDown: Fo,
                 onDoubleClick: sn,
@@ -1912,7 +1912,7 @@ function Xo(t) {
 }
 var rn = Object.freeze,
   Yo = Object.defineProperty,
-  Jo = (t, n) => rn(Yo(t, "raw", { value: rn(n || t.slice()) })),
+  Jo = (t, n) => rn(Yo(t, 'raw', { value: rn(n || t.slice()) })),
   ln;
 const qo = B(V)(
   ln ||
@@ -1921,7 +1921,7 @@ const qo = B(V)(
   position: relative;
   z-index: 50;
 `,
-    ])),
+    ]))
 );
 function Zo(t) {
   let { revisionId: n } = t;
@@ -1929,39 +1929,39 @@ function Zo(t) {
     { restore: o } = Ds(s, a),
     { navigateIntent: i } = de(),
     r = u.useCallback(() => {
-      n && (o.execute(n), i("edit", { id: s, type: a }));
+      n && (o.execute(n), i('edit', { id: s, type: a }));
     }, [s, a, i, o, n]);
   return e.jsx(qo, {
-    "data-testid": "deleted-document-banner",
+    'data-testid': 'deleted-document-banner',
     shadow: 1,
-    tone: "transparent",
+    tone: 'transparent',
     children: e.jsx(Z, {
       paddingX: 4,
       paddingY: n ? 2 : 3,
-      sizing: "border",
+      sizing: 'border',
       width: 1,
       children: e.jsxs(O, {
-        align: "center",
+        align: 'center',
         children: [
           e.jsx(D, { size: 1, children: e.jsx(Kn, {}) }),
           e.jsxs(O, {
-            align: "center",
+            align: 'center',
             gap: 2,
             flex: 1,
             marginLeft: 3,
             children: [
               e.jsx(D, {
                 size: 1,
-                children: "This document has been deleted.",
+                children: 'This document has been deleted.',
               }),
               n &&
                 e.jsx(W, {
                   fontSize: 1,
                   padding: 2,
-                  mode: "bleed",
-                  tone: "primary",
+                  mode: 'bleed',
+                  tone: 'primary',
                   onClick: r,
-                  text: "Restore most recent version",
+                  text: 'Restore most recent version',
                 }),
             ],
           }),
@@ -1972,7 +1972,7 @@ function Zo(t) {
 }
 var cn = Object.freeze,
   Qo = Object.defineProperty,
-  ot = (t, n) => cn(Qo(t, "raw", { value: cn(n || t.slice()) })),
+  ot = (t, n) => cn(Qo(t, 'raw', { value: cn(n || t.slice()) })),
   dn,
   un;
 const ea = B(V)(
@@ -1982,7 +1982,7 @@ const ea = B(V)(
   position: relative;
   z-index: 50;
 `,
-      ])),
+      ]))
   ),
   pn = B(D)(
     un ||
@@ -1995,7 +1995,7 @@ const ea = B(V)(
     text-overflow: ellipsis;
   }
 `,
-      ])),
+      ]))
   ),
   at = u.memo(() => {
     var t, n, s, a, o, i;
@@ -2016,7 +2016,7 @@ const ea = B(V)(
         () =>
           ((l == null ? void 0 : l.parentRefPath) && Pe(l.parentRefPath)) ||
           null,
-        [l == null ? void 0 : l.parentRefPath],
+        [l == null ? void 0 : l.parentRefPath]
       ),
       x = vt(
         () => {
@@ -2024,13 +2024,13 @@ const ea = B(V)(
           if (!b || !j || !y) return G({ loading: !1 });
           const w = ns(b),
             C = Pe(j),
-            S = C.findIndex((I) => typeof I == "object" && "_key" in I);
+            S = C.findIndex((I) => typeof I == 'object' && '_key' in I);
           return Fn(
             G({ loading: !0 }),
             r
               .unstable_observePathsDocumentPair(
                 w,
-                S === -1 ? C : C.slice(0, S),
+                S === -1 ? C : C.slice(0, S)
               )
               .pipe(
                 ts(750),
@@ -2050,12 +2050,12 @@ const ea = B(V)(
                           : M._ref,
                     },
                   };
-                }),
-              ),
+                })
+              )
           );
         },
         [r, b, y],
-        { loading: !0 },
+        { loading: !0 }
       ),
       P = u.useCallback(() => {
         var j;
@@ -2074,15 +2074,15 @@ const ea = B(V)(
       ? null
       : e.jsx(ea, {
           shadow: 1,
-          tone: "caution",
-          "data-testid": "reference-changed-banner",
+          tone: 'caution',
+          'data-testid': 'reference-changed-banner',
           children: e.jsx(Z, {
             paddingX: 4,
             paddingY: 2,
-            sizing: "border",
+            sizing: 'border',
             width: 1,
             children: e.jsxs(O, {
-              align: "center",
+              align: 'center',
               children: [
                 e.jsx(D, { size: 1, children: e.jsx(kn, {}) }),
                 (i = x.result) != null && i.refValue
@@ -2093,10 +2093,10 @@ const ea = B(V)(
                           marginLeft: 3,
                           children: e.jsx(pn, {
                             title:
-                              "This reference has changed since you opened it.",
+                              'This reference has changed since you opened it.',
                             size: 1,
                             children:
-                              "This reference has changed since you opened it.",
+                              'This reference has changed since you opened it.',
                           }),
                         }),
                         e.jsx(E, {
@@ -2105,10 +2105,10 @@ const ea = B(V)(
                             onClick: P,
                             icon: On,
                             fontSize: 1,
-                            mode: "ghost",
+                            mode: 'ghost',
                             padding: 2,
                             space: 2,
-                            text: "Reload reference",
+                            text: 'Reload reference',
                           }),
                         }),
                       ],
@@ -2120,10 +2120,10 @@ const ea = B(V)(
                           marginLeft: 3,
                           children: e.jsx(pn, {
                             title:
-                              "This reference has been removed since you opened it.",
+                              'This reference has been removed since you opened it.',
                             size: 1,
                             children:
-                              "This reference has been removed since you opened it.",
+                              'This reference has been removed since you opened it.',
                           }),
                         }),
                         e.jsx(E, {
@@ -2132,10 +2132,10 @@ const ea = B(V)(
                             as: p,
                             icon: we,
                             fontSize: 1,
-                            mode: "ghost",
+                            mode: 'ghost',
                             padding: 2,
                             space: 2,
-                            text: "Close reference",
+                            text: 'Close reference',
                           }),
                         }),
                       ],
@@ -2145,10 +2145,10 @@ const ea = B(V)(
           }),
         });
   });
-at.displayName = "ReferenceChangedBanner";
+at.displayName = 'ReferenceChangedBanner';
 var hn = Object.freeze,
   na = Object.defineProperty,
-  ta = (t, n) => hn(na(t, "raw", { value: hn(n || t.slice()) })),
+  ta = (t, n) => hn(na(t, 'raw', { value: hn(n || t.slice()) })),
   fn;
 const sa = B(V)(
   fn ||
@@ -2157,7 +2157,7 @@ const sa = B(V)(
   position: relative;
   z-index: 50;
 `,
-    ])),
+    ]))
 );
 function oa(t) {
   let { granted: n, requiredPermission: s } = t;
@@ -2167,22 +2167,22 @@ function oa(t) {
     l = aa(
       ((o = i == null ? void 0 : i.roles) == null
         ? void 0
-        : o.map((c) => e.jsx("code", { children: c.title }, c.name))) || [],
-      ", ",
+        : o.map((c) => e.jsx('code', { children: c.title }, c.name))) || [],
+      ', '
     );
   return n
     ? null
     : e.jsx(sa, {
-        "data-testid": "permission-check-banner",
+        'data-testid': 'permission-check-banner',
         shadow: 1,
-        tone: "transparent",
+        tone: 'transparent',
         children: e.jsx(Z, {
           paddingX: 4,
           paddingY: 3,
-          sizing: "border",
+          sizing: 'border',
           width: 1,
           children: e.jsxs(O, {
-            align: "flex-start",
+            align: 'flex-start',
             children: [
               e.jsx(D, { size: 1, children: e.jsx(Kn, {}) }),
               e.jsx(E, {
@@ -2191,16 +2191,16 @@ function oa(t) {
                 children: e.jsxs(D, {
                   size: 1,
                   children: [
-                    "Your role",
-                    r && "s",
-                    " ",
+                    'Your role',
+                    r && 's',
+                    ' ',
                     l,
-                    " ",
-                    r ? "do" : "does",
-                    " not have permissions to",
-                    " ",
+                    ' ',
+                    r ? 'do' : 'does',
+                    ' not have permissions to',
+                    ' ',
                     s,
-                    " this document.",
+                    ' this document.',
                   ],
                 }),
               }),
@@ -2261,10 +2261,10 @@ const ca = (t) => t.preventDefault(),
           ? void 0
           : a.enabled;
     la({
-      id: "sync-lock-".concat(h),
-      status: "warning",
+      id: 'sync-lock-'.concat(h),
+      status: 'warning',
       enabled: T,
-      title: "Syncing document…",
+      title: 'Syncing document…',
       description:
         "Please hold tight while the document is synced. This usually happens right after the document has been published, and it shouldn't take more than a few seconds",
     }),
@@ -2273,9 +2273,9 @@ const ca = (t) => t.preventDefault(),
           .documentEvents(h, p)
           .pipe(
             _t((A) => {
-              A.type === "mutation" && I.publish(ua(A)),
-                A.type === "rebase" && I.publish(pa(A));
-            }),
+              A.type === 'mutation' && I.publish(ua(A)),
+                A.type === 'rebase' && I.publish(pa(A));
+            })
           )
           .subscribe();
         return () => {
@@ -2284,7 +2284,7 @@ const ca = (t) => t.preventDefault(),
       }, [h, C, p, I]);
     const k = !!(c != null && c._rev);
     u.useEffect(() => {
-      k && I.publish({ type: "mutation", patches: [], snapshot: c });
+      k && I.publish({ type: 'mutation', patches: [], snapshot: c });
     }, [k]);
     const [M, R] = u.useState(null);
     u.useEffect(() => {
@@ -2292,28 +2292,28 @@ const ca = (t) => t.preventDefault(),
     }, [b]);
     const z = u.useCallback(
       (N) => {
-        R(N), typeof s == "function" ? s(N) : s && (s.current = N);
+        R(N), typeof s == 'function' ? s(N) : s && (s.current = N);
       },
-      [s],
+      [s]
     );
     return e.jsx(Z, {
       hidden: o,
       paddingX: 4,
       paddingTop: 5,
       paddingBottom: 9,
-      sizing: "border",
+      sizing: 'border',
       width: 1,
       children: e.jsx(wt, {
         margins: i,
         children: e.jsx(E, {
-          as: "form",
+          as: 'form',
           onSubmit: ca,
           ref: z,
           children: b
             ? _ === null
               ? e.jsx(E, {
                   padding: 2,
-                  children: e.jsx(D, { children: "This form is hidden" }),
+                  children: e.jsx(D, { children: 'This form is hidden' }),
                 })
               : e.jsx(St, {
                   __internal_fieldActions: f,
@@ -2324,7 +2324,7 @@ const ca = (t) => t.preventDefault(),
                   changed: _.changed,
                   focused: _.focused,
                   groups: _.groups,
-                  id: "root",
+                  id: 'root',
                   members: _.members,
                   onChange: g,
                   onFieldGroupSelect: w,
@@ -2342,19 +2342,19 @@ const ca = (t) => t.preventDefault(),
             : e.jsx(It, {
                 ms: 300,
                 children: e.jsxs(O, {
-                  align: "center",
-                  direction: "column",
-                  height: "fill",
-                  justify: "center",
+                  align: 'center',
+                  direction: 'column',
+                  height: 'fill',
+                  justify: 'center',
                   children: [
                     e.jsx(zn, { muted: !0 }),
                     e.jsx(E, {
                       marginTop: 3,
                       children: e.jsx(D, {
-                        align: "center",
+                        align: 'center',
                         muted: !0,
                         size: 1,
-                        children: "Loading document",
+                        children: 'Loading document',
                       }),
                     }),
                   ],
@@ -2366,20 +2366,20 @@ const ca = (t) => t.preventDefault(),
   });
 function ua(t) {
   const n = t.mutations.map((s) => s.patch).filter(Boolean);
-  return { type: "mutation", snapshot: t.document, patches: De(t.origin, n) };
+  return { type: 'mutation', snapshot: t.document, patches: De(t.origin, n) };
 }
 function pa(t) {
   const n = t.remoteMutations.map((a) => a.patch).filter(Boolean),
     s = t.localMutations.map((a) => a.patch).filter(Boolean);
   return {
-    type: "rebase",
+    type: 'rebase',
     snapshot: t.document,
-    patches: De("remote", n).concat(De("local", s)),
+    patches: De('remote', n).concat(De('local', s)),
   };
 }
 function ha() {
   const { activeViewId: t, paneKey: n, views: s } = L(),
-    a = "".concat(n, "tabpanel");
+    a = ''.concat(n, 'tabpanel');
   return e.jsx(Hn, {
     space: 1,
     children: s.map((o, i) => {
@@ -2388,13 +2388,13 @@ function ha() {
         fa,
         {
           icon: o.icon,
-          id: "".concat(n, "tab-").concat(o.id),
+          id: ''.concat(n, 'tab-').concat(o.id),
           isActive: t === o.id,
           label: e.jsx(e.Fragment, { children: o.title }),
           tabPanelId: a,
           viewId: i === 0 ? null : (r = o.id) != null ? r : null,
         },
-        o.id,
+        o.id
       );
     }),
   });
@@ -2406,7 +2406,7 @@ function fa(t) {
     r = u.useCallback(() => i(a), [i, a]);
   return e.jsx(Ie, {
     ...t,
-    "aria-controls": s,
+    'aria-controls': s,
     disabled: !o,
     fontSize: 1,
     selected: n,
@@ -2415,26 +2415,26 @@ function fa(t) {
 }
 function ma() {
   const { connectionState: t, schemaType: n, title: s, value: a } = L(),
-    o = !!a && t === "connected",
+    o = !!a && t === 'connected',
     { error: i, value: r } = ss({ enabled: o, schemaType: n, value: a });
-  return t !== "connected"
+  return t !== 'connected'
     ? e.jsx(e.Fragment, {})
     : s
     ? e.jsx(e.Fragment, { children: s })
     : a
     ? i
-      ? e.jsxs(e.Fragment, { children: ["Error: ", i.message] })
+      ? e.jsxs(e.Fragment, { children: ['Error: ', i.message] })
       : e.jsx(e.Fragment, {
           children:
             (r == null ? void 0 : r.title) ||
-            e.jsx("span", {
-              style: { color: "var(--card-muted-fg-color)" },
-              children: "Untitled",
+            e.jsx('span', {
+              style: { color: 'var(--card-muted-fg-color)' },
+              children: 'Untitled',
             }),
         })
     : e.jsxs(e.Fragment, {
         children: [
-          "New ",
+          'New ',
           (n == null ? void 0 : n.title) || (n == null ? void 0 : n.name),
         ],
       });
@@ -2464,7 +2464,7 @@ const xa = u.memo(
             menuItems: r,
             menuItemGroups: l,
           }),
-        [a, y, l, r],
+        [a, y, l, r]
       ),
       P = u.useMemo(() => x.filter(Dt), [x]),
       v = u.useMemo(() => x.filter(Rt), [x]),
@@ -2486,46 +2486,46 @@ const xa = u.memo(
         m > 0 &&
         e.jsx(W, {
           as: b,
-          "data-as": "a",
+          'data-as': 'a',
           icon: Tt,
-          mode: "bleed",
+          mode: 'bleed',
           padding: 2,
         }),
-      subActions: e.jsx(Mt, { chunk: w, mode: "rev", placement: "bottom-end" }),
+      subActions: e.jsx(Mt, { chunk: w, mode: 'rev', placement: 'bottom-end' }),
       actions: e.jsxs(O, {
-        align: "center",
+        align: 'center',
         gap: 1,
         children: [
           f.length > 0 &&
             e.jsx(e.Fragment, {
               children: f.map((R, z) =>
                 u.createElement(R, {
-                  key: "language-filter-".concat(z),
+                  key: 'language-filter-'.concat(z),
                   schemaType: c,
-                }),
+                })
               ),
             }),
           P.map((R) => e.jsx(kt, { node: R }, R.key)),
-          e.jsx(Ot, { nodes: v }, "context-menu"),
+          e.jsx(Ot, { nodes: v }, 'context-menu'),
           T &&
             e.jsx(Q, {
               content: e.jsx(D, {
                 size: 1,
-                style: { whiteSpace: "nowrap" },
-                children: "Split pane right",
+                style: { whiteSpace: 'nowrap' },
+                children: 'Split pane right',
               }),
               padding: 2,
-              placement: "bottom",
+              placement: 'bottom',
               portal: !0,
               children: e.jsx(
                 W,
                 {
-                  "aria-label": "Split pane right",
+                  'aria-label': 'Split pane right',
                   icon: zt,
-                  mode: "bleed",
+                  mode: 'bleed',
                   onClick: i,
                 },
-                "split-pane-button",
+                'split-pane-button'
               ),
             }),
           k &&
@@ -2533,32 +2533,32 @@ const xa = u.memo(
               W,
               {
                 icon: we,
-                mode: "bleed",
+                mode: 'bleed',
                 onClick: o,
-                title: "Close split pane",
+                title: 'Close split pane',
               },
-              "close-view-button",
+              'close-view-button'
             ),
           M &&
             e.jsx(
               W,
-              { icon: we, mode: "bleed", title: "Close pane group", as: b },
-              "close-view-button",
+              { icon: we, mode: 'bleed', title: 'Close pane group', as: b },
+              'close-view-button'
             ),
         ],
       }),
     });
-  }),
+  })
 );
 var mn = Object.freeze,
   ga = Object.defineProperty,
-  ba = (t, n) => mn(ga(t, "raw", { value: mn(n || t.slice()) })),
+  ba = (t, n) => mn(ga(t, 'raw', { value: mn(n || t.slice()) })),
   xn;
-const va = B(E)({ position: "relative" }),
+const va = B(E)({ position: 'relative' }),
   ja = B(os)((t) => {
     let { $disabled: n } = t;
     return n
-      ? { height: "100%" }
+      ? { height: '100%' }
       : Mn(
           xn ||
             (xn = ba([
@@ -2569,7 +2569,7 @@ const va = B(E)({ position: "relative" }),
     scroll-behavior: smooth;
     outline: none;
   `,
-            ])),
+            ]))
         );
   }),
   ya = function (n) {
@@ -2604,10 +2604,10 @@ const va = B(E)({ position: "relative" }),
       k = u.useRef(null),
       [M, R] = u.useState(null),
       z = u.useRef(null),
-      N = p._createdAt ? "update" : "create",
+      N = p._createdAt ? 'update' : 'create',
       A = u.useMemo(
-        () => f.find((ge) => ge.id === r) || f[0] || { type: "form" },
-        [r, f],
+        () => f.find((ge) => ge.id === r) || f[0] || { type: 'form' },
+        [r, f]
       ),
       K = (C.splitPanes && k.current) || w.element,
       xe = u.useMemo(
@@ -2615,12 +2615,12 @@ const va = B(E)({ position: "relative" }),
           v
             ? [(T == null ? void 0 : T.height) || 0, 0, s ? s + 2 : 2, 0]
             : [0, 0, 2, 0],
-        [v, s, T],
+        [v, s, T]
       ),
-      re = A.type !== "form",
+      re = A.type !== 'form',
       F = u.useMemo(
         () =>
-          A.type === "component" &&
+          A.type === 'component' &&
           A.component &&
           u.createElement(A.component, {
             document: {
@@ -2641,7 +2641,7 @@ const va = B(E)({ position: "relative" }),
           d == null ? void 0 : d.published,
           m,
           p,
-        ],
+        ]
       ),
       ct = oe(P, (ge) => ge.lastNonDeletedRevId);
     u.useEffect(() => {
@@ -2652,7 +2652,7 @@ const va = B(E)({ position: "relative" }),
       }, [K, i]);
     const dt = u.useMemo(
         () => (a ? e.jsx(Xo, { value: l || p }) : null),
-        [a, l, p],
+        [a, l, p]
       ),
       He = !!(!j && h);
     return e.jsxs(e.Fragment, {
@@ -2660,12 +2660,12 @@ const va = B(E)({ position: "relative" }),
         e.jsx(xa, { ref: I }),
         e.jsx(pe, {
           children: e.jsxs(O, {
-            height: "fill",
+            height: 'fill',
             children: [
               (C.resizablePanes || !He) &&
                 e.jsx(va, {
                   flex: 2,
-                  overflow: "hidden",
+                  overflow: 'hidden',
                   children: e.jsx(fe, {
                     element: K,
                     __unstable_elements: { documentScrollElement: M },
@@ -2675,7 +2675,7 @@ const va = B(E)({ position: "relative" }),
                         scrollElement: M,
                         containerElement: z,
                         children: [
-                          A.type === "form" &&
+                          A.type === 'form' &&
                             !_ &&
                             g &&
                             e.jsxs(e.Fragment, {
@@ -2690,20 +2690,20 @@ const va = B(E)({ position: "relative" }),
                             }),
                           e.jsxs(ja, {
                             $disabled: v || !1,
-                            "data-testid": "document-panel-scroller",
+                            'data-testid': 'document-panel-scroller',
                             ref: R,
                             children: [
                               e.jsx(
                                 da,
                                 { hidden: re, margins: xe, ref: z },
-                                c + (g ? "_ready" : "_pending"),
+                                c + (g ? '_ready' : '_pending')
                               ),
                               F,
                             ],
                           }),
                           dt,
-                          e.jsx("div", {
-                            "data-testid": "document-panel-portal",
+                          e.jsx('div', {
+                            'data-testid': 'document-panel-portal',
                             ref: k,
                           }),
                         ],
@@ -2726,15 +2726,15 @@ const va = B(E)({ position: "relative" }),
       ],
     });
   },
-  rt = ["left", "bottom"],
-  _a = { small: 0, medium: 1, large: 2, full: "auto" };
+  rt = ['left', 'bottom'],
+  _a = { small: 0, medium: 1, large: 2, full: 'auto' };
 function Pa(t) {
   const { dialog: n, referenceElement: s } = t;
   return e.jsx(Xn, {
     content: e.jsx(wa, { dialog: n }),
     fallbackPlacements: rt,
     open: !0,
-    placement: "top",
+    placement: 'top',
     portal: !0,
     preventOverflow: !0,
     referenceElement: s,
@@ -2759,28 +2759,28 @@ function wa(t) {
     }, [h, l]),
     m = u.useCallback(
       (b) => {
-        b.key === "Escape" && h && l();
+        b.key === 'Escape' && h && l();
       },
-      [h, l],
+      [h, l]
     );
   return (
     Jn(g, [p]),
     qn(m),
     e.jsxs(O, {
-      direction: "column",
+      direction: 'column',
       ref: f,
       style: { minWidth: 320 - 16, maxWidth: 400 },
       children: [
         e.jsx(E, {
           flex: 1,
-          overflow: "auto",
+          overflow: 'auto',
           padding: 4,
           children: e.jsx(D, { children: r }),
         }),
         e.jsx(E, {
           paddingX: 4,
           paddingY: 3,
-          style: { borderTop: "1px solid var(--card-border-color)" },
+          style: { borderTop: '1px solid var(--card-border-color)' },
           children: e.jsxs(Vs, {
             columns: 2,
             gap: 2,
@@ -2788,10 +2788,10 @@ function wa(t) {
               e.jsx(W, {
                 icon: s,
                 onClick: l,
-                mode: "ghost",
-                text: a || "Cancel",
+                mode: 'ghost',
+                text: a || 'Cancel',
               }),
-              e.jsx(W, { icon: o, onClick: c, text: i || "Confirm", tone: d }),
+              e.jsx(W, { icon: o, onClick: c, text: i || 'Confirm', tone: d }),
             ],
           }),
         }),
@@ -2804,7 +2804,7 @@ function Sa(t) {
     s = u.useId(),
     a = n.footer && e.jsx(E, { paddingX: 4, paddingY: 3, children: n.footer });
   return e.jsx(Ae, {
-    zOffset: "fullscreen",
+    zOffset: 'fullscreen',
     children: e.jsx(We, {
       __unstable_hideCloseButton: n.showCloseButton === !1,
       footer: a,
@@ -2823,7 +2823,7 @@ function Ia(t) {
     content: e.jsx(Ca, { dialog: n }),
     fallbackPlacements: rt,
     open: !0,
-    placement: "top",
+    placement: 'top',
     portal: !0,
     preventOverflow: !0,
     referenceElement: s,
@@ -2839,11 +2839,11 @@ function Ca(t) {
     }, [o, a]),
     c = u.useCallback(
       (d) => {
-        d.key === "Escape" && o && a();
+        d.key === 'Escape' && o && a();
       },
-      [o, a],
+      [o, a]
     );
-  return Jn(l, [i]), qn(c), e.jsx("div", { ref: r, children: s });
+  return Jn(l, [i]), qn(c), e.jsx('div', { ref: r, children: s });
 }
 function gn(t) {
   const { children: n } = t,
@@ -2854,17 +2854,17 @@ function gn(t) {
 function $e(t) {
   const { dialog: n, referenceElement: s = null } = t,
     a = u.useId();
-  if (n.type === "confirm")
+  if (n.type === 'confirm')
     return e.jsx(Pa, { dialog: n, referenceElement: s });
-  if (n.type === "popover")
+  if (n.type === 'popover')
     return e.jsx(Ia, { dialog: n, referenceElement: s });
-  if (n.type === "dialog" || !n.type)
+  if (n.type === 'dialog' || !n.type)
     return e.jsx(gn, { children: e.jsx(Sa, { dialog: n }) });
-  if (n.type === "custom")
+  if (n.type === 'custom')
     return e.jsx(gn, { children: n == null ? void 0 : n.component });
   const o = n;
   return (
-    console.warn("Unsupported modal type ".concat(o.type)),
+    console.warn('Unsupported modal type '.concat(o.type)),
     e.jsx(We, {
       id: a,
       onClose: o.onClose,
@@ -2876,9 +2876,9 @@ function $e(t) {
           o.content ||
           e.jsxs(e.Fragment, {
             children: [
-              "Unexpected modal type (",
-              e.jsx("code", { children: o.type }),
-              ")",
+              'Unexpected modal type (',
+              e.jsx('code', { children: o.type }),
+              ')',
             ],
           }),
       }),
@@ -2895,30 +2895,26 @@ function Ea(t) {
       r(f);
     }, []),
     h = u.useMemo(
-      () => ({ placement: "top-end", portal: !0, preventOverflow: !0 }),
-      [],
+      () => ({ placement: 'top-end', portal: !0, preventOverflow: !0 }),
+      []
     ),
     p = n[i];
   return e.jsxs(e.Fragment, {
     children: [
       e.jsx(Ms, {
-        id: "".concat(a, "-action-menu"),
+        id: ''.concat(a, '-action-menu'),
         button: e.jsx(W, {
-          "data-testid": "action-menu-button",
-          "aria-label": "Open document actions",
+          'data-testid': 'action-menu-button',
+          'aria-label': 'Open document actions',
           disabled: s,
           icon: ks,
-          mode: "ghost",
+          mode: 'ghost',
           ref: o,
         }),
         menu: e.jsx(Os, {
           padding: 1,
           children: n.map((f, g) =>
-            e.jsx(
-              Da,
-              { actionState: f, disabled: s, index: g, onAction: d },
-              g,
-            ),
+            e.jsx(Da, { actionState: f, disabled: s, index: g, onAction: d }, g)
           ),
         }),
         popover: h,
@@ -2927,7 +2923,7 @@ function Ea(t) {
       p &&
         p.dialog &&
         e.jsx(Ae, {
-          zOffset: "paneFooter",
+          zOffset: 'paneFooter',
           children: e.jsx($e, { dialog: p.dialog, referenceElement: l }),
         }),
     ],
@@ -2946,7 +2942,7 @@ function Da(t) {
         children: e.jsx(D, { size: 1, children: n.title }),
       });
   return e.jsx(zs, {
-    "data-testid": "action-".concat(n.label.replace(" ", "")),
+    'data-testid': 'action-'.concat(n.label.replace(' ', '')),
     disabled: s || !!n.disabled,
     onClick: r,
     padding: 0,
@@ -2954,11 +2950,11 @@ function Da(t) {
     children: e.jsx(Q, {
       content: l,
       disabled: !l,
-      fallbackPlacements: ["left", "bottom"],
-      placement: "top",
+      fallbackPlacements: ['left', 'bottom'],
+      placement: 'top',
       portal: !0,
       children: e.jsxs(O, {
-        align: "center",
+        align: 'center',
         paddingX: 3,
         children: [
           e.jsxs(O, {
@@ -2983,7 +2979,7 @@ function Da(t) {
               marginLeft: 3,
               children: e.jsx(Un, {
                 keys: String(n.shortcut)
-                  .split("+")
+                  .split('+')
                   .map((c) => c.slice(0, 1).toUpperCase() + c.slice(1)),
               }),
             }),
@@ -3003,7 +2999,7 @@ function it(t) {
           : e.jsxs(O, {
               padding: 2,
               style: { maxWidth: 300 },
-              align: "center",
+              align: 'center',
               children: [
                 e.jsx(D, { size: 1, children: o.title }),
                 o.shortcut &&
@@ -3011,17 +3007,17 @@ function it(t) {
                     marginLeft: o.title ? 2 : 0,
                     children: e.jsx(Un, {
                       keys: String(o.shortcut)
-                        .split("+")
+                        .split('+')
                         .map(
                           (d) =>
                             d.slice(0, 1).toUpperCase() +
-                            d.slice(1).toLowerCase(),
+                            d.slice(1).toLowerCase()
                         ),
                     }),
                   }),
               ],
             }),
-      [o],
+      [o]
     );
   return e.jsxs(O, {
     children: [
@@ -3032,17 +3028,17 @@ function it(t) {
             disabled: !c,
             content: c,
             portal: !0,
-            placement: "top",
+            placement: 'top',
             children: e.jsx(H, {
               flex: 1,
               children: e.jsx(W, {
-                "data-testid": "action-".concat(o.label),
+                'data-testid': 'action-'.concat(o.label),
                 disabled: n || !!o.disabled,
                 icon: o.icon,
                 onClick: o.onHandle,
                 ref: l,
                 text: o.label,
-                tone: o.tone || "primary",
+                tone: o.tone || 'primary',
               }),
             }),
           }),
@@ -3069,11 +3065,11 @@ const Ra = u.memo(function () {
             return e.jsx(
               it,
               {
-                disabled: s !== "connected",
+                disabled: s !== 'connected',
                 showMenu: n.length > 1,
                 states: r,
               },
-              a,
+              a
             );
           },
         });
@@ -3081,7 +3077,7 @@ const Ra = u.memo(function () {
   Ta = u.memo(function () {
     const { connectionState: n, editState: s, timelineStore: a } = L(),
       o = oe(a, (d) => d.revTime),
-      i = (o == null ? void 0 : o.id) || "",
+      i = (o == null ? void 0 : o.id) || '',
       r =
         (
           (s == null ? void 0 : s.draft) ||
@@ -3096,7 +3092,7 @@ const Ra = u.memo(function () {
       children: (d) => {
         let { states: h } = d;
         return e.jsx(it, {
-          disabled: n !== "connected" || !!r,
+          disabled: n !== 'connected' || !!r,
           showMenu: !1,
           states: h,
         });
@@ -3104,10 +3100,10 @@ const Ra = u.memo(function () {
     });
   }),
   Ma = {
-    primary: "primary",
-    success: "positive",
-    warning: "caution",
-    danger: "critical",
+    primary: 'primary',
+    success: 'positive',
+    warning: 'caution',
+    danger: 'critical',
   };
 function ka(t) {
   let { states: n } = t;
@@ -3124,21 +3120,21 @@ function ka(t) {
               children: e.jsx(D, { size: 1, children: s.title }),
             }),
           disabled: !s.title,
-          placement: "top",
+          placement: 'top',
           portal: !0,
           children: e.jsx(Bs, {
             fontSize: 1,
-            mode: "outline",
+            mode: 'outline',
             paddingX: 2,
             paddingY: 1,
             radius: 4,
             tone: s.color ? Ma[s.color] : void 0,
-            style: { whiteSpace: "nowrap" },
+            style: { whiteSpace: 'nowrap' },
             children: s.label,
           }),
         },
-        String(a),
-      ),
+        String(a)
+      )
     ),
   });
 }
@@ -3157,7 +3153,7 @@ function Oa() {
 }
 var bn = Object.freeze,
   za = Object.defineProperty,
-  La = (t, n) => bn(za(t, "raw", { value: bn(n || t.slice()) })),
+  La = (t, n) => bn(za(t, 'raw', { value: bn(n || t.slice()) })),
   vn;
 const Aa = B(O)(
   vn ||
@@ -3165,7 +3161,7 @@ const Aa = B(O)(
       `
   cursor: default;
 `,
-    ])),
+    ]))
 );
 function Ba(t) {
   const {
@@ -3175,19 +3171,19 @@ function Ba(t) {
       lastUpdated: o,
       liveEdit: i,
     } = t,
-    r = $(a || "", { minimal: !0, agoSuffix: !0 }),
-    l = $(a || "", { minimal: !0 }),
-    c = $(o || "", { minimal: !0, agoSuffix: !0 }),
-    d = $(o || "", { minimal: !0 }),
-    h = $(o || "", { minimal: !1, agoSuffix: !0 }),
-    p = $(a || "", { minimal: !1, agoSuffix: !0 }),
-    f = i ? "Last updated ".concat(h) : "Last published ".concat(p);
+    r = $(a || '', { minimal: !0, agoSuffix: !0 }),
+    l = $(a || '', { minimal: !0 }),
+    c = $(o || '', { minimal: !0, agoSuffix: !0 }),
+    d = $(o || '', { minimal: !0 }),
+    h = $(o || '', { minimal: !1, agoSuffix: !0 }),
+    p = $(a || '', { minimal: !1, agoSuffix: !0 }),
+    f = i ? 'Last updated '.concat(h) : 'Last published '.concat(p);
   return e.jsx(Aa, {
-    align: "center",
-    "data-ui": "SessionLayout",
-    sizing: "border",
+    align: 'center',
+    'data-ui': 'SessionLayout',
+    sizing: 'border',
     children: e.jsx(Q, {
-      placement: "top",
+      placement: 'top',
       portal: !0,
       content: e.jsx(H, {
         padding: 3,
@@ -3197,46 +3193,46 @@ function Ba(t) {
           children: i
             ? e.jsxs(e.Fragment, {
                 children: [
-                  "Last updated",
-                  " ",
-                  e.jsx("abbr", {
-                    "aria-label": o ? h : p,
+                  'Last updated',
+                  ' ',
+                  e.jsx('abbr', {
+                    'aria-label': o ? h : p,
                     children: o ? c : r,
                   }),
                 ],
               })
             : e.jsxs(e.Fragment, {
                 children: [
-                  "Last published ",
-                  e.jsx("abbr", { "aria-label": p, children: r }),
+                  'Last published ',
+                  e.jsx('abbr', { 'aria-label': p, children: r }),
                 ],
               }),
         }),
       }),
       children: e.jsx(W, {
-        mode: "bleed",
-        tone: i ? "critical" : "positive",
+        mode: 'bleed',
+        tone: i ? 'critical' : 'positive',
         tabIndex: -1,
         disabled: s,
-        "aria-label": f,
+        'aria-label': f,
         children: e.jsxs(O, {
-          align: "center",
+          align: 'center',
           children: [
             e.jsx(E, {
               marginRight: n ? 0 : 3,
               children: e.jsx(D, {
                 size: 2,
-                "aria-hidden": "true",
+                'aria-hidden': 'true',
                 children: i ? e.jsx(is, {}) : e.jsx(ls, {}),
               }),
             }),
             !n &&
               e.jsx(D, {
                 size: 1,
-                weight: "medium",
+                weight: 'medium',
                 children: i
-                  ? e.jsx("abbr", { "aria-label": f, children: o ? d : l })
-                  : e.jsx("abbr", { "aria-label": f, children: l }),
+                  ? e.jsx('abbr', { 'aria-label': f, children: o ? d : l })
+                  : e.jsx('abbr', { 'aria-label': f, children: l }),
               }),
           ],
         }),
@@ -3246,7 +3242,7 @@ function Ba(t) {
 }
 var jn = Object.freeze,
   Wa = Object.defineProperty,
-  Fe = (t, n) => jn(Wa(t, "raw", { value: jn(n || t.slice()) })),
+  Fe = (t, n) => jn(Wa(t, 'raw', { value: jn(n || t.slice()) })),
   yn,
   _n,
   Pn;
@@ -3256,26 +3252,26 @@ const Na = B(ae.path)(
         `
   transform-origin: center;
 `,
-      ])),
+      ]))
   ),
   $a = (t) =>
     e.jsx(ae.circle, {
-      fill: "none",
-      r: "8",
-      cx: "12.5",
-      cy: "12.5",
-      strokeWidth: "1.2",
+      fill: 'none',
+      r: '8',
+      cx: '12.5',
+      cy: '12.5',
+      strokeWidth: '1.2',
       ...t,
     }),
   Fa = (t) =>
     e.jsx(Na, {
-      fill: "none",
-      d: "M14 17.5619L11.5 20.5L14.5 23.0619M11 7.43811L13.5 4.50001L10.5 1.93811",
+      fill: 'none',
+      d: 'M14 17.5619L11.5 20.5L14.5 23.0619M11 7.43811L13.5 4.50001L10.5 1.93811',
       ...t,
     }),
-  Ha = (t) => e.jsx(ae.path, { d: "M9.5 12.1316L11.7414 14.5L16 10", ...t }),
+  Ha = (t) => e.jsx(ae.path, { d: 'M9.5 12.1316L11.7414 14.5L16 10', ...t }),
   Va = (t) =>
-    e.jsx(ae.path, { d: "M15 7L18 10M6 19L7 15L17 5L20 8L10 18L6 19Z", ...t }),
+    e.jsx(ae.path, { d: 'M15 7L18 10M6 19L7 15L17 5L20 8L10 18L6 19Z', ...t }),
   Ua = At(
     _n ||
       (_n = Fe([
@@ -3287,7 +3283,7 @@ const Na = B(ae.path)(
     transform: rotate(360deg);
   }
 `,
-      ])),
+      ]))
   ),
   Ga = B.g(
     Pn ||
@@ -3301,7 +3297,7 @@ const Na = B(ae.path)(
   }
 `,
       ])),
-    Ua,
+    Ua
   ),
   Ka = {
     syncing: { scale: 1, transition: { duration: 0 } },
@@ -3313,19 +3309,19 @@ const Na = B(ae.path)(
   },
   Xa = {
     syncing: {
-      strokeDasharray: "0, 0, 23, 3, 23, 3",
+      strokeDasharray: '0, 0, 23, 3, 23, 3',
       strokeDashoffset: 10,
       opacity: 1,
       transition: { duration: 0 },
     },
     saved: {
-      strokeDasharray: "0, 0, 23, 0, 23, 0",
+      strokeDasharray: '0, 0, 23, 0, 23, 0',
       strokeDashoffset: 10,
       opacity: 1,
       transition: { duration: 0.2 },
     },
     changes: {
-      strokeDasharray: "0, 60, 23, 0, 23, 0",
+      strokeDasharray: '0, 60, 23, 0, 23, 0',
       strokeDashoffset: 0,
       opacity: 0,
       transition: { duration: 0.5 },
@@ -3349,21 +3345,21 @@ const Na = B(ae.path)(
 function Za(t) {
   const { status: n } = t;
   return n
-    ? e.jsx("svg", {
-        width: "1em",
-        height: "1em",
-        viewBox: "0 0 25 25",
-        fill: "none",
-        stroke: "currentColor",
-        strokeWidth: "1.2",
-        "data-sanity-icon": "",
+    ? e.jsx('svg', {
+        width: '1em',
+        height: '1em',
+        viewBox: '0 0 25 25',
+        fill: 'none',
+        stroke: 'currentColor',
+        strokeWidth: '1.2',
+        'data-sanity-icon': '',
         children: e.jsxs(ae.g, {
           variants: Ka,
           initial: n,
           animate: n,
           children: [
             e.jsxs(Ga, {
-              "data-rotate": n === "changes" ? void 0 : "",
+              'data-rotate': n === 'changes' ? void 0 : '',
               children: [
                 e.jsx(Fa, { variants: Ya, initial: n, animate: n }),
                 e.jsx($a, { variants: Xa, initial: n, animate: n }),
@@ -3378,64 +3374,64 @@ function Za(t) {
 }
 const Qa = ze.forwardRef(function (n, s) {
     const { collapsed: a, status: o, lastUpdated: i, ...r } = n,
-      l = $(i || "", { minimal: !0 }),
-      c = $(i || "", { minimal: !0, agoSuffix: !0 }),
-      d = $(i || "", { minimal: !1, agoSuffix: !0 }),
+      l = $(i || '', { minimal: !0 }),
+      c = $(i || '', { minimal: !0, agoSuffix: !0 }),
+      d = $(i || '', { minimal: !1, agoSuffix: !0 }),
       h = u.useMemo(
         () =>
-          o === "syncing"
-            ? { text: "Saving...", tone: void 0 }
-            : o === "changes"
-            ? { text: l, tone: "caution" }
-            : o === "saved"
-            ? { text: "Saved!", tone: "positive" }
+          o === 'syncing'
+            ? { text: 'Saving...', tone: void 0 }
+            : o === 'changes'
+            ? { text: l, tone: 'caution' }
+            : o === 'saved'
+            ? { text: 'Saved!', tone: 'positive' }
             : {},
-        [o, l],
+        [o, l]
       );
     return o
       ? e.jsx(Q, {
-          placement: "top",
+          placement: 'top',
           portal: !0,
-          disabled: o !== "changes",
+          disabled: o !== 'changes',
           content: e.jsxs(H, {
             padding: 3,
             space: 3,
             children: [
               e.jsx(D, {
                 size: 1,
-                weight: "semibold",
-                children: "Review changes",
+                weight: 'semibold',
+                children: 'Review changes',
               }),
               e.jsxs(D, {
                 size: 1,
                 muted: !0,
                 children: [
-                  "Changes saved ",
-                  e.jsx("abbr", { "aria-label": d, children: c }),
+                  'Changes saved ',
+                  e.jsx('abbr', { 'aria-label': d, children: c }),
                 ],
               }),
             ],
           }),
           children: e.jsx(W, {
-            mode: "bleed",
-            justify: "flex-start",
+            mode: 'bleed',
+            justify: 'flex-start',
             tone: h == null ? void 0 : h.tone,
             ...r,
-            "data-testid": "review-changes-button",
+            'data-testid': 'review-changes-button',
             ref: s,
-            "aria-label": "Review changes",
+            'aria-label': 'Review changes',
             children: e.jsxs(O, {
-              align: "center",
+              align: 'center',
               children: [
                 e.jsx(E, {
                   marginRight: a ? 0 : 3,
-                  "aria-hidden": "true",
+                  'aria-hidden': 'true',
                   children: e.jsx(D, { children: e.jsx(Za, { status: o }) }),
                 }),
                 !a &&
                   e.jsx(D, {
                     size: 1,
-                    weight: "medium",
+                    weight: 'medium',
                     children: h == null ? void 0 : h.text,
                   }),
               ],
@@ -3472,11 +3468,11 @@ const Qa = ze.forwardRef(function (n, s) {
       [v, j] = u.useState(null),
       w = oe(c, (I) => I.onOlderRevision);
     u.useEffect(() => {
-      if (v === "syncing" && !h.isSyncing) {
-        const I = setTimeout(() => j("saved"), nr);
+      if (v === 'syncing' && !h.isSyncing) {
+        const I = setTimeout(() => j('saved'), nr);
         return () => clearTimeout(I);
       }
-      if (v === "saved") {
+      if (v === 'saved') {
         const I = setTimeout(() => j(null), tr);
         return () => clearTimeout(I);
       }
@@ -3485,19 +3481,19 @@ const Qa = ze.forwardRef(function (n, s) {
         j(null);
       }, [a]),
       u.useLayoutEffect(() => {
-        h.isSyncing && j("syncing");
+        h.isSyncing && j('syncing');
       }, [h.isSyncing, p]);
     const C = u.useMemo(
         () =>
           e.jsx(er, {
             lastUpdated: p,
-            status: v || (b ? "changes" : void 0),
+            status: v || (b ? 'changes' : void 0),
             onClick: s ? r : l,
             disabled: w,
             selected: s,
             collapsed: P,
           }),
-        [b, s, r, l, p, w, v, P],
+        [b, s, r, l, p, w, v, P]
       ),
       S = u.useMemo(
         () =>
@@ -3512,16 +3508,16 @@ const Qa = ze.forwardRef(function (n, s) {
               collapsed: P,
             }),
           }),
-        [P, f, p, g, m, w],
+        [P, f, p, g, m, w]
       );
     return e.jsxs(O, {
-      align: "center",
-      "data-ui": "DocumentSparkline",
+      align: 'center',
+      'data-ui': 'DocumentSparkline',
       ref: y,
       children: [
         S,
         e.jsxs(O, {
-          align: "center",
+          align: 'center',
           flex: 1,
           children: [
             C,
@@ -3533,7 +3529,7 @@ const Qa = ze.forwardRef(function (n, s) {
   });
 var wn = Object.freeze,
   or = Object.defineProperty,
-  ar = (t, n) => wn(or(t, "raw", { value: wn(n || t.slice()) })),
+  ar = (t, n) => wn(or(t, 'raw', { value: wn(n || t.slice()) })),
   Sn;
 const rr = B(E)(
   Sn ||
@@ -3542,7 +3538,7 @@ const rr = B(E)(
   min-width: 10em;
   max-width: 16em;
 `,
-    ])),
+    ]))
 );
 function ir(t) {
   const { actionsBoxRef: n } = t,
@@ -3555,7 +3551,7 @@ function ir(t) {
         paddingRight: [2, 3],
         paddingY: 2,
         children: e.jsxs(O, {
-          align: "center",
+          align: 'center',
           children: [
             e.jsx(E, { flex: [1, 2], children: s && e.jsx(sr, {}) }),
             e.jsx(rr, {
@@ -3567,14 +3563,14 @@ function ir(t) {
           ],
         }),
       }),
-    [n, s, o],
+    [n, s, o]
   );
 }
 function lr(t) {
   const {
       actionsBoxElement: n,
       activeIndex: s,
-      as: a = "div",
+      as: a = 'div',
       children: o,
       id: i,
       onActionStart: r,
@@ -3593,8 +3589,8 @@ function lr(t) {
             console.warn(
               'Keyboard shortcut conflict: More than one document action matches the shortcut "'.concat(
                 b.shortcut,
-                '"',
-              ),
+                '"'
+              )
             ),
           b && !b.disabled && b.onHandle)
         ) {
@@ -3603,7 +3599,7 @@ function lr(t) {
         }
         l && l(g);
       },
-      [r, l, d],
+      [r, l, d]
     );
   return u.createElement(
     a,
@@ -3613,14 +3609,14 @@ function lr(t) {
       p &&
         p.dialog &&
         e.jsx(Ae, {
-          zOffset: "paneFooter",
+          zOffset: 'paneFooter',
           children: e.jsx($e, { dialog: p.dialog, referenceElement: n }),
         }),
-    ],
+    ]
   );
 }
 const lt = ze.memo((t) => {
-  const { actionsBoxElement: n, as: s = "div", children: a, ...o } = t,
+  const { actionsBoxElement: n, as: s = 'div', children: a, ...o } = t,
     { actions: i, editState: r } = L(),
     [l, c] = u.useState(-1),
     d = u.useCallback((p) => {
@@ -3628,7 +3624,7 @@ const lt = ze.memo((t) => {
     }, []),
     h = u.useMemo(
       () => r && { ...r, onComplete: () => {}, revision: void 0 },
-      [r],
+      [r]
     );
   return !h || !i
     ? null
@@ -3649,12 +3645,12 @@ const lt = ze.memo((t) => {
         },
       });
 });
-lt.displayName = "DocumentActionShortcuts";
+lt.displayName = 'DocumentActionShortcuts';
 var In = Object.freeze,
   cr = Object.defineProperty,
-  dr = (t, n) => In(cr(t, "raw", { value: In(n || t.slice()) })),
+  dr = (t, n) => In(cr(t, 'raw', { value: In(n || t.slice()) })),
   Cn;
-const En = ["fixed", "absolute"],
+const En = ['fixed', 'absolute'],
   ur = B(cs)(
     Cn ||
       (Cn = dr([
@@ -3665,7 +3661,7 @@ const En = ["fixed", "absolute"],
   min-height: 0;
   min-width: 0;
 `,
-      ])),
+      ]))
   ),
   Sr = u.memo(function (n) {
     const { name: s } = Ln();
@@ -3682,14 +3678,14 @@ function pr(t) {
     r = hr(s.options, i.params),
     { documentType: l, isLoaded: c } = Wt(r.id, r.type),
     d = u.useMemo(
-      () => o({ type: "document", documentId: r.id, schemaType: r.type }),
-      [r.id, r.type, o],
+      () => o({ type: 'document', documentId: r.id, schemaType: r.type }),
+      [r.id, r.type, o]
     ),
     [h, p] = Nt({ templateItems: d }),
     f = c && !p,
     g = u.useMemo(
       () => (f && l && r.type !== l ? fr(t, r, l) : t),
-      [t, l, f, r],
+      [t, l, f, r]
     ),
     {
       ReferenceChildLink: m,
@@ -3705,17 +3701,17 @@ function pr(t) {
         v
           ? {
               path: Pe(v),
-              state: _ >= P - 1 ? "none" : _ >= P - 2 ? "selected" : "pressed",
+              state: _ >= P - 1 ? 'none' : _ >= P - 2 ? 'selected' : 'pressed',
             }
-          : { path: [], state: "none" },
-      [v, _, P],
+          : { path: [], state: 'none' },
+      [v, _, P]
     );
-  return r.type === "*" && !f
+  return r.type === '*' && !f
     ? e.jsx(ne, {
         flex: 2.5,
         minWidth: 320,
         paneKey: a,
-        title: "Loading document…",
+        title: 'Loading document…',
       })
     : l
     ? e.jsx(
@@ -3730,22 +3726,22 @@ function pr(t) {
             children: e.jsx(mr, {}),
           }),
         },
-        "".concat(l, "-").concat(r.id),
+        ''.concat(l, '-').concat(r.id)
       )
     : e.jsx(nt, {
         flex: 2.5,
         minWidth: 320,
         paneKey: a,
-        title: e.jsx(e.Fragment, { children: "The document was not found" }),
+        title: e.jsx(e.Fragment, { children: 'The document was not found' }),
         children: e.jsx(H, {
           space: 4,
           children: e.jsxs(D, {
-            as: "p",
+            as: 'p',
             children: [
-              "The document type is not defined, and a document with the ",
-              e.jsx("code", { children: r.id }),
-              " ",
-              "identifier could not be found.",
+              'The document type is not defined, and a document with the ',
+              e.jsx('code', { children: r.id }),
+              ' ',
+              'identifier could not be found.',
             ],
           }),
         }),
@@ -3755,7 +3751,7 @@ function hr(t) {
   let n = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
   const s = Ht();
   return u.useMemo(() => {
-    if (t.type && t.type !== "*") return t;
+    if (t.type && t.type !== '*') return t;
     const a = t.template || n.template,
       o = a ? s.find((r) => r.id === a) : void 0,
       i = o == null ? void 0 : o.schemaType;
@@ -3791,7 +3787,7 @@ function mr() {
       (T) => {
         i(T), o(T);
       },
-      [i, o],
+      [i, o]
     ),
     S = ds + (s ? Ce : 0),
     I = us + (s ? Ce : 0);
@@ -3800,7 +3796,7 @@ function mr() {
         actionsBoxElement: y,
         as: ue,
         currentMinWidth: S,
-        "data-testid": "document-pane",
+        'data-testid': 'document-pane',
         flex: 2.5,
         id: c,
         minWidth: I,
@@ -3811,11 +3807,11 @@ function mr() {
             position: En,
             zOffset: f.portal,
             children: e.jsx(O, {
-              direction: "column",
+              direction: 'column',
               flex: 1,
-              height: p ? void 0 : "fill",
+              height: p ? void 0 : 'fill',
               children: e.jsx(ur, {
-                "data-testid": "change-connector-root",
+                'data-testid': 'change-connector-root',
                 isReviewChangesOpen: t,
                 onOpenReviewChanges: r,
                 onSetFocus: C,
@@ -3848,26 +3844,26 @@ function mr() {
         minWidth: I,
         paneKey: c,
         title: e.jsxs(e.Fragment, {
-          children: ["Unknown document type: ", e.jsx("code", { children: n })],
+          children: ['Unknown document type: ', e.jsx('code', { children: n })],
         }),
-        tone: "caution",
+        tone: 'caution',
         children: e.jsxs(H, {
           space: 4,
           children: [
             n &&
               e.jsxs(D, {
-                as: "p",
+                as: 'p',
                 children: [
-                  "This document has the schema type ",
-                  e.jsx("code", { children: n }),
-                  ", which is not defined as a type in the local content studio schema.",
+                  'This document has the schema type ',
+                  e.jsx('code', { children: n }),
+                  ', which is not defined as a type in the local content studio schema.',
                 ],
               }),
             !n &&
               e.jsx(D, {
-                as: "p",
+                as: 'p',
                 children:
-                  "This document does not exist, and no schema type was specified for it.",
+                  'This document does not exist, and no schema type was specified for it.',
               }),
             Ut,
           ],
@@ -3876,20 +3872,20 @@ function mr() {
 }
 function xr() {
   return e.jsx(V, {
-    height: "fill",
+    height: 'fill',
     children: e.jsx(O, {
-      align: "center",
-      height: "fill",
-      justify: "center",
+      align: 'center',
+      height: 'fill',
+      justify: 'center',
       padding: 4,
-      sizing: "border",
+      sizing: 'border',
       children: e.jsx(Z, {
         width: 0,
         children: e.jsx(V, {
           padding: 4,
           radius: 2,
           shadow: 1,
-          tone: "caution",
+          tone: 'caution',
           children: e.jsxs(O, {
             children: [
               e.jsx(E, {
@@ -3901,27 +3897,27 @@ function xr() {
                 space: 3,
                 children: [
                   e.jsx(D, {
-                    as: "h1",
+                    as: 'h1',
                     size: 1,
-                    weight: "bold",
-                    children: "No document types",
+                    weight: 'bold',
+                    children: 'No document types',
                   }),
                   e.jsx(D, {
-                    as: "p",
+                    as: 'p',
                     muted: !0,
                     size: 1,
                     children:
-                      "Please define at least one document type in your schema.",
+                      'Please define at least one document type in your schema.',
                   }),
                   e.jsx(D, {
-                    as: "p",
+                    as: 'p',
                     muted: !0,
                     size: 1,
-                    children: e.jsx("a", {
-                      href: "https://www.sanity.io/docs/create-a-schema-and-configure-sanity-studio",
-                      target: "_blank",
-                      rel: "noreferrer",
-                      children: "Learn how to add a document type →",
+                    children: e.jsx('a', {
+                      href: 'https://www.sanity.io/docs/create-a-schema-and-configure-sanity-studio',
+                      target: '_blank',
+                      rel: 'noreferrer',
+                      children: 'Learn how to add a document type →',
                     }),
                   }),
                 ],
@@ -3935,7 +3931,7 @@ function xr() {
 }
 var Dn = Object.freeze,
   gr = Object.defineProperty,
-  br = (t, n) => Dn(gr(t, "raw", { value: Dn(n || t.slice()) })),
+  br = (t, n) => Dn(gr(t, 'raw', { value: Dn(n || t.slice()) })),
   Rn;
 const vr = B(oo)(
     Rn ||
@@ -3944,9 +3940,9 @@ const vr = B(oo)(
   min-height: 100%;
   min-width: 320px;
 `,
-      ])),
+      ]))
   ),
-  jr = Wn("mod+s"),
+  jr = Wn('mod+s'),
   yr = u.memo(function (n) {
     let { onPaneChange: s } = n;
     var a;
@@ -3954,7 +3950,7 @@ const vr = B(oo)(
       i = Kt(),
       { layoutCollapsed: r, setLayoutCollapsed: l } = q(),
       { paneDataItems: c, resolvedPanes: d } = bo(),
-      h = Te(u.useCallback((_) => typeof _.intent == "string", [])),
+      h = Te(u.useCallback((_) => typeof _.intent == 'string', [])),
       [p, f] = u.useState(null),
       g = u.useCallback(() => l(!0), [l]),
       m = u.useCallback(() => l(!1), [l]);
@@ -3968,15 +3964,15 @@ const vr = B(oo)(
             (y.preventDefault(),
             o({
               closable: !0,
-              id: "auto-save-message",
-              status: "info",
-              title: "Your work is automatically saved!",
+              id: 'auto-save-message',
+              status: 'info',
+              title: 'Your work is automatically saved!',
               duration: 4e3,
             }));
         };
         return (
-          window.addEventListener("keydown", _),
-          () => window.removeEventListener("keydown", _)
+          window.addEventListener('keydown', _),
+          () => window.removeEventListener('keydown', _)
         );
       }, [o]),
       ((a = i._original) == null ? void 0 : a.types.some(Xt))
@@ -3985,7 +3981,7 @@ const vr = B(oo)(
             children: [
               e.jsxs(vr, {
                 flex: 1,
-                height: r ? void 0 : "fill",
+                height: r ? void 0 : 'fill',
                 minWidth: 512,
                 onCollapse: g,
                 onExpand: m,
@@ -4026,15 +4022,15 @@ const vr = B(oo)(
                                 siblingIndex: k,
                               }),
                       },
-                      "".concat(w === Se ? "loading" : w.type, "-").concat(C),
+                      ''.concat(w === Se ? 'loading' : w.type, '-').concat(C)
                     );
                   }),
                   c.length <= 1 &&
                     h &&
-                    e.jsx(ne, { paneKey: "intent-resolver" }),
+                    e.jsx(ne, { paneKey: 'intent-resolver' }),
                 ],
               }),
-              e.jsx("div", { "data-portal": "", ref: f }),
+              e.jsx('div', { 'data-portal': '', ref: f }),
             ],
           })
         : e.jsx(xr, {})

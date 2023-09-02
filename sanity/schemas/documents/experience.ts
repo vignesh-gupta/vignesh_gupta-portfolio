@@ -1,25 +1,25 @@
 const experience = {
-  name: "Experience",
-  title: "Experiences",
-  type: "document",
+  name: 'Experience',
+  title: 'Experiences',
+  type: 'document',
   fields: [
-    { name: "role", title: "Role", type: "string" },
+    { name: 'role', title: 'Role', type: 'string' },
     {
-      name: "company",
-      title: "Company",
-      type: "string",
+      name: 'company',
+      title: 'Company',
+      type: 'string',
     },
     {
-      name: "duration",
-      title: "Duration",
-      type: "duration",
+      name: 'duration',
+      title: 'Duration',
+      type: 'duration',
     },
 
     {
-      name: "description",
-      title: "Description",
-      type: "array",
-      of: [{ type: "block" }],
+      name: 'description',
+      title: 'Description',
+      type: 'array',
+      of: [{ type: 'block' }],
     },
   ],
 };

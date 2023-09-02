@@ -1,18 +1,18 @@
-import clsx from "clsx";
-import Navbar from "@/components/sections/Navbar";
-import Footer from "@/components/sections/Footer";
-import { preahvihear } from "@/components/constants/designConstants";
+import clsx from 'clsx';
+import Navbar from '@/components/sections/Navbar';
+import Footer from '@/components/sections/Footer';
+import { preahvihear } from '@/components/constants/designConstants';
 
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div
       className={clsx(
-        "w-full bg-primary text-foreground min-h-screen flex flex-col -z-50",
-        preahvihear.className,
+        '-z-50 flex min-h-screen w-full flex-col bg-primary text-foreground',
+        preahvihear.className
       )}
     >
       <Navbar />
-      <main className="xl:px-80 lg:px-48 md:px-32 sm:px-16 px-10 grow flex flex-col">
+      <main className='flex grow flex-col px-10 sm:px-16 md:px-32 lg:px-48 xl:px-80'>
         {children}
       </main>
       <Footer />

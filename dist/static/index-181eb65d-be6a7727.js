@@ -15,8 +15,8 @@ import {
   e as D,
   z as O,
   y as S,
-} from "./sanity-bc09dbe8.js";
-import { P as H } from "./PaneItem-cc425889-7ee349fe.js";
+} from './sanity-bc09dbe8.js';
+import { P as H } from './PaneItem-cc425889-7ee349fe.js';
 const W = (o) => {
   let { index: n, menuItems: a, menuItemGroups: i, title: d } = o;
   const { features: c } = g(),
@@ -27,14 +27,14 @@ const W = (o) => {
     backButton:
       c.backButton &&
       n > 0 &&
-      t.jsx(k, { as: A, "data-as": "a", icon: C, mode: "bleed" }),
+      t.jsx(k, { as: A, 'data-as': 'a', icon: C, mode: 'bleed' }),
     tabIndex: u,
     title: d,
   });
 };
 var x = Object.freeze,
   z = Object.defineProperty,
-  E = (o, n) => x(z(o, "raw", { value: x(n || o.slice()) })),
+  E = (o, n) => x(z(o, 'raw', { value: x(n || o.slice()) })),
   I;
 const G = b.hr(
   I ||
@@ -45,7 +45,7 @@ const G = b.hr(
   margin: 0;
   border: none;
 `,
-    ])),
+    ]))
 );
 function R(o) {
   const {
@@ -63,27 +63,27 @@ function R(o) {
         return (
           ((s = a == null ? void 0 : a.find((r, h) => h === e)) == null
             ? void 0
-            : s.type) === "divider"
+            : s.type) === 'divider'
         );
       },
-      [a],
+      [a]
     ),
     m = v.useCallback(
       (e) => {
         var s;
         const r = (s = e.displayOptions) == null ? void 0 : s.showIcon;
-        return typeof r < "u" ? r !== !1 : c !== !1;
+        return typeof r < 'u' ? r !== !1 : c !== !1;
       },
-      [c],
+      [c]
     ),
     f = v.useCallback(
       (e, s) => {
         const { virtualIndex: r } = s;
-        if (e.type === "divider")
+        if (e.type === 'divider')
           return t.jsx(
             D,
             { marginTop: 1, marginBottom: 2, children: t.jsx(G, {}) },
-            "divider-".concat(r),
+            'divider-'.concat(r)
           );
         const h = !i && n === e.id,
           y = i && n === e.id,
@@ -104,19 +104,19 @@ function R(o) {
             title: e.title,
             value: _,
           },
-          e.id,
+          e.id
         );
       },
-      [n, i, d, m],
+      [n, i, d, m]
     );
   return t.jsx(O, {
-    overflow: p ? "hidden" : "auto",
+    overflow: p ? 'hidden' : 'auto',
     children:
       a &&
       a.length > 0 &&
       t.jsx(S, {
-        activeItemDataAttr: "data-hovered",
-        ariaLabel: "List of ".concat(l),
+        activeItemDataAttr: 'data-hovered',
+        ariaLabel: 'List of '.concat(l),
         canReceiveFocus: !0,
         focusRingOffset: -3,
         getItemDisabled: u,
@@ -150,8 +150,8 @@ function M(o) {
     r = (u == null ? void 0 : u.showIcons) !== !1;
   return t.jsxs(j, {
     currentMaxWidth: 350,
-    "data-testid": "desk-tool-list-pane",
-    "data-ui": "ListPane",
+    'data-testid': 'desk-tool-list-pane',
+    'data-ui': 'ListPane',
     id: l,
     maxWidth: 640,
     minWidth: 320,
@@ -169,7 +169,7 @@ function M(o) {
           showIcons: r,
           title: s,
         },
-        l,
+        l
       ),
     ],
   });

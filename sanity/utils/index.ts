@@ -1,5 +1,5 @@
-import { createClient, groq } from "next-sanity";
-import clientConfig from "../config";
+import { createClient, groq } from 'next-sanity';
+import clientConfig from '../config';
 
 export async function sanityFetch(query: string) {
   return createClient(clientConfig).fetch(groq`${query}`);
@@ -16,7 +16,7 @@ export async function getSkills() {
 
 export async function getProjects(featuredOnly = false) {
   return sanityFetch(`*[_type == "project"  ${
-    featuredOnly ? "&& isFeatured == true " : ""
+    featuredOnly ? '&& isFeatured == true ' : ''
   }]{
     _id,
     _createdAt,
@@ -27,5 +27,5 @@ export async function getProjects(featuredOnly = false) {
     tags,
     isFeatured,
     "imgUrl": imgUrl.asset->url
-  }${featuredOnly ? "[0...3]" : ""}`);
+  }${featuredOnly ? '[0...3]' : ''}`);
 }

@@ -40,1595 +40,1595 @@ import {
   bb as fl,
   aB as Ld,
   cw as dl,
-} from "./sanity-bc09dbe8.js";
-import { H as qd, J as Nd } from "./index-ffc1c3cc.js";
+} from './sanity-bc09dbe8.js';
+import { H as qd, J as Nd } from './index-ffc1c3cc.js';
 var Qo = { exports: {} },
   Gd = [
-    "alignContent",
-    "MozAlignContent",
-    "WebkitAlignContent",
-    "MSAlignContent",
-    "OAlignContent",
-    "alignItems",
-    "MozAlignItems",
-    "WebkitAlignItems",
-    "MSAlignItems",
-    "OAlignItems",
-    "alignSelf",
-    "MozAlignSelf",
-    "WebkitAlignSelf",
-    "MSAlignSelf",
-    "OAlignSelf",
-    "all",
-    "MozAll",
-    "WebkitAll",
-    "MSAll",
-    "OAll",
-    "animation",
-    "MozAnimation",
-    "WebkitAnimation",
-    "MSAnimation",
-    "OAnimation",
-    "animationDelay",
-    "MozAnimationDelay",
-    "WebkitAnimationDelay",
-    "MSAnimationDelay",
-    "OAnimationDelay",
-    "animationDirection",
-    "MozAnimationDirection",
-    "WebkitAnimationDirection",
-    "MSAnimationDirection",
-    "OAnimationDirection",
-    "animationDuration",
-    "MozAnimationDuration",
-    "WebkitAnimationDuration",
-    "MSAnimationDuration",
-    "OAnimationDuration",
-    "animationFillMode",
-    "MozAnimationFillMode",
-    "WebkitAnimationFillMode",
-    "MSAnimationFillMode",
-    "OAnimationFillMode",
-    "animationIterationCount",
-    "MozAnimationIterationCount",
-    "WebkitAnimationIterationCount",
-    "MSAnimationIterationCount",
-    "OAnimationIterationCount",
-    "animationName",
-    "MozAnimationName",
-    "WebkitAnimationName",
-    "MSAnimationName",
-    "OAnimationName",
-    "animationPlayState",
-    "MozAnimationPlayState",
-    "WebkitAnimationPlayState",
-    "MSAnimationPlayState",
-    "OAnimationPlayState",
-    "animationTimingFunction",
-    "MozAnimationTimingFunction",
-    "WebkitAnimationTimingFunction",
-    "MSAnimationTimingFunction",
-    "OAnimationTimingFunction",
-    "backfaceVisibility",
-    "MozBackfaceVisibility",
-    "WebkitBackfaceVisibility",
-    "MSBackfaceVisibility",
-    "OBackfaceVisibility",
-    "background",
-    "MozBackground",
-    "WebkitBackground",
-    "MSBackground",
-    "OBackground",
-    "backgroundAttachment",
-    "MozBackgroundAttachment",
-    "WebkitBackgroundAttachment",
-    "MSBackgroundAttachment",
-    "OBackgroundAttachment",
-    "backgroundBlendMode",
-    "MozBackgroundBlendMode",
-    "WebkitBackgroundBlendMode",
-    "MSBackgroundBlendMode",
-    "OBackgroundBlendMode",
-    "backgroundClip",
-    "MozBackgroundClip",
-    "WebkitBackgroundClip",
-    "MSBackgroundClip",
-    "OBackgroundClip",
-    "backgroundColor",
-    "MozBackgroundColor",
-    "WebkitBackgroundColor",
-    "MSBackgroundColor",
-    "OBackgroundColor",
-    "backgroundImage",
-    "MozBackgroundImage",
-    "WebkitBackgroundImage",
-    "MSBackgroundImage",
-    "OBackgroundImage",
-    "backgroundOrigin",
-    "MozBackgroundOrigin",
-    "WebkitBackgroundOrigin",
-    "MSBackgroundOrigin",
-    "OBackgroundOrigin",
-    "backgroundPosition",
-    "MozBackgroundPosition",
-    "WebkitBackgroundPosition",
-    "MSBackgroundPosition",
-    "OBackgroundPosition",
-    "backgroundRepeat",
-    "MozBackgroundRepeat",
-    "WebkitBackgroundRepeat",
-    "MSBackgroundRepeat",
-    "OBackgroundRepeat",
-    "backgroundSize",
-    "MozBackgroundSize",
-    "WebkitBackgroundSize",
-    "MSBackgroundSize",
-    "OBackgroundSize",
-    "blockSize",
-    "MozBlockSize",
-    "WebkitBlockSize",
-    "MSBlockSize",
-    "OBlockSize",
-    "border",
-    "MozBorder",
-    "WebkitBorder",
-    "MSBorder",
-    "OBorder",
-    "borderBlockEnd",
-    "MozBorderBlockEnd",
-    "WebkitBorderBlockEnd",
-    "MSBorderBlockEnd",
-    "OBorderBlockEnd",
-    "borderBlockEndColor",
-    "MozBorderBlockEndColor",
-    "WebkitBorderBlockEndColor",
-    "MSBorderBlockEndColor",
-    "OBorderBlockEndColor",
-    "borderBlockEndStyle",
-    "MozBorderBlockEndStyle",
-    "WebkitBorderBlockEndStyle",
-    "MSBorderBlockEndStyle",
-    "OBorderBlockEndStyle",
-    "borderBlockEndWidth",
-    "MozBorderBlockEndWidth",
-    "WebkitBorderBlockEndWidth",
-    "MSBorderBlockEndWidth",
-    "OBorderBlockEndWidth",
-    "borderBlockStart",
-    "MozBorderBlockStart",
-    "WebkitBorderBlockStart",
-    "MSBorderBlockStart",
-    "OBorderBlockStart",
-    "borderBlockStartColor",
-    "MozBorderBlockStartColor",
-    "WebkitBorderBlockStartColor",
-    "MSBorderBlockStartColor",
-    "OBorderBlockStartColor",
-    "borderBlockStartStyle",
-    "MozBorderBlockStartStyle",
-    "WebkitBorderBlockStartStyle",
-    "MSBorderBlockStartStyle",
-    "OBorderBlockStartStyle",
-    "borderBlockStartWidth",
-    "MozBorderBlockStartWidth",
-    "WebkitBorderBlockStartWidth",
-    "MSBorderBlockStartWidth",
-    "OBorderBlockStartWidth",
-    "borderBottom",
-    "MozBorderBottom",
-    "WebkitBorderBottom",
-    "MSBorderBottom",
-    "OBorderBottom",
-    "borderBottomColor",
-    "MozBorderBottomColor",
-    "WebkitBorderBottomColor",
-    "MSBorderBottomColor",
-    "OBorderBottomColor",
-    "borderBottomLeftRadius",
-    "MozBorderBottomLeftRadius",
-    "WebkitBorderBottomLeftRadius",
-    "MSBorderBottomLeftRadius",
-    "OBorderBottomLeftRadius",
-    "borderBottomRightRadius",
-    "MozBorderBottomRightRadius",
-    "WebkitBorderBottomRightRadius",
-    "MSBorderBottomRightRadius",
-    "OBorderBottomRightRadius",
-    "borderBottomStyle",
-    "MozBorderBottomStyle",
-    "WebkitBorderBottomStyle",
-    "MSBorderBottomStyle",
-    "OBorderBottomStyle",
-    "borderBottomWidth",
-    "MozBorderBottomWidth",
-    "WebkitBorderBottomWidth",
-    "MSBorderBottomWidth",
-    "OBorderBottomWidth",
-    "borderCollapse",
-    "MozBorderCollapse",
-    "WebkitBorderCollapse",
-    "MSBorderCollapse",
-    "OBorderCollapse",
-    "borderColor",
-    "MozBorderColor",
-    "WebkitBorderColor",
-    "MSBorderColor",
-    "OBorderColor",
-    "borderImage",
-    "MozBorderImage",
-    "WebkitBorderImage",
-    "MSBorderImage",
-    "OBorderImage",
-    "borderImageOutset",
-    "MozBorderImageOutset",
-    "WebkitBorderImageOutset",
-    "MSBorderImageOutset",
-    "OBorderImageOutset",
-    "borderImageRepeat",
-    "MozBorderImageRepeat",
-    "WebkitBorderImageRepeat",
-    "MSBorderImageRepeat",
-    "OBorderImageRepeat",
-    "borderImageSlice",
-    "MozBorderImageSlice",
-    "WebkitBorderImageSlice",
-    "MSBorderImageSlice",
-    "OBorderImageSlice",
-    "borderImageSource",
-    "MozBorderImageSource",
-    "WebkitBorderImageSource",
-    "MSBorderImageSource",
-    "OBorderImageSource",
-    "borderImageWidth",
-    "MozBorderImageWidth",
-    "WebkitBorderImageWidth",
-    "MSBorderImageWidth",
-    "OBorderImageWidth",
-    "borderInlineEnd",
-    "MozBorderInlineEnd",
-    "WebkitBorderInlineEnd",
-    "MSBorderInlineEnd",
-    "OBorderInlineEnd",
-    "borderInlineEndColor",
-    "MozBorderInlineEndColor",
-    "WebkitBorderInlineEndColor",
-    "MSBorderInlineEndColor",
-    "OBorderInlineEndColor",
-    "borderInlineEndStyle",
-    "MozBorderInlineEndStyle",
-    "WebkitBorderInlineEndStyle",
-    "MSBorderInlineEndStyle",
-    "OBorderInlineEndStyle",
-    "borderInlineEndWidth",
-    "MozBorderInlineEndWidth",
-    "WebkitBorderInlineEndWidth",
-    "MSBorderInlineEndWidth",
-    "OBorderInlineEndWidth",
-    "borderInlineStart",
-    "MozBorderInlineStart",
-    "WebkitBorderInlineStart",
-    "MSBorderInlineStart",
-    "OBorderInlineStart",
-    "borderInlineStartColor",
-    "MozBorderInlineStartColor",
-    "WebkitBorderInlineStartColor",
-    "MSBorderInlineStartColor",
-    "OBorderInlineStartColor",
-    "borderInlineStartStyle",
-    "MozBorderInlineStartStyle",
-    "WebkitBorderInlineStartStyle",
-    "MSBorderInlineStartStyle",
-    "OBorderInlineStartStyle",
-    "borderInlineStartWidth",
-    "MozBorderInlineStartWidth",
-    "WebkitBorderInlineStartWidth",
-    "MSBorderInlineStartWidth",
-    "OBorderInlineStartWidth",
-    "borderLeft",
-    "MozBorderLeft",
-    "WebkitBorderLeft",
-    "MSBorderLeft",
-    "OBorderLeft",
-    "borderLeftColor",
-    "MozBorderLeftColor",
-    "WebkitBorderLeftColor",
-    "MSBorderLeftColor",
-    "OBorderLeftColor",
-    "borderLeftStyle",
-    "MozBorderLeftStyle",
-    "WebkitBorderLeftStyle",
-    "MSBorderLeftStyle",
-    "OBorderLeftStyle",
-    "borderLeftWidth",
-    "MozBorderLeftWidth",
-    "WebkitBorderLeftWidth",
-    "MSBorderLeftWidth",
-    "OBorderLeftWidth",
-    "borderRadius",
-    "MozBorderRadius",
-    "WebkitBorderRadius",
-    "MSBorderRadius",
-    "OBorderRadius",
-    "borderRight",
-    "MozBorderRight",
-    "WebkitBorderRight",
-    "MSBorderRight",
-    "OBorderRight",
-    "borderRightColor",
-    "MozBorderRightColor",
-    "WebkitBorderRightColor",
-    "MSBorderRightColor",
-    "OBorderRightColor",
-    "borderRightStyle",
-    "MozBorderRightStyle",
-    "WebkitBorderRightStyle",
-    "MSBorderRightStyle",
-    "OBorderRightStyle",
-    "borderRightWidth",
-    "MozBorderRightWidth",
-    "WebkitBorderRightWidth",
-    "MSBorderRightWidth",
-    "OBorderRightWidth",
-    "borderSpacing",
-    "MozBorderSpacing",
-    "WebkitBorderSpacing",
-    "MSBorderSpacing",
-    "OBorderSpacing",
-    "borderStyle",
-    "MozBorderStyle",
-    "WebkitBorderStyle",
-    "MSBorderStyle",
-    "OBorderStyle",
-    "borderTop",
-    "MozBorderTop",
-    "WebkitBorderTop",
-    "MSBorderTop",
-    "OBorderTop",
-    "borderTopColor",
-    "MozBorderTopColor",
-    "WebkitBorderTopColor",
-    "MSBorderTopColor",
-    "OBorderTopColor",
-    "borderTopLeftRadius",
-    "MozBorderTopLeftRadius",
-    "WebkitBorderTopLeftRadius",
-    "MSBorderTopLeftRadius",
-    "OBorderTopLeftRadius",
-    "borderTopRightRadius",
-    "MozBorderTopRightRadius",
-    "WebkitBorderTopRightRadius",
-    "MSBorderTopRightRadius",
-    "OBorderTopRightRadius",
-    "borderTopStyle",
-    "MozBorderTopStyle",
-    "WebkitBorderTopStyle",
-    "MSBorderTopStyle",
-    "OBorderTopStyle",
-    "borderTopWidth",
-    "MozBorderTopWidth",
-    "WebkitBorderTopWidth",
-    "MSBorderTopWidth",
-    "OBorderTopWidth",
-    "borderWidth",
-    "MozBorderWidth",
-    "WebkitBorderWidth",
-    "MSBorderWidth",
-    "OBorderWidth",
-    "bottom",
-    "MozBottom",
-    "WebkitBottom",
-    "MSBottom",
-    "OBottom",
-    "boxDecorationBreak",
-    "MozBoxDecorationBreak",
-    "WebkitBoxDecorationBreak",
-    "MSBoxDecorationBreak",
-    "OBoxDecorationBreak",
-    "boxShadow",
-    "MozBoxShadow",
-    "WebkitBoxShadow",
-    "MSBoxShadow",
-    "OBoxShadow",
-    "boxSizing",
-    "MozBoxSizing",
-    "WebkitBoxSizing",
-    "MSBoxSizing",
-    "OBoxSizing",
-    "breakAfter",
-    "MozBreakAfter",
-    "WebkitBreakAfter",
-    "MSBreakAfter",
-    "OBreakAfter",
-    "breakBefore",
-    "MozBreakBefore",
-    "WebkitBreakBefore",
-    "MSBreakBefore",
-    "OBreakBefore",
-    "breakInside",
-    "MozBreakInside",
-    "WebkitBreakInside",
-    "MSBreakInside",
-    "OBreakInside",
-    "captionSide",
-    "MozCaptionSide",
-    "WebkitCaptionSide",
-    "MSCaptionSide",
-    "OCaptionSide",
-    "caretColor",
-    "MozCaretColor",
-    "WebkitCaretColor",
-    "MSCaretColor",
-    "OCaretColor",
-    "ch",
-    "MozCh",
-    "WebkitCh",
-    "MSCh",
-    "OCh",
-    "clear",
-    "MozClear",
-    "WebkitClear",
-    "MSClear",
-    "OClear",
-    "clip",
-    "MozClip",
-    "WebkitClip",
-    "MSClip",
-    "OClip",
-    "clipPath",
-    "MozClipPath",
-    "WebkitClipPath",
-    "MSClipPath",
-    "OClipPath",
-    "cm",
-    "MozCm",
-    "WebkitCm",
-    "MSCm",
-    "OCm",
-    "color",
-    "MozColor",
-    "WebkitColor",
-    "MSColor",
-    "OColor",
-    "columnCount",
-    "MozColumnCount",
-    "WebkitColumnCount",
-    "MSColumnCount",
-    "OColumnCount",
-    "columnFill",
-    "MozColumnFill",
-    "WebkitColumnFill",
-    "MSColumnFill",
-    "OColumnFill",
-    "columnGap",
-    "MozColumnGap",
-    "WebkitColumnGap",
-    "MSColumnGap",
-    "OColumnGap",
-    "columnRule",
-    "MozColumnRule",
-    "WebkitColumnRule",
-    "MSColumnRule",
-    "OColumnRule",
-    "columnRuleColor",
-    "MozColumnRuleColor",
-    "WebkitColumnRuleColor",
-    "MSColumnRuleColor",
-    "OColumnRuleColor",
-    "columnRuleStyle",
-    "MozColumnRuleStyle",
-    "WebkitColumnRuleStyle",
-    "MSColumnRuleStyle",
-    "OColumnRuleStyle",
-    "columnRuleWidth",
-    "MozColumnRuleWidth",
-    "WebkitColumnRuleWidth",
-    "MSColumnRuleWidth",
-    "OColumnRuleWidth",
-    "columnSpan",
-    "MozColumnSpan",
-    "WebkitColumnSpan",
-    "MSColumnSpan",
-    "OColumnSpan",
-    "columnWidth",
-    "MozColumnWidth",
-    "WebkitColumnWidth",
-    "MSColumnWidth",
-    "OColumnWidth",
-    "columns",
-    "MozColumns",
-    "WebkitColumns",
-    "MSColumns",
-    "OColumns",
-    "content",
-    "MozContent",
-    "WebkitContent",
-    "MSContent",
-    "OContent",
-    "counterIncrement",
-    "MozCounterIncrement",
-    "WebkitCounterIncrement",
-    "MSCounterIncrement",
-    "OCounterIncrement",
-    "counterReset",
-    "MozCounterReset",
-    "WebkitCounterReset",
-    "MSCounterReset",
-    "OCounterReset",
-    "cursor",
-    "MozCursor",
-    "WebkitCursor",
-    "MSCursor",
-    "OCursor",
-    "deg",
-    "MozDeg",
-    "WebkitDeg",
-    "MSDeg",
-    "ODeg",
-    "direction",
-    "MozDirection",
-    "WebkitDirection",
-    "MSDirection",
-    "ODirection",
-    "display",
-    "MozDisplay",
-    "WebkitDisplay",
-    "MSDisplay",
-    "ODisplay",
-    "dpcm",
-    "MozDpcm",
-    "WebkitDpcm",
-    "MSDpcm",
-    "ODpcm",
-    "dpi",
-    "MozDpi",
-    "WebkitDpi",
-    "MSDpi",
-    "ODpi",
-    "dppx",
-    "MozDppx",
-    "WebkitDppx",
-    "MSDppx",
-    "ODppx",
-    "em",
-    "MozEm",
-    "WebkitEm",
-    "MSEm",
-    "OEm",
-    "emptyCells",
-    "MozEmptyCells",
-    "WebkitEmptyCells",
-    "MSEmptyCells",
-    "OEmptyCells",
-    "ex",
-    "MozEx",
-    "WebkitEx",
-    "MSEx",
-    "OEx",
-    "filter",
-    "MozFilter",
-    "WebkitFilter",
-    "MSFilter",
-    "OFilter",
-    "flexBasis",
-    "MozFlexBasis",
-    "WebkitFlexBasis",
-    "MSFlexBasis",
-    "OFlexBasis",
-    "flexDirection",
-    "MozFlexDirection",
-    "WebkitFlexDirection",
-    "MSFlexDirection",
-    "OFlexDirection",
-    "flexFlow",
-    "MozFlexFlow",
-    "WebkitFlexFlow",
-    "MSFlexFlow",
-    "OFlexFlow",
-    "flexGrow",
-    "MozFlexGrow",
-    "WebkitFlexGrow",
-    "MSFlexGrow",
-    "OFlexGrow",
-    "flexShrink",
-    "MozFlexShrink",
-    "WebkitFlexShrink",
-    "MSFlexShrink",
-    "OFlexShrink",
-    "flexWrap",
-    "MozFlexWrap",
-    "WebkitFlexWrap",
-    "MSFlexWrap",
-    "OFlexWrap",
-    "float",
-    "MozFloat",
-    "WebkitFloat",
-    "MSFloat",
-    "OFloat",
-    "font",
-    "MozFont",
-    "WebkitFont",
-    "MSFont",
-    "OFont",
-    "fontFamily",
-    "MozFontFamily",
-    "WebkitFontFamily",
-    "MSFontFamily",
-    "OFontFamily",
-    "fontFeatureSettings",
-    "MozFontFeatureSettings",
-    "WebkitFontFeatureSettings",
-    "MSFontFeatureSettings",
-    "OFontFeatureSettings",
-    "fontKerning",
-    "MozFontKerning",
-    "WebkitFontKerning",
-    "MSFontKerning",
-    "OFontKerning",
-    "fontLanguageOverride",
-    "MozFontLanguageOverride",
-    "WebkitFontLanguageOverride",
-    "MSFontLanguageOverride",
-    "OFontLanguageOverride",
-    "fontSize",
-    "MozFontSize",
-    "WebkitFontSize",
-    "MSFontSize",
-    "OFontSize",
-    "fontSizeAdjust",
-    "MozFontSizeAdjust",
-    "WebkitFontSizeAdjust",
-    "MSFontSizeAdjust",
-    "OFontSizeAdjust",
-    "fontStretch",
-    "MozFontStretch",
-    "WebkitFontStretch",
-    "MSFontStretch",
-    "OFontStretch",
-    "fontStyle",
-    "MozFontStyle",
-    "WebkitFontStyle",
-    "MSFontStyle",
-    "OFontStyle",
-    "fontSynthesis",
-    "MozFontSynthesis",
-    "WebkitFontSynthesis",
-    "MSFontSynthesis",
-    "OFontSynthesis",
-    "fontVariant",
-    "MozFontVariant",
-    "WebkitFontVariant",
-    "MSFontVariant",
-    "OFontVariant",
-    "fontVariantAlternates",
-    "MozFontVariantAlternates",
-    "WebkitFontVariantAlternates",
-    "MSFontVariantAlternates",
-    "OFontVariantAlternates",
-    "fontVariantCaps",
-    "MozFontVariantCaps",
-    "WebkitFontVariantCaps",
-    "MSFontVariantCaps",
-    "OFontVariantCaps",
-    "fontVariantEastAsian",
-    "MozFontVariantEastAsian",
-    "WebkitFontVariantEastAsian",
-    "MSFontVariantEastAsian",
-    "OFontVariantEastAsian",
-    "fontVariantLigatures",
-    "MozFontVariantLigatures",
-    "WebkitFontVariantLigatures",
-    "MSFontVariantLigatures",
-    "OFontVariantLigatures",
-    "fontVariantNumeric",
-    "MozFontVariantNumeric",
-    "WebkitFontVariantNumeric",
-    "MSFontVariantNumeric",
-    "OFontVariantNumeric",
-    "fontVariantPosition",
-    "MozFontVariantPosition",
-    "WebkitFontVariantPosition",
-    "MSFontVariantPosition",
-    "OFontVariantPosition",
-    "fontWeight",
-    "MozFontWeight",
-    "WebkitFontWeight",
-    "MSFontWeight",
-    "OFontWeight",
-    "fr",
-    "MozFr",
-    "WebkitFr",
-    "MSFr",
-    "OFr",
-    "grad",
-    "MozGrad",
-    "WebkitGrad",
-    "MSGrad",
-    "OGrad",
-    "grid",
-    "MozGrid",
-    "WebkitGrid",
-    "MSGrid",
-    "OGrid",
-    "gridArea",
-    "MozGridArea",
-    "WebkitGridArea",
-    "MSGridArea",
-    "OGridArea",
-    "gridAutoColumns",
-    "MozGridAutoColumns",
-    "WebkitGridAutoColumns",
-    "MSGridAutoColumns",
-    "OGridAutoColumns",
-    "gridAutoFlow",
-    "MozGridAutoFlow",
-    "WebkitGridAutoFlow",
-    "MSGridAutoFlow",
-    "OGridAutoFlow",
-    "gridAutoRows",
-    "MozGridAutoRows",
-    "WebkitGridAutoRows",
-    "MSGridAutoRows",
-    "OGridAutoRows",
-    "gridColumn",
-    "MozGridColumn",
-    "WebkitGridColumn",
-    "MSGridColumn",
-    "OGridColumn",
-    "gridColumnEnd",
-    "MozGridColumnEnd",
-    "WebkitGridColumnEnd",
-    "MSGridColumnEnd",
-    "OGridColumnEnd",
-    "gridColumnGap",
-    "MozGridColumnGap",
-    "WebkitGridColumnGap",
-    "MSGridColumnGap",
-    "OGridColumnGap",
-    "gridColumnStart",
-    "MozGridColumnStart",
-    "WebkitGridColumnStart",
-    "MSGridColumnStart",
-    "OGridColumnStart",
-    "gridGap",
-    "MozGridGap",
-    "WebkitGridGap",
-    "MSGridGap",
-    "OGridGap",
-    "gridRow",
-    "MozGridRow",
-    "WebkitGridRow",
-    "MSGridRow",
-    "OGridRow",
-    "gridRowEnd",
-    "MozGridRowEnd",
-    "WebkitGridRowEnd",
-    "MSGridRowEnd",
-    "OGridRowEnd",
-    "gridRowGap",
-    "MozGridRowGap",
-    "WebkitGridRowGap",
-    "MSGridRowGap",
-    "OGridRowGap",
-    "gridRowStart",
-    "MozGridRowStart",
-    "WebkitGridRowStart",
-    "MSGridRowStart",
-    "OGridRowStart",
-    "gridTemplate",
-    "MozGridTemplate",
-    "WebkitGridTemplate",
-    "MSGridTemplate",
-    "OGridTemplate",
-    "gridTemplateAreas",
-    "MozGridTemplateAreas",
-    "WebkitGridTemplateAreas",
-    "MSGridTemplateAreas",
-    "OGridTemplateAreas",
-    "gridTemplateColumns",
-    "MozGridTemplateColumns",
-    "WebkitGridTemplateColumns",
-    "MSGridTemplateColumns",
-    "OGridTemplateColumns",
-    "gridTemplateRows",
-    "MozGridTemplateRows",
-    "WebkitGridTemplateRows",
-    "MSGridTemplateRows",
-    "OGridTemplateRows",
-    "height",
-    "MozHeight",
-    "WebkitHeight",
-    "MSHeight",
-    "OHeight",
-    "hyphens",
-    "MozHyphens",
-    "WebkitHyphens",
-    "MSHyphens",
-    "OHyphens",
-    "hz",
-    "MozHz",
-    "WebkitHz",
-    "MSHz",
-    "OHz",
-    "imageOrientation",
-    "MozImageOrientation",
-    "WebkitImageOrientation",
-    "MSImageOrientation",
-    "OImageOrientation",
-    "imageRendering",
-    "MozImageRendering",
-    "WebkitImageRendering",
-    "MSImageRendering",
-    "OImageRendering",
-    "imageResolution",
-    "MozImageResolution",
-    "WebkitImageResolution",
-    "MSImageResolution",
-    "OImageResolution",
-    "imeMode",
-    "MozImeMode",
-    "WebkitImeMode",
-    "MSImeMode",
-    "OImeMode",
-    "in",
-    "MozIn",
-    "WebkitIn",
-    "MSIn",
-    "OIn",
-    "inherit",
-    "MozInherit",
-    "WebkitInherit",
-    "MSInherit",
-    "OInherit",
-    "initial",
-    "MozInitial",
-    "WebkitInitial",
-    "MSInitial",
-    "OInitial",
-    "inlineSize",
-    "MozInlineSize",
-    "WebkitInlineSize",
-    "MSInlineSize",
-    "OInlineSize",
-    "isolation",
-    "MozIsolation",
-    "WebkitIsolation",
-    "MSIsolation",
-    "OIsolation",
-    "justifyContent",
-    "MozJustifyContent",
-    "WebkitJustifyContent",
-    "MSJustifyContent",
-    "OJustifyContent",
-    "khz",
-    "MozKhz",
-    "WebkitKhz",
-    "MSKhz",
-    "OKhz",
-    "left",
-    "MozLeft",
-    "WebkitLeft",
-    "MSLeft",
-    "OLeft",
-    "letterSpacing",
-    "MozLetterSpacing",
-    "WebkitLetterSpacing",
-    "MSLetterSpacing",
-    "OLetterSpacing",
-    "lineBreak",
-    "MozLineBreak",
-    "WebkitLineBreak",
-    "MSLineBreak",
-    "OLineBreak",
-    "lineHeight",
-    "MozLineHeight",
-    "WebkitLineHeight",
-    "MSLineHeight",
-    "OLineHeight",
-    "listStyle",
-    "MozListStyle",
-    "WebkitListStyle",
-    "MSListStyle",
-    "OListStyle",
-    "listStyleImage",
-    "MozListStyleImage",
-    "WebkitListStyleImage",
-    "MSListStyleImage",
-    "OListStyleImage",
-    "listStylePosition",
-    "MozListStylePosition",
-    "WebkitListStylePosition",
-    "MSListStylePosition",
-    "OListStylePosition",
-    "listStyleType",
-    "MozListStyleType",
-    "WebkitListStyleType",
-    "MSListStyleType",
-    "OListStyleType",
-    "margin",
-    "MozMargin",
-    "WebkitMargin",
-    "MSMargin",
-    "OMargin",
-    "marginBlockEnd",
-    "MozMarginBlockEnd",
-    "WebkitMarginBlockEnd",
-    "MSMarginBlockEnd",
-    "OMarginBlockEnd",
-    "marginBlockStart",
-    "MozMarginBlockStart",
-    "WebkitMarginBlockStart",
-    "MSMarginBlockStart",
-    "OMarginBlockStart",
-    "marginBottom",
-    "MozMarginBottom",
-    "WebkitMarginBottom",
-    "MSMarginBottom",
-    "OMarginBottom",
-    "marginInlineEnd",
-    "MozMarginInlineEnd",
-    "WebkitMarginInlineEnd",
-    "MSMarginInlineEnd",
-    "OMarginInlineEnd",
-    "marginInlineStart",
-    "MozMarginInlineStart",
-    "WebkitMarginInlineStart",
-    "MSMarginInlineStart",
-    "OMarginInlineStart",
-    "marginLeft",
-    "MozMarginLeft",
-    "WebkitMarginLeft",
-    "MSMarginLeft",
-    "OMarginLeft",
-    "marginRight",
-    "MozMarginRight",
-    "WebkitMarginRight",
-    "MSMarginRight",
-    "OMarginRight",
-    "marginTop",
-    "MozMarginTop",
-    "WebkitMarginTop",
-    "MSMarginTop",
-    "OMarginTop",
-    "mask",
-    "MozMask",
-    "WebkitMask",
-    "MSMask",
-    "OMask",
-    "maskClip",
-    "MozMaskClip",
-    "WebkitMaskClip",
-    "MSMaskClip",
-    "OMaskClip",
-    "maskComposite",
-    "MozMaskComposite",
-    "WebkitMaskComposite",
-    "MSMaskComposite",
-    "OMaskComposite",
-    "maskImage",
-    "MozMaskImage",
-    "WebkitMaskImage",
-    "MSMaskImage",
-    "OMaskImage",
-    "maskMode",
-    "MozMaskMode",
-    "WebkitMaskMode",
-    "MSMaskMode",
-    "OMaskMode",
-    "maskOrigin",
-    "MozMaskOrigin",
-    "WebkitMaskOrigin",
-    "MSMaskOrigin",
-    "OMaskOrigin",
-    "maskPosition",
-    "MozMaskPosition",
-    "WebkitMaskPosition",
-    "MSMaskPosition",
-    "OMaskPosition",
-    "maskRepeat",
-    "MozMaskRepeat",
-    "WebkitMaskRepeat",
-    "MSMaskRepeat",
-    "OMaskRepeat",
-    "maskSize",
-    "MozMaskSize",
-    "WebkitMaskSize",
-    "MSMaskSize",
-    "OMaskSize",
-    "maskType",
-    "MozMaskType",
-    "WebkitMaskType",
-    "MSMaskType",
-    "OMaskType",
-    "maxHeight",
-    "MozMaxHeight",
-    "WebkitMaxHeight",
-    "MSMaxHeight",
-    "OMaxHeight",
-    "maxWidth",
-    "MozMaxWidth",
-    "WebkitMaxWidth",
-    "MSMaxWidth",
-    "OMaxWidth",
-    "minBlockSize",
-    "MozMinBlockSize",
-    "WebkitMinBlockSize",
-    "MSMinBlockSize",
-    "OMinBlockSize",
-    "minHeight",
-    "MozMinHeight",
-    "WebkitMinHeight",
-    "MSMinHeight",
-    "OMinHeight",
-    "minInlineSize",
-    "MozMinInlineSize",
-    "WebkitMinInlineSize",
-    "MSMinInlineSize",
-    "OMinInlineSize",
-    "minWidth",
-    "MozMinWidth",
-    "WebkitMinWidth",
-    "MSMinWidth",
-    "OMinWidth",
-    "mixBlendMode",
-    "MozMixBlendMode",
-    "WebkitMixBlendMode",
-    "MSMixBlendMode",
-    "OMixBlendMode",
-    "mm",
-    "MozMm",
-    "WebkitMm",
-    "MSMm",
-    "OMm",
-    "ms",
-    "MozMs",
-    "WebkitMs",
-    "MSMs",
-    "OMs",
-    "objectFit",
-    "MozObjectFit",
-    "WebkitObjectFit",
-    "MSObjectFit",
-    "OObjectFit",
-    "objectPosition",
-    "MozObjectPosition",
-    "WebkitObjectPosition",
-    "MSObjectPosition",
-    "OObjectPosition",
-    "offsetBlockEnd",
-    "MozOffsetBlockEnd",
-    "WebkitOffsetBlockEnd",
-    "MSOffsetBlockEnd",
-    "OOffsetBlockEnd",
-    "offsetBlockStart",
-    "MozOffsetBlockStart",
-    "WebkitOffsetBlockStart",
-    "MSOffsetBlockStart",
-    "OOffsetBlockStart",
-    "offsetInlineEnd",
-    "MozOffsetInlineEnd",
-    "WebkitOffsetInlineEnd",
-    "MSOffsetInlineEnd",
-    "OOffsetInlineEnd",
-    "offsetInlineStart",
-    "MozOffsetInlineStart",
-    "WebkitOffsetInlineStart",
-    "MSOffsetInlineStart",
-    "OOffsetInlineStart",
-    "opacity",
-    "MozOpacity",
-    "WebkitOpacity",
-    "MSOpacity",
-    "OOpacity",
-    "order",
-    "MozOrder",
-    "WebkitOrder",
-    "MSOrder",
-    "OOrder",
-    "orphans",
-    "MozOrphans",
-    "WebkitOrphans",
-    "MSOrphans",
-    "OOrphans",
-    "outline",
-    "MozOutline",
-    "WebkitOutline",
-    "MSOutline",
-    "OOutline",
-    "outlineColor",
-    "MozOutlineColor",
-    "WebkitOutlineColor",
-    "MSOutlineColor",
-    "OOutlineColor",
-    "outlineOffset",
-    "MozOutlineOffset",
-    "WebkitOutlineOffset",
-    "MSOutlineOffset",
-    "OOutlineOffset",
-    "outlineStyle",
-    "MozOutlineStyle",
-    "WebkitOutlineStyle",
-    "MSOutlineStyle",
-    "OOutlineStyle",
-    "outlineWidth",
-    "MozOutlineWidth",
-    "WebkitOutlineWidth",
-    "MSOutlineWidth",
-    "OOutlineWidth",
-    "overflow",
-    "MozOverflow",
-    "WebkitOverflow",
-    "MSOverflow",
-    "OOverflow",
-    "overflowWrap",
-    "MozOverflowWrap",
-    "WebkitOverflowWrap",
-    "MSOverflowWrap",
-    "OOverflowWrap",
-    "overflowX",
-    "MozOverflowX",
-    "WebkitOverflowX",
-    "MSOverflowX",
-    "OOverflowX",
-    "overflowY",
-    "MozOverflowY",
-    "WebkitOverflowY",
-    "MSOverflowY",
-    "OOverflowY",
-    "padding",
-    "MozPadding",
-    "WebkitPadding",
-    "MSPadding",
-    "OPadding",
-    "paddingBlockEnd",
-    "MozPaddingBlockEnd",
-    "WebkitPaddingBlockEnd",
-    "MSPaddingBlockEnd",
-    "OPaddingBlockEnd",
-    "paddingBlockStart",
-    "MozPaddingBlockStart",
-    "WebkitPaddingBlockStart",
-    "MSPaddingBlockStart",
-    "OPaddingBlockStart",
-    "paddingBottom",
-    "MozPaddingBottom",
-    "WebkitPaddingBottom",
-    "MSPaddingBottom",
-    "OPaddingBottom",
-    "paddingInlineEnd",
-    "MozPaddingInlineEnd",
-    "WebkitPaddingInlineEnd",
-    "MSPaddingInlineEnd",
-    "OPaddingInlineEnd",
-    "paddingInlineStart",
-    "MozPaddingInlineStart",
-    "WebkitPaddingInlineStart",
-    "MSPaddingInlineStart",
-    "OPaddingInlineStart",
-    "paddingLeft",
-    "MozPaddingLeft",
-    "WebkitPaddingLeft",
-    "MSPaddingLeft",
-    "OPaddingLeft",
-    "paddingRight",
-    "MozPaddingRight",
-    "WebkitPaddingRight",
-    "MSPaddingRight",
-    "OPaddingRight",
-    "paddingTop",
-    "MozPaddingTop",
-    "WebkitPaddingTop",
-    "MSPaddingTop",
-    "OPaddingTop",
-    "pageBreakAfter",
-    "MozPageBreakAfter",
-    "WebkitPageBreakAfter",
-    "MSPageBreakAfter",
-    "OPageBreakAfter",
-    "pageBreakBefore",
-    "MozPageBreakBefore",
-    "WebkitPageBreakBefore",
-    "MSPageBreakBefore",
-    "OPageBreakBefore",
-    "pageBreakInside",
-    "MozPageBreakInside",
-    "WebkitPageBreakInside",
-    "MSPageBreakInside",
-    "OPageBreakInside",
-    "pc",
-    "MozPc",
-    "WebkitPc",
-    "MSPc",
-    "OPc",
-    "perspective",
-    "MozPerspective",
-    "WebkitPerspective",
-    "MSPerspective",
-    "OPerspective",
-    "perspectiveOrigin",
-    "MozPerspectiveOrigin",
-    "WebkitPerspectiveOrigin",
-    "MSPerspectiveOrigin",
-    "OPerspectiveOrigin",
-    "pointerEvents",
-    "MozPointerEvents",
-    "WebkitPointerEvents",
-    "MSPointerEvents",
-    "OPointerEvents",
-    "position",
-    "MozPosition",
-    "WebkitPosition",
-    "MSPosition",
-    "OPosition",
-    "pt",
-    "MozPt",
-    "WebkitPt",
-    "MSPt",
-    "OPt",
-    "px",
-    "MozPx",
-    "WebkitPx",
-    "MSPx",
-    "OPx",
-    "q",
-    "MozQ",
-    "WebkitQ",
-    "MSQ",
-    "OQ",
-    "quotes",
-    "MozQuotes",
-    "WebkitQuotes",
-    "MSQuotes",
-    "OQuotes",
-    "rad",
-    "MozRad",
-    "WebkitRad",
-    "MSRad",
-    "ORad",
-    "rem",
-    "MozRem",
-    "WebkitRem",
-    "MSRem",
-    "ORem",
-    "resize",
-    "MozResize",
-    "WebkitResize",
-    "MSResize",
-    "OResize",
-    "revert",
-    "MozRevert",
-    "WebkitRevert",
-    "MSRevert",
-    "ORevert",
-    "right",
-    "MozRight",
-    "WebkitRight",
-    "MSRight",
-    "ORight",
-    "rubyAlign",
-    "MozRubyAlign",
-    "WebkitRubyAlign",
-    "MSRubyAlign",
-    "ORubyAlign",
-    "rubyMerge",
-    "MozRubyMerge",
-    "WebkitRubyMerge",
-    "MSRubyMerge",
-    "ORubyMerge",
-    "rubyPosition",
-    "MozRubyPosition",
-    "WebkitRubyPosition",
-    "MSRubyPosition",
-    "ORubyPosition",
-    "s",
-    "MozS",
-    "WebkitS",
-    "MSS",
-    "OS",
-    "scrollBehavior",
-    "MozScrollBehavior",
-    "WebkitScrollBehavior",
-    "MSScrollBehavior",
-    "OScrollBehavior",
-    "scrollSnapCoordinate",
-    "MozScrollSnapCoordinate",
-    "WebkitScrollSnapCoordinate",
-    "MSScrollSnapCoordinate",
-    "OScrollSnapCoordinate",
-    "scrollSnapDestination",
-    "MozScrollSnapDestination",
-    "WebkitScrollSnapDestination",
-    "MSScrollSnapDestination",
-    "OScrollSnapDestination",
-    "scrollSnapType",
-    "MozScrollSnapType",
-    "WebkitScrollSnapType",
-    "MSScrollSnapType",
-    "OScrollSnapType",
-    "shapeImageThreshold",
-    "MozShapeImageThreshold",
-    "WebkitShapeImageThreshold",
-    "MSShapeImageThreshold",
-    "OShapeImageThreshold",
-    "shapeMargin",
-    "MozShapeMargin",
-    "WebkitShapeMargin",
-    "MSShapeMargin",
-    "OShapeMargin",
-    "shapeOutside",
-    "MozShapeOutside",
-    "WebkitShapeOutside",
-    "MSShapeOutside",
-    "OShapeOutside",
-    "tabSize",
-    "MozTabSize",
-    "WebkitTabSize",
-    "MSTabSize",
-    "OTabSize",
-    "tableLayout",
-    "MozTableLayout",
-    "WebkitTableLayout",
-    "MSTableLayout",
-    "OTableLayout",
-    "textAlign",
-    "MozTextAlign",
-    "WebkitTextAlign",
-    "MSTextAlign",
-    "OTextAlign",
-    "textAlignLast",
-    "MozTextAlignLast",
-    "WebkitTextAlignLast",
-    "MSTextAlignLast",
-    "OTextAlignLast",
-    "textCombineUpright",
-    "MozTextCombineUpright",
-    "WebkitTextCombineUpright",
-    "MSTextCombineUpright",
-    "OTextCombineUpright",
-    "textDecoration",
-    "MozTextDecoration",
-    "WebkitTextDecoration",
-    "MSTextDecoration",
-    "OTextDecoration",
-    "textDecorationColor",
-    "MozTextDecorationColor",
-    "WebkitTextDecorationColor",
-    "MSTextDecorationColor",
-    "OTextDecorationColor",
-    "textDecorationLine",
-    "MozTextDecorationLine",
-    "WebkitTextDecorationLine",
-    "MSTextDecorationLine",
-    "OTextDecorationLine",
-    "textDecorationStyle",
-    "MozTextDecorationStyle",
-    "WebkitTextDecorationStyle",
-    "MSTextDecorationStyle",
-    "OTextDecorationStyle",
-    "textEmphasis",
-    "MozTextEmphasis",
-    "WebkitTextEmphasis",
-    "MSTextEmphasis",
-    "OTextEmphasis",
-    "textEmphasisColor",
-    "MozTextEmphasisColor",
-    "WebkitTextEmphasisColor",
-    "MSTextEmphasisColor",
-    "OTextEmphasisColor",
-    "textEmphasisPosition",
-    "MozTextEmphasisPosition",
-    "WebkitTextEmphasisPosition",
-    "MSTextEmphasisPosition",
-    "OTextEmphasisPosition",
-    "textEmphasisStyle",
-    "MozTextEmphasisStyle",
-    "WebkitTextEmphasisStyle",
-    "MSTextEmphasisStyle",
-    "OTextEmphasisStyle",
-    "textIndent",
-    "MozTextIndent",
-    "WebkitTextIndent",
-    "MSTextIndent",
-    "OTextIndent",
-    "textOrientation",
-    "MozTextOrientation",
-    "WebkitTextOrientation",
-    "MSTextOrientation",
-    "OTextOrientation",
-    "textOverflow",
-    "MozTextOverflow",
-    "WebkitTextOverflow",
-    "MSTextOverflow",
-    "OTextOverflow",
-    "textRendering",
-    "MozTextRendering",
-    "WebkitTextRendering",
-    "MSTextRendering",
-    "OTextRendering",
-    "textShadow",
-    "MozTextShadow",
-    "WebkitTextShadow",
-    "MSTextShadow",
-    "OTextShadow",
-    "textTransform",
-    "MozTextTransform",
-    "WebkitTextTransform",
-    "MSTextTransform",
-    "OTextTransform",
-    "textUnderlinePosition",
-    "MozTextUnderlinePosition",
-    "WebkitTextUnderlinePosition",
-    "MSTextUnderlinePosition",
-    "OTextUnderlinePosition",
-    "top",
-    "MozTop",
-    "WebkitTop",
-    "MSTop",
-    "OTop",
-    "touchAction",
-    "MozTouchAction",
-    "WebkitTouchAction",
-    "MSTouchAction",
-    "OTouchAction",
-    "transform",
-    "MozTransform",
-    "WebkitTransform",
-    "msTransform",
-    "OTransform",
-    "transformBox",
-    "MozTransformBox",
-    "WebkitTransformBox",
-    "MSTransformBox",
-    "OTransformBox",
-    "transformOrigin",
-    "MozTransformOrigin",
-    "WebkitTransformOrigin",
-    "MSTransformOrigin",
-    "OTransformOrigin",
-    "transformStyle",
-    "MozTransformStyle",
-    "WebkitTransformStyle",
-    "MSTransformStyle",
-    "OTransformStyle",
-    "transition",
-    "MozTransition",
-    "WebkitTransition",
-    "MSTransition",
-    "OTransition",
-    "transitionDelay",
-    "MozTransitionDelay",
-    "WebkitTransitionDelay",
-    "MSTransitionDelay",
-    "OTransitionDelay",
-    "transitionDuration",
-    "MozTransitionDuration",
-    "WebkitTransitionDuration",
-    "MSTransitionDuration",
-    "OTransitionDuration",
-    "transitionProperty",
-    "MozTransitionProperty",
-    "WebkitTransitionProperty",
-    "MSTransitionProperty",
-    "OTransitionProperty",
-    "transitionTimingFunction",
-    "MozTransitionTimingFunction",
-    "WebkitTransitionTimingFunction",
-    "MSTransitionTimingFunction",
-    "OTransitionTimingFunction",
-    "turn",
-    "MozTurn",
-    "WebkitTurn",
-    "MSTurn",
-    "OTurn",
-    "unicodeBidi",
-    "MozUnicodeBidi",
-    "WebkitUnicodeBidi",
-    "MSUnicodeBidi",
-    "OUnicodeBidi",
-    "unset",
-    "MozUnset",
-    "WebkitUnset",
-    "MSUnset",
-    "OUnset",
-    "verticalAlign",
-    "MozVerticalAlign",
-    "WebkitVerticalAlign",
-    "MSVerticalAlign",
-    "OVerticalAlign",
-    "vh",
-    "MozVh",
-    "WebkitVh",
-    "MSVh",
-    "OVh",
-    "visibility",
-    "MozVisibility",
-    "WebkitVisibility",
-    "MSVisibility",
-    "OVisibility",
-    "vmax",
-    "MozVmax",
-    "WebkitVmax",
-    "MSVmax",
-    "OVmax",
-    "vmin",
-    "MozVmin",
-    "WebkitVmin",
-    "MSVmin",
-    "OVmin",
-    "vw",
-    "MozVw",
-    "WebkitVw",
-    "MSVw",
-    "OVw",
-    "whiteSpace",
-    "MozWhiteSpace",
-    "WebkitWhiteSpace",
-    "MSWhiteSpace",
-    "OWhiteSpace",
-    "widows",
-    "MozWidows",
-    "WebkitWidows",
-    "MSWidows",
-    "OWidows",
-    "width",
-    "MozWidth",
-    "WebkitWidth",
-    "MSWidth",
-    "OWidth",
-    "willChange",
-    "MozWillChange",
-    "WebkitWillChange",
-    "MSWillChange",
-    "OWillChange",
-    "wordBreak",
-    "MozWordBreak",
-    "WebkitWordBreak",
-    "MSWordBreak",
-    "OWordBreak",
-    "wordSpacing",
-    "MozWordSpacing",
-    "WebkitWordSpacing",
-    "MSWordSpacing",
-    "OWordSpacing",
-    "wordWrap",
-    "MozWordWrap",
-    "WebkitWordWrap",
-    "MSWordWrap",
-    "OWordWrap",
-    "writingMode",
-    "MozWritingMode",
-    "WebkitWritingMode",
-    "MSWritingMode",
-    "OWritingMode",
-    "zIndex",
-    "MozZIndex",
-    "WebkitZIndex",
-    "MSZIndex",
-    "OZIndex",
-    "fontSize",
-    "MozFontSize",
-    "WebkitFontSize",
-    "MSFontSize",
-    "OFontSize",
-    "flex",
-    "MozFlex",
-    "WebkitFlex",
-    "MSFlex",
-    "OFlex",
-    "fr",
-    "MozFr",
-    "WebkitFr",
-    "MSFr",
-    "OFr",
-    "overflowScrolling",
-    "MozOverflowScrolling",
-    "WebkitOverflowScrolling",
-    "MSOverflowScrolling",
-    "OOverflowScrolling",
-    "userSelect",
-    "MozUserSelect",
-    "WebkitUserSelect",
-    "MSUserSelect",
-    "OUserSelect",
+    'alignContent',
+    'MozAlignContent',
+    'WebkitAlignContent',
+    'MSAlignContent',
+    'OAlignContent',
+    'alignItems',
+    'MozAlignItems',
+    'WebkitAlignItems',
+    'MSAlignItems',
+    'OAlignItems',
+    'alignSelf',
+    'MozAlignSelf',
+    'WebkitAlignSelf',
+    'MSAlignSelf',
+    'OAlignSelf',
+    'all',
+    'MozAll',
+    'WebkitAll',
+    'MSAll',
+    'OAll',
+    'animation',
+    'MozAnimation',
+    'WebkitAnimation',
+    'MSAnimation',
+    'OAnimation',
+    'animationDelay',
+    'MozAnimationDelay',
+    'WebkitAnimationDelay',
+    'MSAnimationDelay',
+    'OAnimationDelay',
+    'animationDirection',
+    'MozAnimationDirection',
+    'WebkitAnimationDirection',
+    'MSAnimationDirection',
+    'OAnimationDirection',
+    'animationDuration',
+    'MozAnimationDuration',
+    'WebkitAnimationDuration',
+    'MSAnimationDuration',
+    'OAnimationDuration',
+    'animationFillMode',
+    'MozAnimationFillMode',
+    'WebkitAnimationFillMode',
+    'MSAnimationFillMode',
+    'OAnimationFillMode',
+    'animationIterationCount',
+    'MozAnimationIterationCount',
+    'WebkitAnimationIterationCount',
+    'MSAnimationIterationCount',
+    'OAnimationIterationCount',
+    'animationName',
+    'MozAnimationName',
+    'WebkitAnimationName',
+    'MSAnimationName',
+    'OAnimationName',
+    'animationPlayState',
+    'MozAnimationPlayState',
+    'WebkitAnimationPlayState',
+    'MSAnimationPlayState',
+    'OAnimationPlayState',
+    'animationTimingFunction',
+    'MozAnimationTimingFunction',
+    'WebkitAnimationTimingFunction',
+    'MSAnimationTimingFunction',
+    'OAnimationTimingFunction',
+    'backfaceVisibility',
+    'MozBackfaceVisibility',
+    'WebkitBackfaceVisibility',
+    'MSBackfaceVisibility',
+    'OBackfaceVisibility',
+    'background',
+    'MozBackground',
+    'WebkitBackground',
+    'MSBackground',
+    'OBackground',
+    'backgroundAttachment',
+    'MozBackgroundAttachment',
+    'WebkitBackgroundAttachment',
+    'MSBackgroundAttachment',
+    'OBackgroundAttachment',
+    'backgroundBlendMode',
+    'MozBackgroundBlendMode',
+    'WebkitBackgroundBlendMode',
+    'MSBackgroundBlendMode',
+    'OBackgroundBlendMode',
+    'backgroundClip',
+    'MozBackgroundClip',
+    'WebkitBackgroundClip',
+    'MSBackgroundClip',
+    'OBackgroundClip',
+    'backgroundColor',
+    'MozBackgroundColor',
+    'WebkitBackgroundColor',
+    'MSBackgroundColor',
+    'OBackgroundColor',
+    'backgroundImage',
+    'MozBackgroundImage',
+    'WebkitBackgroundImage',
+    'MSBackgroundImage',
+    'OBackgroundImage',
+    'backgroundOrigin',
+    'MozBackgroundOrigin',
+    'WebkitBackgroundOrigin',
+    'MSBackgroundOrigin',
+    'OBackgroundOrigin',
+    'backgroundPosition',
+    'MozBackgroundPosition',
+    'WebkitBackgroundPosition',
+    'MSBackgroundPosition',
+    'OBackgroundPosition',
+    'backgroundRepeat',
+    'MozBackgroundRepeat',
+    'WebkitBackgroundRepeat',
+    'MSBackgroundRepeat',
+    'OBackgroundRepeat',
+    'backgroundSize',
+    'MozBackgroundSize',
+    'WebkitBackgroundSize',
+    'MSBackgroundSize',
+    'OBackgroundSize',
+    'blockSize',
+    'MozBlockSize',
+    'WebkitBlockSize',
+    'MSBlockSize',
+    'OBlockSize',
+    'border',
+    'MozBorder',
+    'WebkitBorder',
+    'MSBorder',
+    'OBorder',
+    'borderBlockEnd',
+    'MozBorderBlockEnd',
+    'WebkitBorderBlockEnd',
+    'MSBorderBlockEnd',
+    'OBorderBlockEnd',
+    'borderBlockEndColor',
+    'MozBorderBlockEndColor',
+    'WebkitBorderBlockEndColor',
+    'MSBorderBlockEndColor',
+    'OBorderBlockEndColor',
+    'borderBlockEndStyle',
+    'MozBorderBlockEndStyle',
+    'WebkitBorderBlockEndStyle',
+    'MSBorderBlockEndStyle',
+    'OBorderBlockEndStyle',
+    'borderBlockEndWidth',
+    'MozBorderBlockEndWidth',
+    'WebkitBorderBlockEndWidth',
+    'MSBorderBlockEndWidth',
+    'OBorderBlockEndWidth',
+    'borderBlockStart',
+    'MozBorderBlockStart',
+    'WebkitBorderBlockStart',
+    'MSBorderBlockStart',
+    'OBorderBlockStart',
+    'borderBlockStartColor',
+    'MozBorderBlockStartColor',
+    'WebkitBorderBlockStartColor',
+    'MSBorderBlockStartColor',
+    'OBorderBlockStartColor',
+    'borderBlockStartStyle',
+    'MozBorderBlockStartStyle',
+    'WebkitBorderBlockStartStyle',
+    'MSBorderBlockStartStyle',
+    'OBorderBlockStartStyle',
+    'borderBlockStartWidth',
+    'MozBorderBlockStartWidth',
+    'WebkitBorderBlockStartWidth',
+    'MSBorderBlockStartWidth',
+    'OBorderBlockStartWidth',
+    'borderBottom',
+    'MozBorderBottom',
+    'WebkitBorderBottom',
+    'MSBorderBottom',
+    'OBorderBottom',
+    'borderBottomColor',
+    'MozBorderBottomColor',
+    'WebkitBorderBottomColor',
+    'MSBorderBottomColor',
+    'OBorderBottomColor',
+    'borderBottomLeftRadius',
+    'MozBorderBottomLeftRadius',
+    'WebkitBorderBottomLeftRadius',
+    'MSBorderBottomLeftRadius',
+    'OBorderBottomLeftRadius',
+    'borderBottomRightRadius',
+    'MozBorderBottomRightRadius',
+    'WebkitBorderBottomRightRadius',
+    'MSBorderBottomRightRadius',
+    'OBorderBottomRightRadius',
+    'borderBottomStyle',
+    'MozBorderBottomStyle',
+    'WebkitBorderBottomStyle',
+    'MSBorderBottomStyle',
+    'OBorderBottomStyle',
+    'borderBottomWidth',
+    'MozBorderBottomWidth',
+    'WebkitBorderBottomWidth',
+    'MSBorderBottomWidth',
+    'OBorderBottomWidth',
+    'borderCollapse',
+    'MozBorderCollapse',
+    'WebkitBorderCollapse',
+    'MSBorderCollapse',
+    'OBorderCollapse',
+    'borderColor',
+    'MozBorderColor',
+    'WebkitBorderColor',
+    'MSBorderColor',
+    'OBorderColor',
+    'borderImage',
+    'MozBorderImage',
+    'WebkitBorderImage',
+    'MSBorderImage',
+    'OBorderImage',
+    'borderImageOutset',
+    'MozBorderImageOutset',
+    'WebkitBorderImageOutset',
+    'MSBorderImageOutset',
+    'OBorderImageOutset',
+    'borderImageRepeat',
+    'MozBorderImageRepeat',
+    'WebkitBorderImageRepeat',
+    'MSBorderImageRepeat',
+    'OBorderImageRepeat',
+    'borderImageSlice',
+    'MozBorderImageSlice',
+    'WebkitBorderImageSlice',
+    'MSBorderImageSlice',
+    'OBorderImageSlice',
+    'borderImageSource',
+    'MozBorderImageSource',
+    'WebkitBorderImageSource',
+    'MSBorderImageSource',
+    'OBorderImageSource',
+    'borderImageWidth',
+    'MozBorderImageWidth',
+    'WebkitBorderImageWidth',
+    'MSBorderImageWidth',
+    'OBorderImageWidth',
+    'borderInlineEnd',
+    'MozBorderInlineEnd',
+    'WebkitBorderInlineEnd',
+    'MSBorderInlineEnd',
+    'OBorderInlineEnd',
+    'borderInlineEndColor',
+    'MozBorderInlineEndColor',
+    'WebkitBorderInlineEndColor',
+    'MSBorderInlineEndColor',
+    'OBorderInlineEndColor',
+    'borderInlineEndStyle',
+    'MozBorderInlineEndStyle',
+    'WebkitBorderInlineEndStyle',
+    'MSBorderInlineEndStyle',
+    'OBorderInlineEndStyle',
+    'borderInlineEndWidth',
+    'MozBorderInlineEndWidth',
+    'WebkitBorderInlineEndWidth',
+    'MSBorderInlineEndWidth',
+    'OBorderInlineEndWidth',
+    'borderInlineStart',
+    'MozBorderInlineStart',
+    'WebkitBorderInlineStart',
+    'MSBorderInlineStart',
+    'OBorderInlineStart',
+    'borderInlineStartColor',
+    'MozBorderInlineStartColor',
+    'WebkitBorderInlineStartColor',
+    'MSBorderInlineStartColor',
+    'OBorderInlineStartColor',
+    'borderInlineStartStyle',
+    'MozBorderInlineStartStyle',
+    'WebkitBorderInlineStartStyle',
+    'MSBorderInlineStartStyle',
+    'OBorderInlineStartStyle',
+    'borderInlineStartWidth',
+    'MozBorderInlineStartWidth',
+    'WebkitBorderInlineStartWidth',
+    'MSBorderInlineStartWidth',
+    'OBorderInlineStartWidth',
+    'borderLeft',
+    'MozBorderLeft',
+    'WebkitBorderLeft',
+    'MSBorderLeft',
+    'OBorderLeft',
+    'borderLeftColor',
+    'MozBorderLeftColor',
+    'WebkitBorderLeftColor',
+    'MSBorderLeftColor',
+    'OBorderLeftColor',
+    'borderLeftStyle',
+    'MozBorderLeftStyle',
+    'WebkitBorderLeftStyle',
+    'MSBorderLeftStyle',
+    'OBorderLeftStyle',
+    'borderLeftWidth',
+    'MozBorderLeftWidth',
+    'WebkitBorderLeftWidth',
+    'MSBorderLeftWidth',
+    'OBorderLeftWidth',
+    'borderRadius',
+    'MozBorderRadius',
+    'WebkitBorderRadius',
+    'MSBorderRadius',
+    'OBorderRadius',
+    'borderRight',
+    'MozBorderRight',
+    'WebkitBorderRight',
+    'MSBorderRight',
+    'OBorderRight',
+    'borderRightColor',
+    'MozBorderRightColor',
+    'WebkitBorderRightColor',
+    'MSBorderRightColor',
+    'OBorderRightColor',
+    'borderRightStyle',
+    'MozBorderRightStyle',
+    'WebkitBorderRightStyle',
+    'MSBorderRightStyle',
+    'OBorderRightStyle',
+    'borderRightWidth',
+    'MozBorderRightWidth',
+    'WebkitBorderRightWidth',
+    'MSBorderRightWidth',
+    'OBorderRightWidth',
+    'borderSpacing',
+    'MozBorderSpacing',
+    'WebkitBorderSpacing',
+    'MSBorderSpacing',
+    'OBorderSpacing',
+    'borderStyle',
+    'MozBorderStyle',
+    'WebkitBorderStyle',
+    'MSBorderStyle',
+    'OBorderStyle',
+    'borderTop',
+    'MozBorderTop',
+    'WebkitBorderTop',
+    'MSBorderTop',
+    'OBorderTop',
+    'borderTopColor',
+    'MozBorderTopColor',
+    'WebkitBorderTopColor',
+    'MSBorderTopColor',
+    'OBorderTopColor',
+    'borderTopLeftRadius',
+    'MozBorderTopLeftRadius',
+    'WebkitBorderTopLeftRadius',
+    'MSBorderTopLeftRadius',
+    'OBorderTopLeftRadius',
+    'borderTopRightRadius',
+    'MozBorderTopRightRadius',
+    'WebkitBorderTopRightRadius',
+    'MSBorderTopRightRadius',
+    'OBorderTopRightRadius',
+    'borderTopStyle',
+    'MozBorderTopStyle',
+    'WebkitBorderTopStyle',
+    'MSBorderTopStyle',
+    'OBorderTopStyle',
+    'borderTopWidth',
+    'MozBorderTopWidth',
+    'WebkitBorderTopWidth',
+    'MSBorderTopWidth',
+    'OBorderTopWidth',
+    'borderWidth',
+    'MozBorderWidth',
+    'WebkitBorderWidth',
+    'MSBorderWidth',
+    'OBorderWidth',
+    'bottom',
+    'MozBottom',
+    'WebkitBottom',
+    'MSBottom',
+    'OBottom',
+    'boxDecorationBreak',
+    'MozBoxDecorationBreak',
+    'WebkitBoxDecorationBreak',
+    'MSBoxDecorationBreak',
+    'OBoxDecorationBreak',
+    'boxShadow',
+    'MozBoxShadow',
+    'WebkitBoxShadow',
+    'MSBoxShadow',
+    'OBoxShadow',
+    'boxSizing',
+    'MozBoxSizing',
+    'WebkitBoxSizing',
+    'MSBoxSizing',
+    'OBoxSizing',
+    'breakAfter',
+    'MozBreakAfter',
+    'WebkitBreakAfter',
+    'MSBreakAfter',
+    'OBreakAfter',
+    'breakBefore',
+    'MozBreakBefore',
+    'WebkitBreakBefore',
+    'MSBreakBefore',
+    'OBreakBefore',
+    'breakInside',
+    'MozBreakInside',
+    'WebkitBreakInside',
+    'MSBreakInside',
+    'OBreakInside',
+    'captionSide',
+    'MozCaptionSide',
+    'WebkitCaptionSide',
+    'MSCaptionSide',
+    'OCaptionSide',
+    'caretColor',
+    'MozCaretColor',
+    'WebkitCaretColor',
+    'MSCaretColor',
+    'OCaretColor',
+    'ch',
+    'MozCh',
+    'WebkitCh',
+    'MSCh',
+    'OCh',
+    'clear',
+    'MozClear',
+    'WebkitClear',
+    'MSClear',
+    'OClear',
+    'clip',
+    'MozClip',
+    'WebkitClip',
+    'MSClip',
+    'OClip',
+    'clipPath',
+    'MozClipPath',
+    'WebkitClipPath',
+    'MSClipPath',
+    'OClipPath',
+    'cm',
+    'MozCm',
+    'WebkitCm',
+    'MSCm',
+    'OCm',
+    'color',
+    'MozColor',
+    'WebkitColor',
+    'MSColor',
+    'OColor',
+    'columnCount',
+    'MozColumnCount',
+    'WebkitColumnCount',
+    'MSColumnCount',
+    'OColumnCount',
+    'columnFill',
+    'MozColumnFill',
+    'WebkitColumnFill',
+    'MSColumnFill',
+    'OColumnFill',
+    'columnGap',
+    'MozColumnGap',
+    'WebkitColumnGap',
+    'MSColumnGap',
+    'OColumnGap',
+    'columnRule',
+    'MozColumnRule',
+    'WebkitColumnRule',
+    'MSColumnRule',
+    'OColumnRule',
+    'columnRuleColor',
+    'MozColumnRuleColor',
+    'WebkitColumnRuleColor',
+    'MSColumnRuleColor',
+    'OColumnRuleColor',
+    'columnRuleStyle',
+    'MozColumnRuleStyle',
+    'WebkitColumnRuleStyle',
+    'MSColumnRuleStyle',
+    'OColumnRuleStyle',
+    'columnRuleWidth',
+    'MozColumnRuleWidth',
+    'WebkitColumnRuleWidth',
+    'MSColumnRuleWidth',
+    'OColumnRuleWidth',
+    'columnSpan',
+    'MozColumnSpan',
+    'WebkitColumnSpan',
+    'MSColumnSpan',
+    'OColumnSpan',
+    'columnWidth',
+    'MozColumnWidth',
+    'WebkitColumnWidth',
+    'MSColumnWidth',
+    'OColumnWidth',
+    'columns',
+    'MozColumns',
+    'WebkitColumns',
+    'MSColumns',
+    'OColumns',
+    'content',
+    'MozContent',
+    'WebkitContent',
+    'MSContent',
+    'OContent',
+    'counterIncrement',
+    'MozCounterIncrement',
+    'WebkitCounterIncrement',
+    'MSCounterIncrement',
+    'OCounterIncrement',
+    'counterReset',
+    'MozCounterReset',
+    'WebkitCounterReset',
+    'MSCounterReset',
+    'OCounterReset',
+    'cursor',
+    'MozCursor',
+    'WebkitCursor',
+    'MSCursor',
+    'OCursor',
+    'deg',
+    'MozDeg',
+    'WebkitDeg',
+    'MSDeg',
+    'ODeg',
+    'direction',
+    'MozDirection',
+    'WebkitDirection',
+    'MSDirection',
+    'ODirection',
+    'display',
+    'MozDisplay',
+    'WebkitDisplay',
+    'MSDisplay',
+    'ODisplay',
+    'dpcm',
+    'MozDpcm',
+    'WebkitDpcm',
+    'MSDpcm',
+    'ODpcm',
+    'dpi',
+    'MozDpi',
+    'WebkitDpi',
+    'MSDpi',
+    'ODpi',
+    'dppx',
+    'MozDppx',
+    'WebkitDppx',
+    'MSDppx',
+    'ODppx',
+    'em',
+    'MozEm',
+    'WebkitEm',
+    'MSEm',
+    'OEm',
+    'emptyCells',
+    'MozEmptyCells',
+    'WebkitEmptyCells',
+    'MSEmptyCells',
+    'OEmptyCells',
+    'ex',
+    'MozEx',
+    'WebkitEx',
+    'MSEx',
+    'OEx',
+    'filter',
+    'MozFilter',
+    'WebkitFilter',
+    'MSFilter',
+    'OFilter',
+    'flexBasis',
+    'MozFlexBasis',
+    'WebkitFlexBasis',
+    'MSFlexBasis',
+    'OFlexBasis',
+    'flexDirection',
+    'MozFlexDirection',
+    'WebkitFlexDirection',
+    'MSFlexDirection',
+    'OFlexDirection',
+    'flexFlow',
+    'MozFlexFlow',
+    'WebkitFlexFlow',
+    'MSFlexFlow',
+    'OFlexFlow',
+    'flexGrow',
+    'MozFlexGrow',
+    'WebkitFlexGrow',
+    'MSFlexGrow',
+    'OFlexGrow',
+    'flexShrink',
+    'MozFlexShrink',
+    'WebkitFlexShrink',
+    'MSFlexShrink',
+    'OFlexShrink',
+    'flexWrap',
+    'MozFlexWrap',
+    'WebkitFlexWrap',
+    'MSFlexWrap',
+    'OFlexWrap',
+    'float',
+    'MozFloat',
+    'WebkitFloat',
+    'MSFloat',
+    'OFloat',
+    'font',
+    'MozFont',
+    'WebkitFont',
+    'MSFont',
+    'OFont',
+    'fontFamily',
+    'MozFontFamily',
+    'WebkitFontFamily',
+    'MSFontFamily',
+    'OFontFamily',
+    'fontFeatureSettings',
+    'MozFontFeatureSettings',
+    'WebkitFontFeatureSettings',
+    'MSFontFeatureSettings',
+    'OFontFeatureSettings',
+    'fontKerning',
+    'MozFontKerning',
+    'WebkitFontKerning',
+    'MSFontKerning',
+    'OFontKerning',
+    'fontLanguageOverride',
+    'MozFontLanguageOverride',
+    'WebkitFontLanguageOverride',
+    'MSFontLanguageOverride',
+    'OFontLanguageOverride',
+    'fontSize',
+    'MozFontSize',
+    'WebkitFontSize',
+    'MSFontSize',
+    'OFontSize',
+    'fontSizeAdjust',
+    'MozFontSizeAdjust',
+    'WebkitFontSizeAdjust',
+    'MSFontSizeAdjust',
+    'OFontSizeAdjust',
+    'fontStretch',
+    'MozFontStretch',
+    'WebkitFontStretch',
+    'MSFontStretch',
+    'OFontStretch',
+    'fontStyle',
+    'MozFontStyle',
+    'WebkitFontStyle',
+    'MSFontStyle',
+    'OFontStyle',
+    'fontSynthesis',
+    'MozFontSynthesis',
+    'WebkitFontSynthesis',
+    'MSFontSynthesis',
+    'OFontSynthesis',
+    'fontVariant',
+    'MozFontVariant',
+    'WebkitFontVariant',
+    'MSFontVariant',
+    'OFontVariant',
+    'fontVariantAlternates',
+    'MozFontVariantAlternates',
+    'WebkitFontVariantAlternates',
+    'MSFontVariantAlternates',
+    'OFontVariantAlternates',
+    'fontVariantCaps',
+    'MozFontVariantCaps',
+    'WebkitFontVariantCaps',
+    'MSFontVariantCaps',
+    'OFontVariantCaps',
+    'fontVariantEastAsian',
+    'MozFontVariantEastAsian',
+    'WebkitFontVariantEastAsian',
+    'MSFontVariantEastAsian',
+    'OFontVariantEastAsian',
+    'fontVariantLigatures',
+    'MozFontVariantLigatures',
+    'WebkitFontVariantLigatures',
+    'MSFontVariantLigatures',
+    'OFontVariantLigatures',
+    'fontVariantNumeric',
+    'MozFontVariantNumeric',
+    'WebkitFontVariantNumeric',
+    'MSFontVariantNumeric',
+    'OFontVariantNumeric',
+    'fontVariantPosition',
+    'MozFontVariantPosition',
+    'WebkitFontVariantPosition',
+    'MSFontVariantPosition',
+    'OFontVariantPosition',
+    'fontWeight',
+    'MozFontWeight',
+    'WebkitFontWeight',
+    'MSFontWeight',
+    'OFontWeight',
+    'fr',
+    'MozFr',
+    'WebkitFr',
+    'MSFr',
+    'OFr',
+    'grad',
+    'MozGrad',
+    'WebkitGrad',
+    'MSGrad',
+    'OGrad',
+    'grid',
+    'MozGrid',
+    'WebkitGrid',
+    'MSGrid',
+    'OGrid',
+    'gridArea',
+    'MozGridArea',
+    'WebkitGridArea',
+    'MSGridArea',
+    'OGridArea',
+    'gridAutoColumns',
+    'MozGridAutoColumns',
+    'WebkitGridAutoColumns',
+    'MSGridAutoColumns',
+    'OGridAutoColumns',
+    'gridAutoFlow',
+    'MozGridAutoFlow',
+    'WebkitGridAutoFlow',
+    'MSGridAutoFlow',
+    'OGridAutoFlow',
+    'gridAutoRows',
+    'MozGridAutoRows',
+    'WebkitGridAutoRows',
+    'MSGridAutoRows',
+    'OGridAutoRows',
+    'gridColumn',
+    'MozGridColumn',
+    'WebkitGridColumn',
+    'MSGridColumn',
+    'OGridColumn',
+    'gridColumnEnd',
+    'MozGridColumnEnd',
+    'WebkitGridColumnEnd',
+    'MSGridColumnEnd',
+    'OGridColumnEnd',
+    'gridColumnGap',
+    'MozGridColumnGap',
+    'WebkitGridColumnGap',
+    'MSGridColumnGap',
+    'OGridColumnGap',
+    'gridColumnStart',
+    'MozGridColumnStart',
+    'WebkitGridColumnStart',
+    'MSGridColumnStart',
+    'OGridColumnStart',
+    'gridGap',
+    'MozGridGap',
+    'WebkitGridGap',
+    'MSGridGap',
+    'OGridGap',
+    'gridRow',
+    'MozGridRow',
+    'WebkitGridRow',
+    'MSGridRow',
+    'OGridRow',
+    'gridRowEnd',
+    'MozGridRowEnd',
+    'WebkitGridRowEnd',
+    'MSGridRowEnd',
+    'OGridRowEnd',
+    'gridRowGap',
+    'MozGridRowGap',
+    'WebkitGridRowGap',
+    'MSGridRowGap',
+    'OGridRowGap',
+    'gridRowStart',
+    'MozGridRowStart',
+    'WebkitGridRowStart',
+    'MSGridRowStart',
+    'OGridRowStart',
+    'gridTemplate',
+    'MozGridTemplate',
+    'WebkitGridTemplate',
+    'MSGridTemplate',
+    'OGridTemplate',
+    'gridTemplateAreas',
+    'MozGridTemplateAreas',
+    'WebkitGridTemplateAreas',
+    'MSGridTemplateAreas',
+    'OGridTemplateAreas',
+    'gridTemplateColumns',
+    'MozGridTemplateColumns',
+    'WebkitGridTemplateColumns',
+    'MSGridTemplateColumns',
+    'OGridTemplateColumns',
+    'gridTemplateRows',
+    'MozGridTemplateRows',
+    'WebkitGridTemplateRows',
+    'MSGridTemplateRows',
+    'OGridTemplateRows',
+    'height',
+    'MozHeight',
+    'WebkitHeight',
+    'MSHeight',
+    'OHeight',
+    'hyphens',
+    'MozHyphens',
+    'WebkitHyphens',
+    'MSHyphens',
+    'OHyphens',
+    'hz',
+    'MozHz',
+    'WebkitHz',
+    'MSHz',
+    'OHz',
+    'imageOrientation',
+    'MozImageOrientation',
+    'WebkitImageOrientation',
+    'MSImageOrientation',
+    'OImageOrientation',
+    'imageRendering',
+    'MozImageRendering',
+    'WebkitImageRendering',
+    'MSImageRendering',
+    'OImageRendering',
+    'imageResolution',
+    'MozImageResolution',
+    'WebkitImageResolution',
+    'MSImageResolution',
+    'OImageResolution',
+    'imeMode',
+    'MozImeMode',
+    'WebkitImeMode',
+    'MSImeMode',
+    'OImeMode',
+    'in',
+    'MozIn',
+    'WebkitIn',
+    'MSIn',
+    'OIn',
+    'inherit',
+    'MozInherit',
+    'WebkitInherit',
+    'MSInherit',
+    'OInherit',
+    'initial',
+    'MozInitial',
+    'WebkitInitial',
+    'MSInitial',
+    'OInitial',
+    'inlineSize',
+    'MozInlineSize',
+    'WebkitInlineSize',
+    'MSInlineSize',
+    'OInlineSize',
+    'isolation',
+    'MozIsolation',
+    'WebkitIsolation',
+    'MSIsolation',
+    'OIsolation',
+    'justifyContent',
+    'MozJustifyContent',
+    'WebkitJustifyContent',
+    'MSJustifyContent',
+    'OJustifyContent',
+    'khz',
+    'MozKhz',
+    'WebkitKhz',
+    'MSKhz',
+    'OKhz',
+    'left',
+    'MozLeft',
+    'WebkitLeft',
+    'MSLeft',
+    'OLeft',
+    'letterSpacing',
+    'MozLetterSpacing',
+    'WebkitLetterSpacing',
+    'MSLetterSpacing',
+    'OLetterSpacing',
+    'lineBreak',
+    'MozLineBreak',
+    'WebkitLineBreak',
+    'MSLineBreak',
+    'OLineBreak',
+    'lineHeight',
+    'MozLineHeight',
+    'WebkitLineHeight',
+    'MSLineHeight',
+    'OLineHeight',
+    'listStyle',
+    'MozListStyle',
+    'WebkitListStyle',
+    'MSListStyle',
+    'OListStyle',
+    'listStyleImage',
+    'MozListStyleImage',
+    'WebkitListStyleImage',
+    'MSListStyleImage',
+    'OListStyleImage',
+    'listStylePosition',
+    'MozListStylePosition',
+    'WebkitListStylePosition',
+    'MSListStylePosition',
+    'OListStylePosition',
+    'listStyleType',
+    'MozListStyleType',
+    'WebkitListStyleType',
+    'MSListStyleType',
+    'OListStyleType',
+    'margin',
+    'MozMargin',
+    'WebkitMargin',
+    'MSMargin',
+    'OMargin',
+    'marginBlockEnd',
+    'MozMarginBlockEnd',
+    'WebkitMarginBlockEnd',
+    'MSMarginBlockEnd',
+    'OMarginBlockEnd',
+    'marginBlockStart',
+    'MozMarginBlockStart',
+    'WebkitMarginBlockStart',
+    'MSMarginBlockStart',
+    'OMarginBlockStart',
+    'marginBottom',
+    'MozMarginBottom',
+    'WebkitMarginBottom',
+    'MSMarginBottom',
+    'OMarginBottom',
+    'marginInlineEnd',
+    'MozMarginInlineEnd',
+    'WebkitMarginInlineEnd',
+    'MSMarginInlineEnd',
+    'OMarginInlineEnd',
+    'marginInlineStart',
+    'MozMarginInlineStart',
+    'WebkitMarginInlineStart',
+    'MSMarginInlineStart',
+    'OMarginInlineStart',
+    'marginLeft',
+    'MozMarginLeft',
+    'WebkitMarginLeft',
+    'MSMarginLeft',
+    'OMarginLeft',
+    'marginRight',
+    'MozMarginRight',
+    'WebkitMarginRight',
+    'MSMarginRight',
+    'OMarginRight',
+    'marginTop',
+    'MozMarginTop',
+    'WebkitMarginTop',
+    'MSMarginTop',
+    'OMarginTop',
+    'mask',
+    'MozMask',
+    'WebkitMask',
+    'MSMask',
+    'OMask',
+    'maskClip',
+    'MozMaskClip',
+    'WebkitMaskClip',
+    'MSMaskClip',
+    'OMaskClip',
+    'maskComposite',
+    'MozMaskComposite',
+    'WebkitMaskComposite',
+    'MSMaskComposite',
+    'OMaskComposite',
+    'maskImage',
+    'MozMaskImage',
+    'WebkitMaskImage',
+    'MSMaskImage',
+    'OMaskImage',
+    'maskMode',
+    'MozMaskMode',
+    'WebkitMaskMode',
+    'MSMaskMode',
+    'OMaskMode',
+    'maskOrigin',
+    'MozMaskOrigin',
+    'WebkitMaskOrigin',
+    'MSMaskOrigin',
+    'OMaskOrigin',
+    'maskPosition',
+    'MozMaskPosition',
+    'WebkitMaskPosition',
+    'MSMaskPosition',
+    'OMaskPosition',
+    'maskRepeat',
+    'MozMaskRepeat',
+    'WebkitMaskRepeat',
+    'MSMaskRepeat',
+    'OMaskRepeat',
+    'maskSize',
+    'MozMaskSize',
+    'WebkitMaskSize',
+    'MSMaskSize',
+    'OMaskSize',
+    'maskType',
+    'MozMaskType',
+    'WebkitMaskType',
+    'MSMaskType',
+    'OMaskType',
+    'maxHeight',
+    'MozMaxHeight',
+    'WebkitMaxHeight',
+    'MSMaxHeight',
+    'OMaxHeight',
+    'maxWidth',
+    'MozMaxWidth',
+    'WebkitMaxWidth',
+    'MSMaxWidth',
+    'OMaxWidth',
+    'minBlockSize',
+    'MozMinBlockSize',
+    'WebkitMinBlockSize',
+    'MSMinBlockSize',
+    'OMinBlockSize',
+    'minHeight',
+    'MozMinHeight',
+    'WebkitMinHeight',
+    'MSMinHeight',
+    'OMinHeight',
+    'minInlineSize',
+    'MozMinInlineSize',
+    'WebkitMinInlineSize',
+    'MSMinInlineSize',
+    'OMinInlineSize',
+    'minWidth',
+    'MozMinWidth',
+    'WebkitMinWidth',
+    'MSMinWidth',
+    'OMinWidth',
+    'mixBlendMode',
+    'MozMixBlendMode',
+    'WebkitMixBlendMode',
+    'MSMixBlendMode',
+    'OMixBlendMode',
+    'mm',
+    'MozMm',
+    'WebkitMm',
+    'MSMm',
+    'OMm',
+    'ms',
+    'MozMs',
+    'WebkitMs',
+    'MSMs',
+    'OMs',
+    'objectFit',
+    'MozObjectFit',
+    'WebkitObjectFit',
+    'MSObjectFit',
+    'OObjectFit',
+    'objectPosition',
+    'MozObjectPosition',
+    'WebkitObjectPosition',
+    'MSObjectPosition',
+    'OObjectPosition',
+    'offsetBlockEnd',
+    'MozOffsetBlockEnd',
+    'WebkitOffsetBlockEnd',
+    'MSOffsetBlockEnd',
+    'OOffsetBlockEnd',
+    'offsetBlockStart',
+    'MozOffsetBlockStart',
+    'WebkitOffsetBlockStart',
+    'MSOffsetBlockStart',
+    'OOffsetBlockStart',
+    'offsetInlineEnd',
+    'MozOffsetInlineEnd',
+    'WebkitOffsetInlineEnd',
+    'MSOffsetInlineEnd',
+    'OOffsetInlineEnd',
+    'offsetInlineStart',
+    'MozOffsetInlineStart',
+    'WebkitOffsetInlineStart',
+    'MSOffsetInlineStart',
+    'OOffsetInlineStart',
+    'opacity',
+    'MozOpacity',
+    'WebkitOpacity',
+    'MSOpacity',
+    'OOpacity',
+    'order',
+    'MozOrder',
+    'WebkitOrder',
+    'MSOrder',
+    'OOrder',
+    'orphans',
+    'MozOrphans',
+    'WebkitOrphans',
+    'MSOrphans',
+    'OOrphans',
+    'outline',
+    'MozOutline',
+    'WebkitOutline',
+    'MSOutline',
+    'OOutline',
+    'outlineColor',
+    'MozOutlineColor',
+    'WebkitOutlineColor',
+    'MSOutlineColor',
+    'OOutlineColor',
+    'outlineOffset',
+    'MozOutlineOffset',
+    'WebkitOutlineOffset',
+    'MSOutlineOffset',
+    'OOutlineOffset',
+    'outlineStyle',
+    'MozOutlineStyle',
+    'WebkitOutlineStyle',
+    'MSOutlineStyle',
+    'OOutlineStyle',
+    'outlineWidth',
+    'MozOutlineWidth',
+    'WebkitOutlineWidth',
+    'MSOutlineWidth',
+    'OOutlineWidth',
+    'overflow',
+    'MozOverflow',
+    'WebkitOverflow',
+    'MSOverflow',
+    'OOverflow',
+    'overflowWrap',
+    'MozOverflowWrap',
+    'WebkitOverflowWrap',
+    'MSOverflowWrap',
+    'OOverflowWrap',
+    'overflowX',
+    'MozOverflowX',
+    'WebkitOverflowX',
+    'MSOverflowX',
+    'OOverflowX',
+    'overflowY',
+    'MozOverflowY',
+    'WebkitOverflowY',
+    'MSOverflowY',
+    'OOverflowY',
+    'padding',
+    'MozPadding',
+    'WebkitPadding',
+    'MSPadding',
+    'OPadding',
+    'paddingBlockEnd',
+    'MozPaddingBlockEnd',
+    'WebkitPaddingBlockEnd',
+    'MSPaddingBlockEnd',
+    'OPaddingBlockEnd',
+    'paddingBlockStart',
+    'MozPaddingBlockStart',
+    'WebkitPaddingBlockStart',
+    'MSPaddingBlockStart',
+    'OPaddingBlockStart',
+    'paddingBottom',
+    'MozPaddingBottom',
+    'WebkitPaddingBottom',
+    'MSPaddingBottom',
+    'OPaddingBottom',
+    'paddingInlineEnd',
+    'MozPaddingInlineEnd',
+    'WebkitPaddingInlineEnd',
+    'MSPaddingInlineEnd',
+    'OPaddingInlineEnd',
+    'paddingInlineStart',
+    'MozPaddingInlineStart',
+    'WebkitPaddingInlineStart',
+    'MSPaddingInlineStart',
+    'OPaddingInlineStart',
+    'paddingLeft',
+    'MozPaddingLeft',
+    'WebkitPaddingLeft',
+    'MSPaddingLeft',
+    'OPaddingLeft',
+    'paddingRight',
+    'MozPaddingRight',
+    'WebkitPaddingRight',
+    'MSPaddingRight',
+    'OPaddingRight',
+    'paddingTop',
+    'MozPaddingTop',
+    'WebkitPaddingTop',
+    'MSPaddingTop',
+    'OPaddingTop',
+    'pageBreakAfter',
+    'MozPageBreakAfter',
+    'WebkitPageBreakAfter',
+    'MSPageBreakAfter',
+    'OPageBreakAfter',
+    'pageBreakBefore',
+    'MozPageBreakBefore',
+    'WebkitPageBreakBefore',
+    'MSPageBreakBefore',
+    'OPageBreakBefore',
+    'pageBreakInside',
+    'MozPageBreakInside',
+    'WebkitPageBreakInside',
+    'MSPageBreakInside',
+    'OPageBreakInside',
+    'pc',
+    'MozPc',
+    'WebkitPc',
+    'MSPc',
+    'OPc',
+    'perspective',
+    'MozPerspective',
+    'WebkitPerspective',
+    'MSPerspective',
+    'OPerspective',
+    'perspectiveOrigin',
+    'MozPerspectiveOrigin',
+    'WebkitPerspectiveOrigin',
+    'MSPerspectiveOrigin',
+    'OPerspectiveOrigin',
+    'pointerEvents',
+    'MozPointerEvents',
+    'WebkitPointerEvents',
+    'MSPointerEvents',
+    'OPointerEvents',
+    'position',
+    'MozPosition',
+    'WebkitPosition',
+    'MSPosition',
+    'OPosition',
+    'pt',
+    'MozPt',
+    'WebkitPt',
+    'MSPt',
+    'OPt',
+    'px',
+    'MozPx',
+    'WebkitPx',
+    'MSPx',
+    'OPx',
+    'q',
+    'MozQ',
+    'WebkitQ',
+    'MSQ',
+    'OQ',
+    'quotes',
+    'MozQuotes',
+    'WebkitQuotes',
+    'MSQuotes',
+    'OQuotes',
+    'rad',
+    'MozRad',
+    'WebkitRad',
+    'MSRad',
+    'ORad',
+    'rem',
+    'MozRem',
+    'WebkitRem',
+    'MSRem',
+    'ORem',
+    'resize',
+    'MozResize',
+    'WebkitResize',
+    'MSResize',
+    'OResize',
+    'revert',
+    'MozRevert',
+    'WebkitRevert',
+    'MSRevert',
+    'ORevert',
+    'right',
+    'MozRight',
+    'WebkitRight',
+    'MSRight',
+    'ORight',
+    'rubyAlign',
+    'MozRubyAlign',
+    'WebkitRubyAlign',
+    'MSRubyAlign',
+    'ORubyAlign',
+    'rubyMerge',
+    'MozRubyMerge',
+    'WebkitRubyMerge',
+    'MSRubyMerge',
+    'ORubyMerge',
+    'rubyPosition',
+    'MozRubyPosition',
+    'WebkitRubyPosition',
+    'MSRubyPosition',
+    'ORubyPosition',
+    's',
+    'MozS',
+    'WebkitS',
+    'MSS',
+    'OS',
+    'scrollBehavior',
+    'MozScrollBehavior',
+    'WebkitScrollBehavior',
+    'MSScrollBehavior',
+    'OScrollBehavior',
+    'scrollSnapCoordinate',
+    'MozScrollSnapCoordinate',
+    'WebkitScrollSnapCoordinate',
+    'MSScrollSnapCoordinate',
+    'OScrollSnapCoordinate',
+    'scrollSnapDestination',
+    'MozScrollSnapDestination',
+    'WebkitScrollSnapDestination',
+    'MSScrollSnapDestination',
+    'OScrollSnapDestination',
+    'scrollSnapType',
+    'MozScrollSnapType',
+    'WebkitScrollSnapType',
+    'MSScrollSnapType',
+    'OScrollSnapType',
+    'shapeImageThreshold',
+    'MozShapeImageThreshold',
+    'WebkitShapeImageThreshold',
+    'MSShapeImageThreshold',
+    'OShapeImageThreshold',
+    'shapeMargin',
+    'MozShapeMargin',
+    'WebkitShapeMargin',
+    'MSShapeMargin',
+    'OShapeMargin',
+    'shapeOutside',
+    'MozShapeOutside',
+    'WebkitShapeOutside',
+    'MSShapeOutside',
+    'OShapeOutside',
+    'tabSize',
+    'MozTabSize',
+    'WebkitTabSize',
+    'MSTabSize',
+    'OTabSize',
+    'tableLayout',
+    'MozTableLayout',
+    'WebkitTableLayout',
+    'MSTableLayout',
+    'OTableLayout',
+    'textAlign',
+    'MozTextAlign',
+    'WebkitTextAlign',
+    'MSTextAlign',
+    'OTextAlign',
+    'textAlignLast',
+    'MozTextAlignLast',
+    'WebkitTextAlignLast',
+    'MSTextAlignLast',
+    'OTextAlignLast',
+    'textCombineUpright',
+    'MozTextCombineUpright',
+    'WebkitTextCombineUpright',
+    'MSTextCombineUpright',
+    'OTextCombineUpright',
+    'textDecoration',
+    'MozTextDecoration',
+    'WebkitTextDecoration',
+    'MSTextDecoration',
+    'OTextDecoration',
+    'textDecorationColor',
+    'MozTextDecorationColor',
+    'WebkitTextDecorationColor',
+    'MSTextDecorationColor',
+    'OTextDecorationColor',
+    'textDecorationLine',
+    'MozTextDecorationLine',
+    'WebkitTextDecorationLine',
+    'MSTextDecorationLine',
+    'OTextDecorationLine',
+    'textDecorationStyle',
+    'MozTextDecorationStyle',
+    'WebkitTextDecorationStyle',
+    'MSTextDecorationStyle',
+    'OTextDecorationStyle',
+    'textEmphasis',
+    'MozTextEmphasis',
+    'WebkitTextEmphasis',
+    'MSTextEmphasis',
+    'OTextEmphasis',
+    'textEmphasisColor',
+    'MozTextEmphasisColor',
+    'WebkitTextEmphasisColor',
+    'MSTextEmphasisColor',
+    'OTextEmphasisColor',
+    'textEmphasisPosition',
+    'MozTextEmphasisPosition',
+    'WebkitTextEmphasisPosition',
+    'MSTextEmphasisPosition',
+    'OTextEmphasisPosition',
+    'textEmphasisStyle',
+    'MozTextEmphasisStyle',
+    'WebkitTextEmphasisStyle',
+    'MSTextEmphasisStyle',
+    'OTextEmphasisStyle',
+    'textIndent',
+    'MozTextIndent',
+    'WebkitTextIndent',
+    'MSTextIndent',
+    'OTextIndent',
+    'textOrientation',
+    'MozTextOrientation',
+    'WebkitTextOrientation',
+    'MSTextOrientation',
+    'OTextOrientation',
+    'textOverflow',
+    'MozTextOverflow',
+    'WebkitTextOverflow',
+    'MSTextOverflow',
+    'OTextOverflow',
+    'textRendering',
+    'MozTextRendering',
+    'WebkitTextRendering',
+    'MSTextRendering',
+    'OTextRendering',
+    'textShadow',
+    'MozTextShadow',
+    'WebkitTextShadow',
+    'MSTextShadow',
+    'OTextShadow',
+    'textTransform',
+    'MozTextTransform',
+    'WebkitTextTransform',
+    'MSTextTransform',
+    'OTextTransform',
+    'textUnderlinePosition',
+    'MozTextUnderlinePosition',
+    'WebkitTextUnderlinePosition',
+    'MSTextUnderlinePosition',
+    'OTextUnderlinePosition',
+    'top',
+    'MozTop',
+    'WebkitTop',
+    'MSTop',
+    'OTop',
+    'touchAction',
+    'MozTouchAction',
+    'WebkitTouchAction',
+    'MSTouchAction',
+    'OTouchAction',
+    'transform',
+    'MozTransform',
+    'WebkitTransform',
+    'msTransform',
+    'OTransform',
+    'transformBox',
+    'MozTransformBox',
+    'WebkitTransformBox',
+    'MSTransformBox',
+    'OTransformBox',
+    'transformOrigin',
+    'MozTransformOrigin',
+    'WebkitTransformOrigin',
+    'MSTransformOrigin',
+    'OTransformOrigin',
+    'transformStyle',
+    'MozTransformStyle',
+    'WebkitTransformStyle',
+    'MSTransformStyle',
+    'OTransformStyle',
+    'transition',
+    'MozTransition',
+    'WebkitTransition',
+    'MSTransition',
+    'OTransition',
+    'transitionDelay',
+    'MozTransitionDelay',
+    'WebkitTransitionDelay',
+    'MSTransitionDelay',
+    'OTransitionDelay',
+    'transitionDuration',
+    'MozTransitionDuration',
+    'WebkitTransitionDuration',
+    'MSTransitionDuration',
+    'OTransitionDuration',
+    'transitionProperty',
+    'MozTransitionProperty',
+    'WebkitTransitionProperty',
+    'MSTransitionProperty',
+    'OTransitionProperty',
+    'transitionTimingFunction',
+    'MozTransitionTimingFunction',
+    'WebkitTransitionTimingFunction',
+    'MSTransitionTimingFunction',
+    'OTransitionTimingFunction',
+    'turn',
+    'MozTurn',
+    'WebkitTurn',
+    'MSTurn',
+    'OTurn',
+    'unicodeBidi',
+    'MozUnicodeBidi',
+    'WebkitUnicodeBidi',
+    'MSUnicodeBidi',
+    'OUnicodeBidi',
+    'unset',
+    'MozUnset',
+    'WebkitUnset',
+    'MSUnset',
+    'OUnset',
+    'verticalAlign',
+    'MozVerticalAlign',
+    'WebkitVerticalAlign',
+    'MSVerticalAlign',
+    'OVerticalAlign',
+    'vh',
+    'MozVh',
+    'WebkitVh',
+    'MSVh',
+    'OVh',
+    'visibility',
+    'MozVisibility',
+    'WebkitVisibility',
+    'MSVisibility',
+    'OVisibility',
+    'vmax',
+    'MozVmax',
+    'WebkitVmax',
+    'MSVmax',
+    'OVmax',
+    'vmin',
+    'MozVmin',
+    'WebkitVmin',
+    'MSVmin',
+    'OVmin',
+    'vw',
+    'MozVw',
+    'WebkitVw',
+    'MSVw',
+    'OVw',
+    'whiteSpace',
+    'MozWhiteSpace',
+    'WebkitWhiteSpace',
+    'MSWhiteSpace',
+    'OWhiteSpace',
+    'widows',
+    'MozWidows',
+    'WebkitWidows',
+    'MSWidows',
+    'OWidows',
+    'width',
+    'MozWidth',
+    'WebkitWidth',
+    'MSWidth',
+    'OWidth',
+    'willChange',
+    'MozWillChange',
+    'WebkitWillChange',
+    'MSWillChange',
+    'OWillChange',
+    'wordBreak',
+    'MozWordBreak',
+    'WebkitWordBreak',
+    'MSWordBreak',
+    'OWordBreak',
+    'wordSpacing',
+    'MozWordSpacing',
+    'WebkitWordSpacing',
+    'MSWordSpacing',
+    'OWordSpacing',
+    'wordWrap',
+    'MozWordWrap',
+    'WebkitWordWrap',
+    'MSWordWrap',
+    'OWordWrap',
+    'writingMode',
+    'MozWritingMode',
+    'WebkitWritingMode',
+    'MSWritingMode',
+    'OWritingMode',
+    'zIndex',
+    'MozZIndex',
+    'WebkitZIndex',
+    'MSZIndex',
+    'OZIndex',
+    'fontSize',
+    'MozFontSize',
+    'WebkitFontSize',
+    'MSFontSize',
+    'OFontSize',
+    'flex',
+    'MozFlex',
+    'WebkitFlex',
+    'MSFlex',
+    'OFlex',
+    'fr',
+    'MozFr',
+    'WebkitFr',
+    'MSFr',
+    'OFr',
+    'overflowScrolling',
+    'MozOverflowScrolling',
+    'WebkitOverflowScrolling',
+    'MSOverflowScrolling',
+    'OOverflowScrolling',
+    'userSelect',
+    'MozUserSelect',
+    'WebkitUserSelect',
+    'MSUserSelect',
+    'OUserSelect',
   ];
 Qo.exports;
 (function (n) {
@@ -1645,18 +1645,13 @@ Qo.exports;
         l.length)
       )
         throw new Error(
-          "Prop " +
-            r +
-            " passed to " +
-            s +
-            ". Has invalid keys " +
-            l.join(", "),
+          'Prop ' + r + ' passed to ' + s + '. Has invalid keys ' + l.join(', ')
         );
     }
   }),
     (n.exports.isRequired = function (i, r, s) {
       if (!i[r])
-        throw new Error("Prop " + r + " passed to " + s + " is required");
+        throw new Error('Prop ' + r + ' passed to ' + s + ' is required');
       return n.exports(i, r, s);
     }),
     (n.exports.supportingArrays = t.oneOfType([
@@ -1695,69 +1690,69 @@ nh.__suppressDeprecationWarning = !0;
 function Jd(n) {
   var e = n.prototype;
   if (!e || !e.isReactComponent)
-    throw new Error("Can only polyfill class components");
+    throw new Error('Can only polyfill class components');
   if (
-    typeof n.getDerivedStateFromProps != "function" &&
-    typeof e.getSnapshotBeforeUpdate != "function"
+    typeof n.getDerivedStateFromProps != 'function' &&
+    typeof e.getSnapshotBeforeUpdate != 'function'
   )
     return n;
   var t = null,
     i = null,
     r = null;
   if (
-    (typeof e.componentWillMount == "function"
-      ? (t = "componentWillMount")
-      : typeof e.UNSAFE_componentWillMount == "function" &&
-        (t = "UNSAFE_componentWillMount"),
-    typeof e.componentWillReceiveProps == "function"
-      ? (i = "componentWillReceiveProps")
-      : typeof e.UNSAFE_componentWillReceiveProps == "function" &&
-        (i = "UNSAFE_componentWillReceiveProps"),
-    typeof e.componentWillUpdate == "function"
-      ? (r = "componentWillUpdate")
-      : typeof e.UNSAFE_componentWillUpdate == "function" &&
-        (r = "UNSAFE_componentWillUpdate"),
+    (typeof e.componentWillMount == 'function'
+      ? (t = 'componentWillMount')
+      : typeof e.UNSAFE_componentWillMount == 'function' &&
+        (t = 'UNSAFE_componentWillMount'),
+    typeof e.componentWillReceiveProps == 'function'
+      ? (i = 'componentWillReceiveProps')
+      : typeof e.UNSAFE_componentWillReceiveProps == 'function' &&
+        (i = 'UNSAFE_componentWillReceiveProps'),
+    typeof e.componentWillUpdate == 'function'
+      ? (r = 'componentWillUpdate')
+      : typeof e.UNSAFE_componentWillUpdate == 'function' &&
+        (r = 'UNSAFE_componentWillUpdate'),
     t !== null || i !== null || r !== null)
   ) {
     var s = n.displayName || n.name,
       o =
-        typeof n.getDerivedStateFromProps == "function"
-          ? "getDerivedStateFromProps()"
-          : "getSnapshotBeforeUpdate()";
+        typeof n.getDerivedStateFromProps == 'function'
+          ? 'getDerivedStateFromProps()'
+          : 'getSnapshotBeforeUpdate()';
     throw Error(
       `Unsafe legacy lifecycles will not be called for components using new component APIs.
 
 ` +
         s +
-        " uses " +
+        ' uses ' +
         o +
-        " but also contains the following legacy lifecycles:" +
+        ' but also contains the following legacy lifecycles:' +
         (t !== null
           ? `
   ` + t
-          : "") +
+          : '') +
         (i !== null
           ? `
   ` + i
-          : "") +
+          : '') +
         (r !== null
           ? `
   ` + r
-          : "") +
+          : '') +
         `
 
 The above lifecycles should be removed. Learn more about this warning here:
-https://fb.me/react-async-component-lifecycle-hooks`,
+https://fb.me/react-async-component-lifecycle-hooks`
     );
   }
   if (
-    (typeof n.getDerivedStateFromProps == "function" &&
+    (typeof n.getDerivedStateFromProps == 'function' &&
       ((e.componentWillMount = th), (e.componentWillReceiveProps = ih)),
-    typeof e.getSnapshotBeforeUpdate == "function")
+    typeof e.getSnapshotBeforeUpdate == 'function')
   ) {
-    if (typeof e.componentDidUpdate != "function")
+    if (typeof e.componentDidUpdate != 'function')
       throw new Error(
-        "Cannot polyfill getSnapshotBeforeUpdate() for components that do not define componentDidUpdate() on the prototype",
+        'Cannot polyfill getSnapshotBeforeUpdate() for components that do not define componentDidUpdate() on the prototype'
       );
     e.componentWillUpdate = nh;
     var l = e.componentDidUpdate;
@@ -1772,14 +1767,14 @@ https://fb.me/react-async-component-lifecycle-hooks`,
 }
 function vo(n, e) {
   if (!(n instanceof e))
-    throw new TypeError("Cannot call a class as a function");
+    throw new TypeError('Cannot call a class as a function');
 }
 function pl(n, e) {
   for (var t = 0; t < e.length; t++) {
     var i = e[t];
     (i.enumerable = i.enumerable || !1),
       (i.configurable = !0),
-      "value" in i && (i.writable = !0),
+      'value' in i && (i.writable = !0),
       Object.defineProperty(n, i.key, i);
   }
 }
@@ -1827,8 +1822,8 @@ function qr(n) {
   return n;
 }
 function $o(n, e) {
-  if (typeof e != "function" && e !== null)
-    throw new TypeError("Super expression must either be null or a function");
+  if (typeof e != 'function' && e !== null)
+    throw new TypeError('Super expression must either be null or a function');
   (n.prototype = Object.create(e && e.prototype, {
     constructor: { value: n, writable: !0, configurable: !0 },
   })),
@@ -1855,9 +1850,9 @@ function ws(n, e) {
   );
 }
 function Kd() {
-  if (typeof Reflect > "u" || !Reflect.construct || Reflect.construct.sham)
+  if (typeof Reflect > 'u' || !Reflect.construct || Reflect.construct.sham)
     return !1;
-  if (typeof Proxy == "function") return !0;
+  if (typeof Proxy == 'function') return !0;
   try {
     return (
       Date.prototype.toString.call(Reflect.construct(Date, [], function () {})),
@@ -1870,12 +1865,12 @@ function Kd() {
 function ui(n) {
   if (n === void 0)
     throw new ReferenceError(
-      "this hasn't been initialised - super() hasn't been called",
+      "this hasn't been initialised - super() hasn't been called"
     );
   return n;
 }
 function ep(n, e) {
-  return e && (typeof e == "object" || typeof e == "function") ? e : ui(n);
+  return e && (typeof e == 'object' || typeof e == 'function') ? e : ui(n);
 }
 function Po(n) {
   return function () {
@@ -1897,7 +1892,7 @@ var Kn = (function (n) {
   return (
     Ao(t, [
       {
-        key: "render",
+        key: 'render',
         value: function () {
           var r = this.props,
             s = r.children,
@@ -1906,19 +1901,19 @@ var Kn = (function (n) {
             a = r.style,
             u = r.size,
             h = r.eleRef,
-            c = ["Pane", l, o],
-            f = { flex: 1, position: "relative", outline: "none" };
+            c = ['Pane', l, o],
+            f = { flex: 1, position: 'relative', outline: 'none' };
           return (
             u !== void 0 &&
-              (l === "vertical"
+              (l === 'vertical'
                 ? (f.width = u)
-                : ((f.height = u), (f.display = "flex")),
-              (f.flex = "none")),
+                : ((f.height = u), (f.display = 'flex')),
+              (f.flex = 'none')),
             (f = Object.assign({}, f, a || {})),
             Ae.createElement(
-              "div",
-              { ref: h, className: c.join(" "), style: f },
-              s,
+              'div',
+              { ref: h, className: c.join(' '), style: f },
+              s
             )
           );
         },
@@ -1931,12 +1926,12 @@ Kn.propTypes = {
   className: F.string.isRequired,
   children: F.node.isRequired,
   size: F.oneOfType([F.string, F.number]),
-  split: F.oneOf(["vertical", "horizontal"]),
+  split: F.oneOf(['vertical', 'horizontal']),
   style: qt,
   eleRef: F.func,
 };
 Kn.defaultProps = {};
-var sh = "Resizer",
+var sh = 'Resizer',
   Mo = (function (n) {
     $o(t, n);
     var e = Po(t);
@@ -1946,7 +1941,7 @@ var sh = "Resizer",
     return (
       Ao(t, [
         {
-          key: "render",
+          key: 'render',
           value: function () {
             var r = this.props,
               s = r.className,
@@ -1959,9 +1954,9 @@ var sh = "Resizer",
               f = r.split,
               d = r.style,
               p = [c, f, s];
-            return Ae.createElement("span", {
-              role: "presentation",
-              className: p.join(" "),
+            return Ae.createElement('span', {
+              role: 'presentation',
+              className: p.join(' '),
               style: d,
               onMouseDown: function (g) {
                 return a(g);
@@ -1992,7 +1987,7 @@ Mo.propTypes = {
   onMouseDown: F.func.isRequired,
   onTouchStart: F.func.isRequired,
   onTouchEnd: F.func.isRequired,
-  split: F.oneOf(["vertical", "horizontal"]),
+  split: F.oneOf(['vertical', 'horizontal']),
   style: qt,
   resizerClassName: F.string.isRequired,
 };
@@ -2005,9 +2000,9 @@ function gl(n, e) {
     } catch {}
 }
 function ml(n, e, t, i) {
-  if (typeof i == "number") {
-    var r = typeof e == "number" ? e : 0,
-      s = typeof t == "number" && t >= 0 ? t : 1 / 0;
+  if (typeof i == 'number') {
+    var r = typeof e == 'number' ? e : 0,
+      s = typeof t == 'number' && t >= 0 ? t : 1 / 0;
     return Math.max(r, Math.min(s, i));
   }
   return n !== void 0 ? n : e;
@@ -2039,8 +2034,8 @@ var Hi = (function (n) {
       (r.state = {
         active: !1,
         resized: !1,
-        pane1Size: u === "first" ? h : void 0,
-        pane2Size: u === "second" ? h : void 0,
+        pane1Size: u === 'first' ? h : void 0,
+        pane2Size: u === 'second' ? h : void 0,
         instanceProps: { size: s },
       }),
       r
@@ -2051,24 +2046,24 @@ var Hi = (function (n) {
       t,
       [
         {
-          key: "componentDidMount",
+          key: 'componentDidMount',
           value: function () {
-            document.addEventListener("mouseup", this.onMouseUp),
-              document.addEventListener("mousemove", this.onMouseMove),
-              document.addEventListener("touchmove", this.onTouchMove),
+            document.addEventListener('mouseup', this.onMouseUp),
+              document.addEventListener('mousemove', this.onMouseMove),
+              document.addEventListener('touchmove', this.onTouchMove),
               this.setState(t.getSizeUpdate(this.props, this.state));
           },
         },
         {
-          key: "componentWillUnmount",
+          key: 'componentWillUnmount',
           value: function () {
-            document.removeEventListener("mouseup", this.onMouseUp),
-              document.removeEventListener("mousemove", this.onMouseMove),
-              document.removeEventListener("touchmove", this.onTouchMove);
+            document.removeEventListener('mouseup', this.onMouseUp),
+              document.removeEventListener('mousemove', this.onMouseMove),
+              document.removeEventListener('touchmove', this.onTouchMove);
           },
         },
         {
-          key: "onMouseDown",
+          key: 'onMouseDown',
           value: function (r) {
             var s = Object.assign({}, r, {
               touches: [{ clientX: r.clientX, clientY: r.clientY }],
@@ -2077,7 +2072,7 @@ var Hi = (function (n) {
           },
         },
         {
-          key: "onTouchStart",
+          key: 'onTouchStart',
           value: function (r) {
             var s = this.props,
               o = s.allowResize,
@@ -2086,14 +2081,14 @@ var Hi = (function (n) {
             if (o) {
               gl(document, window);
               var u =
-                a === "vertical" ? r.touches[0].clientX : r.touches[0].clientY;
-              typeof l == "function" && l(),
+                a === 'vertical' ? r.touches[0].clientX : r.touches[0].clientY;
+              typeof l == 'function' && l(),
                 this.setState({ active: !0, position: u });
             }
           },
         },
         {
-          key: "onMouseMove",
+          key: 'onMouseMove',
           value: function (r) {
             var s = Object.assign({}, r, {
               touches: [{ clientX: r.clientX, clientY: r.clientY }],
@@ -2102,7 +2097,7 @@ var Hi = (function (n) {
           },
         },
         {
-          key: "onTouchMove",
+          key: 'onTouchMove',
           value: function (r) {
             var s = this.props,
               o = s.allowResize,
@@ -2116,7 +2111,7 @@ var Hi = (function (n) {
               p = f.position;
             if (o && d) {
               gl(document, window);
-              var m = this.props.primary === "first",
+              var m = this.props.primary === 'first',
                 g = m ? this.pane1 : this.pane2,
                 S = m ? this.pane2 : this.pane1;
               if (g) {
@@ -2126,10 +2121,10 @@ var Hi = (function (n) {
                   var y = x.getBoundingClientRect().width,
                     C = x.getBoundingClientRect().height,
                     Q =
-                      h === "vertical"
+                      h === 'vertical'
                         ? r.touches[0].clientX
                         : r.touches[0].clientY,
-                    P = h === "vertical" ? y : C,
+                    P = h === 'vertical' ? y : C,
                     X = p - Q;
                   if (c) {
                     if (Math.abs(X) < c) return;
@@ -2142,7 +2137,7 @@ var Hi = (function (n) {
                   var U = l;
                   if (l !== void 0 && l <= 0) {
                     var ee = this.splitPane;
-                    h === "vertical"
+                    h === 'vertical'
                       ? (U = ee.getBoundingClientRect().width + l)
                       : (U = ee.getBoundingClientRect().height + l);
                   }
@@ -2155,7 +2150,7 @@ var Hi = (function (n) {
                     : this.setState({ position: le, resized: !0 }),
                     u && u(q),
                     this.setState(
-                      rh({ draggedSize: q }, m ? "pane1Size" : "pane2Size", q),
+                      rh({ draggedSize: q }, m ? 'pane1Size' : 'pane2Size', q)
                     );
                 }
               }
@@ -2163,7 +2158,7 @@ var Hi = (function (n) {
           },
         },
         {
-          key: "onMouseUp",
+          key: 'onMouseUp',
           value: function () {
             var r = this.props,
               s = r.allowResize,
@@ -2173,11 +2168,11 @@ var Hi = (function (n) {
               u = l.draggedSize;
             s &&
               a &&
-              (typeof o == "function" && o(u), this.setState({ active: !1 }));
+              (typeof o == 'function' && o(u), this.setState({ active: !1 }));
           },
         },
         {
-          key: "render",
+          key: 'render',
           value: function () {
             var r = this,
               s = this.props,
@@ -2199,42 +2194,42 @@ var Hi = (function (n) {
               C = this.state,
               Q = C.pane1Size,
               P = C.pane2Size,
-              X = o ? "" : "disabled",
-              $ = S && "".concat(S, " ").concat(sh),
+              X = o ? '' : 'disabled',
+              $ = S && ''.concat(S, ' ').concat(sh),
               E = tp(l),
               z = qr(
                 {
-                  display: "flex",
+                  display: 'flex',
                   flex: 1,
-                  height: "100%",
-                  position: "absolute",
-                  outline: "none",
-                  overflow: "hidden",
-                  MozUserSelect: "text",
-                  WebkitUserSelect: "text",
-                  msUserSelect: "text",
-                  userSelect: "text",
+                  height: '100%',
+                  position: 'absolute',
+                  outline: 'none',
+                  overflow: 'hidden',
+                  MozUserSelect: 'text',
+                  WebkitUserSelect: 'text',
+                  msUserSelect: 'text',
+                  userSelect: 'text',
                 },
-                y,
+                y
               );
-            w === "vertical"
-              ? Object.assign(z, { flexDirection: "row", left: 0, right: 0 })
+            w === 'vertical'
+              ? Object.assign(z, { flexDirection: 'row', left: 0, right: 0 })
               : Object.assign(z, {
                   bottom: 0,
-                  flexDirection: "column",
-                  minHeight: "100%",
+                  flexDirection: 'column',
+                  minHeight: '100%',
                   top: 0,
-                  width: "100%",
+                  width: '100%',
                 });
-            var U = ["SplitPane", a, w, X],
+            var U = ['SplitPane', a, w, X],
               ee = qr({}, p, {}, m),
               q = qr({}, p, {}, g),
-              le = ["Pane1", c, f].join(" "),
-              se = ["Pane2", c, d].join(" ");
+              le = ['Pane1', c, f].join(' '),
+              se = ['Pane2', c, d].join(' ');
             return Ae.createElement(
-              "div",
+              'div',
               {
-                className: U.join(" "),
+                className: U.join(' '),
                 ref: function (G) {
                   r.splitPane = G;
                 },
@@ -2244,7 +2239,7 @@ var Hi = (function (n) {
                 Kn,
                 {
                   className: le,
-                  key: "pane1",
+                  key: 'pane1',
                   eleRef: function (G) {
                     r.pane1 = G;
                   },
@@ -2252,7 +2247,7 @@ var Hi = (function (n) {
                   split: w,
                   style: ee,
                 },
-                E[0],
+                E[0]
               ),
               Ae.createElement(Mo, {
                 className: X,
@@ -2261,7 +2256,7 @@ var Hi = (function (n) {
                 onMouseDown: this.onMouseDown,
                 onTouchStart: this.onTouchStart,
                 onTouchEnd: this.onMouseUp,
-                key: "resizer",
+                key: 'resizer',
                 resizerClassName: $,
                 split: w,
                 style: x || {},
@@ -2270,7 +2265,7 @@ var Hi = (function (n) {
                 Kn,
                 {
                   className: se,
-                  key: "pane2",
+                  key: 'pane2',
                   eleRef: function (G) {
                     r.pane2 = G;
                   },
@@ -2278,21 +2273,21 @@ var Hi = (function (n) {
                   split: w,
                   style: q,
                 },
-                E[1],
-              ),
+                E[1]
+              )
             );
           },
         },
       ],
       [
         {
-          key: "getDerivedStateFromProps",
+          key: 'getDerivedStateFromProps',
           value: function (r, s) {
             return t.getSizeUpdate(r, s);
           },
         },
         {
-          key: "getSizeUpdate",
+          key: 'getSizeUpdate',
           value: function (r, s) {
             var o = {},
               l = s.instanceProps;
@@ -2302,16 +2297,16 @@ var Hi = (function (n) {
                 ? r.size
                 : ml(r.defaultSize, r.minSize, r.maxSize, s.draggedSize);
             r.size !== void 0 && (o.draggedSize = a);
-            var u = r.primary === "first";
+            var u = r.primary === 'first';
             return (
-              (o[u ? "pane1Size" : "pane2Size"] = a),
-              (o[u ? "pane2Size" : "pane1Size"] = void 0),
+              (o[u ? 'pane1Size' : 'pane2Size'] = a),
+              (o[u ? 'pane2Size' : 'pane1Size'] = void 0),
               (o.instanceProps = { size: r.size }),
               o
             );
           },
         },
-      ],
+      ]
     ),
     t
   );
@@ -2320,12 +2315,12 @@ Hi.propTypes = {
   allowResize: F.bool,
   children: F.arrayOf(F.node).isRequired,
   className: F.string,
-  primary: F.oneOf(["first", "second"]),
+  primary: F.oneOf(['first', 'second']),
   minSize: F.oneOfType([F.string, F.number]),
   maxSize: F.oneOfType([F.string, F.number]),
   defaultSize: F.oneOfType([F.string, F.number]),
   size: F.oneOfType([F.string, F.number]),
-  split: F.oneOf(["vertical", "horizontal"]),
+  split: F.oneOf(['vertical', 'horizontal']),
   onDragStarted: F.func,
   onDragFinished: F.func,
   onChange: F.func,
@@ -2345,25 +2340,25 @@ Hi.propTypes = {
 Hi.defaultProps = {
   allowResize: !0,
   minSize: 50,
-  primary: "first",
-  split: "vertical",
-  paneClassName: "",
-  pane1ClassName: "",
-  pane2ClassName: "",
+  primary: 'first',
+  split: 'vertical',
+  paneClassName: '',
+  pane1ClassName: '',
+  pane2ClassName: '',
 };
 Jd(Hi);
 class Y {
   lineAt(e) {
     if (e < 0 || e > this.length)
       throw new RangeError(
-        `Invalid position ${e} in document of length ${this.length}`,
+        `Invalid position ${e} in document of length ${this.length}`
       );
     return this.lineInner(e, !1, 1, 0);
   }
   line(e) {
     if (e < 1 || e > this.lines)
       throw new RangeError(
-        `Invalid line number ${e} in ${this.lines}-line document`,
+        `Invalid line number ${e} in ${this.lines}-line document`
       );
     return this.lineInner(e, !0, 1, 0);
   }
@@ -2417,8 +2412,8 @@ class Y {
         r,
         Math.max(
           r,
-          t == this.lines + 1 ? this.length : t <= 1 ? 0 : this.line(t - 1).to,
-        ),
+          t == this.lines + 1 ? this.length : t <= 1 ? 0 : this.line(t - 1).to
+        )
       );
     }
     return new lh(i);
@@ -2433,7 +2428,7 @@ class Y {
   constructor() {}
   static of(e) {
     if (e.length == 0)
-      throw new RangeError("A document must have at least one line");
+      throw new RangeError('A document must have at least one line');
     return e.length == 1 && !e[0]
       ? Y.empty
       : e.length <= 32
@@ -2465,7 +2460,7 @@ class pe extends Y {
         ? this
         : new pe(
             Sl(this.text, e, t),
-            Math.min(t, this.length) - Math.max(0, e),
+            Math.min(t, this.length) - Math.max(0, e)
           );
     if (r & 1) {
       let o = i.pop(),
@@ -2487,9 +2482,9 @@ class pe extends Y {
     e,
     t = this.length,
     i = `
-`,
+`
   ) {
-    let r = "";
+    let r = '';
     for (let s = 0, o = 0; s <= t && o < this.text.length; o++) {
       let l = this.text[o],
         a = s + l.length;
@@ -2562,9 +2557,9 @@ class ut extends Y {
     e,
     t = this.length,
     i = `
-`,
+`
   ) {
-    let r = "";
+    let r = '';
     for (let s = 0, o = 0; s < this.children.length && o <= t; s++) {
       let l = this.children[s],
         a = o + l.length;
@@ -2621,7 +2616,7 @@ class ut extends Y {
             (u += d.length + 1),
             (h[h.length - 1] = new pe(
               p.text.concat(d.text),
-              p.length + 1 + d.length,
+              p.length + 1 + d.length
             )))
           : (a + d.lines > r && f(),
             (a += d.lines),
@@ -2638,7 +2633,7 @@ class ut extends Y {
     return f(), l.length == 1 ? l[0] : new ut(l, t);
   }
 }
-Y.empty = new pe([""], 0);
+Y.empty = new pe([''], 0);
 function ip(n) {
   let e = -1;
   for (let t of n) e += t.length + 1;
@@ -2657,14 +2652,14 @@ function In(n, e, t = 0, i = 1e9) {
   return e;
 }
 function Sl(n, e, t) {
-  return In(n, [""], e, t);
+  return In(n, [''], e, t);
 }
 class Yi {
   constructor(e, t = 1) {
     (this.dir = t),
       (this.done = !1),
       (this.lineBreak = !1),
-      (this.value = ""),
+      (this.value = ''),
       (this.nodes = [e]),
       (this.offsets = [
         t > 0 ? 1 : (e instanceof pe ? e.text.length : e.children.length) << 1,
@@ -2678,7 +2673,7 @@ class Yi {
         o = s >> 1,
         l = r instanceof pe ? r.text.length : r.children.length;
       if (o == (t > 0 ? l : 0)) {
-        if (i == 0) return (this.done = !0), (this.value = ""), this;
+        if (i == 0) return (this.done = !0), (this.value = ''), this;
         t > 0 && this.offsets[i - 1]++, this.nodes.pop(), this.offsets.pop();
       } else if ((s & 1) == (t > 0 ? 0 : 1)) {
         if (((this.offsets[i] += t), e == 0))
@@ -2707,7 +2702,7 @@ class Yi {
             this.offsets.push(
               t > 0
                 ? 1
-                : (a instanceof pe ? a.text.length : a.children.length) << 1,
+                : (a instanceof pe ? a.text.length : a.children.length) << 1
             ));
       }
     }
@@ -2721,7 +2716,7 @@ class Yi {
 }
 class oh {
   constructor(e, t, i) {
-    (this.value = ""),
+    (this.value = ''),
       (this.done = !1),
       (this.cursor = new Yi(e, t > i ? -1 : 1)),
       (this.pos = t > i ? e.length : 0),
@@ -2730,7 +2725,7 @@ class oh {
   }
   nextInner(e, t) {
     if (t < 0 ? this.pos <= this.from : this.pos >= this.to)
-      return (this.value = ""), (this.done = !0), this;
+      return (this.value = ''), (this.done = !0), this;
     e += Math.max(0, t < 0 ? this.pos - this.to : this.from - this.pos);
     let i = t < 0 ? this.pos - this.from : this.to - this.pos;
     e > i && (e = i), (i -= e);
@@ -2752,24 +2747,24 @@ class oh {
     );
   }
   get lineBreak() {
-    return this.cursor.lineBreak && this.value != "";
+    return this.cursor.lineBreak && this.value != '';
   }
 }
 class lh {
   constructor(e) {
     (this.inner = e),
       (this.afterBreak = !0),
-      (this.value = ""),
+      (this.value = ''),
       (this.done = !1);
   }
   next(e = 0) {
     let { done: t, lineBreak: i, value: r } = this.inner.next(e);
     return (
       t
-        ? ((this.done = !0), (this.value = ""))
+        ? ((this.done = !0), (this.value = ''))
         : i
         ? this.afterBreak
-          ? (this.value = "")
+          ? (this.value = '')
           : ((this.afterBreak = !0), this.next())
         : ((this.value = r), (this.afterBreak = !1)),
       this
@@ -2779,7 +2774,7 @@ class lh {
     return !1;
   }
 }
-typeof Symbol < "u" &&
+typeof Symbol < 'u' &&
   ((Y.prototype[Symbol.iterator] = function () {
     return this.iter();
   }),
@@ -2798,8 +2793,8 @@ class np {
   }
 }
 let gi =
-  "lc,34,7n,7,7b,19,,,,2,,2,,,20,b,1c,l,g,,2t,7,2,6,2,2,,4,z,,u,r,2j,b,1m,9,9,,o,4,,9,,3,,5,17,3,3b,f,,w,1j,,,,4,8,4,,3,7,a,2,t,,1m,,,,2,4,8,,9,,a,2,q,,2,2,1l,,4,2,4,2,2,3,3,,u,2,3,,b,2,1l,,4,5,,2,4,,k,2,m,6,,,1m,,,2,,4,8,,7,3,a,2,u,,1n,,,,c,,9,,14,,3,,1l,3,5,3,,4,7,2,b,2,t,,1m,,2,,2,,3,,5,2,7,2,b,2,s,2,1l,2,,,2,4,8,,9,,a,2,t,,20,,4,,2,3,,,8,,29,,2,7,c,8,2q,,2,9,b,6,22,2,r,,,,,,1j,e,,5,,2,5,b,,10,9,,2u,4,,6,,2,2,2,p,2,4,3,g,4,d,,2,2,6,,f,,jj,3,qa,3,t,3,t,2,u,2,1s,2,,7,8,,2,b,9,,19,3,3b,2,y,,3a,3,4,2,9,,6,3,63,2,2,,1m,,,7,,,,,2,8,6,a,2,,1c,h,1r,4,1c,7,,,5,,14,9,c,2,w,4,2,2,,3,1k,,,2,3,,,3,1m,8,2,2,48,3,,d,,7,4,,6,,3,2,5i,1m,,5,ek,,5f,x,2da,3,3x,,2o,w,fe,6,2x,2,n9w,4,,a,w,2,28,2,7k,,3,,4,,p,2,5,,47,2,q,i,d,,12,8,p,b,1a,3,1c,,2,4,2,2,13,,1v,6,2,2,2,2,c,,8,,1b,,1f,,,3,2,2,5,2,,,16,2,8,,6m,,2,,4,,fn4,,kh,g,g,g,a6,2,gt,,6a,,45,5,1ae,3,,2,5,4,14,3,4,,4l,2,fx,4,ar,2,49,b,4w,,1i,f,1k,3,1d,4,2,2,1x,3,10,5,,8,1q,,c,2,1g,9,a,4,2,,2n,3,2,,,2,6,,4g,,3,8,l,2,1l,2,,,,,m,,e,7,3,5,5f,8,2,3,,,n,,29,,2,6,,,2,,,2,,2,6j,,2,4,6,2,,2,r,2,2d,8,2,,,2,2y,,,,2,6,,,2t,3,2,4,,5,77,9,,2,6t,,a,2,,,4,,40,4,2,2,4,,w,a,14,6,2,4,8,,9,6,2,3,1a,d,,2,ba,7,,6,,,2a,m,2,7,,2,,2,3e,6,3,,,2,,7,,,20,2,3,,,,9n,2,f0b,5,1n,7,t4,,1r,4,29,,f5k,2,43q,,,3,4,5,8,8,2,7,u,4,44,3,1iz,1j,4,1e,8,,e,,m,5,,f,11s,7,,h,2,7,,2,,5,79,7,c5,4,15s,7,31,7,240,5,gx7k,2o,3k,6o"
-    .split(",")
+  'lc,34,7n,7,7b,19,,,,2,,2,,,20,b,1c,l,g,,2t,7,2,6,2,2,,4,z,,u,r,2j,b,1m,9,9,,o,4,,9,,3,,5,17,3,3b,f,,w,1j,,,,4,8,4,,3,7,a,2,t,,1m,,,,2,4,8,,9,,a,2,q,,2,2,1l,,4,2,4,2,2,3,3,,u,2,3,,b,2,1l,,4,5,,2,4,,k,2,m,6,,,1m,,,2,,4,8,,7,3,a,2,u,,1n,,,,c,,9,,14,,3,,1l,3,5,3,,4,7,2,b,2,t,,1m,,2,,2,,3,,5,2,7,2,b,2,s,2,1l,2,,,2,4,8,,9,,a,2,t,,20,,4,,2,3,,,8,,29,,2,7,c,8,2q,,2,9,b,6,22,2,r,,,,,,1j,e,,5,,2,5,b,,10,9,,2u,4,,6,,2,2,2,p,2,4,3,g,4,d,,2,2,6,,f,,jj,3,qa,3,t,3,t,2,u,2,1s,2,,7,8,,2,b,9,,19,3,3b,2,y,,3a,3,4,2,9,,6,3,63,2,2,,1m,,,7,,,,,2,8,6,a,2,,1c,h,1r,4,1c,7,,,5,,14,9,c,2,w,4,2,2,,3,1k,,,2,3,,,3,1m,8,2,2,48,3,,d,,7,4,,6,,3,2,5i,1m,,5,ek,,5f,x,2da,3,3x,,2o,w,fe,6,2x,2,n9w,4,,a,w,2,28,2,7k,,3,,4,,p,2,5,,47,2,q,i,d,,12,8,p,b,1a,3,1c,,2,4,2,2,13,,1v,6,2,2,2,2,c,,8,,1b,,1f,,,3,2,2,5,2,,,16,2,8,,6m,,2,,4,,fn4,,kh,g,g,g,a6,2,gt,,6a,,45,5,1ae,3,,2,5,4,14,3,4,,4l,2,fx,4,ar,2,49,b,4w,,1i,f,1k,3,1d,4,2,2,1x,3,10,5,,8,1q,,c,2,1g,9,a,4,2,,2n,3,2,,,2,6,,4g,,3,8,l,2,1l,2,,,,,m,,e,7,3,5,5f,8,2,3,,,n,,29,,2,6,,,2,,,2,,2,6j,,2,4,6,2,,2,r,2,2d,8,2,,,2,2y,,,,2,6,,,2t,3,2,4,,5,77,9,,2,6t,,a,2,,,4,,40,4,2,2,4,,w,a,14,6,2,4,8,,9,6,2,3,1a,d,,2,ba,7,,6,,,2a,m,2,7,,2,,2,3e,6,3,,,2,,7,,,20,2,3,,,,9n,2,f0b,5,1n,7,t4,,1r,4,29,,f5k,2,43q,,,3,4,5,8,8,2,7,u,4,44,3,1iz,1j,4,1e,8,,e,,m,5,,f,11s,7,,h,2,7,,2,,5,79,7,c5,4,15s,7,31,7,240,5,gx7k,2o,3k,6o'
+    .split(',')
     .map((n) => (n ? parseInt(n, 36) : 1));
 for (let n = 1; n < gi.length; n++) gi[n] += gi[n - 1];
 function rp(n) {
@@ -2862,10 +2857,10 @@ function qe(n) {
 const Qs = /\r\n?|\n/;
 var Te = (function (n) {
   return (
-    (n[(n.Simple = 0)] = "Simple"),
-    (n[(n.TrackDel = 1)] = "TrackDel"),
-    (n[(n.TrackBefore = 2)] = "TrackBefore"),
-    (n[(n.TrackAfter = 3)] = "TrackAfter"),
+    (n[(n.Simple = 0)] = 'Simple'),
+    (n[(n.TrackDel = 1)] = 'TrackDel'),
+    (n[(n.TrackBefore = 2)] = 'TrackBefore'),
+    (n[(n.TrackAfter = 3)] = 'TrackAfter'),
     n
   );
 })(Te || (Te = {}));
@@ -2944,7 +2939,7 @@ class dt {
     }
     if (e > r)
       throw new RangeError(
-        `Position ${e} is out of range for changeset of length ${r}`,
+        `Position ${e} is out of range for changeset of length ${r}`
       );
     return s;
   }
@@ -2953,17 +2948,17 @@ class dt {
       let s = this.sections[i++],
         o = this.sections[i++],
         l = r + s;
-      if (o >= 0 && r <= t && l >= e) return r < e && l > t ? "cover" : !0;
+      if (o >= 0 && r <= t && l >= e) return r < e && l > t ? 'cover' : !0;
       r = l;
     }
     return !1;
   }
   toString() {
-    let e = "";
+    let e = '';
     for (let t = 0; t < this.sections.length; ) {
       let i = this.sections[t++],
         r = this.sections[t++];
-      e += (e ? " " : "") + i + (r >= 0 ? ":" + r : "");
+      e += (e ? ' ' : '') + i + (r >= 0 ? ':' + r : '');
     }
     return e;
   }
@@ -2974,9 +2969,9 @@ class dt {
     if (
       !Array.isArray(e) ||
       e.length % 2 ||
-      e.some((t) => typeof t != "number")
+      e.some((t) => typeof t != 'number')
     )
-      throw new RangeError("Invalid JSON representation of ChangeDesc");
+      throw new RangeError('Invalid JSON representation of ChangeDesc');
     return new dt(e);
   }
   static create(e) {
@@ -2990,7 +2985,7 @@ class Se extends dt {
   apply(e) {
     if (this.length != e.length)
       throw new RangeError(
-        "Applying change set to a document with the wrong length",
+        'Applying change set to a document with the wrong length'
       );
     return (
       vs(this, (t, i, r, s, o) => (e = e.replace(r, r + (i - t), o)), !1), e
@@ -3082,17 +3077,17 @@ class Se extends dt {
       else if (h instanceof Se) {
         if (h.length != t)
           throw new RangeError(
-            `Mismatched change set length (got ${h.length}, expected ${t})`,
+            `Mismatched change set length (got ${h.length}, expected ${t})`
           );
         a(), (l = l ? l.compose(h.map(l)) : h);
       } else {
         let { from: c, to: f = c, insert: d } = h;
         if (c > f || c < 0 || f > t)
           throw new RangeError(
-            `Invalid change range ${c} to ${f} (in doc of length ${t})`,
+            `Invalid change range ${c} to ${f} (in doc of length ${t})`
           );
         let p = d
-            ? typeof d == "string"
+            ? typeof d == 'string'
               ? Y.of(d.split(i || Qs))
               : d
             : Y.empty,
@@ -3112,19 +3107,19 @@ class Se extends dt {
   }
   static fromJSON(e) {
     if (!Array.isArray(e))
-      throw new RangeError("Invalid JSON representation of ChangeSet");
+      throw new RangeError('Invalid JSON representation of ChangeSet');
     let t = [],
       i = [];
     for (let r = 0; r < e.length; r++) {
       let s = e[r];
-      if (typeof s == "number") t.push(s, -1);
+      if (typeof s == 'number') t.push(s, -1);
       else {
         if (
           !Array.isArray(s) ||
-          typeof s[0] != "number" ||
-          s.some((o, l) => l && typeof o != "string")
+          typeof s[0] != 'number' ||
+          s.some((o, l) => l && typeof o != 'string')
         )
-          throw new RangeError("Invalid JSON representation of ChangeSet");
+          throw new RangeError('Invalid JSON representation of ChangeSet');
         if (s.length == 1) t.push(s[0], 0);
         else {
           for (; i.length < r; ) i.push(Y.empty);
@@ -3222,7 +3217,7 @@ function As(n, e, t, i = !1) {
         o.forward(o.len - h);
     } else {
       if (o.done && l.done) return s ? Se.createSet(r, s) : dt.create(r);
-      throw new Error("Mismatched change set lengths");
+      throw new Error('Mismatched change set lengths');
     }
 }
 function ch(n, e, t = !1) {
@@ -3236,7 +3231,7 @@ function ch(n, e, t = !1) {
     else if (o.len == 0 && !o.done)
       ve(i, 0, o.ins, l), r && Mt(r, i, o.text), o.next();
     else {
-      if (s.done || o.done) throw new Error("Mismatched change set lengths");
+      if (s.done || o.done) throw new Error('Mismatched change set lengths');
       {
         let a = Math.min(s.len2, o.len),
           u = i.length;
@@ -3340,8 +3335,8 @@ class Jt {
     return { anchor: this.anchor, head: this.head };
   }
   static fromJSON(e) {
-    if (!e || typeof e.anchor != "number" || typeof e.head != "number")
-      throw new RangeError("Invalid JSON representation for SelectionRange");
+    if (!e || typeof e.anchor != 'number' || typeof e.head != 'number')
+      throw new RangeError('Invalid JSON representation for SelectionRange');
     return k.range(e.anchor, e.head);
   }
   static create(e, t, i) {
@@ -3357,7 +3352,7 @@ class k {
       ? this
       : k.create(
           this.ranges.map((i) => i.map(e, t)),
-          this.mainIndex,
+          this.mainIndex
         );
   }
   eq(e) {
@@ -3387,13 +3382,13 @@ class k {
     if (
       !e ||
       !Array.isArray(e.ranges) ||
-      typeof e.main != "number" ||
+      typeof e.main != 'number' ||
       e.main >= e.ranges.length
     )
-      throw new RangeError("Invalid JSON representation for EditorSelection");
+      throw new RangeError('Invalid JSON representation for EditorSelection');
     return new k(
       e.ranges.map((t) => Jt.fromJSON(t)),
-      e.main,
+      e.main
     );
   }
   static single(e, t = e) {
@@ -3401,7 +3396,7 @@ class k {
   }
   static create(e, t = 0) {
     if (e.length == 0)
-      throw new RangeError("A selection needs at least one range");
+      throw new RangeError('A selection needs at least one range');
     for (let i = 0, r = 0; r < e.length; r++) {
       let s = e[r];
       if (s.empty ? s.from <= i : s.from < i) return k.normalized(e.slice(), t);
@@ -3415,7 +3410,7 @@ class k {
       e,
       (t == 0 ? 0 : t < 0 ? 4 : 8) |
         (i == null ? 3 : Math.min(2, i)) |
-        ((r ?? 33554431) << 5),
+        ((r ?? 33554431) << 5)
     );
   }
   static range(e, t, i, r) {
@@ -3442,7 +3437,7 @@ class k {
 }
 function fh(n, e) {
   for (let t of n.ranges)
-    if (t.to > e) throw new RangeError("Selection points outside of document");
+    if (t.to > e) throw new RangeError('Selection points outside of document');
 }
 let Eo = 0;
 class B {
@@ -3453,7 +3448,7 @@ class B {
       (this.isStatic = r),
       (this.id = Eo++),
       (this.default = e([])),
-      (this.extensions = typeof s == "function" ? s(this) : s);
+      (this.extensions = typeof s == 'function' ? s(this) : s);
   }
   static define(e = {}) {
     return new B(
@@ -3461,7 +3456,7 @@ class B {
       e.compareInput || ((t, i) => t === i),
       e.compare || (e.combine ? (t, i) => t === i : To),
       !!e.static,
-      e.enables,
+      e.enables
     );
   }
   of(e) {
@@ -3501,9 +3496,9 @@ class Vn {
       u = !1,
       h = [];
     for (let c of this.dependencies)
-      c == "doc"
+      c == 'doc'
         ? (a = !0)
-        : c == "selection"
+        : c == 'selection'
         ? (u = !0)
         : ((t = e[c.id]) !== null && t !== void 0 ? t : 1) & 1 ||
           h.push(e[c.id]);
@@ -3534,7 +3529,7 @@ class Vn {
                 ? f.facet(g) === c.facet(g)
                 : g instanceof Qe
                 ? f.field(g, !1) == c.field(g, !1)
-                : !0,
+                : !0
             ) ||
             (l ? xl((d = i(c)), m, r) : r((d = i(c)), m))
           )
@@ -3605,7 +3600,7 @@ class Qe {
       e.create,
       e.update,
       e.compare || ((i, r) => i === r),
-      e,
+      e
     );
     return e.provide && (t.provides = e.provide(t)), t;
   }
@@ -3734,7 +3729,7 @@ function lp(n, e, t) {
     if ((r.set(o, l), Array.isArray(o))) for (let u of o) s(u, l);
     else if (o instanceof Ps) {
       if (t.has(o.compartment))
-        throw new RangeError("Duplicate use of compartment in extensions");
+        throw new RangeError('Duplicate use of compartment in extensions');
       let u = e.get(o.compartment) || o.inner;
       t.set(o.compartment, u), s(u, l);
     } else if (o instanceof dh) s(o.inner, o.prec);
@@ -3745,7 +3740,7 @@ function lp(n, e, t) {
       let u = o.extension;
       if (!u)
         throw new Error(
-          `Unrecognized extension value in extension set (${o}). This sometimes happens because multiple instances of @codemirror/state are loaded, breaking instanceof checks.`,
+          `Unrecognized extension value in extension set (${o}). This sometimes happens because multiple instances of @codemirror/state are loaded, breaking instanceof checks.`
         );
       s(u, l);
     }
@@ -3756,7 +3751,7 @@ function _i(n, e) {
   if (e & 1) return 2;
   let t = e >> 1,
     i = n.status[t];
-  if (i == 4) throw new Error("Cyclic dependency between fields and/or facets");
+  if (i == 4) throw new Error('Cyclic dependency between fields and/or facets');
   if (i & 2) return i;
   n.status[t] = 4;
   let r = n.computeSlot(n, n.config.dynamicSlots[t]);
@@ -3861,7 +3856,7 @@ class be {
       (t == e ||
         (t.length > e.length &&
           t.slice(0, e.length) == e &&
-          t[e.length] == "."))
+          t[e.length] == '.'))
     );
   }
 }
@@ -3939,7 +3934,7 @@ function kh(n, e, t) {
     i.selection,
     i.effects,
     i.annotations,
-    i.scrollIntoView,
+    i.scrollIntoView
   );
   return fp(t ? cp(r) : r);
 }
@@ -3967,7 +3962,7 @@ function cp(n) {
       n.selection && n.selection.map(s),
       Z.mapEffects(n.effects, s),
       n.annotations,
-      n.scrollIntoView,
+      n.scrollIntoView
     );
   }
   let i = e.facet(Sh);
@@ -3999,7 +3994,7 @@ function fp(n) {
         n.selection,
         i.effects,
         i.annotations,
-        i.scrollIntoView,
+        i.scrollIntoView
       );
 }
 const dp = [];
@@ -4008,9 +4003,9 @@ function mi(n) {
 }
 var oe = (function (n) {
   return (
-    (n[(n.Word = 0)] = "Word"),
-    (n[(n.Space = 1)] = "Space"),
-    (n[(n.Other = 2)] = "Other"),
+    (n[(n.Word = 0)] = 'Word'),
+    (n[(n.Space = 1)] = 'Space'),
+    (n[(n.Other = 2)] = 'Other'),
     n
   );
 })(oe || (oe = {}));
@@ -4018,7 +4013,7 @@ const pp =
   /[\u00df\u0587\u0590-\u05f4\u0600-\u06ff\u3040-\u309f\u30a0-\u30ff\u3400-\u4db5\u4e00-\u9fcc\uac00-\ud7af]/;
 let Bs;
 try {
-  Bs = new RegExp("[\\p{Alphabetic}\\p{Number}_]", "u");
+  Bs = new RegExp('[\\p{Alphabetic}\\p{Number}_]', 'u');
 } catch {}
 function Op(n) {
   if (Bs) return Bs.test(n);
@@ -4026,7 +4021,7 @@ function Op(n) {
     let t = n[e];
     if (
       /\w/.test(t) ||
-      (t > "" && (t.toUpperCase() != t.toLowerCase() || pp.test(t)))
+      (t > '' && (t.toUpperCase() != t.toLowerCase() || pp.test(t)))
     )
       return !0;
   }
@@ -4055,7 +4050,7 @@ class j {
   field(e, t = !0) {
     let i = this.config.address[e.id];
     if (i == null) {
-      if (t) throw new RangeError("Field is not present in this state");
+      if (t) throw new RangeError('Field is not present in this state');
       return;
     }
     return _i(this, i), tr(this, i);
@@ -4086,13 +4081,13 @@ class j {
           this.selection,
           t.dynamicSlots.map(() => null),
           (l, a) => a.reconfigure(l, this),
-          null,
+          null
         ).values)),
       new j(t, e.newDoc, e.newSelection, s, (o, l) => l.update(o, e), e);
   }
   replaceSelection(e) {
     return (
-      typeof e == "string" && (e = this.toText(e)),
+      typeof e == 'string' && (e = this.toText(e)),
       this.changeByRange((t) => ({
         changes: { from: t.from, to: t.to, insert: e },
         range: k.cursor(t.from + e.length),
@@ -4144,8 +4139,8 @@ class j {
     return t;
   }
   static fromJSON(e, t = {}, i) {
-    if (!e || typeof e.doc != "string")
-      throw new RangeError("Invalid JSON representation for EditorState");
+    if (!e || typeof e.doc != 'string')
+      throw new RangeError('Invalid JSON representation for EditorState');
     let r = [];
     if (i) {
       for (let s in i)
@@ -4166,7 +4161,7 @@ class j {
       i =
         e.doc instanceof Y
           ? e.doc
-          : Y.of((e.doc || "").split(t.staticFacet(j.lineSeparator) || Qs)),
+          : Y.of((e.doc || '').split(t.staticFacet(j.lineSeparator) || Qs)),
       r = e.selection
         ? e.selection instanceof k
           ? e.selection
@@ -4181,7 +4176,7 @@ class j {
         r,
         t.dynamicSlots.map(() => null),
         (s, o) => o.create(s),
-        null,
+        null
       )
     );
   }
@@ -4207,7 +4202,7 @@ class j {
     return (
       t.length &&
         (e = e.replace(/\$(\$|\d*)/g, (i, r) => {
-          if (r == "$") return "$";
+          if (r == '$') return '$';
           let s = +(r || 1);
           return !s || s > t.length ? i : t[s - 1];
         })),
@@ -4222,7 +4217,7 @@ class j {
     return r;
   }
   charCategorizer(e) {
-    return gp(this.languageDataAt("wordChars", e).join(""));
+    return gp(this.languageDataAt('wordChars', e).join(''));
   }
   wordAt(e) {
     let { text: t, from: i, length: r } = this.doc.lineAt(e),
@@ -4267,7 +4262,7 @@ function gt(n, e, t = {}) {
       if (l === void 0) i[s] = o;
       else if (!(l === o || o === void 0))
         if (Object.hasOwnProperty.call(t, s)) i[s] = t[s](l, o);
-        else throw new Error("Config merge conflict for field " + s);
+        else throw new Error('Config merge conflict for field ' + s);
     }
   for (let r in e) i[r] === void 0 && (i[r] = e[r]);
   return i;
@@ -4422,7 +4417,7 @@ class L {
             filter: o,
             filterFrom: r,
             filterTo: s,
-          }),
+          })
     );
   }
   map(e) {
@@ -4558,7 +4553,7 @@ class Rt {
     let r = e - this.lastTo || i.startSide - this.last.endSide;
     if (r <= 0 && (e - this.lastFrom || i.startSide - this.last.startSide) < 0)
       throw new Error(
-        "Ranges must be added sorted by `from` position and `startSide`",
+        'Ranges must be added sorted by `from` position and `startSide`'
       );
     return r < 0
       ? !1
@@ -4598,7 +4593,7 @@ class Rt {
       this.chunkPos,
       this.chunks,
       this.nextLayer ? this.nextLayer.finishInner(e) : e,
-      this.setMaxPoint,
+      this.setMaxPoint
     );
     return (this.from = null), t;
   }
@@ -4651,7 +4646,7 @@ class Dh {
       let r = this.layer.chunk[this.chunkIndex].findIndex(
         e - this.layer.chunkPos[this.chunkIndex],
         t,
-        !0,
+        !0
       );
       (!i || this.rangeIndex < r) && this.setRangeIndex(r);
     }
@@ -4943,13 +4938,13 @@ function Fs(n, e, t, i) {
   }
   return i === !0 ? -1 : n.length;
 }
-const Xs = "ͼ",
-  Ql = typeof Symbol > "u" ? "__" + Xs : Symbol.for(Xs),
+const Xs = 'ͼ',
+  Ql = typeof Symbol > 'u' ? '__' + Xs : Symbol.for(Xs),
   Ws =
-    typeof Symbol > "u"
-      ? "__styleSet" + Math.floor(Math.random() * 1e8)
-      : Symbol("styleSet"),
-  vl = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : {};
+    typeof Symbol > 'u'
+      ? '__styleSet' + Math.floor(Math.random() * 1e8)
+      : Symbol('styleSet'),
+  vl = typeof globalThis < 'u' ? globalThis : typeof window < 'u' ? window : {};
 class Ft {
   constructor(e, t) {
     this.rules = [];
@@ -4960,8 +4955,8 @@ class Ft {
     function s(o, l, a, u) {
       let h = [],
         c = /^@(\w+)\b/.exec(o[0]),
-        f = c && c[1] == "keyframes";
-      if (c && l == null) return a.push(o[0] + ";");
+        f = c && c[1] == 'keyframes';
+      if (c && l == null) return a.push(o[0] + ';');
       for (let d in l) {
         let p = l[d];
         if (/&/.test(d))
@@ -4971,30 +4966,28 @@ class Ft {
               .map((m) => o.map((g) => m.replace(/&/, g)))
               .reduce((m, g) => m.concat(g)),
             p,
-            a,
+            a
           );
-        else if (p && typeof p == "object") {
+        else if (p && typeof p == 'object') {
           if (!c)
             throw new RangeError(
-              "The value of a property (" +
-                d +
-                ") should be a primitive value.",
+              'The value of a property (' + d + ') should be a primitive value.'
             );
           s(r(d), p, h, f);
         } else
           p != null &&
             h.push(
               d
-                .replace(/_.*/, "")
-                .replace(/[A-Z]/g, (m) => "-" + m.toLowerCase()) +
-                ": " +
+                .replace(/_.*/, '')
+                .replace(/[A-Z]/g, (m) => '-' + m.toLowerCase()) +
+                ': ' +
                 p +
-                ";",
+                ';'
             );
       }
       (h.length || f) &&
         a.push(
-          (i && !c && !u ? o.map(i) : o).join(", ") + " {" + h.join(" ") + "}",
+          (i && !c && !u ? o.map(i) : o).join(', ') + ' {' + h.join(' ') + '}'
         );
     }
     for (let o in e) s(r(o), e[o], this.rules);
@@ -5030,8 +5023,8 @@ class Sp {
         (e.adoptedStyleSheets = [this.sheet, ...e.adoptedStyleSheets]),
         Al.set(i, this);
     } else {
-      (this.styleTag = i.createElement("style")),
-        t && this.styleTag.setAttribute("nonce", t);
+      (this.styleTag = i.createElement('style')),
+        t && this.styleTag.setAttribute('nonce', t);
       let s = e.head || e;
       s.insertBefore(this.styleTag, s.firstChild);
     }
@@ -5056,7 +5049,7 @@ class Sp {
       }
     }
     if (!t) {
-      let s = "";
+      let s = '';
       for (let o = 0; o < this.modules.length; o++)
         s +=
           this.modules[o].getRules() +
@@ -5067,96 +5060,96 @@ class Sp {
   }
   setNonce(e) {
     this.styleTag &&
-      this.styleTag.getAttribute("nonce") != e &&
-      this.styleTag.setAttribute("nonce", e);
+      this.styleTag.getAttribute('nonce') != e &&
+      this.styleTag.setAttribute('nonce', e);
   }
 }
 var Xt = {
-    8: "Backspace",
-    9: "Tab",
-    10: "Enter",
-    12: "NumLock",
-    13: "Enter",
-    16: "Shift",
-    17: "Control",
-    18: "Alt",
-    20: "CapsLock",
-    27: "Escape",
-    32: " ",
-    33: "PageUp",
-    34: "PageDown",
-    35: "End",
-    36: "Home",
-    37: "ArrowLeft",
-    38: "ArrowUp",
-    39: "ArrowRight",
-    40: "ArrowDown",
-    44: "PrintScreen",
-    45: "Insert",
-    46: "Delete",
-    59: ";",
-    61: "=",
-    91: "Meta",
-    92: "Meta",
-    106: "*",
-    107: "+",
-    108: ",",
-    109: "-",
-    110: ".",
-    111: "/",
-    144: "NumLock",
-    145: "ScrollLock",
-    160: "Shift",
-    161: "Shift",
-    162: "Control",
-    163: "Control",
-    164: "Alt",
-    165: "Alt",
-    173: "-",
-    186: ";",
-    187: "=",
-    188: ",",
-    189: "-",
-    190: ".",
-    191: "/",
-    192: "`",
-    219: "[",
-    220: "\\",
-    221: "]",
+    8: 'Backspace',
+    9: 'Tab',
+    10: 'Enter',
+    12: 'NumLock',
+    13: 'Enter',
+    16: 'Shift',
+    17: 'Control',
+    18: 'Alt',
+    20: 'CapsLock',
+    27: 'Escape',
+    32: ' ',
+    33: 'PageUp',
+    34: 'PageDown',
+    35: 'End',
+    36: 'Home',
+    37: 'ArrowLeft',
+    38: 'ArrowUp',
+    39: 'ArrowRight',
+    40: 'ArrowDown',
+    44: 'PrintScreen',
+    45: 'Insert',
+    46: 'Delete',
+    59: ';',
+    61: '=',
+    91: 'Meta',
+    92: 'Meta',
+    106: '*',
+    107: '+',
+    108: ',',
+    109: '-',
+    110: '.',
+    111: '/',
+    144: 'NumLock',
+    145: 'ScrollLock',
+    160: 'Shift',
+    161: 'Shift',
+    162: 'Control',
+    163: 'Control',
+    164: 'Alt',
+    165: 'Alt',
+    173: '-',
+    186: ';',
+    187: '=',
+    188: ',',
+    189: '-',
+    190: '.',
+    191: '/',
+    192: '`',
+    219: '[',
+    220: '\\',
+    221: ']',
     222: "'",
   },
   en = {
-    48: ")",
-    49: "!",
-    50: "@",
-    51: "#",
-    52: "$",
-    53: "%",
-    54: "^",
-    55: "&",
-    56: "*",
-    57: "(",
-    59: ":",
-    61: "+",
-    173: "_",
-    186: ":",
-    187: "+",
-    188: "<",
-    189: "_",
-    190: ">",
-    191: "?",
-    192: "~",
-    219: "{",
-    220: "|",
-    221: "}",
+    48: ')',
+    49: '!',
+    50: '@',
+    51: '#',
+    52: '$',
+    53: '%',
+    54: '^',
+    55: '&',
+    56: '*',
+    57: '(',
+    59: ':',
+    61: '+',
+    173: '_',
+    186: ':',
+    187: '+',
+    188: '<',
+    189: '_',
+    190: '>',
+    191: '?',
+    192: '~',
+    219: '{',
+    220: '|',
+    221: '}',
     222: '"',
   },
-  bp = typeof navigator < "u" && /Mac/.test(navigator.platform),
+  bp = typeof navigator < 'u' && /Mac/.test(navigator.platform),
   yp =
-    typeof navigator < "u" &&
+    typeof navigator < 'u' &&
     /MSIE \d|Trident\/(?:[7-9]|\d{2,})\..*rv:(\d+)/.exec(navigator.userAgent);
 for (var we = 0; we < 10; we++) Xt[48 + we] = Xt[96 + we] = String(we);
-for (var we = 1; we <= 24; we++) Xt[we + 111] = "F" + we;
+for (var we = 1; we <= 24; we++) Xt[we + 111] = 'F' + we;
 for (var we = 65; we <= 90; we++)
   (Xt[we] = String.fromCharCode(we + 32)), (en[we] = String.fromCharCode(we));
 for (var Gr in Xt) en.hasOwnProperty(Gr) || (en[Gr] = Xt[Gr]);
@@ -5164,19 +5157,19 @@ function xp(n) {
   var e =
       (bp && n.metaKey && n.shiftKey && !n.ctrlKey && !n.altKey) ||
       (yp && n.shiftKey && n.key && n.key.length == 1) ||
-      n.key == "Unidentified",
+      n.key == 'Unidentified',
     t =
       (!e && n.key) ||
       (n.shiftKey ? en : Xt)[n.keyCode] ||
       n.key ||
-      "Unidentified";
+      'Unidentified';
   return (
-    t == "Esc" && (t = "Escape"),
-    t == "Del" && (t = "Delete"),
-    t == "Left" && (t = "ArrowLeft"),
-    t == "Up" && (t = "ArrowUp"),
-    t == "Right" && (t = "ArrowRight"),
-    t == "Down" && (t = "ArrowDown"),
+    t == 'Esc' && (t = 'Escape'),
+    t == 'Del' && (t = 'Delete'),
+    t == 'Left' && (t = 'ArrowLeft'),
+    t == 'Up' && (t = 'ArrowUp'),
+    t == 'Right' && (t = 'ArrowRight'),
+    t == 'Down' && (t = 'ArrowDown'),
     t
   );
 }
@@ -5220,14 +5213,14 @@ function $l(n, e, t, i, r) {
   for (;;) {
     if (n == t && e == i) return !0;
     if (e == (r < 0 ? 0 : Wt(n))) {
-      if (n.nodeName == "DIV") return !1;
+      if (n.nodeName == 'DIV') return !1;
       let s = n.parentNode;
       if (!s || s.nodeType != 1) return !1;
       (e = rr(n) + (r < 0 ? 0 : 1)), (n = s);
     } else if (n.nodeType == 1) {
       if (
         ((n = n.childNodes[e + (r < 0 ? -1 : 0)]),
-        n.nodeType == 1 && n.contentEditable == "false")
+        n.nodeType == 1 && n.contentEditable == 'false')
       )
         return !1;
       e = r < 0 ? Wt(n) : 0;
@@ -5270,7 +5263,7 @@ function Dp(n, e, t, i, r, s, o, l) {
       }
       let p = 0,
         m = 0;
-      if (r == "nearest")
+      if (r == 'nearest')
         e.top < f.top
           ? ((m = -(f.top - e.top + o)),
             t > 0 &&
@@ -5283,14 +5276,14 @@ function Dp(n, e, t, i, r, s, o, l) {
         let g = e.bottom - e.top,
           S = f.bottom - f.top;
         m =
-          (r == "center" && g <= S
+          (r == 'center' && g <= S
             ? e.top + g / 2 - S / 2
-            : r == "start" || (r == "center" && t < 0)
+            : r == 'start' || (r == 'center' && t < 0)
             ? e.top - o
             : e.bottom - S + o) - f.top;
       }
       if (
-        (i == "nearest"
+        (i == 'nearest'
           ? e.left < f.left
             ? ((p = -(f.left - e.left + s)),
               t > 0 && e.right > f.right + p && (p = e.right - f.right + p + s))
@@ -5298,9 +5291,9 @@ function Dp(n, e, t, i, r, s, o, l) {
               ((p = e.right - f.right + s),
               t < 0 && e.left < f.left + p && (p = -(f.left + p - e.left + s)))
           : (p =
-              (i == "center"
+              (i == 'center'
                 ? e.left + (e.right - e.left) / 2 - (f.right - f.left) / 2
-                : (i == "start") == l
+                : (i == 'start') == l
                 ? e.left - s
                 : e.right - (f.right - f.left) + s) - f.left),
         p || m)
@@ -5323,8 +5316,8 @@ function Dp(n, e, t, i, r, s, o, l) {
             right: e.right - g,
             bottom: e.bottom - S,
           }),
-            g && Math.abs(g - p) < 1 && (i = "nearest"),
-            S && Math.abs(S - m) < 1 && (r = "nearest");
+            g && Math.abs(g - p) < 1 && (i = 'nearest'),
+            S && Math.abs(S - m) < 1 && (r = 'nearest');
         }
       if (d) break;
       h = h.assignedSlot || h.parentNode;
@@ -5363,7 +5356,7 @@ class Qp {
       t,
       Math.min(e.anchorOffset, t ? Wt(t) : 0),
       i,
-      Math.min(e.focusOffset, i ? Wt(i) : 0),
+      Math.min(e.focusOffset, i ? Wt(i) : 0)
     );
   }
   set(e, t, i, r) {
@@ -5391,7 +5384,7 @@ function wh(n) {
               return (ai = { preventScroll: !0 }), !0;
             },
           }
-        : void 0,
+        : void 0
     ),
     !ai)
   ) {
@@ -5412,9 +5405,9 @@ function ri(n, e, t = e) {
 }
 function Si(n, e, t) {
   let i = { key: e, code: e, keyCode: t, which: t, cancelable: !0 },
-    r = new KeyboardEvent("keydown", i);
+    r = new KeyboardEvent('keydown', i);
   (r.synthetic = !0), n.dispatchEvent(r);
-  let s = new KeyboardEvent("keyup", i);
+  let s = new KeyboardEvent('keyup', i);
   return (
     (s.synthetic = !0),
     n.dispatchEvent(s),
@@ -5439,7 +5432,7 @@ function Ap(n, e) {
     if (i) {
       if (t.nodeType != 1) return !1;
       let r = t.childNodes[i - 1];
-      r.contentEditable == "false" ? i-- : ((t = r), (i = Wt(t)));
+      r.contentEditable == 'false' ? i-- : ((t = r), (i = Wt(t)));
     } else {
       if (t == n) return !0;
       (i = rr(t)), (t = t.parentNode);
@@ -5479,7 +5472,7 @@ class K {
       if (i == e) return t;
       t += i.length + i.breakAfter;
     }
-    throw new RangeError("Invalid child in posBefore");
+    throw new RangeError('Invalid child in posBefore');
   }
   posAfter(e) {
     return this.posBefore(e) + e.length;
@@ -5614,15 +5607,15 @@ class K {
     return this.childCursor().findPos(e, t);
   }
   toString() {
-    let e = this.constructor.name.replace("View", "");
+    let e = this.constructor.name.replace('View', '');
     return (
       e +
       (this.children.length
-        ? "(" + this.children.join() + ")"
+        ? '(' + this.children.join() + ')'
         : this.length
-        ? "[" + (e == "Text" ? this.text : this.length) + "]"
-        : "") +
-      (this.breakAfter ? "#" : "")
+        ? '[' + (e == 'Text' ? this.text : this.length) + ']'
+        : '') +
+      (this.breakAfter ? '#' : '')
     );
   }
   static get(e) {
@@ -5735,11 +5728,11 @@ function Ph(n, e, t, i, r, s) {
   for (let f of i) c += f.length;
   (n.length += c), $h(n, u, h, l, a, i, 0, r, s);
 }
-const fi = "￿";
+const fi = '￿';
 class Mh {
   constructor(e, t) {
     (this.points = e),
-      (this.text = ""),
+      (this.text = ''),
       (this.lineSeparator = t.facet(j.lineSeparator));
   }
   append(e) {
@@ -5763,7 +5756,7 @@ class Mh {
         ? l.breakAfter
         : (l ? l.breakAfter : Bl(r)) ||
           (Bl(o) &&
-            (r.nodeName != "BR" || r.cmIgnore) &&
+            (r.nodeName != 'BR' || r.cmIgnore) &&
             this.text.length > s)) && this.lineBreak(),
         (r = o);
     }
@@ -5803,7 +5796,7 @@ class Mh {
     } else
       e.nodeType == 3
         ? this.readTextNode(e)
-        : e.nodeName == "BR"
+        : e.nodeName == 'BR'
         ? e.nextSibling && this.lineBreak()
         : e.nodeType == 1 && this.readRange(e.firstChild, null);
   }
@@ -5829,17 +5822,17 @@ class El {
   }
 }
 let _e =
-    typeof navigator < "u"
+    typeof navigator < 'u'
       ? navigator
-      : { userAgent: "", vendor: "", platform: "" },
-  zs = typeof document < "u" ? document : { documentElement: { style: {} } };
+      : { userAgent: '', vendor: '', platform: '' },
+  zs = typeof document < 'u' ? document : { documentElement: { style: {} } };
 const Is = /Edge\/(\d+)/.exec(_e.userAgent),
   Bh = /MSIE \d/.test(_e.userAgent),
   Vs = /Trident\/(?:[7-9]|\d{2,})\..*rv:(\d+)/.exec(_e.userAgent),
   Tr = !!(Bh || Vs || Is),
   Tl = !Tr && /gecko\/(\d+)/i.test(_e.userAgent),
   Hr = !Tr && /Chrome\/(\d+)/.exec(_e.userAgent),
-  Rl = "webkitFontSmoothing" in zs.documentElement.style,
+  Rl = 'webkitFontSmoothing' in zs.documentElement.style,
   Eh = !Tr && /Apple Computer/.test(_e.vendor),
   Fl = Eh && (/Mobile\/\w+/.test(_e.userAgent) || _e.maxTouchPoints > 2);
 var M = {
@@ -5860,7 +5853,7 @@ var M = {
     ? +(/\bAppleWebKit\/(\d+)/.exec(navigator.userAgent) || [0, 0])[1]
     : 0,
   tabSize:
-    zs.documentElement.style.tabSize != null ? "tab-size" : "-moz-tab-size",
+    zs.documentElement.style.tabSize != null ? 'tab-size' : '-moz-tab-size',
 };
 const $p = 256;
 class pt extends K {
@@ -5890,7 +5883,7 @@ class pt extends K {
           i.flags & 8))
       ? !1
       : ((this.text =
-          this.text.slice(0, e) + (i ? i.text : "") + this.text.slice(t)),
+          this.text.slice(0, e) + (i ? i.text : '') + this.text.slice(t)),
         this.markDirty(),
         !0);
   }
@@ -6026,7 +6019,7 @@ class Kt extends K {
       (this.dom && this.prevWidget && this.prevWidget.destroy(this.dom),
       (this.prevWidget = null),
       this.setDOM(this.widget.toDOM(e)),
-      (this.dom.contentEditable = "false"));
+      (this.dom.contentEditable = 'false'));
   }
   getSide() {
     return this.side;
@@ -6119,9 +6112,9 @@ class Di extends K {
   }
   sync() {
     if (!this.dom) {
-      let e = document.createElement("img");
-      (e.className = "cm-widgetBuffer"),
-        e.setAttribute("aria-hidden", "true"),
+      let e = document.createElement('img');
+      (e.className = 'cm-widgetBuffer'),
+        e.setAttribute('aria-hidden', 'true'),
         this.setDOM(e);
     }
   }
@@ -6215,10 +6208,10 @@ function Mp(n) {
 }
 function js(n, e) {
   for (let t in n)
-    t == "class" && e.class
-      ? (e.class += " " + n.class)
-      : t == "style" && e.style
-      ? (e.style += ";" + n.style)
+    t == 'class' && e.class
+      ? (e.class += ' ' + n.class)
+      : t == 'style' && e.style
+      ? (e.style += ';' + n.style)
       : (e[t] = n[t]);
   return e;
 }
@@ -6280,10 +6273,10 @@ class vt {
 }
 var he = (function (n) {
   return (
-    (n[(n.Text = 0)] = "Text"),
-    (n[(n.WidgetBefore = 1)] = "WidgetBefore"),
-    (n[(n.WidgetAfter = 2)] = "WidgetAfter"),
-    (n[(n.WidgetRange = 3)] = "WidgetRange"),
+    (n[(n.Text = 0)] = 'Text'),
+    (n[(n.WidgetBefore = 1)] = 'WidgetBefore'),
+    (n[(n.WidgetAfter = 2)] = 'WidgetAfter'),
+    (n[(n.WidgetRange = 3)] = 'WidgetRange'),
     n
   );
 })(he || (he = {}));
@@ -6336,8 +6329,8 @@ class cn extends T {
   constructor(e) {
     let { start: t, end: i } = Xh(e);
     super(t ? -1 : 5e8, i ? 1 : -6e8, null, e),
-      (this.tagName = e.tagName || "span"),
-      (this.class = e.class || ""),
+      (this.tagName = e.tagName || 'span'),
+      (this.class = e.class || ''),
       (this.attrs = e.attributes || null);
   }
   eq(e) {
@@ -6350,11 +6343,11 @@ class cn extends T {
           ((t = this.attrs) === null || t === void 0 ? void 0 : t.class)) ==
           (e.class ||
             ((i = e.attrs) === null || i === void 0 ? void 0 : i.class)) &&
-        Xo(this.attrs, e.attrs, "class"))
+        Xo(this.attrs, e.attrs, 'class'))
     );
   }
   range(e, t = e) {
-    if (e >= t) throw new RangeError("Mark decorations may not be empty");
+    if (e >= t) throw new RangeError('Mark decorations may not be empty');
     return super.range(e, t);
   }
 }
@@ -6372,7 +6365,7 @@ class fn extends T {
   }
   range(e, t = e) {
     if (t != e)
-      throw new RangeError("Line decoration ranges must be zero-length");
+      throw new RangeError('Line decoration ranges must be zero-length');
     return super.range(e, t);
   }
 }
@@ -6417,10 +6410,10 @@ class Zt extends T {
       this.isReplace &&
       (e > t || (e == t && this.startSide > 0 && this.endSide <= 0))
     )
-      throw new RangeError("Invalid range for replacement decoration");
+      throw new RangeError('Invalid range for replacement decoration');
     if (!this.isReplace && t != e)
       throw new RangeError(
-        "Widget decorations can only have zero-length ranges",
+        'Widget decorations can only have zero-length ranges'
       );
     return super.range(e, t);
   }
@@ -6501,21 +6494,21 @@ class Ee extends K {
     return Th(this, e);
   }
   reuseDOM(e) {
-    e.nodeName == "DIV" && (this.setDOM(e), (this.flags |= 6));
+    e.nodeName == 'DIV' && (this.setDOM(e), (this.flags |= 6));
   }
   sync(e, t) {
     var i;
     this.dom
       ? this.flags & 4 &&
         (Qh(this.dom),
-        (this.dom.className = "cm-line"),
+        (this.dom.className = 'cm-line'),
         (this.prevAttrs = this.attrs ? null : void 0))
-      : (this.setDOM(document.createElement("div")),
-        (this.dom.className = "cm-line"),
+      : (this.setDOM(document.createElement('div')),
+        (this.dom.className = 'cm-line'),
         (this.prevAttrs = this.attrs ? null : void 0)),
       this.prevAttrs !== void 0 &&
         (Us(this.dom, this.prevAttrs, this.attrs),
-        this.dom.classList.add("cm-line"),
+        this.dom.classList.add('cm-line'),
         (this.prevAttrs = void 0)),
       super.sync(e, t);
     let r = this.dom.lastChild;
@@ -6523,12 +6516,12 @@ class Ee extends K {
     if (
       !r ||
       !this.length ||
-      (r.nodeName != "BR" &&
+      (r.nodeName != 'BR' &&
         ((i = K.get(r)) === null || i === void 0 ? void 0 : i.isEditable) ==
           !1 &&
         (!M.ios || !this.children.some((s) => s instanceof pt)))
     ) {
-      let s = document.createElement("BR");
+      let s = document.createElement('BR');
       (s.cmIgnore = !0), this.dom.appendChild(s);
     }
   }
@@ -6621,7 +6614,7 @@ class ti extends K {
       (this.dom && this.prevWidget && this.prevWidget.destroy(this.dom),
       (this.prevWidget = null),
       this.setDOM(this.widget.toDOM(e)),
-      (this.dom.contentEditable = "false"));
+      (this.dom.contentEditable = 'false'));
   }
   get overrideDOMText() {
     return this.parent
@@ -6675,7 +6668,7 @@ class Li {
       (this.atCursorPos = !0),
       (this.openStart = -1),
       (this.openEnd = -1),
-      (this.text = ""),
+      (this.text = ''),
       (this.textOff = 0),
       (this.cursor = e.iter()),
       (this.skip = t);
@@ -6712,7 +6705,7 @@ class Li {
       if (this.textOff == this.text.length) {
         let { value: s, lineBreak: o, done: l } = this.cursor.next(this.skip);
         if (((this.skip = 0), l))
-          throw new Error("Ran out of text content when drawing inline views");
+          throw new Error('Ran out of text content when drawing inline views');
         if (o) {
           this.posCovered() || this.getLine(),
             this.content.length
@@ -6729,7 +6722,7 @@ class Li {
       this.flushBuffer(t.slice(t.length - i)),
         this.getLine().append(
           xn(new pt(this.text.slice(this.textOff, this.textOff + r)), t),
-          i,
+          i
         ),
         (this.atCursorPos = !0),
         (this.textOff += r),
@@ -6746,11 +6739,11 @@ class Li {
     if (this.disallowBlockEffectsFor[o] && i instanceof Zt) {
       if (i.block)
         throw new RangeError(
-          "Block decorations may not be specified via plugins",
+          'Block decorations may not be specified via plugins'
         );
       if (t > this.doc.lineAt(this.pos).to)
         throw new RangeError(
-          "Decorations that replace line breaks may not be specified via plugins",
+          'Decorations that replace line breaks may not be specified via plugins'
         );
     }
     let l = t - e;
@@ -6758,9 +6751,9 @@ class Li {
       if (i.block) {
         let { type: a } = i;
         a == he.WidgetAfter && !this.posCovered() && this.getLine(),
-          this.addBlockWidget(new ti(i.widget || new Wl("div"), l, a));
+          this.addBlockWidget(new ti(i.widget || new Wl('div'), l, a));
       } else {
-        let a = Kt.create(i.widget || new Wl("span"), l, l ? 0 : i.startSide),
+        let a = Kt.create(i.widget || new Wl('span'), l, l ? 0 : i.startSide),
           u =
             this.atCursorPos &&
             !a.isEditable &&
@@ -6788,7 +6781,7 @@ class Li {
       (this.textOff + l <= this.text.length
         ? (this.textOff += l)
         : ((this.skip += l - (this.text.length - this.textOff)),
-          (this.text = ""),
+          (this.text = ''),
           (this.textOff = 0)),
       (this.pos = t)),
       this.openStart < 0 && (this.openStart = s);
@@ -6834,7 +6827,7 @@ const Wh = B.define(),
   Uh = B.define({ combine: (n) => n.some((e) => e) }),
   Yh = B.define({ combine: (n) => n.some((e) => e) });
 class sr {
-  constructor(e, t = "nearest", i = "nearest", r = 5, s = 5) {
+  constructor(e, t = 'nearest', i = 'nearest', r = 5, s = 5) {
     (this.range = e),
       (this.y = t),
       (this.x = i),
@@ -6855,7 +6848,7 @@ function Ge(n, e, t) {
     : window.onerror
     ? window.onerror(String(e), t, void 0, void 0, e)
     : t
-    ? console.error(t + ":", e)
+    ? console.error(t + ':', e)
     : console.error(e);
 }
 const Rr = B.define({ combine: (n) => (n.length ? n[0] : !0) });
@@ -6878,7 +6871,7 @@ class me {
             tn.of((a) => {
               let u = a.plugin(o);
               return u ? s(u) : T.none;
-            }),
+            })
           ),
         r && l.push(r(o)),
         l
@@ -6902,7 +6895,7 @@ class Jr {
             this.value.update(t);
           } catch (i) {
             if (
-              (Ge(t.state, i, "CodeMirror plugin crashed"), this.value.destroy)
+              (Ge(t.state, i, 'CodeMirror plugin crashed'), this.value.destroy)
             )
               try {
                 this.value.destroy();
@@ -6914,7 +6907,7 @@ class Jr {
       try {
         this.value = this.spec.create(e);
       } catch (t) {
-        Ge(e.state, t, "CodeMirror plugin crashed"), this.deactivate();
+        Ge(e.state, t, 'CodeMirror plugin crashed'), this.deactivate();
       }
     return this;
   }
@@ -6924,7 +6917,7 @@ class Jr {
       try {
         this.value.destroy();
       } catch (i) {
-        Ge(e.state, i, "CodeMirror plugin crashed");
+        Ge(e.state, i, 'CodeMirror plugin crashed');
       }
   }
   deactivate() {
@@ -6961,7 +6954,7 @@ class He {
       Math.min(this.fromA, e.fromA),
       Math.max(this.toA, e.toA),
       Math.min(this.fromB, e.fromB),
-      Math.max(this.toB, e.toB),
+      Math.max(this.toB, e.toB)
     );
   }
   addToSet(e) {
@@ -7037,7 +7030,7 @@ class or {
   }
 }
 var ue = (function (n) {
-  return (n[(n.LTR = 0)] = "LTR"), (n[(n.RTL = 1)] = "RTL"), n;
+  return (n[(n.LTR = 0)] = 'LTR'), (n[(n.RTL = 1)] = 'RTL'), n;
 })(ue || (ue = {}));
 const Ls = ue.LTR,
   Rp = ue.RTL;
@@ -7047,14 +7040,14 @@ function Nh(n) {
   return e;
 }
 const Fp = Nh(
-    "88888888888888888888888888888888888666888888787833333333337888888000000000000000000000000008888880000000000000000000000000088888888888888888888888888888888888887866668888088888663380888308888800000000000000000000000800000000000000000000000000000008",
+    '88888888888888888888888888888888888666888888787833333333337888888000000000000000000000000008888880000000000000000000000000088888888888888888888888888888888888887866668888088888663380888308888800000000000000000000000800000000000000000000000000000008'
   ),
   Xp = Nh(
-    "4444448826627288999999999992222222222222222222222222222222222222222222222229999999999999999999994444444444644222822222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222999999949999999229989999223333333333",
+    '4444448826627288999999999992222222222222222222222222222222222222222222222229999999999999999999994444444444644222822222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222999999949999999229989999223333333333'
   ),
   qs = Object.create(null),
   it = [];
-for (let n of ["()", "[]", "{}"]) {
+for (let n of ['()', '[]', '{}']) {
   let e = n.charCodeAt(0),
     t = n.charCodeAt(1);
   (qs[e] = t), (qs[t] = -e);
@@ -7098,7 +7091,7 @@ class bi {
           (s = o);
       }
     }
-    if (s < 0) throw new RangeError("Index out of range");
+    if (s < 0) throw new RangeError('Index out of range');
     return s;
   }
 }
@@ -7192,7 +7185,7 @@ function zp(n, e) {
 function Gh(n) {
   return [new bi(0, n, 0)];
 }
-let Hh = "";
+let Hh = '';
 function Ip(n, e, t, i, r) {
   var s;
   let o = i.head - n.from,
@@ -7210,7 +7203,7 @@ function Ip(n, e, t, i, r) {
       e,
       o,
       (s = i.bidiLevel) !== null && s !== void 0 ? s : -1,
-      i.assoc,
+      i.assoc
     ));
   let a = e[l];
   o == a.side(r, t) && ((a = e[(l += r ? 1 : -1)]), (o = a.side(!r, t)));
@@ -7254,7 +7247,7 @@ class zl extends K {
     this.minWidth > 0 &&
       t.length &&
       (t.every(
-        ({ fromA: l, toA: a }) => a < this.minWidthFrom || l > this.minWidthTo,
+        ({ fromA: l, toA: a }) => a < this.minWidthFrom || l > this.minWidthTo
       )
         ? ((this.minWidthFrom = e.changes.mapPos(this.minWidthFrom, 1)),
           (this.minWidthTo = e.changes.mapPos(this.minWidthTo, 1)))
@@ -7268,7 +7261,7 @@ class zl extends K {
         l,
         a,
         e.changes.mapPos(l, -1),
-        e.changes.mapPos(a, 1),
+        e.changes.mapPos(a, 1)
       ).addToSet(t.slice());
     }
     (this.hasComposition = i ? { from: i.range.fromB, to: i.range.toB } : null),
@@ -7293,8 +7286,8 @@ class zl extends K {
     (this.view.viewState.mustMeasureContent = !0), this.updateChildren(e, t, i);
     let { observer: r } = this.view;
     r.ignore(() => {
-      (this.dom.style.height = this.view.viewState.contentHeight + "px"),
-        (this.dom.style.flexBasis = this.minWidth ? this.minWidth + "px" : "");
+      (this.dom.style.height = this.view.viewState.contentHeight + 'px'),
+        (this.dom.style.flexBasis = this.minWidth ? this.minWidth + 'px' : '');
       let o =
         M.chrome || M.ios
           ? { node: r.selectionRange.focusNode, written: !1 }
@@ -7304,7 +7297,7 @@ class zl extends K {
         o &&
           (o.written || r.selectionRange.focusNode != o.node) &&
           (this.forceSelection = !0),
-        (this.dom.style.height = "");
+        (this.dom.style.height = '');
     }),
       this.markedForComposition.forEach((o) => (o.flags &= -9));
     let s = [];
@@ -7333,14 +7326,14 @@ class zl extends K {
             h,
             i.range.fromB,
             this.decorations,
-            this.dynamicDecorationMap,
+            this.dynamicDecorationMap
           ),
           C = Li.build(
             this.view.state.doc,
             i.range.toB,
             c,
             this.decorations,
-            this.dynamicDecorationMap,
+            this.dynamicDecorationMap
           );
         (d = y.breakAtStart), (p = y.openStart), (m = C.openEnd);
         let Q = this.compositionView(i);
@@ -7364,7 +7357,7 @@ class zl extends K {
           h,
           c,
           this.decorations,
-          this.dynamicDecorationMap,
+          this.dynamicDecorationMap
         ));
       let { i: g, off: S } = s.findPos(u, 1),
         { i: x, off: w } = s.findPos(a, -1);
@@ -7409,9 +7402,9 @@ class zl extends K {
       a = this.domAtPos(l.anchor),
       u = l.empty ? a : this.domAtPos(l.head);
     if (M.gecko && l.empty && !this.hasComposition && Vp(a)) {
-      let c = document.createTextNode("");
+      let c = document.createTextNode('');
       this.view.observer.ignore(() =>
-        a.node.insertBefore(c, a.node.childNodes[a.offset] || null),
+        a.node.insertBefore(c, a.node.childNodes[a.offset] || null)
       ),
         (a = u = new Fe(c, 0)),
         (o = !0);
@@ -7482,7 +7475,7 @@ class zl extends K {
     if (!a || !u || a.bottom > u.top) return;
     let h = this.domAtPos(t.head + t.assoc);
     i.collapse(h.node, h.offset),
-      i.modify("move", t.assoc < 0 ? "forward" : "backward", "lineboundary"),
+      i.modify('move', t.assoc < 0 ? 'forward' : 'backward', 'lineboundary'),
       e.observer.readSelectionRange();
     let c = e.observer.selectionRange;
     e.docView.posFromDOM(c.anchorNode, c.anchorOffset) != t.from &&
@@ -7500,7 +7493,7 @@ class zl extends K {
     let i = this.nearest(e);
     if (!i)
       throw new RangeError(
-        "Trying to find position for a DOM position outside of the document",
+        'Trying to find position for a DOM position outside of the document'
       );
     return i.localPosFromDOM(e, t) + i.posAtStart;
   }
@@ -7582,7 +7575,7 @@ class zl extends K {
   }
   textDirectionAt(e) {
     let { i: t } = this.childPos(e, 1);
-    return getComputedStyle(this.children[t].dom).direction == "rtl"
+    return getComputedStyle(this.children[t].dom).direction == 'rtl'
       ? ue.RTL
       : ue.LTR;
   }
@@ -7592,15 +7585,15 @@ class zl extends K {
         let o = s.measureTextSize();
         if (o) return o;
       }
-    let e = document.createElement("div"),
+    let e = document.createElement('div'),
       t,
       i,
       r;
     return (
-      (e.className = "cm-line"),
-      (e.style.width = "99999px"),
-      (e.style.position = "absolute"),
-      (e.textContent = "abc def ghi jkl mno pqr stu"),
+      (e.className = 'cm-line'),
+      (e.style.width = '99999px'),
+      (e.style.position = 'absolute'),
+      (e.textContent = 'abc def ghi jkl mno pqr stu'),
       this.view.observer.ignore(() => {
         this.dom.appendChild(e);
         let s = Ci(e.firstChild)[0];
@@ -7630,7 +7623,7 @@ class zl extends K {
             block: !0,
             inclusive: !0,
             isBlockGap: !0,
-          }).range(i, o),
+          }).range(i, o)
         );
       }
       if (!s) break;
@@ -7642,9 +7635,9 @@ class zl extends K {
     let e = this.view.state
       .facet(tn)
       .map((t, i) =>
-        (this.dynamicDecorationMap[i] = typeof t == "function")
+        (this.dynamicDecorationMap[i] = typeof t == 'function')
           ? t(this.view)
-          : t,
+          : t
       );
     for (let t = e.length; t < e.length + 3; t++)
       this.dynamicDecorationMap[t] = !1;
@@ -7682,7 +7675,7 @@ class zl extends K {
       e.y,
       e.xMargin,
       e.yMargin,
-      this.view.textDirection == ue.LTR,
+      this.view.textDirection == ue.LTR
     );
   }
 }
@@ -7691,9 +7684,9 @@ function Vp(n) {
     n.node.nodeType == 1 &&
     n.node.firstChild &&
     (n.offset == 0 ||
-      n.node.childNodes[n.offset - 1].contentEditable == "false") &&
+      n.node.childNodes[n.offset - 1].contentEditable == 'false') &&
     (n.offset == n.node.childNodes.length ||
-      n.node.childNodes[n.offset].contentEditable == "false")
+      n.node.childNodes[n.offset].contentEditable == 'false')
   );
 }
 class Il extends vt {
@@ -7701,14 +7694,14 @@ class Il extends vt {
     super(), (this.height = e);
   }
   toDOM() {
-    let e = document.createElement("div");
+    let e = document.createElement('div');
     return this.updateDOM(e), e;
   }
   eq(e) {
     return e.height == this.height;
   }
   updateDOM(e) {
-    return (e.style.height = this.height + "px"), !0;
+    return (e.style.height = this.height + 'px'), !0;
   }
   get estimatedHeight() {
     return this.height;
@@ -7769,7 +7762,7 @@ function jp(n, e) {
     else {
       if (
         d instanceof Ee ||
-        (f.nodeName == "DIV" && f.parentNode == n.contentDOM)
+        (f.nodeName == 'DIV' && f.parentNode == n.contentDOM)
       )
         return { range: c, text: s, marks: h, line: f };
       if (f != n.contentDOM)
@@ -7804,8 +7797,8 @@ function Kh(n, e, t) {
 function Up(n, e) {
   return n.nodeType != 1
     ? 0
-    : (e && n.childNodes[e - 1].contentEditable == "false" ? 1 : 0) |
-        (e < n.childNodes.length && n.childNodes[e].contentEditable == "false"
+    : (e && n.childNodes[e - 1].contentEditable == 'false' ? 1 : 0) |
+        (e < n.childNodes.length && n.childNodes[e].contentEditable == 'false'
           ? 2
           : 0);
 }
@@ -7826,7 +7819,7 @@ function _p(n, e, t) {
 }
 function Lp(n, e) {
   for (let t = n; t && t != e; t = t.assignedSlot || t.parentNode)
-    if (t.nodeType == 1 && t.contentEditable == "false") return !0;
+    if (t.nodeType == 1 && t.contentEditable == 'false') return !0;
   return !1;
 }
 function qp(n, e, t = 1) {
@@ -7911,7 +7904,7 @@ function Ns(n, e, t) {
     return { node: n, offset: 0 };
   let f = Math.max(r.left, Math.min(r.right, e));
   if (i.nodeType == 3) return Ul(i, f, t);
-  if (l && i.contentEditable != "false") return Ns(i, f, t);
+  if (l && i.contentEditable != 'false') return Ns(i, f, t);
   let d =
     Array.prototype.indexOf.call(n.childNodes, i) +
     (e >= (r.left + r.right) / 2 ? 1 : 0);
@@ -8034,7 +8027,7 @@ function Hp(n, e, t) {
   let i;
   if (n.nodeType != 3 || e != (i = n.nodeValue.length)) return !1;
   for (let r = n.nextSibling; r; r = r.nextSibling)
-    if (r.nodeType != 1 || r.nodeName != "BR") return !1;
+    if (r.nodeType != 1 || r.nodeName != 'BR') return !1;
   return ri(n, i - 1, i).getBoundingClientRect().left > t;
 }
 function Jp(n, e, t) {
@@ -8042,7 +8035,7 @@ function Jp(n, e, t) {
   for (let r = n; ; ) {
     let s = r.parentNode;
     if (!s || s.nodeType != 1 || s.firstChild != r) return !1;
-    if (s.classList.contains("cm-line")) break;
+    if (s.classList.contains('cm-line')) break;
     r = s;
   }
   let i =
@@ -8151,7 +8144,7 @@ function es(n, e, t) {
   let i = Un(
     n.state.facet(Zo).map((r) => r(n)),
     t.from,
-    e.head > t.from ? -1 : 1,
+    e.head > t.from ? -1 : 1
   );
   return i == t.from ? t : k.cursor(i, i < t.from ? 1 : -1);
 }
@@ -8180,7 +8173,7 @@ class iO {
       (this.mouseSelection = null);
     let t = (i, r) => {
       this.ignoreDuringComposition(r) ||
-        (r.type == "keydown" && this.keydown(e, r)) ||
+        (r.type == 'keydown' && this.keydown(e, r)) ||
         (this.mustFlushObserver(r) && e.observer.forceFlush(),
         this.runCustomHandlers(r.type, e, r) ? r.preventDefault() : i(e, r));
     };
@@ -8191,22 +8184,22 @@ class iO {
         (s) => {
           Ll(e, s) && t(r, s);
         },
-        Hs[i],
+        Hs[i]
       ),
         this.registeredEvents.push(i);
     }
-    e.scrollDOM.addEventListener("mousedown", (i) => {
+    e.scrollDOM.addEventListener('mousedown', (i) => {
       if (
         i.target == e.scrollDOM &&
         i.clientY > e.contentDOM.getBoundingClientRect().bottom &&
         (t(Oe.mousedown, i), !i.defaultPrevented && i.button == 2)
       ) {
         let r = e.contentDOM.style.minHeight;
-        (e.contentDOM.style.minHeight = "100%"),
+        (e.contentDOM.style.minHeight = '100%'),
           setTimeout(() => (e.contentDOM.style.minHeight = r), 200);
       }
     }),
-      e.scrollDOM.addEventListener("drop", (i) => {
+      e.scrollDOM.addEventListener('drop', (i) => {
         i.target == e.scrollDOM &&
           i.clientY > e.contentDOM.getBoundingClientRect().bottom &&
           t(Oe.drop, i);
@@ -8214,20 +8207,20 @@ class iO {
       M.chrome &&
         M.chrome_version == 102 &&
         e.scrollDOM.addEventListener(
-          "wheel",
+          'wheel',
           () => {
             this.chromeScrollHack < 0
-              ? (e.contentDOM.style.pointerEvents = "none")
+              ? (e.contentDOM.style.pointerEvents = 'none')
               : window.clearTimeout(this.chromeScrollHack),
               (this.chromeScrollHack = setTimeout(() => {
                 (this.chromeScrollHack = -1),
-                  (e.contentDOM.style.pointerEvents = "");
+                  (e.contentDOM.style.pointerEvents = '');
               }, 100));
           },
-          { passive: !0 },
+          { passive: !0 }
         ),
       (this.notifiedFocused = e.hasFocus),
-      M.safari && e.contentDOM.addEventListener("input", () => null);
+      M.safari && e.contentDOM.addEventListener('input', () => null);
   }
   setSelectionOrigin(e) {
     (this.lastSelectionOrigin = e), (this.lastSelectionTime = Date.now());
@@ -8246,7 +8239,7 @@ class iO {
         this.customHandlers.push({ plugin: s.value, handlers: r });
         for (let o in r)
           this.registeredEvents.indexOf(o) < 0 &&
-            o != "scroll" &&
+            o != 'scroll' &&
             (this.registeredEvents.push(o),
             e.contentDOM.addEventListener(o, (l) => {
               Ll(e, l) && this.runCustomHandlers(o, e, l) && l.preventDefault();
@@ -8326,7 +8319,7 @@ class iO {
       : !1;
   }
   mustFlushObserver(e) {
-    return e.type == "keydown" && e.keyCode != 229;
+    return e.type == 'keydown' && e.keyCode != 229;
   }
   startMouseSelection(e) {
     this.mouseSelection && this.mouseSelection.destroy(),
@@ -8341,12 +8334,12 @@ class iO {
   }
 }
 const tc = [
-    { key: "Backspace", keyCode: 8, inputType: "deleteContentBackward" },
-    { key: "Enter", keyCode: 13, inputType: "insertParagraph" },
-    { key: "Enter", keyCode: 13, inputType: "insertLineBreak" },
-    { key: "Delete", keyCode: 46, inputType: "deleteContentForward" },
+    { key: 'Backspace', keyCode: 8, inputType: 'deleteContentBackward' },
+    { key: 'Enter', keyCode: 13, inputType: 'insertParagraph' },
+    { key: 'Enter', keyCode: 13, inputType: 'insertLineBreak' },
+    { key: 'Delete', keyCode: 46, inputType: 'deleteContentForward' },
   ],
-  nO = "dthko",
+  nO = 'dthko',
   ic = [16, 17, 18, 20, 91, 92, 224, 225],
   kn = 6;
 function Cn(n) {
@@ -8355,7 +8348,7 @@ function Cn(n) {
 function rO(n, e) {
   return Math.max(
     Math.abs(n.clientX - e.clientX),
-    Math.abs(n.clientY - e.clientY),
+    Math.abs(n.clientY - e.clientY)
   );
 }
 class sO {
@@ -8370,8 +8363,8 @@ class sO {
       (this.scrollParent = wp(e.contentDOM)),
       (this.atoms = e.state.facet(Zo).map((o) => o(e)));
     let s = e.contentDOM.ownerDocument;
-    s.addEventListener("mousemove", (this.move = this.move.bind(this))),
-      s.addEventListener("mouseup", (this.up = this.up.bind(this))),
+    s.addEventListener('mousemove', (this.move = this.move.bind(this))),
+      s.addEventListener('mouseup', (this.up = this.up.bind(this))),
       (this.extend = t.shiftKey),
       (this.multiple = e.state.facet(j.allowMultipleSelections) && oO(e, t)),
       (this.dragging = aO(e, t) && oc(t) == 1 ? null : !1);
@@ -8413,8 +8406,8 @@ class sO {
   destroy() {
     this.setScrollSpeed(0, 0);
     let e = this.view.contentDOM.ownerDocument;
-    e.removeEventListener("mousemove", this.move),
-      e.removeEventListener("mouseup", this.up),
+    e.removeEventListener('mousemove', this.move),
+      e.removeEventListener('mouseup', this.up),
       (this.view.inputState.mouseSelection = null);
   }
   setScrollSpeed(e, t) {
@@ -8456,7 +8449,7 @@ class sO {
     (this.mustSelect ||
       !i.eq(t.state.selection) ||
       (i.main.assoc != t.state.selection.main.assoc && this.dragging === !1)) &&
-      this.view.dispatch({ selection: i, userEvent: "select.pointer" }),
+      this.view.dispatch({ selection: i, userEvent: 'select.pointer' }),
       (this.mustSelect = !1);
   }
   update(e) {
@@ -8506,8 +8499,8 @@ const Oe = Object.create(null),
 function uO(n) {
   let e = n.dom.parentNode;
   if (!e) return;
-  let t = e.appendChild(document.createElement("textarea"));
-  (t.style.cssText = "position: fixed; left: -10000px; top: 10px"),
+  let t = e.appendChild(document.createElement('textarea'));
+  (t.style.cssText = 'position: fixed; left: -10000px; top: 10px'),
     t.focus(),
     setTimeout(() => {
       n.focus(), t.remove(), rc(n, t.value);
@@ -8545,18 +8538,18 @@ function rc(n, e) {
           };
         }))
       : (i = t.replaceSelection(s));
-  n.dispatch(i, { userEvent: "input.paste", scrollIntoView: !0 });
+  n.dispatch(i, { userEvent: 'input.paste', scrollIntoView: !0 });
 }
 Oe.keydown = (n, e) => {
-  n.inputState.setSelectionOrigin("select"),
+  n.inputState.setSelectionOrigin('select'),
     e.keyCode == 27 && (n.inputState.lastEscPress = Date.now());
 };
 Oe.touchstart = (n, e) => {
   (n.inputState.lastTouchTime = Date.now()),
-    n.inputState.setSelectionOrigin("select.pointer");
+    n.inputState.setSelectionOrigin('select.pointer');
 };
 Oe.touchmove = (n) => {
-  n.inputState.setSelectionOrigin("select.pointer");
+  n.inputState.setSelectionOrigin('select.pointer');
 };
 Hs.touchstart = Hs.touchmove = { passive: !0 };
 Oe.mousedown = (n, e) => {
@@ -8654,7 +8647,7 @@ function dO(n, e) {
     if (i <= e && r >= e)
       return k.create(
         n.ranges.slice(0, t).concat(n.ranges.slice(t + 1)),
-        n.mainIndex == t ? 0 : n.mainIndex - (n.mainIndex > t ? 1 : 0),
+        n.mainIndex == t ? 0 : n.mainIndex - (n.mainIndex > t ? 1 : 0)
       );
   }
   return null;
@@ -8666,8 +8659,8 @@ Oe.dragstart = (n, e) => {
     { mouseSelection: i } = n.inputState;
   i && (i.dragging = t),
     e.dataTransfer &&
-      (e.dataTransfer.setData("Text", n.state.sliceDoc(t.from, t.to)),
-      (e.dataTransfer.effectAllowed = "copyMove"));
+      (e.dataTransfer.setData('Text', n.state.sliceDoc(t.from, t.to)),
+      (e.dataTransfer.effectAllowed = 'copyMove'));
 };
 function ea(n, e, t, i) {
   if (!t) return;
@@ -8684,7 +8677,7 @@ function ea(n, e, t, i) {
     n.dispatch({
       changes: a,
       selection: { anchor: a.mapPos(r, -1), head: a.mapPos(r, 1) },
-      userEvent: o ? "move.drop" : "input.drop",
+      userEvent: o ? 'move.drop' : 'input.drop',
     });
 }
 Oe.drop = (n, e) => {
@@ -8707,22 +8700,22 @@ Oe.drop = (n, e) => {
         }),
         l.readAsText(t[o]);
     }
-  } else ea(n, e, e.dataTransfer.getData("Text"), !0);
+  } else ea(n, e, e.dataTransfer.getData('Text'), !0);
 };
 Oe.paste = (n, e) => {
   if (n.state.readOnly) return e.preventDefault();
   n.observer.flush();
   let t = nc ? null : e.clipboardData;
   t
-    ? (rc(n, t.getData("text/plain") || t.getData("text/uri-text")),
+    ? (rc(n, t.getData('text/plain') || t.getData('text/uri-text')),
       e.preventDefault())
     : uO(n);
 };
 function pO(n, e) {
   let t = n.dom.parentNode;
   if (!t) return;
-  let i = t.appendChild(document.createElement("textarea"));
-  (i.style.cssText = "position: fixed; left: -10000px; top: 10px"),
+  let i = t.appendChild(document.createElement('textarea'));
+  (i.style.cssText = 'position: fixed; left: -10000px; top: 10px'),
     (i.value = e),
     i.focus(),
     (i.selectionEnd = e.length),
@@ -8757,11 +8750,11 @@ Oe.copy = Oe.cut = (n, e) => {
   Js = r ? t : null;
   let s = nc ? null : e.clipboardData;
   s
-    ? (e.preventDefault(), s.clearData(), s.setData("text/plain", t))
+    ? (e.preventDefault(), s.clearData(), s.setData('text/plain', t))
     : pO(n, t),
-    e.type == "cut" &&
+    e.type == 'cut' &&
       !n.state.readOnly &&
-      n.dispatch({ changes: i, scrollIntoView: !0, userEvent: "delete.cut" });
+      n.dispatch({ changes: i, scrollIntoView: !0, userEvent: 'delete.cut' });
 };
 const lc = Ot.define();
 function ac(n, e) {
@@ -8825,7 +8818,7 @@ Oe.beforeinput = (n, e) => {
     M.android &&
     (i = tc.find((r) => r.inputType == e.inputType)) &&
     (n.observer.delayAndroidKey(i.key, i.keyCode),
-    i.key == "Backspace" || i.key == "Delete")
+    i.key == 'Backspace' || i.key == 'Delete')
   ) {
     let r =
       ((t = window.visualViewport) === null || t === void 0
@@ -8842,7 +8835,7 @@ Oe.beforeinput = (n, e) => {
     }, 100);
   }
 };
-const ta = ["pre-wrap", "normal", "pre-line", "break-spaces"];
+const ta = ['pre-wrap', 'normal', 'pre-line', 'break-spaces'];
 class gO {
   constructor(e) {
     (this.lineWrapping = e),
@@ -8860,7 +8853,7 @@ class gO {
       this.lineWrapping &&
         (i += Math.max(
           0,
-          Math.ceil((t - e - i * this.lineLength * 0.5) / this.lineLength),
+          Math.ceil((t - e - i * this.lineLength * 0.5) / this.lineLength)
         )),
       this.lineHeight * i
     );
@@ -8870,7 +8863,7 @@ class gO {
       ? (1 +
           Math.max(
             0,
-            Math.ceil((e - this.lineLength) / (this.lineLength - 5)),
+            Math.ceil((e - this.lineLength) / (this.lineLength - 5))
           )) *
           this.lineHeight
       : this.lineHeight;
@@ -8930,7 +8923,7 @@ class ht {
       (this._content = s);
   }
   get type() {
-    return typeof this._content == "number"
+    return typeof this._content == 'number'
       ? he.Text
       : Array.isArray(this._content)
       ? this._content
@@ -8946,26 +8939,26 @@ class ht {
     return this._content instanceof Zt ? this._content.widget : null;
   }
   get widgetLineBreaks() {
-    return typeof this._content == "number" ? this._content : 0;
+    return typeof this._content == 'number' ? this._content : 0;
   }
   join(e) {
     let t = (Array.isArray(this._content) ? this._content : [this]).concat(
-      Array.isArray(e._content) ? e._content : [e],
+      Array.isArray(e._content) ? e._content : [e]
     );
     return new ht(
       this.from,
       this.length + e.length,
       this.top,
       this.height + e.height,
-      t,
+      t
     );
   }
 }
 var re = (function (n) {
   return (
-    (n[(n.ByPos = 0)] = "ByPos"),
-    (n[(n.ByHeight = 1)] = "ByHeight"),
-    (n[(n.ByPosNoHeight = 2)] = "ByPosNoHeight"),
+    (n[(n.ByPos = 0)] = 'ByPos'),
+    (n[(n.ByHeight = 1)] = 'ByHeight'),
+    (n[(n.ByPosNoHeight = 2)] = 'ByPosNoHeight'),
     n
   );
 })(re || (re = {}));
@@ -9108,17 +9101,17 @@ class Ue extends hc {
             e,
             Math.max(
               this.widgetHeight,
-              e.heightForLine(this.length - this.collapsed),
+              e.heightForLine(this.length - this.collapsed)
             ) +
-              this.breaks * e.lineHeight,
+              this.breaks * e.lineHeight
           ),
       (this.outdated = !1),
       this
     );
   }
   toString() {
-    return `line(${this.length}${this.collapsed ? -this.collapsed : ""}${
-      this.widgetHeight ? ":" + this.widgetHeight : ""
+    return `line(${this.length}${this.collapsed ? -this.collapsed : ''}${
+      this.widgetHeight ? ':' + this.widgetHeight : ''
     })`;
   }
 }
@@ -9150,7 +9143,7 @@ class Ce extends Xe {
       let u =
           r +
           Math.round(
-            Math.max(0, Math.min(1, (e - i) / this.height)) * this.length,
+            Math.max(0, Math.min(1, (e - i) / this.height)) * this.length
           ),
         h = t.doc.lineAt(u),
         c = l + h.length * a,
@@ -9178,7 +9171,7 @@ class Ce extends Xe {
       u.length,
       Math.max(r, Math.min(f, r + this.height - h)),
       h,
-      0,
+      0
     );
   }
   forEachLine(e, t, i, r, s, o) {
@@ -9258,7 +9251,7 @@ class SO extends Xe {
     super(
       e.length + t + i.length,
       e.height + i.height,
-      t | (e.outdated || i.outdated ? 2 : 0),
+      t | (e.outdated || i.outdated ? 2 : 0)
     ),
       (this.left = e),
       (this.right = i),
@@ -9359,7 +9352,7 @@ class SO extends Xe {
     );
   }
   toString() {
-    return this.left + (this.break ? " " : "-") + this.right;
+    return this.left + (this.break ? ' ' : '-') + this.right;
   }
 }
 function ia(n, e) {
@@ -9497,7 +9490,7 @@ function kO(n, e) {
         c = window.getComputedStyle(h);
       if (
         (h.scrollHeight > h.clientHeight || h.scrollWidth > h.clientWidth) &&
-        c.overflow != "visible"
+        c.overflow != 'visible'
       ) {
         let f = h.getBoundingClientRect();
         (s = Math.max(s, f.left)),
@@ -9506,7 +9499,7 @@ function kO(n, e) {
           (a = u == n.parentNode ? f.bottom : Math.min(a, f.bottom));
       }
       u =
-        c.position == "absolute" || c.position == "fixed"
+        c.position == 'absolute' || c.position == 'fixed'
           ? h.offsetParent
           : h.parentNode;
     } else if (u.nodeType == 11) u = u.host;
@@ -9543,7 +9536,7 @@ class ts {
   draw(e) {
     return T.replace({ widget: new DO(this.size, e) }).range(
       this.from,
-      this.to,
+      this.to
     );
   }
 }
@@ -9555,13 +9548,13 @@ class DO extends vt {
     return e.size == this.size && e.vertical == this.vertical;
   }
   toDOM() {
-    let e = document.createElement("div");
+    let e = document.createElement('div');
     return (
       this.vertical
-        ? (e.style.height = this.size + "px")
-        : ((e.style.width = this.size + "px"),
-          (e.style.height = "2px"),
-          (e.style.display = "inline-block")),
+        ? (e.style.height = this.size + 'px')
+        : ((e.style.width = this.size + 'px'),
+          (e.style.height = '2px'),
+          (e.style.display = 'inline-block')),
       e
     );
   }
@@ -9598,14 +9591,14 @@ class na {
       (this.mustEnforceCursorAssoc = !1);
     let t = e
       .facet(Wo)
-      .some((i) => typeof i != "function" && i.class == "cm-lineWrapping");
+      .some((i) => typeof i != 'function' && i.class == 'cm-lineWrapping');
     (this.heightOracle = new gO(t)),
-      (this.stateDeco = e.facet(tn).filter((i) => typeof i != "function")),
+      (this.stateDeco = e.facet(tn).filter((i) => typeof i != 'function')),
       (this.heightMap = Xe.empty().applyChanges(
         this.stateDeco,
         Y.empty,
         this.heightOracle.setDoc(e.doc),
-        [new He(0, 0, 0, e.doc.length)],
+        [new He(0, 0, 0, e.doc.length)]
       )),
       (this.viewport = this.getViewport(0, null)),
       this.updateViewportLines(),
@@ -9640,19 +9633,19 @@ class na {
         0,
         (e) => {
           this.viewportLines.push(
-            this.scaler.scale == 1 ? e : zi(e, this.scaler),
+            this.scaler.scale == 1 ? e : zi(e, this.scaler)
           );
-        },
+        }
       );
   }
   update(e, t = null) {
     this.state = e.state;
     let i = this.stateDeco;
-    this.stateDeco = this.state.facet(tn).filter((h) => typeof h != "function");
+    this.stateDeco = this.state.facet(tn).filter((h) => typeof h != 'function');
     let r = e.changedRanges,
       s = He.extendWithRanges(
         r,
-        yO(i, this.stateDeco, e ? e.changes : Se.empty(this.state.doc.length)),
+        yO(i, this.stateDeco, e ? e.changes : Se.empty(this.state.doc.length))
       ),
       o = this.heightMap.height,
       l = this.scrolledToBottom ? null : this.scrollAnchorAt(this.scrollTop);
@@ -9660,7 +9653,7 @@ class na {
       this.stateDeco,
       e.startState.doc,
       this.heightOracle.setDoc(this.state.doc),
-      s,
+      s
     )),
       this.heightMap.height != o && (e.flags |= 2),
       l
@@ -9684,7 +9677,7 @@ class na {
       u && this.updateViewportLines(),
       (this.lineGaps.length || this.viewport.to - this.viewport.from > 4e3) &&
         this.updateLineGaps(
-          this.ensureLineGaps(this.mapLineGaps(this.lineGaps, e.changes)),
+          this.ensureLineGaps(this.mapLineGaps(this.lineGaps, e.changes))
         ),
       (e.flags |= this.computeVisibleRanges()),
       t && (this.scrollTarget = t),
@@ -9701,7 +9694,7 @@ class na {
       i = window.getComputedStyle(t),
       r = this.heightOracle,
       s = i.whiteSpace;
-    this.defaultTextDirection = i.direction == "rtl" ? ue.RTL : ue.LTR;
+    this.defaultTextDirection = i.direction == 'rtl' ? ue.RTL : ue.LTR;
     let o = this.heightOracle.mustRefreshForWrapping(s),
       l = t.getBoundingClientRect(),
       a = o || this.mustMeasureContent || this.contentDOMHeight != l.height;
@@ -9770,7 +9763,7 @@ class na {
                 this.stateDeco,
                 Y.empty,
                 this.heightOracle,
-                [new He(0, 0, 0, e.state.doc.length)],
+                [new He(0, 0, 0, e.state.doc.length)]
               )
             : this.heightMap
         ).updateHeight(r, 0, o, new mO(y.from, C));
@@ -9807,25 +9800,25 @@ class na {
       { visibleTop: o, visibleBottom: l } = this,
       a = new Dn(
         r.lineAt(o - i * 1e3, re.ByHeight, s, 0, 0).from,
-        r.lineAt(l + (1 - i) * 1e3, re.ByHeight, s, 0, 0).to,
+        r.lineAt(l + (1 - i) * 1e3, re.ByHeight, s, 0, 0).to
       );
     if (t) {
       let { head: u } = t.range;
       if (u < a.from || u > a.to) {
         let h = Math.min(
             this.editorHeight,
-            this.pixelViewport.bottom - this.pixelViewport.top,
+            this.pixelViewport.bottom - this.pixelViewport.top
           ),
           c = r.lineAt(u, re.ByPos, s, 0, 0),
           f;
-        t.y == "center"
+        t.y == 'center'
           ? (f = (c.top + c.bottom) / 2 - h / 2)
-          : t.y == "start" || (t.y == "nearest" && u < a.from)
+          : t.y == 'start' || (t.y == 'nearest' && u < a.from)
           ? (f = c.top)
           : (f = c.bottom - h),
           (a = new Dn(
             r.lineAt(f - 1e3 / 2, re.ByHeight, s, 0, 0).from,
-            r.lineAt(f + h + 1e3 / 2, re.ByHeight, s, 0, 0).to,
+            r.lineAt(f + h + 1e3 / 2, re.ByHeight, s, 0, 0).to
           ));
       }
     }
@@ -9836,7 +9829,7 @@ class na {
       r = t.mapPos(e.to, 1);
     return new Dn(
       this.heightMap.lineAt(i, re.ByPos, this.heightOracle, 0, 0).from,
-      this.heightMap.lineAt(r, re.ByPos, this.heightOracle, 0, 0).to,
+      this.heightMap.lineAt(r, re.ByPos, this.heightOracle, 0, 0).to
     );
   }
   viewportIsAppropriate({ from: e, to: t }, i = 0) {
@@ -9846,14 +9839,14 @@ class na {
         re.ByPos,
         this.heightOracle,
         0,
-        0,
+        0
       ),
       { bottom: s } = this.heightMap.lineAt(
         t,
         re.ByPos,
         this.heightOracle,
         0,
-        0,
+        0
       ),
       { visibleTop: o, visibleBottom: l } = this;
     return (
@@ -9895,7 +9888,7 @@ class na {
             g.to <= c.to &&
             Math.abs(g.from - u) < s &&
             Math.abs(g.to - h) < s &&
-            !p.some((S) => g.from < S && g.to > S),
+            !p.some((S) => g.from < S && g.to > S)
         );
         if (!m) {
           if (
@@ -9961,7 +9954,7 @@ class na {
     ts.same(e, this.lineGaps) ||
       ((this.lineGaps = e),
       (this.lineGapDeco = T.set(
-        e.map((t) => t.draw(this.heightOracle.lineWrapping)),
+        e.map((t) => t.draw(this.heightOracle.lineWrapping))
       )));
   }
   computeVisibleRanges() {
@@ -9978,7 +9971,7 @@ class na {
         },
         point() {},
       },
-      20,
+      20
     );
     let i =
       t.length != this.visibleRanges.length ||
@@ -9992,7 +9985,7 @@ class na {
         this.viewportLines.find((t) => t.from <= e && t.to >= e)) ||
       zi(
         this.heightMap.lineAt(e, re.ByPos, this.heightOracle, 0, 0),
-        this.scaler,
+        this.scaler
       )
     );
   }
@@ -10003,9 +9996,9 @@ class na {
         re.ByHeight,
         this.heightOracle,
         0,
-        0,
+        0
       ),
-      this.scaler,
+      this.scaler
     );
   }
   scrollAnchorAt(e) {
@@ -10017,7 +10010,7 @@ class na {
   elementAtHeight(e) {
     return zi(
       this.heightMap.blockAt(this.scaler.fromDOM(e), this.heightOracle, 0, 0),
-      this.scaler,
+      this.scaler
     );
   }
   get docHeight() {
@@ -10047,7 +10040,7 @@ function wO(n, e, t) {
           o > r && (i.push({ from: r, to: o }), (s += o - r)), (r = l);
         },
       },
-      20,
+      20
     ),
     r < e && (i.push({ from: r, to: e }), (s += e - r)),
     { total: s, ranges: i }
@@ -10132,211 +10125,211 @@ function zi(n, e) {
     n.length,
     t,
     i - t,
-    Array.isArray(n._content) ? n._content.map((r) => zi(r, e)) : n._content,
+    Array.isArray(n._content) ? n._content.map((r) => zi(r, e)) : n._content
   );
 }
-const vn = B.define({ combine: (n) => n.join(" ") }),
+const vn = B.define({ combine: (n) => n.join(' ') }),
   Ks = B.define({ combine: (n) => n.indexOf(!0) > -1 }),
   eo = Ft.newName(),
   cc = Ft.newName(),
   fc = Ft.newName(),
-  dc = { "&light": "." + cc, "&dark": "." + fc };
+  dc = { '&light': '.' + cc, '&dark': '.' + fc };
 function to(n, e, t) {
   return new Ft(e, {
     finish(i) {
       return /&/.test(i)
         ? i.replace(/&\w*/, (r) => {
-            if (r == "&") return n;
+            if (r == '&') return n;
             if (!t || !t[r]) throw new RangeError(`Unsupported selector: ${r}`);
             return t[r];
           })
-        : n + " " + i;
+        : n + ' ' + i;
     },
   });
 }
 const AO = to(
-  "." + eo,
+  '.' + eo,
   {
-    "&": {
-      position: "relative !important",
-      boxSizing: "border-box",
-      "&.cm-focused": { outline: "1px dotted #212121" },
-      display: "flex !important",
-      flexDirection: "column",
+    '&': {
+      position: 'relative !important',
+      boxSizing: 'border-box',
+      '&.cm-focused': { outline: '1px dotted #212121' },
+      display: 'flex !important',
+      flexDirection: 'column',
     },
-    ".cm-scroller": {
-      display: "flex !important",
-      alignItems: "flex-start !important",
-      fontFamily: "monospace",
+    '.cm-scroller': {
+      display: 'flex !important',
+      alignItems: 'flex-start !important',
+      fontFamily: 'monospace',
       lineHeight: 1.4,
-      height: "100%",
-      overflowX: "auto",
-      position: "relative",
+      height: '100%',
+      overflowX: 'auto',
+      position: 'relative',
       zIndex: 0,
     },
-    ".cm-content": {
+    '.cm-content': {
       margin: 0,
       flexGrow: 2,
       flexShrink: 0,
-      display: "block",
-      whiteSpace: "pre",
-      wordWrap: "normal",
-      boxSizing: "border-box",
-      padding: "4px 0",
-      outline: "none",
-      "&[contenteditable=true]": {
-        WebkitUserModify: "read-write-plaintext-only",
+      display: 'block',
+      whiteSpace: 'pre',
+      wordWrap: 'normal',
+      boxSizing: 'border-box',
+      padding: '4px 0',
+      outline: 'none',
+      '&[contenteditable=true]': {
+        WebkitUserModify: 'read-write-plaintext-only',
       },
     },
-    ".cm-lineWrapping": {
-      whiteSpace_fallback: "pre-wrap",
-      whiteSpace: "break-spaces",
-      wordBreak: "break-word",
-      overflowWrap: "anywhere",
+    '.cm-lineWrapping': {
+      whiteSpace_fallback: 'pre-wrap',
+      whiteSpace: 'break-spaces',
+      wordBreak: 'break-word',
+      overflowWrap: 'anywhere',
       flexShrink: 1,
     },
-    "&light .cm-content": { caretColor: "black" },
-    "&dark .cm-content": { caretColor: "white" },
-    ".cm-line": { display: "block", padding: "0 2px 0 6px" },
-    ".cm-layer": {
-      position: "absolute",
+    '&light .cm-content': { caretColor: 'black' },
+    '&dark .cm-content': { caretColor: 'white' },
+    '.cm-line': { display: 'block', padding: '0 2px 0 6px' },
+    '.cm-layer': {
+      position: 'absolute',
       left: 0,
       top: 0,
-      contain: "size style",
-      "& > *": { position: "absolute" },
+      contain: 'size style',
+      '& > *': { position: 'absolute' },
     },
-    "&light .cm-selectionBackground": { background: "#d9d9d9" },
-    "&dark .cm-selectionBackground": { background: "#222" },
-    "&light.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground":
-      { background: "#d7d4f0" },
-    "&dark.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground":
-      { background: "#233" },
-    ".cm-cursorLayer": { pointerEvents: "none" },
-    "&.cm-focused > .cm-scroller > .cm-cursorLayer": {
-      animation: "steps(1) cm-blink 1.2s infinite",
+    '&light .cm-selectionBackground': { background: '#d9d9d9' },
+    '&dark .cm-selectionBackground': { background: '#222' },
+    '&light.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground':
+      { background: '#d7d4f0' },
+    '&dark.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground':
+      { background: '#233' },
+    '.cm-cursorLayer': { pointerEvents: 'none' },
+    '&.cm-focused > .cm-scroller > .cm-cursorLayer': {
+      animation: 'steps(1) cm-blink 1.2s infinite',
     },
-    "@keyframes cm-blink": { "0%": {}, "50%": { opacity: 0 }, "100%": {} },
-    "@keyframes cm-blink2": { "0%": {}, "50%": { opacity: 0 }, "100%": {} },
-    ".cm-cursor, .cm-dropCursor": {
-      borderLeft: "1.2px solid black",
-      marginLeft: "-0.6px",
-      pointerEvents: "none",
+    '@keyframes cm-blink': { '0%': {}, '50%': { opacity: 0 }, '100%': {} },
+    '@keyframes cm-blink2': { '0%': {}, '50%': { opacity: 0 }, '100%': {} },
+    '.cm-cursor, .cm-dropCursor': {
+      borderLeft: '1.2px solid black',
+      marginLeft: '-0.6px',
+      pointerEvents: 'none',
     },
-    ".cm-cursor": { display: "none" },
-    "&dark .cm-cursor": { borderLeftColor: "#444" },
-    ".cm-dropCursor": { position: "absolute" },
-    "&.cm-focused > .cm-scroller > .cm-cursorLayer .cm-cursor": {
-      display: "block",
+    '.cm-cursor': { display: 'none' },
+    '&dark .cm-cursor': { borderLeftColor: '#444' },
+    '.cm-dropCursor': { position: 'absolute' },
+    '&.cm-focused > .cm-scroller > .cm-cursorLayer .cm-cursor': {
+      display: 'block',
     },
-    "&light .cm-activeLine": { backgroundColor: "#cceeff44" },
-    "&dark .cm-activeLine": { backgroundColor: "#99eeff33" },
-    "&light .cm-specialChar": { color: "red" },
-    "&dark .cm-specialChar": { color: "#f78" },
-    ".cm-gutters": {
+    '&light .cm-activeLine': { backgroundColor: '#cceeff44' },
+    '&dark .cm-activeLine': { backgroundColor: '#99eeff33' },
+    '&light .cm-specialChar': { color: 'red' },
+    '&dark .cm-specialChar': { color: '#f78' },
+    '.cm-gutters': {
       flexShrink: 0,
-      display: "flex",
-      height: "100%",
-      boxSizing: "border-box",
+      display: 'flex',
+      height: '100%',
+      boxSizing: 'border-box',
       insetInlineStart: 0,
       zIndex: 200,
     },
-    "&light .cm-gutters": {
-      backgroundColor: "#f5f5f5",
-      color: "#6c6c6c",
-      borderRight: "1px solid #ddd",
+    '&light .cm-gutters': {
+      backgroundColor: '#f5f5f5',
+      color: '#6c6c6c',
+      borderRight: '1px solid #ddd',
     },
-    "&dark .cm-gutters": { backgroundColor: "#333338", color: "#ccc" },
-    ".cm-gutter": {
-      display: "flex !important",
-      flexDirection: "column",
+    '&dark .cm-gutters': { backgroundColor: '#333338', color: '#ccc' },
+    '.cm-gutter': {
+      display: 'flex !important',
+      flexDirection: 'column',
       flexShrink: 0,
-      boxSizing: "border-box",
-      minHeight: "100%",
-      overflow: "hidden",
+      boxSizing: 'border-box',
+      minHeight: '100%',
+      overflow: 'hidden',
     },
-    ".cm-gutterElement": { boxSizing: "border-box" },
-    ".cm-lineNumbers .cm-gutterElement": {
-      padding: "0 3px 0 5px",
-      minWidth: "20px",
-      textAlign: "right",
-      whiteSpace: "nowrap",
+    '.cm-gutterElement': { boxSizing: 'border-box' },
+    '.cm-lineNumbers .cm-gutterElement': {
+      padding: '0 3px 0 5px',
+      minWidth: '20px',
+      textAlign: 'right',
+      whiteSpace: 'nowrap',
     },
-    "&light .cm-activeLineGutter": { backgroundColor: "#e2f2ff" },
-    "&dark .cm-activeLineGutter": { backgroundColor: "#222227" },
-    ".cm-panels": {
-      boxSizing: "border-box",
-      position: "sticky",
+    '&light .cm-activeLineGutter': { backgroundColor: '#e2f2ff' },
+    '&dark .cm-activeLineGutter': { backgroundColor: '#222227' },
+    '.cm-panels': {
+      boxSizing: 'border-box',
+      position: 'sticky',
       left: 0,
       right: 0,
     },
-    "&light .cm-panels": { backgroundColor: "#f5f5f5", color: "black" },
-    "&light .cm-panels-top": { borderBottom: "1px solid #ddd" },
-    "&light .cm-panels-bottom": { borderTop: "1px solid #ddd" },
-    "&dark .cm-panels": { backgroundColor: "#333338", color: "white" },
-    ".cm-tab": {
-      display: "inline-block",
-      overflow: "hidden",
-      verticalAlign: "bottom",
+    '&light .cm-panels': { backgroundColor: '#f5f5f5', color: 'black' },
+    '&light .cm-panels-top': { borderBottom: '1px solid #ddd' },
+    '&light .cm-panels-bottom': { borderTop: '1px solid #ddd' },
+    '&dark .cm-panels': { backgroundColor: '#333338', color: 'white' },
+    '.cm-tab': {
+      display: 'inline-block',
+      overflow: 'hidden',
+      verticalAlign: 'bottom',
     },
-    ".cm-widgetBuffer": {
-      verticalAlign: "text-top",
-      height: "1em",
+    '.cm-widgetBuffer': {
+      verticalAlign: 'text-top',
+      height: '1em',
       width: 0,
-      display: "inline",
+      display: 'inline',
     },
-    ".cm-placeholder": {
-      color: "#888",
-      display: "inline-block",
-      verticalAlign: "top",
+    '.cm-placeholder': {
+      color: '#888',
+      display: 'inline-block',
+      verticalAlign: 'top',
     },
-    ".cm-highlightSpace:before": {
-      content: "attr(data-display)",
-      position: "absolute",
-      pointerEvents: "none",
-      color: "#888",
+    '.cm-highlightSpace:before': {
+      content: 'attr(data-display)',
+      position: 'absolute',
+      pointerEvents: 'none',
+      color: '#888',
     },
-    ".cm-highlightTab": {
+    '.cm-highlightTab': {
       backgroundImage: `url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="20"><path stroke="%23888" stroke-width="1" fill="none" d="M1 10H196L190 5M190 15L196 10M197 4L197 16"/></svg>')`,
-      backgroundSize: "auto 100%",
-      backgroundPosition: "right 90%",
-      backgroundRepeat: "no-repeat",
+      backgroundSize: 'auto 100%',
+      backgroundPosition: 'right 90%',
+      backgroundRepeat: 'no-repeat',
     },
-    ".cm-trailingSpace": { backgroundColor: "#ff332255" },
-    ".cm-button": {
-      verticalAlign: "middle",
-      color: "inherit",
-      fontSize: "70%",
-      padding: ".2em 1em",
-      borderRadius: "1px",
+    '.cm-trailingSpace': { backgroundColor: '#ff332255' },
+    '.cm-button': {
+      verticalAlign: 'middle',
+      color: 'inherit',
+      fontSize: '70%',
+      padding: '.2em 1em',
+      borderRadius: '1px',
     },
-    "&light .cm-button": {
-      backgroundImage: "linear-gradient(#eff1f5, #d9d9df)",
-      border: "1px solid #888",
-      "&:active": { backgroundImage: "linear-gradient(#b4b4b4, #d0d3d6)" },
+    '&light .cm-button': {
+      backgroundImage: 'linear-gradient(#eff1f5, #d9d9df)',
+      border: '1px solid #888',
+      '&:active': { backgroundImage: 'linear-gradient(#b4b4b4, #d0d3d6)' },
     },
-    "&dark .cm-button": {
-      backgroundImage: "linear-gradient(#393939, #111)",
-      border: "1px solid #888",
-      "&:active": { backgroundImage: "linear-gradient(#111, #333)" },
+    '&dark .cm-button': {
+      backgroundImage: 'linear-gradient(#393939, #111)',
+      border: '1px solid #888',
+      '&:active': { backgroundImage: 'linear-gradient(#111, #333)' },
     },
-    ".cm-textfield": {
-      verticalAlign: "middle",
-      color: "inherit",
-      fontSize: "70%",
-      border: "1px solid silver",
-      padding: ".2em .5em",
+    '.cm-textfield': {
+      verticalAlign: 'middle',
+      color: 'inherit',
+      fontSize: '70%',
+      border: '1px solid silver',
+      padding: '.2em .5em',
     },
-    "&light .cm-textfield": { backgroundColor: "white" },
-    "&dark .cm-textfield": {
-      border: "1px solid #555",
-      backgroundColor: "inherit",
+    '&light .cm-textfield': { backgroundColor: 'white' },
+    '&dark .cm-textfield': {
+      border: '1px solid #555',
+      backgroundColor: 'inherit',
     },
   },
-  dc,
+  dc
 );
 class $O {
   constructor(e, t, i, r) {
-    (this.typeOver = r), (this.bounds = null), (this.text = "");
+    (this.typeOver = r), (this.bounds = null), (this.text = '');
     let { impreciseHead: s, impreciseAnchor: o } = e.docView;
     if (e.state.readOnly && t > -1) this.newSel = null;
     else if (t > -1 && (this.bounds = e.docView.domBoundsAround(t, i, 0))) {
@@ -10374,7 +10367,7 @@ function pc(n, e) {
       a = r.from,
       u = null;
     (s === 8 || (M.android && e.text.length < l - o)) &&
-      ((a = r.to), (u = "end"));
+      ((a = r.to), (u = 'end'));
     let h = PO(n.state.doc.sliceString(o, l, fi), e.text, a - o, u);
     h &&
       (M.chrome &&
@@ -10415,11 +10408,11 @@ function pc(n, e) {
         t.from == t.to &&
         t.from == r.head - 1 &&
         /^\. ?$/.test(t.insert.toString()) &&
-        n.contentDOM.getAttribute("autocorrect") == "off"
+        n.contentDOM.getAttribute('autocorrect') == 'off'
       ? (i &&
           t.insert.length == 2 &&
           (i = k.single(i.main.anchor - 1, i.main.head - 1)),
-        (t = { from: r.from, to: r.to, insert: Y.of([" "]) }))
+        (t = { from: r.from, to: r.to, insert: Y.of([' ']) }))
       : M.chrome &&
         t &&
         t.from == t.to &&
@@ -10429,7 +10422,7 @@ function pc(n, e) {
  ` &&
         n.lineWrapping &&
         (i && (i = k.single(i.main.anchor - 1, i.main.head - 1)),
-        (t = { from: r.from, to: r.to, insert: Y.of([" "]) })),
+        (t = { from: r.from, to: r.to, insert: Y.of([' ']) })),
     t)
   ) {
     let o = n.state;
@@ -10440,14 +10433,14 @@ function pc(n, e) {
           t.to == r.to &&
           t.insert.length == 1 &&
           t.insert.lines == 2 &&
-          Si(n.contentDOM, "Enter", 13)) ||
+          Si(n.contentDOM, 'Enter', 13)) ||
           (((t.from == r.from - 1 && t.to == r.to && t.insert.length == 0) ||
             (s == 8 && t.insert.length < t.to - t.from)) &&
-            Si(n.contentDOM, "Backspace", 8)) ||
+            Si(n.contentDOM, 'Backspace', 8)) ||
           (t.from == r.from &&
             t.to == r.to + 1 &&
             t.insert.length == 0 &&
-            Si(n.contentDOM, "Delete", 46))))
+            Si(n.contentDOM, 'Delete', 46))))
     )
       return !0;
     let l = t.insert.toString();
@@ -10461,12 +10454,12 @@ function pc(n, e) {
       (!i || (i.main.empty && i.main.from == t.from + t.insert.length)) &&
       n.inputState.composing < 0
     ) {
-      let h = r.from < t.from ? o.sliceDoc(r.from, t.from) : "",
-        c = r.to > t.to ? o.sliceDoc(t.to, r.to) : "";
+      let h = r.from < t.from ? o.sliceDoc(r.from, t.from) : '',
+        c = r.to > t.to ? o.sliceDoc(t.to, r.to) : '';
       a = o.replaceSelection(
         n.state.toText(
-          h + t.insert.sliceString(0, void 0, n.state.lineBreak) + c,
-        ),
+          h + t.insert.sliceString(0, void 0, n.state.lineBreak) + c
+        )
       );
     } else {
       let h = o.changes(t),
@@ -10503,24 +10496,24 @@ function pc(n, e) {
         });
       } else a = { changes: h, selection: c && o.selection.replaceRange(c) };
     }
-    let u = "input.type";
+    let u = 'input.type';
     return (
       (n.composing ||
         (n.inputState.compositionPendingChange &&
           n.inputState.compositionEndedAt > Date.now() - 50)) &&
         ((n.inputState.compositionPendingChange = !1),
-        (u += ".compose"),
+        (u += '.compose'),
         n.inputState.compositionFirstChange &&
-          ((u += ".start"), (n.inputState.compositionFirstChange = !1))),
+          ((u += '.start'), (n.inputState.compositionFirstChange = !1))),
       n.dispatch(a, { scrollIntoView: !0, userEvent: u }),
       !0
     );
   } else if (i && !i.main.eq(r)) {
     let o = !1,
-      l = "select";
+      l = 'select';
     return (
       n.inputState.lastSelectionTime > Date.now() - 50 &&
-        (n.inputState.lastSelectionOrigin == "select" && (o = !0),
+        (n.inputState.lastSelectionOrigin == 'select' && (o = !0),
         (l = n.inputState.lastSelectionOrigin)),
       n.dispatch({ selection: i, scrollIntoView: o, userEvent: l }),
       !0
@@ -10536,7 +10529,7 @@ function PO(n, e, t, i) {
     l = e.length;
   for (; o > 0 && l > 0 && n.charCodeAt(o - 1) == e.charCodeAt(l - 1); )
     o--, l--;
-  if (i == "end") {
+  if (i == 'end') {
     let a = Math.max(0, s - Math.min(o, l));
     t -= o + a - s;
   }
@@ -10602,9 +10595,9 @@ class TO {
         ((M.ie && M.ie_version <= 11) || (M.ios && e.composing)) &&
         t.some(
           (i) =>
-            (i.type == "childList" && i.removedNodes.length) ||
-            (i.type == "characterData" &&
-              i.oldValue.length > i.target.nodeValue.length),
+            (i.type == 'childList' && i.removedNodes.length) ||
+            (i.type == 'characterData' &&
+              i.oldValue.length > i.target.nodeValue.length)
         )
           ? this.flushSoon()
           : this.flush();
@@ -10613,7 +10606,7 @@ class TO {
         (this.onCharData = (t) => {
           this.queue.push({
             target: t.target,
-            type: "characterData",
+            type: 'characterData',
             oldValue: t.prevValue,
           }),
             this.flushSoon();
@@ -10622,7 +10615,7 @@ class TO {
       (this.onResize = this.onResize.bind(this)),
       (this.onPrint = this.onPrint.bind(this)),
       (this.onScroll = this.onScroll.bind(this)),
-      typeof ResizeObserver == "function" &&
+      typeof ResizeObserver == 'function' &&
         ((this.resizeScroll = new ResizeObserver(() => {
           var t;
           ((t = this.view.docView) === null || t === void 0
@@ -10632,32 +10625,32 @@ class TO {
         })),
         this.resizeScroll.observe(e.scrollDOM),
         (this.resizeContent = new ResizeObserver(() =>
-          this.view.requestMeasure(),
+          this.view.requestMeasure()
         )),
         this.resizeContent.observe(e.contentDOM)),
       this.addWindowListeners((this.win = e.win)),
       this.start(),
-      typeof IntersectionObserver == "function" &&
+      typeof IntersectionObserver == 'function' &&
         ((this.intersection = new IntersectionObserver(
           (t) => {
             this.parentCheck < 0 &&
               (this.parentCheck = setTimeout(
                 this.listenForScroll.bind(this),
-                1e3,
+                1e3
               )),
               t.length > 0 &&
                 t[t.length - 1].intersectionRatio > 0 != this.intersecting &&
                 ((this.intersecting = !this.intersecting),
                 this.intersecting != this.view.inView &&
-                  this.onScrollChanged(document.createEvent("Event")));
+                  this.onScrollChanged(document.createEvent('Event')));
           },
-          { threshold: [0, 0.001] },
+          { threshold: [0, 0.001] }
         )),
         this.intersection.observe(this.dom),
         (this.gapIntersection = new IntersectionObserver((t) => {
           t.length > 0 &&
             t[t.length - 1].intersectionRatio > 0 &&
-            this.onScrollChanged(document.createEvent("Event"));
+            this.onScrollChanged(document.createEvent('Event'));
         }, {}))),
       this.listenForScroll(),
       this.readSelectionRange();
@@ -10760,9 +10753,9 @@ class TO {
       t)
     ) {
       for (let i of this.scrollTargets)
-        i.removeEventListener("scroll", this.onScroll);
+        i.removeEventListener('scroll', this.onScroll);
       for (let i of (this.scrollTargets = t))
-        i.addEventListener("scroll", this.onScroll);
+        i.addEventListener('scroll', this.onScroll);
     }
   }
   ignore(e) {
@@ -10777,7 +10770,7 @@ class TO {
     this.active ||
       (this.observer.observe(this.dom, EO),
       is &&
-        this.dom.addEventListener("DOMCharacterDataModified", this.onCharData),
+        this.dom.addEventListener('DOMCharacterDataModified', this.onCharData),
       (this.active = !0));
   }
   stop() {
@@ -10786,8 +10779,8 @@ class TO {
       this.observer.disconnect(),
       is &&
         this.dom.removeEventListener(
-          "DOMCharacterDataModified",
-          this.onCharData,
+          'DOMCharacterDataModified',
+          this.onCharData
         ));
   }
   clear() {
@@ -10808,7 +10801,7 @@ class TO {
       };
       this.flushingAndroidKey = this.view.win.requestAnimationFrame(r);
     }
-    (!this.delayedAndroidKey || e == "Enter") &&
+    (!this.delayedAndroidKey || e == 'Enter') &&
       (this.delayedAndroidKey = {
         key: e,
         keyCode: t,
@@ -10879,9 +10872,9 @@ class TO {
     let t = this.view.docView.nearest(e.target);
     if (!t || t.ignoreMutation(e)) return null;
     if (
-      (t.markDirty(e.type == "attributes"),
-      e.type == "attributes" && (t.flags |= 4),
-      e.type == "childList")
+      (t.markDirty(e.type == 'attributes'),
+      e.type == 'attributes' && (t.flags |= 4),
+      e.type == 'childList')
     ) {
       let i = sa(t, e.previousSibling || e.target.previousSibling, -1),
         r = sa(t, e.nextSibling || e.target.nextSibling, 1);
@@ -10891,7 +10884,7 @@ class TO {
         typeOver: !1,
       };
     } else
-      return e.type == "characterData"
+      return e.type == 'characterData'
         ? {
             from: t.posAtStart,
             to: t.posAtEnd,
@@ -10906,16 +10899,16 @@ class TO {
       this.addWindowListeners(this.win));
   }
   addWindowListeners(e) {
-    e.addEventListener("resize", this.onResize),
-      e.addEventListener("beforeprint", this.onPrint),
-      e.addEventListener("scroll", this.onScroll),
-      e.document.addEventListener("selectionchange", this.onSelectionChange);
+    e.addEventListener('resize', this.onResize),
+      e.addEventListener('beforeprint', this.onPrint),
+      e.addEventListener('scroll', this.onScroll),
+      e.document.addEventListener('selectionchange', this.onSelectionChange);
   }
   removeWindowListeners(e) {
-    e.removeEventListener("scroll", this.onScroll),
-      e.removeEventListener("resize", this.onResize),
-      e.removeEventListener("beforeprint", this.onPrint),
-      e.document.removeEventListener("selectionchange", this.onSelectionChange);
+    e.removeEventListener('scroll', this.onScroll),
+      e.removeEventListener('resize', this.onResize),
+      e.removeEventListener('beforeprint', this.onPrint),
+      e.document.removeEventListener('selectionchange', this.onSelectionChange);
   }
   destroy() {
     var e, t, i, r;
@@ -10925,7 +10918,7 @@ class TO {
       (i = this.resizeScroll) === null || i === void 0 || i.disconnect(),
       (r = this.resizeContent) === null || r === void 0 || r.disconnect();
     for (let s of this.scrollTargets)
-      s.removeEventListener("scroll", this.onScroll);
+      s.removeEventListener('scroll', this.onScroll);
     this.removeWindowListeners(this.win),
       clearTimeout(this.parentCheck),
       clearTimeout(this.resizeTimeout),
@@ -10950,9 +10943,9 @@ function RO(n) {
       (e = a.getTargetRanges()[0]);
   }
   if (
-    (n.contentDOM.addEventListener("beforeinput", t, !0),
-    n.dom.ownerDocument.execCommand("indent"),
-    n.contentDOM.removeEventListener("beforeinput", t, !0),
+    (n.contentDOM.addEventListener('beforeinput', t, !0),
+    n.dom.ownerDocument.execCommand('indent'),
+    n.contentDOM.removeEventListener('beforeinput', t, !0),
     !e)
   )
     return null;
@@ -10977,15 +10970,15 @@ class A {
       (this.updateState = 2),
       (this.measureScheduled = -1),
       (this.measureRequests = []),
-      (this.contentDOM = document.createElement("div")),
-      (this.scrollDOM = document.createElement("div")),
+      (this.contentDOM = document.createElement('div')),
+      (this.scrollDOM = document.createElement('div')),
       (this.scrollDOM.tabIndex = -1),
-      (this.scrollDOM.className = "cm-scroller"),
+      (this.scrollDOM.className = 'cm-scroller'),
       this.scrollDOM.appendChild(this.contentDOM),
-      (this.announceDOM = document.createElement("div")),
-      (this.announceDOM.style.cssText = "position: fixed; top: -10000px"),
-      this.announceDOM.setAttribute("aria-live", "polite"),
-      (this.dom = document.createElement("div")),
+      (this.announceDOM = document.createElement('div')),
+      (this.announceDOM.style.cssText = 'position: fixed; top: -10000px'),
+      this.announceDOM.setAttribute('aria-live', 'polite'),
+      (this.dom = document.createElement('div')),
       this.dom.appendChild(this.announceDOM),
       this.dom.appendChild(this.scrollDOM),
       (this._dispatch = e.dispatch || ((t) => this.update([t]))),
@@ -11036,7 +11029,7 @@ class A {
   update(e) {
     if (this.updateState != 0)
       throw new Error(
-        "Calls to EditorView.update are not allowed while an update is in progress",
+        'Calls to EditorView.update are not allowed while an update is in progress'
       );
     let t = !1,
       i = !1,
@@ -11045,7 +11038,7 @@ class A {
     for (let f of e) {
       if (f.startState != s)
         throw new RangeError(
-          "Trying to update state with a transaction that doesn't start from the previous state.",
+          "Trying to update state with a transaction that doesn't start from the previous state."
         );
       s = f.state;
     }
@@ -11081,7 +11074,7 @@ class A {
         if ((c && (c = c.map(f.changes)), f.scrollIntoView)) {
           let { main: d } = f.state.selection;
           c = new sr(
-            d.empty ? d : k.cursor(d.head, d.head > d.anchor ? -1 : 1),
+            d.empty ? d : k.cursor(d.head, d.head > d.anchor ? -1 : 1)
           );
         }
         for (let d of f.effects) d.is(Zl) && (c = d.value);
@@ -11095,7 +11088,7 @@ class A {
         this.showAnnouncements(e),
         this.docView.updateSelection(
           t,
-          e.some((f) => f.isUserEvent("select.pointer")),
+          e.some((f) => f.isUserEvent('select.pointer'))
         );
     } finally {
       this.updateState = 0;
@@ -11121,7 +11114,7 @@ class A {
   setState(e) {
     if (this.updateState != 0)
       throw new Error(
-        "Calls to EditorView.setState are not allowed while an update is in progress",
+        'Calls to EditorView.setState are not allowed while an update is in progress'
       );
     if (this.destroyed) {
       this.viewState.state = e;
@@ -11196,8 +11189,8 @@ class A {
         if (l > 5) {
           console.warn(
             this.measureRequests.length
-              ? "Measure loop restarted more than 5 times"
-              : "Viewport failed to stabilize",
+              ? 'Measure loop restarted more than 5 times'
+              : 'Viewport failed to stabilize'
           );
           break;
         }
@@ -11257,28 +11250,28 @@ class A {
   }
   get themeClasses() {
     return (
-      eo + " " + (this.state.facet(Ks) ? fc : cc) + " " + this.state.facet(vn)
+      eo + ' ' + (this.state.facet(Ks) ? fc : cc) + ' ' + this.state.facet(vn)
     );
   }
   updateAttrs() {
     let e = la(this, _h, {
         class:
-          "cm-editor" +
-          (this.hasFocus ? " cm-focused " : " ") +
+          'cm-editor' +
+          (this.hasFocus ? ' cm-focused ' : ' ') +
           this.themeClasses,
       }),
       t = {
-        spellcheck: "false",
-        autocorrect: "off",
-        autocapitalize: "off",
-        translate: "no",
-        contenteditable: this.state.facet(Rr) ? "true" : "false",
-        class: "cm-content",
+        spellcheck: 'false',
+        autocorrect: 'off',
+        autocapitalize: 'off',
+        translate: 'no',
+        contenteditable: this.state.facet(Rr) ? 'true' : 'false',
+        class: 'cm-content',
         style: `${M.tabSize}: ${this.state.tabSize}`,
-        role: "textbox",
-        "aria-multiline": "true",
+        role: 'textbox',
+        'aria-multiline': 'true',
       };
-    this.state.readOnly && (t["aria-readonly"] = "true"), la(this, Wo, t);
+    this.state.readOnly && (t['aria-readonly'] = 'true'), la(this, Wo, t);
     let i = this.observer.ignore(() => {
       let r = Us(this.contentDOM, this.contentAttrs, t),
         s = Us(this.dom, this.editorAttrs, e);
@@ -11291,8 +11284,8 @@ class A {
     for (let i of e)
       for (let r of i.effects)
         if (r.is(A.announce)) {
-          t && (this.announceDOM.textContent = ""), (t = !1);
-          let s = this.announceDOM.appendChild(document.createElement("div"));
+          t && (this.announceDOM.textContent = ''), (t = !1);
+          let s = this.announceDOM.appendChild(document.createElement('div'));
           s.textContent = r.value;
         }
   }
@@ -11303,7 +11296,7 @@ class A {
   readMeasured() {
     if (this.updateState == 2)
       throw new Error(
-        "Reading the editor layout isn't allowed during an update",
+        "Reading the editor layout isn't allowed during an update"
       );
     this.updateState == 0 && this.measureScheduled > -1 && this.measure(!1);
   }
@@ -11311,7 +11304,7 @@ class A {
     if (
       (this.measureScheduled < 0 &&
         (this.measureScheduled = this.win.requestAnimationFrame(() =>
-          this.measure(),
+          this.measure()
         )),
       e)
     ) {
@@ -11332,7 +11325,7 @@ class A {
       (t === void 0 || (t && t.spec != e)) &&
         this.pluginMap.set(
           e,
-          (t = this.plugins.find((i) => i.spec == e) || null),
+          (t = this.plugins.find((i) => i.spec == e) || null)
         ),
       t && t.update(this).value
     );
@@ -11370,7 +11363,7 @@ class A {
     return es(
       this,
       e,
-      _l(this, e, t, (i) => eO(this, e.head, i)),
+      _l(this, e, t, (i) => eO(this, e.head, i))
     );
   }
   moveToLineBoundary(e, t, i = !0) {
@@ -11448,7 +11441,7 @@ class A {
     this._root != e &&
       ((this._root = e),
       this.observer.setWindow(
-        (e.nodeType == 9 ? e : e.ownerDocument).defaultView || window,
+        (e.nodeType == 9 ? e : e.ownerDocument).defaultView || window
       ),
       this.mountStyles());
   }
@@ -11465,12 +11458,12 @@ class A {
   static scrollIntoView(e, t = {}) {
     return Zl.of(
       new sr(
-        typeof e == "number" ? k.cursor(e) : e,
+        typeof e == 'number' ? k.cursor(e) : e,
         t.y,
         t.x,
         t.yMargin,
-        t.xMargin,
-      ),
+        t.xMargin
+      )
     );
   }
   static domEventHandlers(e) {
@@ -11482,11 +11475,11 @@ class A {
     return t && t.dark && r.push(Ks.of(!0)), r;
   }
   static baseTheme(e) {
-    return $i.lowest(Zi.of(to("." + eo, e, dc)));
+    return $i.lowest(Zi.of(to('.' + eo, e, dc)));
   }
   static findFromDOM(e) {
     var t;
-    let i = e.querySelector(".cm-content"),
+    let i = e.querySelector('.cm-content'),
       r = (i && K.get(i)) || K.get(e);
     return (
       ((t = r == null ? void 0 : r.rootView) === null || t === void 0
@@ -11511,7 +11504,7 @@ A.scrollMargins = Lh;
 A.darkTheme = Ks;
 A.contentAttributes = Wo;
 A.editorAttributes = _h;
-A.lineWrapping = A.contentAttributes.of({ class: "cm-lineWrapping" });
+A.lineWrapping = A.contentAttributes.of({ class: 'cm-lineWrapping' });
 A.announce = Z.define();
 const FO = 4096,
   oa = {};
@@ -11535,16 +11528,16 @@ class lr {
 function la(n, e, t) {
   for (let i = n.state.facet(e), r = i.length - 1; r >= 0; r--) {
     let s = i[r],
-      o = typeof s == "function" ? s(n) : s;
+      o = typeof s == 'function' ? s(n) : s;
     o && js(o, t);
   }
   return t;
 }
-const XO = M.mac ? "mac" : M.windows ? "win" : M.linux ? "linux" : "key";
+const XO = M.mac ? 'mac' : M.windows ? 'win' : M.linux ? 'linux' : 'key';
 function WO(n, e) {
   const t = n.split(/-(?!$)/);
   let i = t[t.length - 1];
-  i == "Space" && (i = " ");
+  i == 'Space' && (i = ' ');
   let r, s, o, l;
   for (let a = 0; a < t.length - 1; ++a) {
     const u = t[a];
@@ -11552,32 +11545,32 @@ function WO(n, e) {
     else if (/^a(lt)?$/i.test(u)) r = !0;
     else if (/^(c|ctrl|control)$/i.test(u)) s = !0;
     else if (/^s(hift)?$/i.test(u)) o = !0;
-    else if (/^mod$/i.test(u)) e == "mac" ? (l = !0) : (s = !0);
-    else throw new Error("Unrecognized modifier name: " + u);
+    else if (/^mod$/i.test(u)) e == 'mac' ? (l = !0) : (s = !0);
+    else throw new Error('Unrecognized modifier name: ' + u);
   }
   return (
-    r && (i = "Alt-" + i),
-    s && (i = "Ctrl-" + i),
-    l && (i = "Meta-" + i),
-    o && (i = "Shift-" + i),
+    r && (i = 'Alt-' + i),
+    s && (i = 'Ctrl-' + i),
+    l && (i = 'Meta-' + i),
+    o && (i = 'Shift-' + i),
     i
   );
 }
 function An(n, e, t) {
   return (
-    e.altKey && (n = "Alt-" + n),
-    e.ctrlKey && (n = "Ctrl-" + n),
-    e.metaKey && (n = "Meta-" + n),
-    t !== !1 && e.shiftKey && (n = "Shift-" + n),
+    e.altKey && (n = 'Alt-' + n),
+    e.ctrlKey && (n = 'Ctrl-' + n),
+    e.metaKey && (n = 'Meta-' + n),
+    t !== !1 && e.shiftKey && (n = 'Shift-' + n),
     n
   );
 }
 const ZO = $i.default(
     A.domEventHandlers({
       keydown(n, e) {
-        return gc(Oc(e.state), n, e, "editor");
+        return gc(Oc(e.state), n, e, 'editor');
       },
-    }),
+    })
   ),
   dn = B.define({ enables: ZO }),
   aa = new WeakMap();
@@ -11599,9 +11592,9 @@ function VO(n, e = XO) {
       if (a == null) i[o] = l;
       else if (a != l)
         throw new Error(
-          "Key binding " +
+          'Key binding ' +
             o +
-            " is used both as a regular binding and as a multi-stroke prefix",
+            ' is used both as a regular binding and as a multi-stroke prefix'
         );
     },
     s = (o, l, a, u, h) => {
@@ -11609,7 +11602,7 @@ function VO(n, e = XO) {
       let d = t[o] || (t[o] = Object.create(null)),
         p = l.split(/ (?!$)/).map((S) => WO(S, e));
       for (let S = 1; S < p.length; S++) {
-        let x = p.slice(0, S).join(" ");
+        let x = p.slice(0, S).join(' ');
         r(x, !0),
           d[x] ||
             (d[x] = {
@@ -11628,7 +11621,7 @@ function VO(n, e = XO) {
               ],
             });
       }
-      let m = p.join(" ");
+      let m = p.join(' ');
       r(m, !1);
       let g =
         d[m] ||
@@ -11646,7 +11639,7 @@ function VO(n, e = XO) {
         h && (g.stopPropagation = !0);
     };
   for (let o of n) {
-    let l = o.scope ? o.scope.split(" ") : ["editor"];
+    let l = o.scope ? o.scope.split(' ') : ['editor'];
     if (o.any)
       for (let u of l) {
         let h = t[u] || (t[u] = Object.create(null));
@@ -11659,22 +11652,22 @@ function VO(n, e = XO) {
       for (let u of l)
         s(u, a, o.run, o.preventDefault, o.stopPropagation),
           o.shift &&
-            s(u, "Shift-" + a, o.shift, o.preventDefault, o.stopPropagation);
+            s(u, 'Shift-' + a, o.shift, o.preventDefault, o.stopPropagation);
   }
   return t;
 }
 function gc(n, e, t, i) {
   let r = xp(e),
     s = De(r, 0),
-    o = qe(s) == r.length && r != " ",
-    l = "",
+    o = qe(s) == r.length && r != ' ',
+    l = '',
     a = !1,
     u = !1,
     h = !1;
   Pt &&
     Pt.view == t &&
     Pt.scope == i &&
-    ((l = Pt.prefix + " "),
+    ((l = Pt.prefix + ' '),
     ic.indexOf(e.keyCode) < 0 && ((u = !0), (Pt = null)));
   let c = new Set(),
     f = (g) => {
@@ -11720,17 +11713,17 @@ class pn {
       (this.height = s);
   }
   draw() {
-    let e = document.createElement("div");
+    let e = document.createElement('div');
     return (e.className = this.className), this.adjust(e), e;
   }
   update(e, t) {
     return t.className != this.className ? !1 : (this.adjust(e), !0);
   }
   adjust(e) {
-    (e.style.left = this.left + "px"),
-      (e.style.top = this.top + "px"),
-      this.width != null && (e.style.width = this.width + "px"),
-      (e.style.height = this.height + "px");
+    (e.style.left = this.left + 'px'),
+      (e.style.top = this.top + 'px'),
+      this.width != null && (e.style.width = this.width + 'px'),
+      (e.style.height = this.height + 'px');
   }
   eq(e) {
     return (
@@ -11777,7 +11770,7 @@ function jO(n, e, t) {
     o = n.contentDOM,
     l = o.getBoundingClientRect(),
     a = mc(n),
-    u = o.querySelector(".cm-line"),
+    u = o.querySelector('.cm-line'),
     h = u && window.getComputedStyle(u),
     c =
       l.left +
@@ -11846,7 +11839,7 @@ function jO(n, e, t) {
                 C == null && H <= U,
                 Math.min(fe, se),
                 Q == null && fe >= ee,
-                G.dir,
+                G.dir
               );
           }
           if (((le = te.to + 1), le >= se)) break;
@@ -11873,11 +11866,11 @@ class YO {
         read: this.measure.bind(this),
         write: this.draw.bind(this),
       }),
-      (this.dom = e.scrollDOM.appendChild(document.createElement("div"))),
-      this.dom.classList.add("cm-layer"),
-      t.above && this.dom.classList.add("cm-layer-above"),
+      (this.dom = e.scrollDOM.appendChild(document.createElement('div'))),
+      this.dom.classList.add('cm-layer'),
+      t.above && this.dom.classList.add('cm-layer-above'),
       t.class && this.dom.classList.add(t.class),
-      this.dom.setAttribute("aria-hidden", "true"),
+      this.dom.setAttribute('aria-hidden', 'true'),
       this.setOrder(e.state),
       e.requestMeasure(this.measureReq),
       t.mount && t.mount(this.dom, e);
@@ -11936,7 +11929,7 @@ const bc = !M.ios,
         {
           cursorBlinkRate: (e, t) => Math.min(e, t),
           drawRangeCursor: (e, t) => e || t,
-        },
+        }
       );
     },
   });
@@ -11956,8 +11949,8 @@ const _O = Sc({
       let s = r == e.selection.main;
       if (r.empty ? !s || bc : t.drawRangeCursor) {
         let o = s
-            ? "cm-cursor cm-cursor-primary"
-            : "cm-cursor cm-cursor-secondary",
+            ? 'cm-cursor cm-cursor-primary'
+            : 'cm-cursor cm-cursor-secondary',
           l = r.empty ? r : k.cursor(r.head, r.head > r.anchor ? -1 : 1);
         for (let a of pn.forRange(n, o, l)) i.push(a);
       }
@@ -11967,39 +11960,39 @@ const _O = Sc({
   update(n, e) {
     n.transactions.some((i) => i.selection) &&
       (e.style.animationName =
-        e.style.animationName == "cm-blink" ? "cm-blink2" : "cm-blink");
+        e.style.animationName == 'cm-blink' ? 'cm-blink2' : 'cm-blink');
     let t = xc(n);
     return t && ha(n.state, e), n.docChanged || n.selectionSet || t;
   },
   mount(n, e) {
     ha(e.state, n);
   },
-  class: "cm-cursorLayer",
+  class: 'cm-cursorLayer',
 });
 function ha(n, e) {
-  e.style.animationDuration = n.facet(nn).cursorBlinkRate + "ms";
+  e.style.animationDuration = n.facet(nn).cursorBlinkRate + 'ms';
 }
 const LO = Sc({
     above: !1,
     markers(n) {
       return n.state.selection.ranges
         .map((e) =>
-          e.empty ? [] : pn.forRange(n, "cm-selectionBackground", e),
+          e.empty ? [] : pn.forRange(n, 'cm-selectionBackground', e)
         )
         .reduce((e, t) => e.concat(t));
     },
     update(n, e) {
       return n.docChanged || n.selectionSet || n.viewportChanged || xc(n);
     },
-    class: "cm-selectionLayer",
+    class: 'cm-selectionLayer',
   }),
   kc = {
-    ".cm-line": {
-      "& ::selection": { backgroundColor: "transparent !important" },
-      "&::selection": { backgroundColor: "transparent !important" },
+    '.cm-line': {
+      '& ::selection': { backgroundColor: 'transparent !important' },
+      '&::selection': { backgroundColor: 'transparent !important' },
     },
   };
-bc && (kc[".cm-line"].caretColor = "transparent !important");
+bc && (kc['.cm-line'].caretColor = 'transparent !important');
 const qO = $i.highest(A.theme(kc)),
   Cc = Z.define({
     map(n, e) {
@@ -12036,9 +12029,9 @@ const qO = $i.highest(A.theme(kc)),
             (this.cursor = null))
           : (this.cursor ||
               ((this.cursor = this.view.scrollDOM.appendChild(
-                document.createElement("div"),
+                document.createElement('div')
               )),
-              (this.cursor.className = "cm-dropCursor")),
+              (this.cursor.className = 'cm-dropCursor')),
             (n.startState.field(Ii) != t ||
               n.docChanged ||
               n.geometryChanged) &&
@@ -12058,10 +12051,10 @@ const qO = $i.highest(A.theme(kc)),
       drawCursor(n) {
         this.cursor &&
           (n
-            ? ((this.cursor.style.left = n.left + "px"),
-              (this.cursor.style.top = n.top + "px"),
-              (this.cursor.style.height = n.height + "px"))
-            : (this.cursor.style.left = "-100000px"));
+            ? ((this.cursor.style.left = n.left + 'px'),
+              (this.cursor.style.top = n.top + 'px'),
+              (this.cursor.style.height = n.height + 'px'))
+            : (this.cursor.style.left = '-100000px'));
       }
       destroy() {
         this.cursor && this.cursor.remove();
@@ -12075,7 +12068,7 @@ const qO = $i.highest(A.theme(kc)),
       eventHandlers: {
         dragover(n) {
           this.setDropPos(
-            this.view.posAtCoords({ x: n.clientX, y: n.clientY }),
+            this.view.posAtCoords({ x: n.clientX, y: n.clientY })
           );
         },
         dragleave(n) {
@@ -12090,7 +12083,7 @@ const qO = $i.highest(A.theme(kc)),
           this.setDropPos(null);
         },
       },
-    },
+    }
   );
 function GO() {
   return [Ii, NO];
@@ -12124,11 +12117,11 @@ class JO {
     } = e;
     if (!t.global)
       throw new RangeError(
-        "The regular expression given to MatchDecorator should have its 'g' flag set",
+        "The regular expression given to MatchDecorator should have its 'g' flag set"
       );
     if (((this.regexp = t), r))
       this.addMatch = (l, a, u, h) => r(h, u, u + l[0].length, l, a);
-    else if (typeof i == "function")
+    else if (typeof i == 'function')
       this.addMatch = (l, a, u, h) => {
         let c = i(l, a, u);
         c && h(u, u + l[0].length, c);
@@ -12136,7 +12129,7 @@ class JO {
     else if (i) this.addMatch = (l, a, u, h) => h(u, u + l[0].length, i);
     else
       throw new RangeError(
-        "Either 'decorate' or 'decoration' should be provided to MatchDecorator",
+        "Either 'decorate' or 'decoration' should be provided to MatchDecorator"
       );
     (this.boundary = s), (this.maxLength = o);
   }
@@ -12197,7 +12190,7 @@ class JO {
             this.addMatch(d, e, d.index + a.from, p);
         else
           ca(e.state.doc, this.regexp, h, c, (m, g) =>
-            this.addMatch(g, e, m, p),
+            this.addMatch(g, e, m, p)
           );
         t = t.update({
           filterFrom: h,
@@ -12210,39 +12203,39 @@ class JO {
     return t;
   }
 }
-const io = /x/.unicode != null ? "gu" : "g",
+const io = /x/.unicode != null ? 'gu' : 'g',
   KO = new RegExp(
     `[\0-\b
 --­؜​‎‏\u2028\u2029‭‮⁦⁧⁩\uFEFF￹-￼]`,
-    io,
+    io
   ),
   eg = {
-    0: "null",
-    7: "bell",
-    8: "backspace",
-    10: "newline",
-    11: "vertical tab",
-    13: "carriage return",
-    27: "escape",
-    8203: "zero width space",
-    8204: "zero width non-joiner",
-    8205: "zero width joiner",
-    8206: "left-to-right mark",
-    8207: "right-to-left mark",
-    8232: "line separator",
-    8237: "left-to-right override",
-    8238: "right-to-left override",
-    8294: "left-to-right isolate",
-    8295: "right-to-left isolate",
-    8297: "pop directional isolate",
-    8233: "paragraph separator",
-    65279: "zero width no-break space",
-    65532: "object replacement",
+    0: 'null',
+    7: 'bell',
+    8: 'backspace',
+    10: 'newline',
+    11: 'vertical tab',
+    13: 'carriage return',
+    27: 'escape',
+    8203: 'zero width space',
+    8204: 'zero width non-joiner',
+    8205: 'zero width joiner',
+    8206: 'left-to-right mark',
+    8207: 'right-to-left mark',
+    8232: 'line separator',
+    8237: 'left-to-right override',
+    8238: 'right-to-left override',
+    8294: 'left-to-right isolate',
+    8295: 'right-to-left isolate',
+    8297: 'pop directional isolate',
+    8233: 'paragraph separator',
+    65279: 'zero width no-break space',
+    65532: 'object replacement',
   };
 let ns = null;
 function tg() {
   var n;
-  if (ns == null && typeof document < "u" && document.body) {
+  if (ns == null && typeof document < 'u' && document.body) {
     let e = document.body.style;
     ns = ((n = e.tabSize) !== null && n !== void 0 ? n : e.MozTabSize) != null;
   }
@@ -12253,11 +12246,11 @@ const Ln = B.define({
     let e = gt(n, { render: null, specialChars: KO, addSpecialChars: null });
     return (
       (e.replaceTabs = !tg()) &&
-        (e.specialChars = new RegExp("	|" + e.specialChars.source, io)),
+        (e.specialChars = new RegExp('	|' + e.specialChars.source, io)),
       e.addSpecialChars &&
         (e.specialChars = new RegExp(
-          e.specialChars.source + "|" + e.addSpecialChars.source,
-          io,
+          e.specialChars.source + '|' + e.addSpecialChars.source,
+          io
         )),
       e
     );
@@ -12291,7 +12284,7 @@ function ig() {
                   a = hn(o.text, l, i - o.from);
                 return T.replace({
                   widget: new og(
-                    (l - (a % l)) * this.view.defaultCharacterWidth,
+                    (l - (a % l)) * this.view.defaultCharacterWidth
                   ),
                 });
               }
@@ -12310,17 +12303,17 @@ function ig() {
               (this.decorations = this.decorator.createDeco(n.view)))
             : (this.decorations = this.decorator.updateDeco(
                 n,
-                this.decorations,
+                this.decorations
               ));
         }
       },
-      { decorations: (n) => n.decorations },
+      { decorations: (n) => n.decorations }
     ))
   );
 }
-const ng = "•";
+const ng = '•';
 function rg(n) {
-  return n >= 32 ? ng : n == 10 ? "␤" : String.fromCharCode(9216 + n);
+  return n >= 32 ? ng : n == 10 ? '␤' : String.fromCharCode(9216 + n);
 }
 class sg extends vt {
   constructor(e, t) {
@@ -12332,17 +12325,17 @@ class sg extends vt {
   toDOM(e) {
     let t = rg(this.code),
       i =
-        e.state.phrase("Control character") +
-        " " +
-        (eg[this.code] || "0x" + this.code.toString(16)),
+        e.state.phrase('Control character') +
+        ' ' +
+        (eg[this.code] || '0x' + this.code.toString(16)),
       r = this.options.render && this.options.render(this.code, i, t);
     if (r) return r;
-    let s = document.createElement("span");
+    let s = document.createElement('span');
     return (
       (s.textContent = t),
       (s.title = i),
-      s.setAttribute("aria-label", i),
-      (s.className = "cm-specialChar"),
+      s.setAttribute('aria-label', i),
+      (s.className = 'cm-specialChar'),
       s
     );
   }
@@ -12358,11 +12351,11 @@ class og extends vt {
     return e.width == this.width;
   }
   toDOM() {
-    let e = document.createElement("span");
+    let e = document.createElement('span');
     return (
-      (e.textContent = "	"),
-      (e.className = "cm-tab"),
-      (e.style.width = this.width + "px"),
+      (e.textContent = '	'),
+      (e.className = 'cm-tab'),
+      (e.style.width = this.width + 'px'),
       e
     );
   }
@@ -12373,7 +12366,7 @@ class og extends vt {
 function wc() {
   return ag;
 }
-const lg = T.line({ class: "cm-activeLine" }),
+const lg = T.line({ class: 'cm-activeLine' }),
   ag = me.fromClass(
     class {
       constructor(n) {
@@ -12393,25 +12386,25 @@ const lg = T.line({ class: "cm-activeLine" }),
         return T.set(t);
       }
     },
-    { decorations: (n) => n.decorations },
+    { decorations: (n) => n.decorations }
   );
 class ug extends vt {
   constructor(e) {
     super(), (this.content = e);
   }
   toDOM() {
-    let e = document.createElement("span");
+    let e = document.createElement('span');
     return (
-      (e.className = "cm-placeholder"),
-      (e.style.pointerEvents = "none"),
+      (e.className = 'cm-placeholder'),
+      (e.style.pointerEvents = 'none'),
       e.appendChild(
-        typeof this.content == "string"
+        typeof this.content == 'string'
           ? document.createTextNode(this.content)
-          : this.content,
+          : this.content
       ),
-      typeof this.content == "string"
-        ? e.setAttribute("aria-label", "placeholder " + this.content)
-        : e.setAttribute("aria-hidden", "true"),
+      typeof this.content == 'string'
+        ? e.setAttribute('aria-label', 'placeholder ' + this.content)
+        : e.setAttribute('aria-hidden', 'true'),
       e
     );
   }
@@ -12419,7 +12412,7 @@ class ug extends vt {
     let t = e.firstChild ? Ci(e.firstChild) : [];
     if (!t.length) return null;
     let i = window.getComputedStyle(e.parentNode),
-      r = Er(t[0], i.direction != "rtl"),
+      r = Er(t[0], i.direction != 'rtl'),
       s = parseInt(i.lineHeight);
     return r.bottom - r.top > s * 1.5
       ? { left: r.left, right: r.right, top: r.top, bottom: r.top + s }
@@ -12442,7 +12435,7 @@ function hg(n) {
         return this.view.state.doc.length ? T.none : this.placeholder;
       }
     },
-    { decorations: (e) => e.decorations },
+    { decorations: (e) => e.decorations }
   );
 }
 const no = 2e3;
@@ -12529,9 +12522,9 @@ const Og = {
     Shift: [16, (n) => !!n.shiftKey],
     Meta: [91, (n) => !!n.metaKey],
   },
-  gg = { style: "cursor: crosshair" };
+  gg = { style: 'cursor: crosshair' };
 function mg(n = {}) {
-  let [e, t] = Og[n.key || "Alt"],
+  let [e, t] = Og[n.key || 'Alt'],
     i = me.fromClass(
       class {
         constructor(r) {
@@ -12553,7 +12546,7 @@ function mg(n = {}) {
             this.set(t(r));
           },
         },
-      },
+      }
     );
   return [
     i,
@@ -12565,7 +12558,7 @@ function mg(n = {}) {
     }),
   ];
 }
-const $n = "-10000px";
+const $n = '-10000px';
 class Qc {
   constructor(e, t, i) {
     (this.facet = t),
@@ -12613,10 +12606,10 @@ const rs = B.define({
       var e, t, i;
       return {
         position: M.ios
-          ? "absolute"
+          ? 'absolute'
           : ((e = n.find((r) => r.position)) === null || e === void 0
               ? void 0
-              : e.position) || "fixed",
+              : e.position) || 'fixed',
         parent:
           ((t = n.find((r) => r.parent)) === null || t === void 0
             ? void 0
@@ -12648,7 +12641,7 @@ const rs = B.define({
           }),
           (this.manager = new Qc(n, Io, (t) => this.createTooltip(t))),
           (this.intersectionObserver =
-            typeof IntersectionObserver == "function"
+            typeof IntersectionObserver == 'function'
               ? new IntersectionObserver(
                   (t) => {
                     Date.now() > this.lastTransaction - 50 &&
@@ -12656,20 +12649,20 @@ const rs = B.define({
                       t[t.length - 1].intersectionRatio < 1 &&
                       this.measureSoon();
                   },
-                  { threshold: [1] },
+                  { threshold: [1] }
                 )
               : null),
           this.observeIntersection(),
           n.win.addEventListener(
-            "resize",
-            (this.measureSoon = this.measureSoon.bind(this)),
+            'resize',
+            (this.measureSoon = this.measureSoon.bind(this))
           ),
           this.maybeMeasure();
       }
       createContainer() {
         this.parent
-          ? ((this.container = document.createElement("div")),
-            (this.container.style.position = "relative"),
+          ? ((this.container = document.createElement('div')),
+            (this.container.style.position = 'relative'),
             (this.container.className = this.view.themeClasses),
             this.parent.appendChild(this.container))
           : (this.container = this.view.dom);
@@ -12715,11 +12708,11 @@ const rs = B.define({
       createTooltip(n) {
         let e = n.create(this.view);
         if (
-          (e.dom.classList.add("cm-tooltip"),
-          n.arrow && !e.dom.querySelector(".cm-tooltip > .cm-tooltip-arrow"))
+          (e.dom.classList.add('cm-tooltip'),
+          n.arrow && !e.dom.querySelector('.cm-tooltip > .cm-tooltip-arrow'))
         ) {
-          let t = document.createElement("div");
-          (t.className = "cm-tooltip-arrow"), e.dom.appendChild(t);
+          let t = document.createElement('div');
+          (t.className = 'cm-tooltip-arrow'), e.dom.appendChild(t);
         }
         return (
           (e.dom.style.position = this.position),
@@ -12731,7 +12724,7 @@ const rs = B.define({
       }
       destroy() {
         var n, e;
-        this.view.win.removeEventListener("resize", this.measureSoon);
+        this.view.win.removeEventListener('resize', this.measureSoon);
         for (let t of this.manager.tooltipViews)
           t.dom.remove(), (n = t.destroy) === null || n === void 0 || n.call(t);
         (e = this.intersectionObserver) === null ||
@@ -12751,7 +12744,7 @@ const rs = B.define({
               : this.view.coordsAtPos(e.pos);
           }),
           size: this.manager.tooltipViews.map(({ dom: e }) =>
-            e.getBoundingClientRect(),
+            e.getBoundingClientRect()
           ),
           space: this.view.state.facet(rs).tooltipSpace(this.view),
         };
@@ -12776,7 +12769,7 @@ const rs = B.define({
             a.style.top = $n;
             continue;
           }
-          let c = o.arrow ? l.dom.querySelector(".cm-tooltip-arrow") : null,
+          let c = o.arrow ? l.dom.querySelector('.cm-tooltip-arrow') : null,
             f = c ? 7 : 0,
             d = h.right - h.left,
             p = (e = pa.get(l)) !== null && e !== void 0 ? e : h.bottom - h.top,
@@ -12803,8 +12796,8 @@ const rs = B.define({
               a.style.top = $n;
               continue;
             }
-            pa.set(l, p), (a.style.height = (p = w) + "px");
-          } else a.style.height && (a.style.height = "");
+            pa.set(l, p), (a.style.height = (p = w) + 'px');
+          } else a.style.height && (a.style.height = '');
           let y = x ? u.top - p - f - m.y : u.bottom + f + m.y,
             C = S + d;
           if (l.overlap !== !0)
@@ -12814,16 +12807,16 @@ const rs = B.define({
                 Q.top < y + p &&
                 Q.bottom > y &&
                 (y = x ? Q.top - p - 2 - f : Q.bottom + f + 2);
-          this.position == "absolute"
-            ? ((a.style.top = y - n.parent.top + "px"),
-              (a.style.left = S - n.parent.left + "px"))
-            : ((a.style.top = y + "px"), (a.style.left = S + "px")),
+          this.position == 'absolute'
+            ? ((a.style.top = y - n.parent.top + 'px'),
+              (a.style.left = S - n.parent.left + 'px'))
+            : ((a.style.top = y + 'px'), (a.style.left = S + 'px')),
             c &&
               (c.style.left = `${u.left + (g ? m.x : -m.x) - (S + 14 - 7)}px`),
             l.overlap !== !0 &&
               r.push({ left: S, top: y, right: C, bottom: y + p }),
-            a.classList.toggle("cm-tooltip-above", x),
-            a.classList.toggle("cm-tooltip-below", !x),
+            a.classList.toggle('cm-tooltip-above', x),
+            a.classList.toggle('cm-tooltip-below', !x),
             l.positioned && l.positioned(n.space);
         }
       }
@@ -12843,48 +12836,48 @@ const rs = B.define({
           this.maybeMeasure();
         },
       },
-    },
+    }
   ),
   bg = A.baseTheme({
-    ".cm-tooltip": { zIndex: 100, boxSizing: "border-box" },
-    "&light .cm-tooltip": {
-      border: "1px solid #bbb",
-      backgroundColor: "#f5f5f5",
+    '.cm-tooltip': { zIndex: 100, boxSizing: 'border-box' },
+    '&light .cm-tooltip': {
+      border: '1px solid #bbb',
+      backgroundColor: '#f5f5f5',
     },
-    "&light .cm-tooltip-section:not(:first-child)": {
-      borderTop: "1px solid #bbb",
+    '&light .cm-tooltip-section:not(:first-child)': {
+      borderTop: '1px solid #bbb',
     },
-    "&dark .cm-tooltip": { backgroundColor: "#333338", color: "white" },
-    ".cm-tooltip-arrow": {
-      height: "7px",
+    '&dark .cm-tooltip': { backgroundColor: '#333338', color: 'white' },
+    '.cm-tooltip-arrow': {
+      height: '7px',
       width: `${7 * 2}px`,
-      position: "absolute",
+      position: 'absolute',
       zIndex: -1,
-      overflow: "hidden",
-      "&:before, &:after": {
+      overflow: 'hidden',
+      '&:before, &:after': {
         content: "''",
-        position: "absolute",
+        position: 'absolute',
         width: 0,
         height: 0,
-        borderLeft: "7px solid transparent",
-        borderRight: "7px solid transparent",
+        borderLeft: '7px solid transparent',
+        borderRight: '7px solid transparent',
       },
-      ".cm-tooltip-above &": {
-        bottom: "-7px",
-        "&:before": { borderTop: "7px solid #bbb" },
-        "&:after": { borderTop: "7px solid #f5f5f5", bottom: "1px" },
+      '.cm-tooltip-above &': {
+        bottom: '-7px',
+        '&:before': { borderTop: '7px solid #bbb' },
+        '&:after': { borderTop: '7px solid #f5f5f5', bottom: '1px' },
       },
-      ".cm-tooltip-below &": {
-        top: "-7px",
-        "&:before": { borderBottom: "7px solid #bbb" },
-        "&:after": { borderBottom: "7px solid #f5f5f5", top: "1px" },
+      '.cm-tooltip-below &': {
+        top: '-7px',
+        '&:before': { borderBottom: '7px solid #bbb' },
+        '&:after': { borderBottom: '7px solid #f5f5f5', top: '1px' },
       },
     },
-    "&dark .cm-tooltip .cm-tooltip-arrow": {
-      "&:before": { borderTopColor: "#333338", borderBottomColor: "#333338" },
-      "&:after": {
-        borderTopColor: "transparent",
-        borderBottomColor: "transparent",
+    '&dark .cm-tooltip .cm-tooltip-arrow': {
+      '&:before': { borderTopColor: '#333338', borderBottomColor: '#333338' },
+      '&:after': {
+        borderTopColor: 'transparent',
+        borderBottomColor: 'transparent',
       },
     },
   }),
@@ -12895,8 +12888,8 @@ class Vo {
   constructor(e) {
     (this.view = e),
       (this.mounted = !1),
-      (this.dom = document.createElement("div")),
-      this.dom.classList.add("cm-tooltip-hover"),
+      (this.dom = document.createElement('div')),
+      this.dom.classList.add('cm-tooltip-hover'),
       (this.manager = new Qc(e, ar, (t) => this.createHostedView(t)));
   }
   static create(e) {
@@ -12905,7 +12898,7 @@ class Vo {
   createHostedView(e) {
     let t = e.create(this.view);
     return (
-      t.dom.classList.add("cm-tooltip-section"),
+      t.dom.classList.add('cm-tooltip-section'),
       this.dom.appendChild(t.dom),
       this.mounted && t.mount && t.mount(this.view),
       t
@@ -12952,12 +12945,12 @@ class kg {
       (this.lastMove = { x: 0, y: 0, target: e.dom, time: 0 }),
       (this.checkHover = this.checkHover.bind(this)),
       e.dom.addEventListener(
-        "mouseleave",
-        (this.mouseleave = this.mouseleave.bind(this)),
+        'mouseleave',
+        (this.mouseleave = this.mouseleave.bind(this))
       ),
       e.dom.addEventListener(
-        "mousemove",
-        (this.mousemove = this.mousemove.bind(this)),
+        'mousemove',
+        (this.mousemove = this.mousemove.bind(this))
       );
   }
   update() {
@@ -13005,7 +12998,7 @@ class kg {
             ((this.pending = null),
             a && this.view.dispatch({ effects: this.setHover.of(a) }));
         },
-        (a) => Ge(this.view.state, a, "hover tooltip"),
+        (a) => Ge(this.view.state, a, 'hover tooltip')
       );
     } else o && this.view.dispatch({ effects: this.setHover.of(o) });
   }
@@ -13039,13 +13032,13 @@ class kg {
   }
   destroy() {
     clearTimeout(this.hoverTimeout),
-      this.view.dom.removeEventListener("mouseleave", this.mouseleave),
-      this.view.dom.removeEventListener("mousemove", this.mousemove);
+      this.view.dom.removeEventListener('mouseleave', this.mouseleave),
+      this.view.dom.removeEventListener('mousemove', this.mousemove);
   }
 }
 function Oa(n) {
   for (let e = n; e; e = e.parentNode)
-    if (e.nodeType == 1 && e.classList.contains("cm-tooltip")) return !0;
+    if (e.nodeType == 1 && e.classList.contains('cm-tooltip')) return !0;
   return !1;
 }
 function Cg(n, e, t, i, r, s) {
@@ -13122,7 +13115,7 @@ const $c = me.fromClass(
         this.top.sync(this.panels.filter((t) => t.top)),
         this.bottom.sync(this.panels.filter((t) => !t.top));
       for (let t of this.panels)
-        t.dom.classList.add("cm-panel"), t.mount && t.mount();
+        t.dom.classList.add('cm-panel'), t.mount && t.mount();
     }
     update(n) {
       let e = n.state.facet(ga);
@@ -13153,7 +13146,7 @@ const $c = me.fromClass(
           (this.panels = r),
           this.top.sync(s),
           this.bottom.sync(o);
-        for (let a of l) a.dom.classList.add("cm-panel"), a.mount && a.mount();
+        for (let a of l) a.dom.classList.add('cm-panel'), a.mount && a.mount();
       } else for (let i of this.panels) i.update && i.update(n);
     }
     destroy() {
@@ -13168,7 +13161,7 @@ const $c = me.fromClass(
           t && { top: t.top.scrollMargin(), bottom: t.bottom.scrollMargin() }
         );
       }),
-  },
+  }
 );
 class Pn {
   constructor(e, t, i) {
@@ -13176,7 +13169,7 @@ class Pn {
       (this.top = t),
       (this.container = i),
       (this.dom = void 0),
-      (this.classes = ""),
+      (this.classes = ''),
       (this.panels = []),
       this.syncClasses();
   }
@@ -13190,11 +13183,11 @@ class Pn {
       return;
     }
     if (!this.dom) {
-      (this.dom = document.createElement("div")),
+      (this.dom = document.createElement('div')),
         (this.dom.className = this.top
-          ? "cm-panels cm-panels-top"
-          : "cm-panels cm-panels-bottom"),
-        (this.dom.style[this.top ? "top" : "bottom"] = "0");
+          ? 'cm-panels cm-panels-top'
+          : 'cm-panels cm-panels-bottom'),
+        (this.dom.style[this.top ? 'top' : 'bottom'] = '0');
       let t = this.container || this.view.dom;
       t.insertBefore(this.dom, this.top ? t.firstChild : null);
     }
@@ -13216,15 +13209,15 @@ class Pn {
                 Math.max(0, this.view.scrollDOM.getBoundingClientRect().top)
             : Math.min(
                 innerHeight,
-                this.view.scrollDOM.getBoundingClientRect().bottom,
-              ) - this.dom.getBoundingClientRect().top,
+                this.view.scrollDOM.getBoundingClientRect().bottom
+              ) - this.dom.getBoundingClientRect().top
         );
   }
   syncClasses() {
     if (!(!this.container || this.classes == this.view.themeClasses)) {
-      for (let e of this.classes.split(" "))
+      for (let e of this.classes.split(' '))
         e && this.container.classList.remove(e);
-      for (let e of (this.classes = this.view.themeClasses).split(" "))
+      for (let e of (this.classes = this.view.themeClasses).split(' '))
         e && this.container.classList.add(e);
     }
   }
@@ -13243,16 +13236,16 @@ class Qt extends ni {
   }
   destroy(e) {}
 }
-Qt.prototype.elementClass = "";
+Qt.prototype.elementClass = '';
 Qt.prototype.toDOM = void 0;
 Qt.prototype.mapMode = Te.TrackBefore;
 Qt.prototype.startSide = Qt.prototype.endSide = -1;
 Qt.prototype.point = !0;
 const qn = B.define(),
   Qg = {
-    class: "",
+    class: '',
     renderEmptyElements: !1,
-    elementStyle: "",
+    elementStyle: '',
     markers: () => L.empty,
     lineMarker: () => null,
     widgetMarker: () => null,
@@ -13275,14 +13268,14 @@ const Ag = me.fromClass(
     constructor(n) {
       (this.view = n),
         (this.prevViewport = n.viewport),
-        (this.dom = document.createElement("div")),
-        (this.dom.className = "cm-gutters"),
-        this.dom.setAttribute("aria-hidden", "true"),
-        (this.dom.style.minHeight = this.view.contentHeight + "px"),
+        (this.dom = document.createElement('div')),
+        (this.dom.className = 'cm-gutters'),
+        this.dom.setAttribute('aria-hidden', 'true'),
+        (this.dom.style.minHeight = this.view.contentHeight + 'px'),
         (this.gutters = n.state.facet(qi).map((e) => new ba(n, e)));
       for (let e of this.gutters) this.dom.appendChild(e.dom);
       (this.fixed = !n.state.facet(ro)),
-        this.fixed && (this.dom.style.position = "sticky"),
+        this.fixed && (this.dom.style.position = 'sticky'),
         this.syncGutters(!1),
         n.scrollDOM.insertBefore(this.dom, n.contentDOM);
     }
@@ -13294,10 +13287,10 @@ const Ag = me.fromClass(
         this.syncGutters(i < (t.to - t.from) * 0.8);
       }
       n.geometryChanged &&
-        (this.dom.style.minHeight = this.view.contentHeight + "px"),
+        (this.dom.style.minHeight = this.view.contentHeight + 'px'),
         this.view.state.facet(ro) != !this.fixed &&
           ((this.fixed = !this.fixed),
-          (this.dom.style.position = this.fixed ? "sticky" : "")),
+          (this.dom.style.position = this.fixed ? 'sticky' : '')),
         (this.prevViewport = n.view.viewport);
     }
     syncGutters(n) {
@@ -13306,7 +13299,7 @@ const Ag = me.fromClass(
       let t = L.iter(this.view.state.facet(qn), this.view.viewport.from),
         i = [],
         r = this.gutters.map(
-          (s) => new $g(s, this.view.viewport, -this.view.documentPadding.top),
+          (s) => new $g(s, this.view.viewport, -this.view.documentPadding.top)
         );
       for (let s of this.view.viewportLineBlocks)
         if ((i.length && (i = []), Array.isArray(s.type))) {
@@ -13335,7 +13328,7 @@ const Ag = me.fromClass(
             n.startState.facet(qn),
             n.state.facet(qn),
             n.view.viewport.from,
-            n.view.viewport.to,
+            n.view.viewport.to
           );
       if (e == t) for (let r of this.gutters) r.update(n) && (i = !0);
       else {
@@ -13369,7 +13362,7 @@ const Ag = me.fromClass(
           ? { left: t.dom.offsetWidth }
           : { right: t.dom.offsetWidth };
       }),
-  },
+  }
 );
 function Sa(n) {
   return Array.isArray(n) ? n : [n];
@@ -13420,9 +13413,9 @@ class ba {
       (this.config = t),
       (this.elements = []),
       (this.spacer = null),
-      (this.dom = document.createElement("div")),
+      (this.dom = document.createElement('div')),
       (this.dom.className =
-        "cm-gutter" + (this.config.class ? " " + this.config.class : ""));
+        'cm-gutter' + (this.config.class ? ' ' + this.config.class : ''));
     for (let i in t.domEventHandlers)
       this.dom.addEventListener(i, (r) => {
         let s = r.target,
@@ -13440,7 +13433,7 @@ class ba {
         ((this.spacer = new Mc(e, 0, 0, [t.initialSpacer(e)])),
         this.dom.appendChild(this.spacer.dom),
         (this.spacer.dom.style.cssText +=
-          "visibility: hidden; pointer-events: none"));
+          'visibility: hidden; pointer-events: none'));
   }
   update(e) {
     let t = this.markers;
@@ -13466,18 +13459,18 @@ class Mc {
     (this.height = -1),
       (this.above = 0),
       (this.markers = []),
-      (this.dom = document.createElement("div")),
-      (this.dom.className = "cm-gutterElement"),
+      (this.dom = document.createElement('div')),
+      (this.dom.className = 'cm-gutterElement'),
       this.update(e, t, i, r);
   }
   update(e, t, i, r) {
-    this.height != t && (this.dom.style.height = (this.height = t) + "px"),
+    this.height != t && (this.dom.style.height = (this.height = t) + 'px'),
       this.above != i &&
-        (this.dom.style.marginTop = (this.above = i) ? i + "px" : ""),
+        (this.dom.style.marginTop = (this.above = i) ? i + 'px' : ''),
       Pg(this.markers, r) || this.setMarkers(e, r);
   }
   setMarkers(e, t) {
-    let i = "cm-gutterElement",
+    let i = 'cm-gutterElement',
       r = this.dom.firstChild;
     for (let s = 0, o = 0; ; ) {
       let l = o,
@@ -13485,7 +13478,7 @@ class Mc {
         u = !1;
       if (a) {
         let h = a.elementClass;
-        h && (i += " " + h);
+        h && (i += ' ' + h);
         for (let c = o; c < this.markers.length; c++)
           if (this.markers[c].compare(a)) {
             (l = c), (u = !0);
@@ -13532,7 +13525,7 @@ const Mg = B.define(),
             }
             return i;
           },
-        },
+        }
       );
     },
   });
@@ -13551,7 +13544,7 @@ function os(n, e) {
   return n.state.facet(di).formatNumber(e, n.state);
 }
 const Bg = qi.compute([di], (n) => ({
-  class: "cm-lineNumbers",
+  class: 'cm-lineNumbers',
   renderEmptyElements: !1,
   markers(e) {
     return e.state.facet(Mg);
@@ -13582,10 +13575,10 @@ function ya(n) {
 }
 const Eg = new (class extends Qt {
     constructor() {
-      super(...arguments), (this.elementClass = "cm-activeLineGutter");
+      super(...arguments), (this.elementClass = 'cm-activeLineGutter');
     }
   })(),
-  Tg = qn.compute(["selection"], (n) => {
+  Tg = qn.compute(['selection'], (n) => {
     let e = [],
       t = -1;
     for (let i of n.selection.ranges) {
@@ -13612,7 +13605,7 @@ class I {
         e.deserialize ||
         (() => {
           throw new Error(
-            "This node type doesn't define a deserialize function",
+            "This node type doesn't define a deserialize function"
           );
         }));
   }
@@ -13620,7 +13613,7 @@ class I {
     if (this.perNode)
       throw new RangeError("Can't add per-node props to node types");
     return (
-      typeof e != "function" && (e = Ie.match(e)),
+      typeof e != 'function' && (e = Ie.match(e)),
       (t) => {
         let i = e(t);
         return i === void 0 ? null : [this, i];
@@ -13628,9 +13621,9 @@ class I {
     );
   }
 }
-I.closedBy = new I({ deserialize: (n) => n.split(" ") });
-I.openedBy = new I({ deserialize: (n) => n.split(" ") });
-I.group = new I({ deserialize: (n) => n.split(" ") });
+I.closedBy = new I({ deserialize: (n) => n.split(' ') });
+I.openedBy = new I({ deserialize: (n) => n.split(' ') });
+I.group = new I({ deserialize: (n) => n.split(' ') });
 I.contextHash = new I({ perNode: !0 });
 I.lookAhead = new I({ perNode: !0 });
 I.mounted = new I({ perNode: !0 });
@@ -13646,7 +13639,7 @@ class Ie {
         (e.skipped ? 2 : 0) |
         (e.error ? 4 : 0) |
         (e.name == null ? 8 : 0),
-      r = new Ie(e.name || "", t, e.id, i);
+      r = new Ie(e.name || '', t, e.id, i);
     if (e.props) {
       for (let s of e.props)
         if ((Array.isArray(s) || (s = s(r)), s)) {
@@ -13673,7 +13666,7 @@ class Ie {
     return (this.flags & 8) > 0;
   }
   is(e) {
-    if (typeof e == "string") {
+    if (typeof e == 'string') {
       if (this.name == e) return !0;
       let t = this.prop(I.group);
       return t ? t.indexOf(e) > -1 : !1;
@@ -13682,7 +13675,7 @@ class Ie {
   }
   static match(e) {
     let t = Object.create(null);
-    for (let i in e) for (let r of i.split(" ")) t[r] = e[i];
+    for (let i in e) for (let r of i.split(' ')) t[r] = e[i];
     return (i) => {
       for (let r = i.prop(I.group), s = -1; s < (r ? r.length : 0); s++) {
         let o = t[s < 0 ? i.name : r[s]];
@@ -13691,14 +13684,14 @@ class Ie {
     };
   }
 }
-Ie.none = new Ie("", Object.create(null), 0, 8);
+Ie.none = new Ie('', Object.create(null), 0, 8);
 class jo {
   constructor(e) {
     this.types = e;
     for (let t = 0; t < e.length; t++)
       if (e[t].id != t)
         throw new RangeError(
-          "Node type ids should correspond to array positions when creating a node set",
+          'Node type ids should correspond to array positions when creating a node set'
         );
   }
   extend(...e) {
@@ -13718,10 +13711,10 @@ const Mn = new WeakMap(),
   xa = new WeakMap();
 var ke;
 (function (n) {
-  (n[(n.ExcludeBuffers = 1)] = "ExcludeBuffers"),
-    (n[(n.IncludeAnonymous = 2)] = "IncludeAnonymous"),
-    (n[(n.IgnoreMounts = 4)] = "IgnoreMounts"),
-    (n[(n.IgnoreOverlays = 8)] = "IgnoreOverlays");
+  (n[(n.ExcludeBuffers = 1)] = 'ExcludeBuffers'),
+    (n[(n.IncludeAnonymous = 2)] = 'IncludeAnonymous'),
+    (n[(n.IgnoreMounts = 4)] = 'IgnoreMounts'),
+    (n[(n.IgnoreOverlays = 8)] = 'IgnoreOverlays');
 })(ke || (ke = {}));
 class ge {
   constructor(e, t, i, r, s) {
@@ -13734,21 +13727,21 @@ class ge {
       s && s.length)
     ) {
       this.props = Object.create(null);
-      for (let [o, l] of s) this.props[typeof o == "number" ? o : o.id] = l;
+      for (let [o, l] of s) this.props[typeof o == 'number' ? o : o.id] = l;
     }
   }
   toString() {
     let e = this.prop(I.mounted);
     if (e && !e.overlay) return e.tree.toString();
-    let t = "";
+    let t = '';
     for (let i of this.children) {
       let r = i.toString();
-      r && (t && (t += ","), (t += r));
+      r && (t && (t += ','), (t += r));
     }
     return this.type.name
       ? (/\W/.test(this.type.name) && !this.type.isError
           ? JSON.stringify(this.type.name)
-          : this.type.name) + (t.length ? "(" + t + ")" : "")
+          : this.type.name) + (t.length ? '(' + t + ')' : '')
       : t;
   }
   cursor(e = 0) {
@@ -13814,7 +13807,7 @@ class ge {
           0,
           this.length,
           (t, i, r) => new ge(this.type, t, i, r, this.propValues),
-          e.makeTree || ((t, i, r) => new ge(Ie.none, t, i, r)),
+          e.makeTree || ((t, i, r) => new ge(Ie.none, t, i, r))
         );
   }
   static build(e) {
@@ -13859,7 +13852,7 @@ class oi {
     let e = [];
     for (let t = 0; t < this.buffer.length; )
       e.push(this.childString(t)), (t = this.buffer[t + 3]);
-    return e.join(",");
+    return e.join(',');
   }
   childString(e) {
     let t = this.buffer[e],
@@ -13872,7 +13865,7 @@ class oi {
       return s;
     let o = [];
     for (; e < i; ) o.push(this.childString(e)), (e = this.buffer[e + 3]);
-    return s + "(" + o.join(",") + ")";
+    return s + '(' + o.join(',') + ')';
   }
   findChild(e, t, i, r, s) {
     let { buffer: o } = this,
@@ -14132,7 +14125,7 @@ class Bt {
         r.buffer[this.index + 3],
         e,
         t - this.context.start,
-        i,
+        i
       );
     return s < 0 ? null : new Bt(this.context, this, s);
   }
@@ -14156,7 +14149,7 @@ class Bt {
         r.buffer[this.index + 3],
         t > 0 ? 1 : -1,
         e - this.context.start,
-        t,
+        t
       );
     return s < 0 ? null : new Bt(this.context, this, s);
   }
@@ -14184,7 +14177,7 @@ class Bt {
       : new Bt(
           this.context,
           this._parent,
-          e.findChild(t, this.index, -1, 0, 4),
+          e.findChild(t, this.index, -1, 0, 4)
         );
   }
   cursor(e = 0) {
@@ -14290,8 +14283,8 @@ class cr {
           e,
           t,
           i,
-          this.mode,
-        ),
+          this.mode
+        )
       );
     let { buffer: r } = this.buffer,
       s = r.findChild(
@@ -14299,7 +14292,7 @@ class cr {
         r.buffer[this.index + 3],
         e,
         t - this.buffer.start,
-        i,
+        i
       );
     return s < 0 ? !1 : (this.stack.push(this.index), this.yieldBuf(s));
   }
@@ -14325,9 +14318,7 @@ class cr {
   parent() {
     if (!this.buffer)
       return this.yieldNode(
-        this.mode & ke.IncludeAnonymous
-          ? this._tree._parent
-          : this._tree.parent,
+        this.mode & ke.IncludeAnonymous ? this._tree._parent : this._tree.parent
       );
     if (this.stack.length) return this.yieldBuf(this.stack.pop());
     let e =
@@ -14347,8 +14338,8 @@ class cr {
                   e,
                   0,
                   4,
-                  this.mode,
-                ),
+                  this.mode
+                )
           )
         : !1;
     let { buffer: t } = this.buffer,
@@ -14369,8 +14360,8 @@ class cr {
             e,
             0,
             4,
-            this.mode,
-          ),
+            this.mode
+          )
         )
       : !1;
   }
@@ -14494,7 +14485,7 @@ class cr {
 }
 function Yo(n) {
   return n.children.some(
-    (e) => e instanceof oi || !e.type.isAnonymous || Yo(e),
+    (e) => e instanceof oi || !e.type.isAnonymous || Yo(e)
   );
 }
 function Wg(n) {
@@ -14743,7 +14734,7 @@ class ii {
 class Xc {
   startParse(e, t, i) {
     return (
-      typeof e == "string" && (e = new Zg(e)),
+      typeof e == 'string' && (e = new Zg(e)),
       (i = i
         ? i.length
           ? i.map((r) => new ls(r.from, r.to))
@@ -14785,7 +14776,7 @@ class lt {
   }
   static define(e) {
     if (e != null && e.base)
-      throw new Error("Can not derive from a modified tag");
+      throw new Error('Can not derive from a modified tag');
     let t = new lt([], null, []);
     if ((t.set.push(t), e)) for (let i of e.set) t.set.push(i);
     return t;
@@ -14797,7 +14788,7 @@ class lt {
         ? t
         : fr.get(
             t.base || t,
-            t.modified.concat(e).sort((i, r) => i.id - r.id),
+            t.modified.concat(e).sort((i, r) => i.id - r.id)
           );
   }
 }
@@ -14833,37 +14824,37 @@ function Wc(n) {
   for (let t in n) {
     let i = n[t];
     Array.isArray(i) || (i = [i]);
-    for (let r of t.split(" "))
+    for (let r of t.split(' '))
       if (r) {
         let s = [],
           o = 2,
           l = r;
         for (let c = 0; ; ) {
-          if (l == "..." && c > 0 && c + 3 == r.length) {
+          if (l == '...' && c > 0 && c + 3 == r.length) {
             o = 1;
             break;
           }
           let f = /^"(?:[^"\\]|\\.)*?"|[^\/!]+/.exec(l);
-          if (!f) throw new RangeError("Invalid path: " + r);
+          if (!f) throw new RangeError('Invalid path: ' + r);
           if (
             (s.push(
-              f[0] == "*" ? "" : f[0][0] == '"' ? JSON.parse(f[0]) : f[0],
+              f[0] == '*' ? '' : f[0][0] == '"' ? JSON.parse(f[0]) : f[0]
             ),
             (c += f[0].length),
             c == r.length)
           )
             break;
           let d = r[c++];
-          if (c == r.length && d == "!") {
+          if (c == r.length && d == '!') {
             o = 0;
             break;
           }
-          if (d != "/") throw new RangeError("Invalid path: " + r);
+          if (d != '/') throw new RangeError('Invalid path: ' + r);
           l = r.slice(c);
         }
         let a = s.length - 1,
           u = s[a];
-        if (!u) throw new RangeError("Invalid path: " + r);
+        if (!u) throw new RangeError('Invalid path: ' + r);
         let h = new dr(i, o, a > 0 ? s.slice(0, a) : null);
         e[u] = h.sort(e[u]);
       }
@@ -14904,7 +14895,7 @@ function zc(n, e) {
         for (let a of l.set) {
           let u = t[a.id];
           if (u) {
-            o = o ? o + " " + u : u;
+            o = o ? o + ' ' + u : u;
             break;
           }
         }
@@ -14917,17 +14908,17 @@ function Ug(n, e) {
   let t = null;
   for (let i of n) {
     let r = i.style(e);
-    r && (t = t ? t + " " + r : r);
+    r && (t = t ? t + ' ' + r : r);
   }
   return t;
 }
 function Yg(n, e, t, i = 0, r = n.length) {
   let s = new _g(i, Array.isArray(e) ? e : [e], t);
-  s.highlightRange(n.cursor(), i, r, "", s.highlighters), s.flush(r);
+  s.highlightRange(n.cursor(), i, r, '', s.highlighters), s.flush(r);
 }
 class _g {
   constructor(e, t, i) {
-    (this.at = e), (this.highlighters = t), (this.span = i), (this.class = "");
+    (this.at = e), (this.highlighters = t), (this.span = i), (this.class = '');
   }
   startSpan(e, t) {
     t != this.class &&
@@ -14945,7 +14936,7 @@ class _g {
       c = Ug(s, h.tags);
     if (
       (c &&
-        (u && (u += " "), (u += c), h.mode == 1 && (r += (r ? " " : "") + c)),
+        (u && (u += ' '), (u += c), h.mode == 1 && (r += (r ? ' ' : '') + c)),
       this.startSpan(Math.max(t, l), u),
       h.opaque)
     )
@@ -14976,14 +14967,14 @@ class _g {
               d.cursor(),
               Math.max(t, x.from + l),
               Math.min(i, S),
-              "",
-              p,
+              '',
+              p
             ),
             this.startSpan(Math.min(i, S), u));
       }
       m && e.parent();
     } else if (e.firstChild()) {
-      f && (r = "");
+      f && (r = '');
       do
         if (!(e.to <= t)) {
           if (e.from >= i) break;
@@ -15102,42 +15093,42 @@ const v = lt.define,
     special: lt.defineModifier(),
   };
 zc([
-  { tag: O.link, class: "tok-link" },
-  { tag: O.heading, class: "tok-heading" },
-  { tag: O.emphasis, class: "tok-emphasis" },
-  { tag: O.strong, class: "tok-strong" },
-  { tag: O.keyword, class: "tok-keyword" },
-  { tag: O.atom, class: "tok-atom" },
-  { tag: O.bool, class: "tok-bool" },
-  { tag: O.url, class: "tok-url" },
-  { tag: O.labelName, class: "tok-labelName" },
-  { tag: O.inserted, class: "tok-inserted" },
-  { tag: O.deleted, class: "tok-deleted" },
-  { tag: O.literal, class: "tok-literal" },
-  { tag: O.string, class: "tok-string" },
-  { tag: O.number, class: "tok-number" },
-  { tag: [O.regexp, O.escape, O.special(O.string)], class: "tok-string2" },
-  { tag: O.variableName, class: "tok-variableName" },
-  { tag: O.local(O.variableName), class: "tok-variableName tok-local" },
+  { tag: O.link, class: 'tok-link' },
+  { tag: O.heading, class: 'tok-heading' },
+  { tag: O.emphasis, class: 'tok-emphasis' },
+  { tag: O.strong, class: 'tok-strong' },
+  { tag: O.keyword, class: 'tok-keyword' },
+  { tag: O.atom, class: 'tok-atom' },
+  { tag: O.bool, class: 'tok-bool' },
+  { tag: O.url, class: 'tok-url' },
+  { tag: O.labelName, class: 'tok-labelName' },
+  { tag: O.inserted, class: 'tok-inserted' },
+  { tag: O.deleted, class: 'tok-deleted' },
+  { tag: O.literal, class: 'tok-literal' },
+  { tag: O.string, class: 'tok-string' },
+  { tag: O.number, class: 'tok-number' },
+  { tag: [O.regexp, O.escape, O.special(O.string)], class: 'tok-string2' },
+  { tag: O.variableName, class: 'tok-variableName' },
+  { tag: O.local(O.variableName), class: 'tok-variableName tok-local' },
   {
     tag: O.definition(O.variableName),
-    class: "tok-variableName tok-definition",
+    class: 'tok-variableName tok-definition',
   },
-  { tag: O.special(O.variableName), class: "tok-variableName2" },
+  { tag: O.special(O.variableName), class: 'tok-variableName2' },
   {
     tag: O.definition(O.propertyName),
-    class: "tok-propertyName tok-definition",
+    class: 'tok-propertyName tok-definition',
   },
-  { tag: O.typeName, class: "tok-typeName" },
-  { tag: O.namespace, class: "tok-namespace" },
-  { tag: O.className, class: "tok-className" },
-  { tag: O.macroName, class: "tok-macroName" },
-  { tag: O.propertyName, class: "tok-propertyName" },
-  { tag: O.operator, class: "tok-operator" },
-  { tag: O.comment, class: "tok-comment" },
-  { tag: O.meta, class: "tok-meta" },
-  { tag: O.invalid, class: "tok-invalid" },
-  { tag: O.punctuation, class: "tok-punctuation" },
+  { tag: O.typeName, class: 'tok-typeName' },
+  { tag: O.namespace, class: 'tok-namespace' },
+  { tag: O.className, class: 'tok-className' },
+  { tag: O.macroName, class: 'tok-macroName' },
+  { tag: O.propertyName, class: 'tok-propertyName' },
+  { tag: O.operator, class: 'tok-operator' },
+  { tag: O.comment, class: 'tok-comment' },
+  { tag: O.meta, class: 'tok-meta' },
+  { tag: O.invalid, class: 'tok-invalid' },
+  { tag: O.punctuation, class: 'tok-punctuation' },
 ]);
 var us;
 const pi = new I();
@@ -15146,11 +15137,11 @@ function qg(n) {
 }
 const Ng = new I();
 class Ke {
-  constructor(e, t, i = [], r = "") {
+  constructor(e, t, i = [], r = '') {
     (this.data = e),
       (this.name = r),
-      j.prototype.hasOwnProperty("tree") ||
-        Object.defineProperty(j.prototype, "tree", {
+      j.prototype.hasOwnProperty('tree') ||
+        Object.defineProperty(j.prototype, 'tree', {
           get() {
             return Pe(this);
           },
@@ -15169,7 +15160,7 @@ class Ke {
             for (let d of c)
               if (d.test(f, s)) {
                 let p = s.facet(d.facet);
-                return d.type == "replace" ? p : p.concat(h);
+                return d.type == 'replace' ? p : p.concat(h);
               }
           }
           return h;
@@ -15232,7 +15223,7 @@ class pr extends Ke {
     return new pr(
       t,
       e.parser.configure({ props: [pi.add((i) => (i.isTop ? t : void 0))] }),
-      e.name,
+      e.name
     );
   }
   configure(e, t) {
@@ -15250,7 +15241,7 @@ class Gg {
   constructor(e) {
     (this.doc = e),
       (this.cursorPos = 0),
-      (this.string = ""),
+      (this.string = ''),
       (this.cursor = e.iter());
   }
   get length() {
@@ -15303,7 +15294,7 @@ class Or {
         ? (this.takeTree(), !0)
         : this.withContext(() => {
             var i;
-            if (typeof e == "number") {
+            if (typeof e == 'number') {
               let r = Date.now() + e;
               e = () => Date.now() > r;
             }
@@ -15320,7 +15311,7 @@ class Or {
               if (r)
                 if (
                   ((this.fragments = this.withoutTempSkipped(
-                    ii.addTree(r, this.fragments, this.parse.stoppedAt != null),
+                    ii.addTree(r, this.fragments, this.parse.stoppedAt != null)
                   )),
                   (this.treeLen =
                     (i = this.parse.stoppedAt) !== null && i !== void 0
@@ -15349,7 +15340,7 @@ class Or {
       (this.treeLen = e),
       (this.tree = t),
       (this.fragments = this.withoutTempSkipped(
-        ii.addTree(this.tree, this.fragments, !0),
+        ii.addTree(this.tree, this.fragments, !0)
       )),
       (this.parse = null));
   }
@@ -15372,7 +15363,7 @@ class Or {
       let a = [];
       if (
         (e.iterChangedRanges((u, h, c, f) =>
-          a.push({ fromA: u, toA: h, fromB: c, toB: f }),
+          a.push({ fromA: u, toA: h, fromB: c, toB: f })
         ),
         (i = ii.applyChanges(i, a)),
         (r = ge.empty),
@@ -15477,7 +15468,7 @@ let Ic = (n) => {
   let e = setTimeout(() => n(), 500);
   return () => clearTimeout(e);
 };
-typeof requestIdleCallback < "u" &&
+typeof requestIdleCallback < 'u' &&
   (Ic = (n) => {
     let e = -1,
       t = setTimeout(() => {
@@ -15486,7 +15477,7 @@ typeof requestIdleCallback < "u" &&
     return () => (e < 0 ? clearTimeout(t) : cancelIdleCallback(e));
   });
 const hs =
-    typeof navigator < "u" &&
+    typeof navigator < 'u' &&
     !((us = navigator.scheduling) === null || us === void 0) &&
     us.isInputPending
       ? () => navigator.scheduling.isInputPending()
@@ -15540,12 +15531,12 @@ const hs =
             Math.min(
               this.chunkBudget,
               100,
-              e && !hs ? Math.max(25, e.timeRemaining() - 5) : 1e9,
+              e && !hs ? Math.max(25, e.timeRemaining() - 5) : 1e9
             ),
           l = s.context.treeLen < r && i.doc.length > r + 1e3,
           a = s.context.work(
             () => (hs && hs()) || Date.now() > o,
-            r + (l ? 0 : 1e5),
+            r + (l ? 0 : 1e5)
           );
         (this.chunkBudget -= Date.now() - t),
           (a || this.chunkBudget <= 0) &&
@@ -15576,7 +15567,7 @@ const hs =
           this.scheduleWork();
         },
       },
-    },
+    }
   ),
   zt = B.define({
     combine(n) {
@@ -15587,17 +15578,17 @@ const hs =
       Hg,
       A.contentAttributes.compute([n], (e) => {
         let t = e.facet(n);
-        return t && t.name ? { "data-language": t.name } : {};
+        return t && t.name ? { 'data-language': t.name } : {};
       }),
     ],
   }),
   Jg = B.define(),
   Fr = B.define({
     combine: (n) => {
-      if (!n.length) return "  ";
+      if (!n.length) return '  ';
       let e = n[0];
       if (!e || /\S/.test(e) || Array.from(e).some((t) => t != e[0]))
-        throw new Error("Invalid indent unit: " + JSON.stringify(n[0]));
+        throw new Error('Invalid indent unit: ' + JSON.stringify(n[0]));
       return e;
     },
   });
@@ -15606,12 +15597,12 @@ function gr(n) {
   return e.charCodeAt(0) == 9 ? n.tabSize * e.length : e.length;
 }
 function on(n, e) {
-  let t = "",
+  let t = '',
     i = n.tabSize,
     r = n.facet(Fr)[0];
-  if (r == "	") {
-    for (; e >= i; ) (t += "	"), (e -= i);
-    r = " ";
+  if (r == '	') {
+    for (; e >= i; ) (t += '	'), (e -= i);
+    r = ' ';
   }
   for (let s = 0; s < e; s++) t += r;
   return t;
@@ -15634,7 +15625,7 @@ class Xr {
       { simulateBreak: r, simulateDoubleBreak: s } = this.options;
     return r != null && r >= i.from && r <= i.to
       ? s && r == e
-        ? { text: "", from: e }
+        ? { text: '', from: e }
         : (t < 0 ? r < e : r <= e)
         ? { text: i.text.slice(r - i.from), from: r }
         : { text: i.text.slice(0, r - i.from), from: i.from }
@@ -15642,7 +15633,7 @@ class Xr {
   }
   textAfterPos(e, t = 1) {
     if (this.options.simulateDoubleBreak && e == this.options.simulateBreak)
-      return "";
+      return '';
     let { text: i, from: r } = this.lineAt(e, t);
     return i.slice(e - r, Math.min(i.length, e + 100 - r));
   }
@@ -15772,12 +15763,12 @@ function Yc() {
   return j.transactionFilter.of((n) => {
     if (
       !n.docChanged ||
-      (!n.isUserEvent("input.type") && !n.isUserEvent("input.complete"))
+      (!n.isUserEvent('input.type') && !n.isUserEvent('input.complete'))
     )
       return n;
     let e = n.startState.languageDataAt(
-      "indentOnInput",
-      n.startState.selection.main.head,
+      'indentOnInput',
+      n.startState.selection.main.head
     );
     if (!e.length) return n;
     let t = n.newDoc,
@@ -15896,13 +15887,13 @@ const si = Qe.define({
   },
   fromJSON(n) {
     if (!Array.isArray(n) || n.length % 2)
-      throw new RangeError("Invalid JSON for fold state");
+      throw new RangeError('Invalid JSON for fold state');
     let e = [];
     for (let t = 0; t < n.length; ) {
       let i = n[t++],
         r = n[t++];
-      if (typeof i != "number" || typeof r != "number")
-        throw new RangeError("Invalid JSON for fold state");
+      if (typeof i != 'number' || typeof r != 'number')
+        throw new RangeError('Invalid JSON for fold state');
       e.push(va.range(i, r));
     }
     return T.set(e, !0);
@@ -15954,8 +15945,8 @@ function Gc(n, e, t = !0) {
     r = n.state.doc.lineAt(e.to).number;
   return A.announce.of(
     `${n.state.phrase(
-      t ? "Folded lines" : "Unfolded lines",
-    )} ${i} ${n.state.phrase("to")} ${r}.`,
+      t ? 'Folded lines' : 'Unfolded lines'
+    )} ${i} ${n.state.phrase('to')} ${r}.`
   );
 }
 const Om = (n) => {
@@ -15981,12 +15972,12 @@ const Om = (n) => {
     );
   },
   mm = [
-    { key: "Ctrl-Shift-[", mac: "Cmd-Alt-[", run: dm },
-    { key: "Ctrl-Shift-]", mac: "Cmd-Alt-]", run: pm },
-    { key: "Ctrl-Alt-[", run: Om },
-    { key: "Ctrl-Alt-]", run: gm },
+    { key: 'Ctrl-Shift-[', mac: 'Cmd-Alt-[', run: dm },
+    { key: 'Ctrl-Shift-]', mac: 'Cmd-Alt-]', run: pm },
+    { key: 'Ctrl-Alt-[', run: Om },
+    { key: 'Ctrl-Alt-]', run: gm },
   ],
-  Sm = { placeholderDOM: null, preparePlaceholder: null, placeholderText: "…" },
+  Sm = { placeholderDOM: null, preparePlaceholder: null, placeholderText: '…' },
   No = B.define({
     combine(n) {
       return gt(n, Sm);
@@ -16005,12 +15996,12 @@ function Jc(n, e) {
       a && n.dispatch({ effects: On.of(a) }), o.preventDefault();
     };
   if (i.placeholderDOM) return i.placeholderDOM(n, r, e);
-  let s = document.createElement("span");
+  let s = document.createElement('span');
   return (
     (s.textContent = i.placeholderText),
-    s.setAttribute("aria-label", t.phrase("folded code")),
-    (s.title = t.phrase("unfold")),
-    (s.className = "cm-foldPlaceholder"),
+    s.setAttribute('aria-label', t.phrase('folded code')),
+    (s.title = t.phrase('unfold')),
+    (s.className = 'cm-foldPlaceholder'),
     (s.onclick = r),
     s
   );
@@ -16034,8 +16025,8 @@ class bm extends vt {
   }
 }
 const ym = {
-  openText: "⌄",
-  closedText: "›",
+  openText: '⌄',
+  closedText: '›',
   markerDOM: null,
   domEventHandlers: {},
   foldingChanged: () => !1,
@@ -16049,12 +16040,12 @@ class fs extends Qt {
   }
   toDOM(e) {
     if (this.config.markerDOM) return this.config.markerDOM(this.open);
-    let t = document.createElement("span");
+    let t = document.createElement('span');
     return (
       (t.textContent = this.open
         ? this.config.openText
         : this.config.closedText),
-      (t.title = e.state.phrase(this.open ? "Fold line" : "Unfold line")),
+      (t.title = e.state.phrase(this.open ? 'Fold line' : 'Unfold line')),
       t
     );
   }
@@ -16089,13 +16080,13 @@ function xm(n = {}) {
           }
           return l.finish();
         }
-      },
+      }
     ),
     { domEventHandlers: s } = e;
   return [
     r,
     vg({
-      class: "cm-foldGutter",
+      class: 'cm-foldGutter',
       markers(o) {
         var l;
         return (
@@ -16120,16 +16111,16 @@ function xm(n = {}) {
   ];
 }
 const km = A.baseTheme({
-  ".cm-foldPlaceholder": {
-    backgroundColor: "#eee",
-    border: "1px solid #ddd",
-    color: "#888",
-    borderRadius: ".2em",
-    margin: "0 1px",
-    padding: "0 1px",
-    cursor: "pointer",
+  '.cm-foldPlaceholder': {
+    backgroundColor: '#eee',
+    border: '1px solid #ddd',
+    color: '#888',
+    borderRadius: '.2em',
+    margin: '0 1px',
+    padding: '0 1px',
+    cursor: 'pointer',
   },
-  ".cm-foldGutter span": { padding: "0 1px", cursor: "pointer" },
+  '.cm-foldGutter span': { padding: '0 1px', cursor: 'pointer' },
 });
 class Pi {
   constructor(e, t) {
@@ -16137,9 +16128,9 @@ class Pi {
     let i;
     function r(l) {
       let a = Ft.newName();
-      return ((i || (i = Object.create(null)))["." + a] = l), a;
+      return ((i || (i = Object.create(null)))['.' + a] = l), a;
     }
-    const s = typeof t.all == "string" ? t.all : t.all ? r(t.all) : void 0,
+    const s = typeof t.all == 'string' ? t.all : t.all ? r(t.all) : void 0,
       o = t.scope;
     (this.scope =
       o instanceof Ke
@@ -16152,7 +16143,7 @@ class Pi {
           tag: l.tag,
           class: l.class || r(Object.assign({}, l, { tag: null })),
         })),
-        { all: s },
+        { all: s }
       ).style),
       (this.module = i ? new Ft(i) : null),
       (this.themeType = t.themeType);
@@ -16182,8 +16173,8 @@ function Zr(n, e) {
       : i
       ? t.push(
           lo.computeN([A.darkTheme], (r) =>
-            r.facet(A.darkTheme) == (i == "dark") ? [n] : [],
-          ),
+            r.facet(A.darkTheme) == (i == 'dark') ? [n] : []
+          )
         )
       : t.push(lo.of(n)),
     t
@@ -16215,46 +16206,46 @@ class Cm {
           i.add(
             o,
             l,
-            this.markCache[a] || (this.markCache[a] = T.mark({ class: a })),
+            this.markCache[a] || (this.markCache[a] = T.mark({ class: a }))
           );
         },
         r,
-        s,
+        s
       );
     return i.finish();
   }
 }
 const Dm = $i.high(me.fromClass(Cm, { decorations: (n) => n.decorations })),
   ef = Pi.define([
-    { tag: O.meta, color: "#404740" },
-    { tag: O.link, textDecoration: "underline" },
-    { tag: O.heading, textDecoration: "underline", fontWeight: "bold" },
-    { tag: O.emphasis, fontStyle: "italic" },
-    { tag: O.strong, fontWeight: "bold" },
-    { tag: O.strikethrough, textDecoration: "line-through" },
-    { tag: O.keyword, color: "#708" },
+    { tag: O.meta, color: '#404740' },
+    { tag: O.link, textDecoration: 'underline' },
+    { tag: O.heading, textDecoration: 'underline', fontWeight: 'bold' },
+    { tag: O.emphasis, fontStyle: 'italic' },
+    { tag: O.strong, fontWeight: 'bold' },
+    { tag: O.strikethrough, textDecoration: 'line-through' },
+    { tag: O.keyword, color: '#708' },
     {
       tag: [O.atom, O.bool, O.url, O.contentSeparator, O.labelName],
-      color: "#219",
+      color: '#219',
     },
-    { tag: [O.literal, O.inserted], color: "#164" },
-    { tag: [O.string, O.deleted], color: "#a11" },
-    { tag: [O.regexp, O.escape, O.special(O.string)], color: "#e40" },
-    { tag: O.definition(O.variableName), color: "#00f" },
-    { tag: O.local(O.variableName), color: "#30a" },
-    { tag: [O.typeName, O.namespace], color: "#085" },
-    { tag: O.className, color: "#167" },
-    { tag: [O.special(O.variableName), O.macroName], color: "#256" },
-    { tag: O.definition(O.propertyName), color: "#00c" },
-    { tag: O.comment, color: "#940" },
-    { tag: O.invalid, color: "#f00" },
+    { tag: [O.literal, O.inserted], color: '#164' },
+    { tag: [O.string, O.deleted], color: '#a11' },
+    { tag: [O.regexp, O.escape, O.special(O.string)], color: '#e40' },
+    { tag: O.definition(O.variableName), color: '#00f' },
+    { tag: O.local(O.variableName), color: '#30a' },
+    { tag: [O.typeName, O.namespace], color: '#085' },
+    { tag: O.className, color: '#167' },
+    { tag: [O.special(O.variableName), O.macroName], color: '#256' },
+    { tag: O.definition(O.propertyName), color: '#00c' },
+    { tag: O.comment, color: '#940' },
+    { tag: O.invalid, color: '#f00' },
   ]),
   wm = A.baseTheme({
-    "&.cm-focused .cm-matchingBracket": { backgroundColor: "#328c8252" },
-    "&.cm-focused .cm-nonmatchingBracket": { backgroundColor: "#bb555544" },
+    '&.cm-focused .cm-matchingBracket': { backgroundColor: '#328c8252' },
+    '&.cm-focused .cm-nonmatchingBracket': { backgroundColor: '#bb555544' },
   }),
   tf = 1e4,
-  nf = "()[]{}",
+  nf = '()[]{}',
   rf = B.define({
     combine(n) {
       return gt(n, {
@@ -16265,8 +16256,8 @@ const Dm = $i.high(me.fromClass(Cm, { decorations: (n) => n.decorations })),
       });
     },
   }),
-  Qm = T.mark({ class: "cm-matchingBracket" }),
-  vm = T.mark({ class: "cm-nonmatchingBracket" });
+  Qm = T.mark({ class: 'cm-matchingBracket' }),
+  vm = T.mark({ class: 'cm-nonmatchingBracket' });
 function Am(n) {
   let e = [],
     t = n.matched ? Qm : vm;
@@ -16400,18 +16391,18 @@ const Tm = Object.create(null),
   $a = [],
   Rm = Object.create(null);
 for (let [n, e] of [
-  ["variable", "variableName"],
-  ["variable-2", "variableName.special"],
-  ["string-2", "string.special"],
-  ["def", "variableName.definition"],
-  ["tag", "tagName"],
-  ["attribute", "attributeName"],
-  ["type", "typeName"],
-  ["builtin", "variableName.standard"],
-  ["qualifier", "modifier"],
-  ["error", "invalid"],
-  ["header", "heading"],
-  ["property", "propertyName"],
+  ['variable', 'variableName'],
+  ['variable-2', 'variableName.special'],
+  ['string-2', 'string.special'],
+  ['def', 'variableName.definition'],
+  ['tag', 'tagName'],
+  ['attribute', 'attributeName'],
+  ['type', 'typeName'],
+  ['builtin', 'variableName.standard'],
+  ['qualifier', 'modifier'],
+  ['error', 'invalid'],
+  ['header', 'heading'],
+  ['property', 'propertyName'],
 ])
   Rm[n] = Fm(Tm, e);
 function ps(n, e) {
@@ -16419,10 +16410,10 @@ function ps(n, e) {
 }
 function Fm(n, e) {
   let t = null;
-  for (let s of e.split(".")) {
+  for (let s of e.split('.')) {
     let o = n[s] || O[s];
     o
-      ? typeof o == "function"
+      ? typeof o == 'function'
         ? t
           ? (t = o(t))
           : ps(s, `Modifier ${s} used at start of tag`)
@@ -16432,7 +16423,7 @@ function Fm(n, e) {
       : ps(s, `Unknown highlighting tag ${s}`);
   }
   if (!t) return 0;
-  let i = e.replace(/ /g, "_"),
+  let i = e.replace(/ /g, '_'),
     r = Ie.define({ id: Aa.length, name: i, props: [Wc({ [i]: t })] });
   return Aa.push(r), r.id;
 }
@@ -16453,7 +16444,7 @@ const Wm = Go(jm, 0),
   Zm = Go(of, 0),
   zm = Go((n, e) => of(n, e, Vm(e)), 0);
 function Ho(n, e) {
-  let t = n.languageDataAt("commentTokens", e);
+  let t = n.languageDataAt('commentTokens', e);
   return t.length ? t[0] : {};
 }
 const Xi = 50;
@@ -16511,10 +16502,10 @@ function of(n, e, t = e.selection.ranges) {
           r[o]
             ? []
             : [
-                { from: s.from, insert: i[o].open + " " },
-                { from: s.to, insert: " " + i[o].close },
-              ],
-        ),
+                { from: s.from, insert: i[o].open + ' ' },
+                { from: s.to, insert: ' ' + i[o].close },
+              ]
+        )
       ),
     };
   if (n != 1 && r.some((s) => s)) {
@@ -16525,7 +16516,7 @@ function of(n, e, t = e.selection.ranges) {
           { open: u, close: h } = l;
         s.push(
           { from: u.pos - a.open.length, to: u.pos + u.margin },
-          { from: h.pos - h.margin, to: h.pos + a.close.length },
+          { from: h.pos - h.margin, to: h.pos + a.close.length }
         );
       }
     return { changes: s };
@@ -16568,7 +16559,7 @@ function jm(n, e, t = e.selection.ranges) {
   if (n != 2 && i.some((s) => s.comment < 0 && (!s.empty || s.single))) {
     let s = [];
     for (let { line: l, token: a, indent: u, empty: h, single: c } of i)
-      (c || !h) && s.push({ from: l.from + u, insert: a + " " });
+      (c || !h) && s.push({ from: l.from + u, insert: a + ' ' });
     let o = e.changes(s);
     return { changes: o, selection: e.selection.map(o, 1) };
   } else if (n != 1 && i.some((s) => s.comment >= 0)) {
@@ -16577,7 +16568,7 @@ function jm(n, e, t = e.selection.ranges) {
       if (l >= 0) {
         let u = o.from + l,
           h = u + a.length;
-        o.text[h - o.from] == " " && h++, s.push({ from: u, to: h });
+        o.text[h - o.from] == ' ' && h++, s.push({ from: u, to: h });
       }
     return { changes: s };
   }
@@ -16595,7 +16586,7 @@ const ho = Ot.define(),
           minDepth: Math.max,
           newGroupDelay: Math.min,
           joinToEvent: (e, t) => (i, r) => e(i, r) || t(i, r),
-        },
+        }
       );
     },
   });
@@ -16624,7 +16615,7 @@ const af = Qe.define({
     }
     let r = e.annotation(Um);
     if (
-      ((r == "full" || r == "before") && (n = n.isolate()),
+      ((r == 'full' || r == 'before') && (n = n.isolate()),
       e.annotation(be.addToHistory) === !1)
     )
       return e.changes.empty ? n : n.addMapping(e.changes.desc);
@@ -16636,7 +16627,7 @@ const af = Qe.define({
         ? (n = n.addChanges(s, o, l, t, e))
         : e.selection &&
           (n = n.addSelection(e.startState.selection, o, l, t.newGroupDelay)),
-      (r == "full" || r == "after") && (n = n.isolate()),
+      (r == 'full' || r == 'after') && (n = n.isolate()),
       n
     );
   },
@@ -16657,9 +16648,9 @@ function uf(n = {}) {
     A.domEventHandlers({
       beforeinput(e, t) {
         let i =
-          e.inputType == "historyUndo"
+          e.inputType == 'historyUndo'
             ? hf
-            : e.inputType == "historyRedo"
+            : e.inputType == 'historyRedo'
             ? co
             : null;
         return i ? (e.preventDefault(), i(t)) : !1;
@@ -16694,7 +16685,7 @@ class Ze {
       this.effects,
       this.mapped,
       this.startSelection,
-      e,
+      e
     );
   }
   toJSON() {
@@ -16716,7 +16707,7 @@ class Ze {
       [],
       e.mapped && dt.fromJSON(e.mapped),
       e.startSelection && k.fromJSON(e.startSelection),
-      e.selectionsAfter.map(k.fromJSON),
+      e.selectionsAfter.map(k.fromJSON)
     );
   }
   static fromTransaction(e, t) {
@@ -16732,7 +16723,7 @@ class Ze {
           i,
           void 0,
           t || e.startState.selection,
-          Ne,
+          Ne
         );
   }
   static selection(e) {
@@ -16784,7 +16775,7 @@ function Jm(n) {
     t = n.slice();
   return (
     (t[n.length - 1] = e.setSelAfter(
-      e.selectionsAfter.slice(0, e.selectionsAfter.length - 1),
+      e.selectionsAfter.slice(0, e.selectionsAfter.length - 1)
     )),
     t
   );
@@ -16805,7 +16796,7 @@ function Os(n, e) {
 function Km(n, e, t) {
   let i = cf(
     n.selectionsAfter.length ? n.selectionsAfter.map((l) => l.map(e)) : Ne,
-    t,
+    t
   );
   if (!n.changes) return Ze.selection(i);
   let r = n.changes.map(e),
@@ -16836,7 +16827,7 @@ class ft {
       ((!l.selectionsAfter.length &&
         t - this.prevTime < r.newGroupDelay &&
         r.joinToEvent(s, Nm(l.changes, e.changes))) ||
-        i == "input.type.compose")
+        i == 'input.type.compose')
         ? (o = br(
             o,
             o.length - 1,
@@ -16846,8 +16837,8 @@ class ft {
               cf(e.effects, l.effects),
               l.mapped,
               l.startSelection,
-              Ne,
-            ),
+              Ne
+            )
           ))
         : (o = br(o, o.length, r.minDepth, e)),
       new ft(o, Ne, t, i)
@@ -16871,7 +16862,7 @@ class ft {
       Os(this.done, e),
       Os(this.undone, e),
       this.prevTime,
-      this.prevUserEvent,
+      this.prevUserEvent
     );
   }
   pop(e, t, i) {
@@ -16882,7 +16873,7 @@ class ft {
       return t.update({
         selection: s.selectionsAfter[s.selectionsAfter.length - 1],
         annotations: ho.of({ side: e, rest: Jm(r) }),
-        userEvent: e == 0 ? "select.undo" : "select.redo",
+        userEvent: e == 0 ? 'select.undo' : 'select.redo',
         scrollIntoView: !0,
       });
     if (s.changes) {
@@ -16895,7 +16886,7 @@ class ft {
           effects: s.effects,
           annotations: ho.of({ side: e, rest: o }),
           filter: !1,
-          userEvent: e == 0 ? "undo" : "redo",
+          userEvent: e == 0 ? 'undo' : 'redo',
           scrollIntoView: !0,
         })
       );
@@ -16904,17 +16895,17 @@ class ft {
 }
 ft.empty = new ft(Ne, Ne);
 const df = [
-  { key: "Mod-z", run: hf, preventDefault: !0 },
-  { key: "Mod-y", mac: "Mod-Shift-z", run: co, preventDefault: !0 },
-  { linux: "Ctrl-Shift-z", run: co, preventDefault: !0 },
-  { key: "Mod-u", run: Lm, preventDefault: !0 },
-  { key: "Alt-u", mac: "Mod-Shift-u", run: qm, preventDefault: !0 },
+  { key: 'Mod-z', run: hf, preventDefault: !0 },
+  { key: 'Mod-y', mac: 'Mod-Shift-z', run: co, preventDefault: !0 },
+  { linux: 'Ctrl-Shift-z', run: co, preventDefault: !0 },
+  { key: 'Mod-u', run: Lm, preventDefault: !0 },
+  { key: 'Alt-u', mac: 'Mod-Shift-u', run: qm, preventDefault: !0 },
 ];
 function Mi(n, e) {
   return k.create(n.ranges.map(e), n.mainIndex);
 }
 function mt(n, e) {
-  return n.update({ selection: e, scrollIntoView: !0, userEvent: "select" });
+  return n.update({ selection: e, scrollIntoView: !0, userEvent: 'select' });
 }
 function tt({ state: n, dispatch: e }, t) {
   let i = Mi(n.selection, t);
@@ -16998,7 +16989,7 @@ function kf(n, e) {
   let t = xf(n),
     { state: i } = n,
     r = Mi(i.selection, (o) =>
-      o.empty ? n.moveVertically(o, e, t.height) : Ir(o, e),
+      o.empty ? n.moveVertically(o, e, t.height) : Ir(o, e)
     );
   if (r.eq(i.selection)) return !1;
   let s;
@@ -17010,7 +17001,7 @@ function kf(n, e) {
     o &&
       o.top > a &&
       o.bottom < u &&
-      (s = A.scrollIntoView(r.main.head, { y: "start", yMargin: o.top - a }));
+      (s = A.scrollIntoView(r.main.head, { y: 'start', yMargin: o.top - a }));
   }
   return n.dispatch(mt(i, r), { effects: s }), !0;
 }
@@ -17026,7 +17017,7 @@ function Vt(n, e, t) {
     !t && r.head == i.from && i.length)
   ) {
     let s = /^\s*/.exec(
-      n.state.sliceDoc(i.from, Math.min(i.from + 100, i.to)),
+      n.state.sliceDoc(i.from, Math.min(i.from + 100, i.to))
     )[0].length;
     s && e.head != i.from + s && (r = k.cursor(i.from + s));
   }
@@ -17101,16 +17092,16 @@ const Ma = (n) => Pf(n, !1),
     e(
       n.update({
         selection: { anchor: 0, head: n.doc.length },
-        userEvent: "select",
-      }),
+        userEvent: 'select',
+      })
     ),
     !0
   ),
   w0 = ({ state: n, dispatch: e }) => {
     let t = Ur(n).map(({ from: i, to: r }) =>
-      k.range(i, Math.min(r + 1, n.doc.length)),
+      k.range(i, Math.min(r + 1, n.doc.length))
     );
-    return e(n.update({ selection: k.create(t), userEvent: "select" })), !0;
+    return e(n.update({ selection: k.create(t), userEvent: 'select' })), !0;
   },
   Q0 = ({ state: n, dispatch: e }) => {
     let t = Mi(n.selection, (i) => {
@@ -17142,15 +17133,15 @@ const Ma = (n) => Pf(n, !1),
   };
 function jr(n, e) {
   if (n.state.readOnly) return !1;
-  let t = "delete.selection",
+  let t = 'delete.selection',
     { state: i } = n,
     r = i.changeByRange((s) => {
       let { from: o, to: l } = s;
       if (o == l) {
         let a = e(o);
         a < o
-          ? ((t = "delete.backward"), (a = Rn(n, a, !1)))
-          : a > o && ((t = "delete.forward"), (a = Rn(n, a, !0))),
+          ? ((t = 'delete.backward'), (a = Rn(n, a, !1)))
+          : a > o && ((t = 'delete.forward'), (a = Rn(n, a, !0))),
           (o = Math.min(o, a)),
           (l = Math.max(l, a));
       } else (o = Rn(n, o, !1)), (l = Rn(n, l, !0));
@@ -17165,10 +17156,10 @@ function jr(n, e) {
           scrollIntoView: !0,
           userEvent: t,
           effects:
-            t == "delete.selection"
-              ? A.announce.of(i.phrase("Selection deleted"))
+            t == 'delete.selection'
+              ? A.announce.of(i.phrase('Selection deleted'))
               : void 0,
-        }),
+        })
       ),
       !0);
 }
@@ -17192,10 +17183,10 @@ const Mf = (n, e) =>
         t < r.from + 200 &&
         !/[^ \t]/.test((s = r.text.slice(0, t - r.from)))
       ) {
-        if (s[s.length - 1] == "	") return t - 1;
+        if (s[s.length - 1] == '	') return t - 1;
         let l = hn(s, i.tabSize),
           a = l % gr(i) || gr(i);
-        for (let u = 0; u < a && s[s.length - 1 - u] == " "; u++) t--;
+        for (let u = 0; u < a && s[s.length - 1 - u] == ' '; u++) t--;
         o = t;
       } else
         (o = $e(r.text, t - r.from, e, e) + r.from),
@@ -17219,7 +17210,7 @@ const Mf = (n, e) =>
           u = s.text.slice(Math.min(i, a) - s.from, Math.max(i, a) - s.from),
           h = o(u);
         if (l != null && h != l) break;
-        (u != " " || i != t) && (l = h), (i = a);
+        (u != ' ' || i != t) && (l = h), (i = a);
       }
       return i;
     }),
@@ -17238,10 +17229,10 @@ const Mf = (n, e) =>
   P0 = ({ state: n, dispatch: e }) => {
     if (n.readOnly) return !1;
     let t = n.changeByRange((i) => ({
-      changes: { from: i.from, to: i.to, insert: Y.of(["", ""]) },
+      changes: { from: i.from, to: i.to, insert: Y.of(['', '']) },
       range: k.cursor(i.from),
     }));
-    return e(n.update(t, { scrollIntoView: !0, userEvent: "input" })), !0;
+    return e(n.update(t, { scrollIntoView: !0, userEvent: 'input' })), !0;
   },
   M0 = ({ state: n, dispatch: e }) => {
     if (n.readOnly) return !1;
@@ -17263,7 +17254,7 @@ const Mf = (n, e) =>
     });
     return t.changes.empty
       ? !1
-      : (e(n.update(t, { scrollIntoView: !0, userEvent: "move.character" })),
+      : (e(n.update(t, { scrollIntoView: !0, userEvent: 'move.character' })),
         !0);
   };
 function Ur(n) {
@@ -17294,19 +17285,19 @@ function Ff(n, e, t) {
     if (t) {
       i.push(
         { from: s.to, to: o.to },
-        { from: s.from, insert: o.text + n.lineBreak },
+        { from: s.from, insert: o.text + n.lineBreak }
       );
       for (let a of s.ranges)
         r.push(
           k.range(
             Math.min(n.doc.length, a.anchor + l),
-            Math.min(n.doc.length, a.head + l),
-          ),
+            Math.min(n.doc.length, a.head + l)
+          )
         );
     } else {
       i.push(
         { from: o.from, to: s.from },
-        { from: s.to, insert: n.lineBreak + o.text },
+        { from: s.to, insert: n.lineBreak + o.text }
       );
       for (let a of s.ranges) r.push(k.range(a.anchor - l, a.head - l));
     }
@@ -17317,8 +17308,8 @@ function Ff(n, e, t) {
           changes: i,
           scrollIntoView: !0,
           selection: k.create(r, n.selection.mainIndex),
-          userEvent: "move.line",
-        }),
+          userEvent: 'move.line',
+        })
       ),
       !0)
     : !1;
@@ -17337,7 +17328,7 @@ function Xf(n, e, t) {
       : i.push({ from: r.to, insert: n.lineBreak + n.doc.slice(r.from, r.to) });
   return (
     e(
-      n.update({ changes: i, scrollIntoView: !0, userEvent: "input.copyline" }),
+      n.update({ changes: i, scrollIntoView: !0, userEvent: 'input.copyline' })
     ),
     !0
   );
@@ -17351,8 +17342,8 @@ const T0 = ({ state: n, dispatch: e }) => Xf(n, e, !1),
         Ur(e).map(
           ({ from: r, to: s }) => (
             r > 0 ? r-- : s < e.doc.length && s++, { from: r, to: s }
-          ),
-        ),
+          )
+        )
       ),
       i = Mi(e.selection, (r) => n.moveVertically(r, !0)).map(t);
     return (
@@ -17360,7 +17351,7 @@ const T0 = ({ state: n, dispatch: e }) => Xf(n, e, !1),
         changes: t,
         selection: i,
         scrollIntoView: !0,
-        userEvent: "delete.line",
+        userEvent: 'delete.line',
       }),
       !0
     );
@@ -17406,7 +17397,7 @@ function Wf(n) {
           s < l.from + 100 &&
           !/\S/.test(l.text.slice(0, s)) &&
           (s = l.from);
-      let c = ["", on(e, h)];
+      let c = ['', on(e, h)];
       return (
         a && c.push(on(e, u.lineIndent(l.from, -1))),
         {
@@ -17415,7 +17406,7 @@ function Wf(n) {
         }
       );
     });
-    return t(e.update(i, { scrollIntoView: !0, userEvent: "input" })), !0;
+    return t(e.update(i, { scrollIntoView: !0, userEvent: 'input' })), !0;
   };
 }
 function Jo(n, e) {
@@ -17455,7 +17446,7 @@ const z0 = ({ state: n, dispatch: e }) => {
           ((t[s.from] = a),
           o.push({ from: s.from, to: s.from + u.length, insert: h }));
       });
-    return r.changes.empty || e(n.update(r, { userEvent: "indent" })), !0;
+    return r.changes.empty || e(n.update(r, { userEvent: 'indent' })), !0;
   },
   Zf = ({ state: n, dispatch: e }) =>
     n.readOnly
@@ -17465,8 +17456,8 @@ const z0 = ({ state: n, dispatch: e }) => {
             Jo(n, (t, i) => {
               i.push({ from: t.from, insert: n.facet(Fr) });
             }),
-            { userEvent: "input.indent" },
-          ),
+            { userEvent: 'input.indent' }
+          )
         ),
         !0),
   zf = ({ state: n, dispatch: e }) =>
@@ -17494,95 +17485,95 @@ const z0 = ({ state: n, dispatch: e }) => {
                 insert: l.slice(o),
               });
             }),
-            { userEvent: "delete.dedent" },
-          ),
+            { userEvent: 'delete.dedent' }
+          )
         ),
         !0),
   I0 = [
-    { key: "Ctrl-b", run: Of, shift: Df, preventDefault: !0 },
-    { key: "Ctrl-f", run: gf, shift: wf },
-    { key: "Ctrl-p", run: bf, shift: Af },
-    { key: "Ctrl-n", run: yf, shift: $f },
-    { key: "Ctrl-a", run: h0, shift: k0 },
-    { key: "Ctrl-e", run: c0, shift: C0 },
-    { key: "Ctrl-d", run: Bf },
-    { key: "Ctrl-h", run: po },
-    { key: "Ctrl-k", run: Rf },
-    { key: "Ctrl-Alt-h", run: Tf },
-    { key: "Ctrl-o", run: P0 },
-    { key: "Ctrl-t", run: M0 },
-    { key: "Ctrl-v", run: fo },
+    { key: 'Ctrl-b', run: Of, shift: Df, preventDefault: !0 },
+    { key: 'Ctrl-f', run: gf, shift: wf },
+    { key: 'Ctrl-p', run: bf, shift: Af },
+    { key: 'Ctrl-n', run: yf, shift: $f },
+    { key: 'Ctrl-a', run: h0, shift: k0 },
+    { key: 'Ctrl-e', run: c0, shift: C0 },
+    { key: 'Ctrl-d', run: Bf },
+    { key: 'Ctrl-h', run: po },
+    { key: 'Ctrl-k', run: Rf },
+    { key: 'Ctrl-Alt-h', run: Tf },
+    { key: 'Ctrl-o', run: P0 },
+    { key: 'Ctrl-t', run: M0 },
+    { key: 'Ctrl-v', run: fo },
   ],
   V0 = [
-    { key: "ArrowLeft", run: Of, shift: Df, preventDefault: !0 },
+    { key: 'ArrowLeft', run: Of, shift: Df, preventDefault: !0 },
     {
-      key: "Mod-ArrowLeft",
-      mac: "Alt-ArrowLeft",
+      key: 'Mod-ArrowLeft',
+      mac: 'Alt-ArrowLeft',
       run: t0,
       shift: p0,
       preventDefault: !0,
     },
-    { mac: "Cmd-ArrowLeft", run: a0, shift: y0, preventDefault: !0 },
-    { key: "ArrowRight", run: gf, shift: wf, preventDefault: !0 },
+    { mac: 'Cmd-ArrowLeft', run: a0, shift: y0, preventDefault: !0 },
+    { key: 'ArrowRight', run: gf, shift: wf, preventDefault: !0 },
     {
-      key: "Mod-ArrowRight",
-      mac: "Alt-ArrowRight",
+      key: 'Mod-ArrowRight',
+      mac: 'Alt-ArrowRight',
       run: i0,
       shift: O0,
       preventDefault: !0,
     },
-    { mac: "Cmd-ArrowRight", run: u0, shift: x0, preventDefault: !0 },
-    { key: "ArrowUp", run: bf, shift: Af, preventDefault: !0 },
-    { mac: "Cmd-ArrowUp", run: Ea, shift: Ra },
-    { mac: "Ctrl-ArrowUp", run: Pa, shift: Ma },
-    { key: "ArrowDown", run: yf, shift: $f, preventDefault: !0 },
-    { mac: "Cmd-ArrowDown", run: Ta, shift: Fa },
-    { mac: "Ctrl-ArrowDown", run: fo, shift: Ba },
-    { key: "PageUp", run: Pa, shift: Ma },
-    { key: "PageDown", run: fo, shift: Ba },
-    { key: "Home", run: l0, shift: b0, preventDefault: !0 },
-    { key: "Mod-Home", run: Ea, shift: Ra },
-    { key: "End", run: o0, shift: S0, preventDefault: !0 },
-    { key: "Mod-End", run: Ta, shift: Fa },
-    { key: "Enter", run: W0 },
-    { key: "Mod-a", run: D0 },
-    { key: "Backspace", run: po, shift: po },
-    { key: "Delete", run: Bf },
-    { key: "Mod-Backspace", mac: "Alt-Backspace", run: Tf },
-    { key: "Mod-Delete", mac: "Alt-Delete", run: A0 },
-    { mac: "Mod-Backspace", run: $0 },
-    { mac: "Mod-Delete", run: Rf },
+    { mac: 'Cmd-ArrowRight', run: u0, shift: x0, preventDefault: !0 },
+    { key: 'ArrowUp', run: bf, shift: Af, preventDefault: !0 },
+    { mac: 'Cmd-ArrowUp', run: Ea, shift: Ra },
+    { mac: 'Ctrl-ArrowUp', run: Pa, shift: Ma },
+    { key: 'ArrowDown', run: yf, shift: $f, preventDefault: !0 },
+    { mac: 'Cmd-ArrowDown', run: Ta, shift: Fa },
+    { mac: 'Ctrl-ArrowDown', run: fo, shift: Ba },
+    { key: 'PageUp', run: Pa, shift: Ma },
+    { key: 'PageDown', run: fo, shift: Ba },
+    { key: 'Home', run: l0, shift: b0, preventDefault: !0 },
+    { key: 'Mod-Home', run: Ea, shift: Ra },
+    { key: 'End', run: o0, shift: S0, preventDefault: !0 },
+    { key: 'Mod-End', run: Ta, shift: Fa },
+    { key: 'Enter', run: W0 },
+    { key: 'Mod-a', run: D0 },
+    { key: 'Backspace', run: po, shift: po },
+    { key: 'Delete', run: Bf },
+    { key: 'Mod-Backspace', mac: 'Alt-Backspace', run: Tf },
+    { key: 'Mod-Delete', mac: 'Alt-Delete', run: A0 },
+    { mac: 'Mod-Backspace', run: $0 },
+    { mac: 'Mod-Delete', run: Rf },
   ].concat(I0.map((n) => ({ mac: n.key, run: n.run, shift: n.shift }))),
   If = [
-    { key: "Alt-ArrowLeft", mac: "Ctrl-ArrowLeft", run: r0, shift: g0 },
-    { key: "Alt-ArrowRight", mac: "Ctrl-ArrowRight", run: s0, shift: m0 },
-    { key: "Alt-ArrowUp", run: B0 },
-    { key: "Shift-Alt-ArrowUp", run: T0 },
-    { key: "Alt-ArrowDown", run: E0 },
-    { key: "Shift-Alt-ArrowDown", run: R0 },
-    { key: "Escape", run: v0 },
-    { key: "Mod-Enter", run: Z0 },
-    { key: "Alt-l", mac: "Ctrl-l", run: w0 },
-    { key: "Mod-i", run: Q0, preventDefault: !0 },
-    { key: "Mod-[", run: zf },
-    { key: "Mod-]", run: Zf },
-    { key: "Mod-Alt-\\", run: z0 },
-    { key: "Shift-Mod-k", run: F0 },
-    { key: "Shift-Mod-\\", run: d0 },
-    { key: "Mod-/", run: Xm },
-    { key: "Alt-A", run: Zm },
+    { key: 'Alt-ArrowLeft', mac: 'Ctrl-ArrowLeft', run: r0, shift: g0 },
+    { key: 'Alt-ArrowRight', mac: 'Ctrl-ArrowRight', run: s0, shift: m0 },
+    { key: 'Alt-ArrowUp', run: B0 },
+    { key: 'Shift-Alt-ArrowUp', run: T0 },
+    { key: 'Alt-ArrowDown', run: E0 },
+    { key: 'Shift-Alt-ArrowDown', run: R0 },
+    { key: 'Escape', run: v0 },
+    { key: 'Mod-Enter', run: Z0 },
+    { key: 'Alt-l', mac: 'Ctrl-l', run: w0 },
+    { key: 'Mod-i', run: Q0, preventDefault: !0 },
+    { key: 'Mod-[', run: zf },
+    { key: 'Mod-]', run: Zf },
+    { key: 'Mod-Alt-\\', run: z0 },
+    { key: 'Shift-Mod-k', run: F0 },
+    { key: 'Shift-Mod-\\', run: d0 },
+    { key: 'Mod-/', run: Xm },
+    { key: 'Alt-A', run: Zm },
   ].concat(V0),
-  j0 = { key: "Tab", run: Zf, shift: zf };
+  j0 = { key: 'Tab', run: Zf, shift: zf };
 function J() {
   var n = arguments[0];
-  typeof n == "string" && (n = document.createElement(n));
+  typeof n == 'string' && (n = document.createElement(n));
   var e = 1,
     t = arguments[1];
-  if (t && typeof t == "object" && t.nodeType == null && !Array.isArray(t)) {
+  if (t && typeof t == 'object' && t.nodeType == null && !Array.isArray(t)) {
     for (var i in t)
       if (Object.prototype.hasOwnProperty.call(t, i)) {
         var r = t[i];
-        typeof r == "string" ? n.setAttribute(i, r) : r != null && (n[i] = r);
+        typeof r == 'string' ? n.setAttribute(i, r) : r != null && (n[i] = r);
       }
     e++;
   }
@@ -17590,15 +17581,15 @@ function J() {
   return n;
 }
 function Vf(n, e) {
-  if (typeof e == "string") n.appendChild(document.createTextNode(e));
+  if (typeof e == 'string') n.appendChild(document.createTextNode(e));
   else if (e != null)
     if (e.nodeType != null) n.appendChild(e);
     else if (Array.isArray(e)) for (var t = 0; t < e.length; t++) Vf(n, e[t]);
-    else throw new RangeError("Unsupported child node: " + e);
+    else throw new RangeError('Unsupported child node: ' + e);
 }
 const Xa =
-  typeof String.prototype.normalize == "function"
-    ? (n) => n.normalize("NFKD")
+  typeof String.prototype.normalize == 'function'
+    ? (n) => n.normalize('NFKD')
     : (n) => n;
 class vi {
   constructor(e, t, i = 0, r = e.length, s, o) {
@@ -17606,7 +17597,7 @@ class vi {
       (this.value = { from: 0, to: 0 }),
       (this.done = !1),
       (this.matches = []),
-      (this.buffer = ""),
+      (this.buffer = ''),
       (this.bufferPos = 0),
       (this.iter = e.iterRange(i, r)),
       (this.bufferStart = i),
@@ -17672,24 +17663,24 @@ class vi {
     );
   }
 }
-typeof Symbol < "u" &&
+typeof Symbol < 'u' &&
   (vi.prototype[Symbol.iterator] = function () {
     return this;
   });
-const jf = { from: -1, to: -1, match: /.*/.exec("") },
-  Ko = "gm" + (/x/.unicode == null ? "" : "u");
+const jf = { from: -1, to: -1, match: /.*/.exec('') },
+  Ko = 'gm' + (/x/.unicode == null ? '' : 'u');
 class Uf {
   constructor(e, t, i, r = 0, s = e.length) {
     if (
       ((this.text = e),
       (this.to = s),
-      (this.curLine = ""),
+      (this.curLine = ''),
       (this.done = !1),
       (this.value = jf),
       /\\[sWDnr]|\n|\r|\[\^/.test(t))
     )
       return new Yf(e, t, i, r, s);
-    (this.re = new RegExp(t, Ko + (i != null && i.ignoreCase ? "i" : ""))),
+    (this.re = new RegExp(t, Ko + (i != null && i.ignoreCase ? 'i' : ''))),
       (this.test = i == null ? void 0 : i.test),
       (this.iter = e.iter());
     let o = e.lineAt(r);
@@ -17700,7 +17691,7 @@ class Uf {
   getLine(e) {
     this.iter.next(e),
       this.iter.lineBreak
-        ? (this.curLine = "")
+        ? (this.curLine = '')
         : ((this.curLine = this.iter.value),
           this.curLineStart + this.curLine.length > this.to &&
             (this.curLine = this.curLine.slice(0, this.to - this.curLineStart)),
@@ -17708,7 +17699,7 @@ class Uf {
   }
   nextLine() {
     (this.curLineStart = this.curLineStart + this.curLine.length + 1),
-      this.curLineStart > this.to ? (this.curLine = "") : this.getLine(0);
+      this.curLineStart > this.to ? (this.curLine = '') : this.getLine(0);
   }
   next() {
     for (let e = this.matchPos - this.curLineStart; ; ) {
@@ -17761,7 +17752,7 @@ class Yf {
       (this.done = !1),
       (this.value = jf),
       (this.matchPos = yr(e, r)),
-      (this.re = new RegExp(t, Ko + (i != null && i.ignoreCase ? "i" : ""))),
+      (this.re = new RegExp(t, Ko + (i != null && i.ignoreCase ? 'i' : ''))),
       (this.test = i == null ? void 0 : i.test),
       (this.flat = yi.get(e, r, this.chunkEnd(r + 5e3)));
   }
@@ -17796,12 +17787,12 @@ class Yf {
       this.flat = yi.get(
         this.text,
         this.flat.from,
-        this.chunkEnd(this.flat.from + this.flat.text.length * 2),
+        this.chunkEnd(this.flat.from + this.flat.text.length * 2)
       );
     }
   }
 }
-typeof Symbol < "u" &&
+typeof Symbol < 'u' &&
   (Uf.prototype[Symbol.iterator] = Yf.prototype[Symbol.iterator] =
     function () {
       return this;
@@ -17826,11 +17817,11 @@ function yr(n, e) {
   return e;
 }
 function Oo(n) {
-  let e = J("input", { class: "cm-textfield", name: "line" }),
+  let e = J('input', { class: 'cm-textfield', name: 'line' }),
     t = J(
-      "form",
+      'form',
       {
-        class: "cm-gotoLine",
+        class: 'cm-gotoLine',
         onkeydown: (r) => {
           r.keyCode == 27
             ? (r.preventDefault(),
@@ -17842,9 +17833,9 @@ function Oo(n) {
           r.preventDefault(), i();
         },
       },
-      J("label", n.state.phrase("Go to line"), ": ", e),
-      " ",
-      J("button", { class: "cm-button", type: "submit" }, n.state.phrase("go")),
+      J('label', n.state.phrase('Go to line'), ': ', e),
+      ' ',
+      J('button', { class: 'cm-button', type: 'submit' }, n.state.phrase('go'))
     );
   function i() {
     let r = /^([+-])?(\d+)?(:\d+)?(%)?$/.exec(e.value);
@@ -17856,13 +17847,13 @@ function Oo(n) {
       f = a ? +a : o.number;
     if (a && h) {
       let m = f / 100;
-      l && (m = m * (l == "-" ? -1 : 1) + o.number / s.doc.lines),
+      l && (m = m * (l == '-' ? -1 : 1) + o.number / s.doc.lines),
         (f = Math.round(s.doc.lines * m));
-    } else a && l && (f = f * (l == "-" ? -1 : 1) + o.number);
+    } else a && l && (f = f * (l == '-' ? -1 : 1) + o.number);
     let d = s.doc.line(Math.max(1, Math.min(s.doc.lines, f))),
       p = k.cursor(d.from + Math.max(0, Math.min(c, d.length)));
     n.dispatch({
-      effects: [xr.of(!1), A.scrollIntoView(p.from, { y: "center" })],
+      effects: [xr.of(!1), A.scrollIntoView(p.from, { y: 'center' })],
       selection: p,
     }),
       n.focus();
@@ -17888,12 +17879,12 @@ const xr = Z.define(),
         n.dispatch({ effects: t }),
         (e = rn(n, Oo));
     }
-    return e && e.dom.querySelector("input").focus(), !0;
+    return e && e.dom.querySelector('input').focus(), !0;
   },
   _0 = A.baseTheme({
-    ".cm-panel.cm-gotoLine": {
-      padding: "2px 6px 4px",
-      "& label": { fontSize: "80%" },
+    '.cm-panel.cm-gotoLine': {
+      padding: '2px 6px 4px',
+      '& label': { fontSize: '80%' },
     },
   }),
   L0 = {
@@ -17915,8 +17906,8 @@ function Lf(n) {
   let e = [J0, H0];
   return n && e.push(_f.of(n)), e;
 }
-const q0 = T.mark({ class: "cm-selectionMatch" }),
-  N0 = T.mark({ class: "cm-selectionMatch cm-selectionMatch-main" });
+const q0 = T.mark({ class: 'cm-selectionMatch' }),
+  N0 = T.mark({ class: 'cm-selectionMatch cm-selectionMatch-main' });
 function Za(n, e, t, i) {
   return (
     (t == 0 || n(e.sliceDoc(t - 1, t)) != oe.Word) &&
@@ -17980,17 +17971,17 @@ const H0 = me.fromClass(
         return T.set(l);
       }
     },
-    { decorations: (n) => n.decorations },
+    { decorations: (n) => n.decorations }
   ),
   J0 = A.baseTheme({
-    ".cm-selectionMatch": { backgroundColor: "#99ff7780" },
-    ".cm-searchMatch .cm-selectionMatch": { backgroundColor: "transparent" },
+    '.cm-selectionMatch': { backgroundColor: '#99ff7780' },
+    '.cm-searchMatch .cm-selectionMatch': { backgroundColor: 'transparent' },
   }),
   K0 = ({ state: n, dispatch: e }) => {
     let { selection: t } = n,
       i = k.create(
         t.ranges.map((r) => n.wordAt(r.head) || k.cursor(r.head)),
-        t.mainIndex,
+        t.mainIndex
       );
     return i.eq(t) ? !1 : (e(n.update({ selection: i })), !0);
   };
@@ -18024,7 +18015,7 @@ const tS = ({ state: n, dispatch: e }) => {
           n.update({
             selection: n.selection.addRange(k.range(r.from, r.to), !1),
             effects: A.scrollIntoView(r.to),
-          }),
+          })
         ),
         !0)
       : !1;
@@ -18048,7 +18039,7 @@ class qf {
       (this.caseSensitive = !!e.caseSensitive),
       (this.literal = !!e.literal),
       (this.regexp = !!e.regexp),
-      (this.replace = e.replace || ""),
+      (this.replace = e.replace || ''),
       (this.valid = !!this.search && (!this.regexp || U0(this.search))),
       (this.unquoted = this.unquote(this.search)),
       (this.wholeWord = !!e.wholeWord);
@@ -18057,14 +18048,14 @@ class qf {
     return this.literal
       ? e
       : e.replace(/\\([nrt\\])/g, (t, i) =>
-          i == "n"
+          i == 'n'
             ? `
 `
-            : i == "r"
-            ? "\r"
-            : i == "t"
-            ? "	"
-            : "\\",
+            : i == 'r'
+            ? '\r'
+            : i == 't'
+            ? '	'
+            : '\\'
         );
   }
   eq(e) {
@@ -18099,7 +18090,7 @@ function hi(n, e, t, i) {
     t,
     i,
     n.caseSensitive ? void 0 : (r) => r.toLowerCase(),
-    n.wholeWord ? iS(e.doc, e.charCategorizer(e.selection.main.head)) : void 0,
+    n.wholeWord ? iS(e.doc, e.charCategorizer(e.selection.main.head)) : void 0
   );
 }
 function iS(n, e) {
@@ -18156,7 +18147,7 @@ class nS extends Nf {
       this.spec,
       e,
       Math.max(0, t - this.spec.unquoted.length),
-      Math.min(i + this.spec.unquoted.length, e.doc.length),
+      Math.min(i + this.spec.unquoted.length, e.doc.length)
     );
     for (; !s.next().done; ) r(s.value.from, s.value.to);
   }
@@ -18170,7 +18161,7 @@ function ci(n, e, t, i) {
       test: n.wholeWord ? rS(e.charCategorizer(e.selection.main.head)) : void 0,
     },
     t,
-    i,
+    i
   );
 }
 function kr(n, e) {
@@ -18213,14 +18204,14 @@ class sS extends Nf {
   getReplacement(e) {
     return this.spec.unquote(
       this.spec.replace.replace(/\$([$&\d+])/g, (t, i) =>
-        i == "$"
-          ? "$"
-          : i == "&"
+        i == '$'
+          ? '$'
+          : i == '&'
           ? e.match[0]
-          : i != "0" && +i < e.match.length
+          : i != '0' && +i < e.match.length
           ? e.match[i]
-          : t,
-      ),
+          : t
+      )
     );
   }
   matchAll(e, t) {
@@ -18237,7 +18228,7 @@ class sS extends Nf {
       this.spec,
       e,
       Math.max(0, t - 250),
-      Math.min(i + 250, e.doc.length),
+      Math.min(i + 250, e.doc.length)
     );
     for (; !s.next().done; ) r(s.value.from, s.value.to);
   }
@@ -18262,8 +18253,8 @@ class ms {
     (this.query = e), (this.panel = t);
   }
 }
-const oS = T.mark({ class: "cm-searchMatch" }),
-  lS = T.mark({ class: "cm-searchMatch cm-searchMatch-selected" }),
+const oS = T.mark({ class: 'cm-searchMatch' }),
+  lS = T.mark({ class: 'cm-searchMatch cm-searchMatch-selected' }),
   aS = me.fromClass(
     class {
       constructor(n) {
@@ -18286,7 +18277,7 @@ const oS = T.mark({ class: "cm-searchMatch" }),
           for (; r < o - 1 && a > s[r + 1].from - 2 * 250; ) a = s[++r].to;
           n.highlight(t.state, l, a, (u, h) => {
             let c = t.state.selection.ranges.some(
-              (f) => f.from == u && f.to == h,
+              (f) => f.from == u && f.to == h
             );
             i.add(u, h, c ? lS : oS);
           });
@@ -18294,7 +18285,7 @@ const oS = T.mark({ class: "cm-searchMatch" }),
         return i.finish();
       }
     },
-    { decorations: (n) => n.decorations },
+    { decorations: (n) => n.decorations }
   );
 function gn(n) {
   return (e) => {
@@ -18312,7 +18303,7 @@ const Dr = gn((n, { query: e }) => {
       n.dispatch({
         selection: r,
         effects: [il(n, i), s.scrollToMatch(r.main, n)],
-        userEvent: "select.search",
+        userEvent: 'select.search',
       }),
       Hf(n),
       !0
@@ -18329,7 +18320,7 @@ const Dr = gn((n, { query: e }) => {
       n.dispatch({
         selection: s,
         effects: [il(n, r), o.scrollToMatch(s.main, n)],
-        userEvent: "select.search",
+        userEvent: 'select.search',
       }),
       Hf(n),
       !0
@@ -18341,7 +18332,7 @@ const Dr = gn((n, { query: e }) => {
       ? !1
       : (n.dispatch({
           selection: k.create(t.map((i) => k.range(i.from, i.to))),
-          userEvent: "select.search.matches",
+          userEvent: 'select.search.matches',
         }),
         !0);
   }),
@@ -18360,8 +18351,8 @@ const Dr = gn((n, { query: e }) => {
       e(
         n.update({
           selection: k.create(s, o),
-          userEvent: "select.search.matches",
-        }),
+          userEvent: 'select.search.matches',
+        })
       ),
       !0
     );
@@ -18384,8 +18375,8 @@ const Dr = gn((n, { query: e }) => {
         (s = e.nextMatch(t, s.from, s.to)),
         u.push(
           A.announce.of(
-            t.phrase("replaced match on line $", t.doc.lineAt(i).number) + ".",
-          ),
+            t.phrase('replaced match on line $', t.doc.lineAt(i).number) + '.'
+          )
         )),
       s)
     ) {
@@ -18399,7 +18390,7 @@ const Dr = gn((n, { query: e }) => {
         changes: o,
         selection: l,
         effects: u,
-        userEvent: "input.replace",
+        userEvent: 'input.replace',
       }),
       !0
     );
@@ -18411,12 +18402,12 @@ const Dr = gn((n, { query: e }) => {
       return { from: s, to: o, insert: e.getReplacement(r) };
     });
     if (!t.length) return !1;
-    let i = n.state.phrase("replaced $ matches", t.length) + ".";
+    let i = n.state.phrase('replaced $ matches', t.length) + '.';
     return (
       n.dispatch({
         changes: t,
         effects: A.announce.of(i),
-        userEvent: "input.replace.all",
+        userEvent: 'input.replace.all',
       }),
       !0
     );
@@ -18427,7 +18418,7 @@ function tl(n) {
 function go(n, e) {
   var t, i, r, s, o;
   let l = n.selection.main,
-    a = l.empty || l.to > l.from + 100 ? "" : n.sliceDoc(l.from, l.to);
+    a = l.empty || l.to > l.from + 100 ? '' : n.sliceDoc(l.from, l.to);
   if (e && !a) return e;
   let u = n.facet(Bi);
   return new qf({
@@ -18437,7 +18428,7 @@ function go(n, e) {
         : u.literal
     )
       ? a
-      : a.replace(/\n/g, "\\n"),
+      : a.replace(/\n/g, '\\n'),
     caseSensitive:
       (i = e == null ? void 0 : e.caseSensitive) !== null && i !== void 0
         ? i
@@ -18458,7 +18449,7 @@ function go(n, e) {
 }
 function Gf(n) {
   let e = rn(n, tl);
-  return e && e.dom.querySelector("[main-field]");
+  return e && e.dom.querySelector('[main-field]');
 }
 function Hf(n) {
   let e = Gf(n);
@@ -18492,110 +18483,110 @@ const Jf = (n) => {
     );
   },
   fS = [
-    { key: "Mod-f", run: Jf, scope: "editor search-panel" },
+    { key: 'Mod-f', run: Jf, scope: 'editor search-panel' },
     {
-      key: "F3",
+      key: 'F3',
       run: Dr,
       shift: wr,
-      scope: "editor search-panel",
+      scope: 'editor search-panel',
       preventDefault: !0,
     },
     {
-      key: "Mod-g",
+      key: 'Mod-g',
       run: Dr,
       shift: wr,
-      scope: "editor search-panel",
+      scope: 'editor search-panel',
       preventDefault: !0,
     },
-    { key: "Escape", run: Kf, scope: "editor search-panel" },
-    { key: "Mod-Shift-l", run: hS },
-    { key: "Alt-g", run: Y0 },
-    { key: "Mod-d", run: tS, preventDefault: !0 },
+    { key: 'Escape', run: Kf, scope: 'editor search-panel' },
+    { key: 'Mod-Shift-l', run: hS },
+    { key: 'Alt-g', run: Y0 },
+    { key: 'Mod-d', run: tS, preventDefault: !0 },
   ];
 class dS {
   constructor(e) {
     this.view = e;
     let t = (this.query = e.state.field(Et).query.spec);
     (this.commit = this.commit.bind(this)),
-      (this.searchField = J("input", {
+      (this.searchField = J('input', {
         value: t.search,
-        placeholder: Ve(e, "Find"),
-        "aria-label": Ve(e, "Find"),
-        class: "cm-textfield",
-        name: "search",
-        form: "",
-        "main-field": "true",
+        placeholder: Ve(e, 'Find'),
+        'aria-label': Ve(e, 'Find'),
+        class: 'cm-textfield',
+        name: 'search',
+        form: '',
+        'main-field': 'true',
         onchange: this.commit,
         onkeyup: this.commit,
       })),
-      (this.replaceField = J("input", {
+      (this.replaceField = J('input', {
         value: t.replace,
-        placeholder: Ve(e, "Replace"),
-        "aria-label": Ve(e, "Replace"),
-        class: "cm-textfield",
-        name: "replace",
-        form: "",
+        placeholder: Ve(e, 'Replace'),
+        'aria-label': Ve(e, 'Replace'),
+        class: 'cm-textfield',
+        name: 'replace',
+        form: '',
         onchange: this.commit,
         onkeyup: this.commit,
       })),
-      (this.caseField = J("input", {
-        type: "checkbox",
-        name: "case",
-        form: "",
+      (this.caseField = J('input', {
+        type: 'checkbox',
+        name: 'case',
+        form: '',
         checked: t.caseSensitive,
         onchange: this.commit,
       })),
-      (this.reField = J("input", {
-        type: "checkbox",
-        name: "re",
-        form: "",
+      (this.reField = J('input', {
+        type: 'checkbox',
+        name: 're',
+        form: '',
         checked: t.regexp,
         onchange: this.commit,
       })),
-      (this.wordField = J("input", {
-        type: "checkbox",
-        name: "word",
-        form: "",
+      (this.wordField = J('input', {
+        type: 'checkbox',
+        name: 'word',
+        form: '',
         checked: t.wholeWord,
         onchange: this.commit,
       }));
     function i(r, s, o) {
       return J(
-        "button",
-        { class: "cm-button", name: r, onclick: s, type: "button" },
-        o,
+        'button',
+        { class: 'cm-button', name: r, onclick: s, type: 'button' },
+        o
       );
     }
     this.dom = J(
-      "div",
-      { onkeydown: (r) => this.keydown(r), class: "cm-search" },
+      'div',
+      { onkeydown: (r) => this.keydown(r), class: 'cm-search' },
       [
         this.searchField,
-        i("next", () => Dr(e), [Ve(e, "next")]),
-        i("prev", () => wr(e), [Ve(e, "previous")]),
-        i("select", () => uS(e), [Ve(e, "all")]),
-        J("label", null, [this.caseField, Ve(e, "match case")]),
-        J("label", null, [this.reField, Ve(e, "regexp")]),
-        J("label", null, [this.wordField, Ve(e, "by word")]),
+        i('next', () => Dr(e), [Ve(e, 'next')]),
+        i('prev', () => wr(e), [Ve(e, 'previous')]),
+        i('select', () => uS(e), [Ve(e, 'all')]),
+        J('label', null, [this.caseField, Ve(e, 'match case')]),
+        J('label', null, [this.reField, Ve(e, 'regexp')]),
+        J('label', null, [this.wordField, Ve(e, 'by word')]),
         ...(e.state.readOnly
           ? []
           : [
-              J("br"),
+              J('br'),
               this.replaceField,
-              i("replace", () => za(e), [Ve(e, "replace")]),
-              i("replaceAll", () => cS(e), [Ve(e, "replace all")]),
+              i('replace', () => za(e), [Ve(e, 'replace')]),
+              i('replaceAll', () => cS(e), [Ve(e, 'replace all')]),
             ]),
         J(
-          "button",
+          'button',
           {
-            name: "close",
+            name: 'close',
             onclick: () => Kf(e),
-            "aria-label": Ve(e, "close"),
-            type: "button",
+            'aria-label': Ve(e, 'close'),
+            type: 'button',
           },
-          ["×"],
+          ['×']
         ),
-      ],
+      ]
     );
   }
   commit() {
@@ -18610,7 +18601,7 @@ class dS {
       ((this.query = e), this.view.dispatch({ effects: ln.of(e) }));
   }
   keydown(e) {
-    zO(this.view, e, "search-panel")
+    zO(this.view, e, 'search-panel')
       ? e.preventDefault()
       : e.keyCode == 13 && e.target == this.searchField
       ? (e.preventDefault(), (e.shiftKey ? wr : Dr)(this.view))
@@ -18667,33 +18658,33 @@ function il(n, { from: e, to: t }) {
       }
   }
   return A.announce.of(
-    `${n.state.phrase("current match")}. ${l} ${n.state.phrase("on line")} ${
+    `${n.state.phrase('current match')}. ${l} ${n.state.phrase('on line')} ${
       i.number
-    }.`,
+    }.`
   );
 }
 const pS = A.baseTheme({
-    ".cm-panel.cm-search": {
-      padding: "2px 6px 4px",
-      position: "relative",
-      "& [name=close]": {
-        position: "absolute",
-        top: "0",
-        right: "4px",
-        backgroundColor: "inherit",
-        border: "none",
-        font: "inherit",
+    '.cm-panel.cm-search': {
+      padding: '2px 6px 4px',
+      position: 'relative',
+      '& [name=close]': {
+        position: 'absolute',
+        top: '0',
+        right: '4px',
+        backgroundColor: 'inherit',
+        border: 'none',
+        font: 'inherit',
         padding: 0,
         margin: 0,
       },
-      "& input, & button, & label": { margin: ".2em .6em .2em 0" },
-      "& input[type=checkbox]": { marginRight: ".2em" },
-      "& label": { fontSize: "80%", whiteSpace: "pre" },
+      '& input, & button, & label': { margin: '.2em .6em .2em 0' },
+      '& input[type=checkbox]': { marginRight: '.2em' },
+      '& label': { fontSize: '80%', whiteSpace: 'pre' },
     },
-    "&light .cm-searchMatch": { backgroundColor: "#ffff0054" },
-    "&dark .cm-searchMatch": { backgroundColor: "#00ffff8a" },
-    "&light .cm-searchMatch-selected": { backgroundColor: "#ff6a0054" },
-    "&dark .cm-searchMatch-selected": { backgroundColor: "#ff00ff8a" },
+    '&light .cm-searchMatch': { backgroundColor: '#ffff0054' },
+    '&dark .cm-searchMatch': { backgroundColor: '#00ffff8a' },
+    '&light .cm-searchMatch-selected': { backgroundColor: '#ff6a0054' },
+    '&dark .cm-searchMatch-selected': { backgroundColor: '#ff00ff8a' },
   }),
   OS = [Et, $i.lowest(aS), pS];
 class ed {
@@ -18726,15 +18717,15 @@ class ed {
     return this.abortListeners == null;
   }
   addEventListener(e, t) {
-    e == "abort" && this.abortListeners && this.abortListeners.push(t);
+    e == 'abort' && this.abortListeners && this.abortListeners.push(t);
   }
 }
 function Ia(n) {
-  let e = Object.keys(n).join(""),
+  let e = Object.keys(n).join(''),
     t = /\w/.test(e);
   return (
-    t && (e = e.replace(/\w/g, "")),
-    `[${t ? "\\w" : ""}${e.replace(/[^\w\s]/g, "\\$&")}]`
+    t && (e = e.replace(/\w/g, '')),
+    `[${t ? '\\w' : ''}${e.replace(/[^\w\s]/g, '\\$&')}]`
   );
 }
 function gS(n) {
@@ -18744,11 +18735,11 @@ function gS(n) {
     e[r[0]] = !0;
     for (let s = 1; s < r.length; s++) t[r[s]] = !0;
   }
-  let i = Ia(e) + Ia(t) + "*$";
-  return [new RegExp("^" + i), new RegExp(i)];
+  let i = Ia(e) + Ia(t) + '*$';
+  return [new RegExp('^' + i), new RegExp(i)];
 }
 function mS(n) {
-  let e = n.map((r) => (typeof r == "string" ? { label: r } : r)),
+  let e = n.map((r) => (typeof r == 'string' ? { label: r } : r)),
     [t, i] = e.every((r) => /^\w+$/.test(r.label)) ? [/\w*$/, /\w+$/] : gS(e);
   return (r) => {
     let s = r.matchBefore(i);
@@ -18771,13 +18762,13 @@ function Tt(n) {
 function td(n, e) {
   var t;
   let { source: i } = n,
-    r = e && i[0] != "^",
-    s = i[i.length - 1] != "$";
+    r = e && i[0] != '^',
+    s = i[i.length - 1] != '$';
   return !r && !s
     ? n
     : new RegExp(
-        `${r ? "^" : ""}(?:${i})${s ? "$" : ""}`,
-        (t = n.flags) !== null && t !== void 0 ? t : n.ignoreCase ? "i" : "",
+        `${r ? '^' : ''}(?:${i})${s ? '$' : ''}`,
+        (t = n.flags) !== null && t !== void 0 ? t : n.ignoreCase ? 'i' : ''
       );
 }
 const SS = Ot.define();
@@ -18800,10 +18791,10 @@ function bS(n, e, t, i) {
                 insert: e,
               },
               range: k.cursor(l.from + s + e.length),
-            },
-      ),
+            }
+      )
     ),
-    { userEvent: "input.complete" },
+    { userEvent: 'input.complete' }
   );
 }
 const ja = new WeakMap();
@@ -18936,8 +18927,8 @@ const ze = B.define({
         closeOnBlur: !0,
         maxRenderedOptions: 100,
         defaultKeymap: !0,
-        tooltipClass: () => "",
-        optionClass: () => "",
+        tooltipClass: () => '',
+        optionClass: () => '',
         aboveCursor: !1,
         icons: !0,
         addToOptions: [],
@@ -18952,18 +18943,18 @@ const ze = B.define({
         tooltipClass: (e, t) => (i) => Ua(e(i), t(i)),
         optionClass: (e, t) => (i) => Ua(e(i), t(i)),
         addToOptions: (e, t) => e.concat(t),
-      },
+      }
     );
   },
 });
 function Ua(n, e) {
-  return n ? (e ? n + " " + e : n) : e;
+  return n ? (e ? n + ' ' + e : n) : e;
 }
 function kS(n, e, t, i, r) {
   let s = n.textDirection == ue.RTL,
     o = s,
     l = !1,
-    a = "top",
+    a = 'top',
     u,
     h,
     c = e.left - r.left,
@@ -18981,13 +18972,13 @@ function kS(n, e, t, i, r) {
     let m = r.bottom - e.bottom;
     m >= p || m > e.top
       ? (u = t.bottom - e.top)
-      : ((a = "bottom"), (u = e.bottom - t.top));
+      : ((a = 'bottom'), (u = e.bottom - t.top));
   }
   return {
     style: `${a}: ${u}px; max-width: ${h}px`,
     class:
-      "cm-completionInfo-" +
-      (l ? (s ? "left-narrow" : "right-narrow") : o ? "left" : "right"),
+      'cm-completionInfo-' +
+      (l ? (s ? 'left-narrow' : 'right-narrow') : o ? 'left' : 'right'),
   };
 }
 function CS(n) {
@@ -18996,14 +18987,14 @@ function CS(n) {
     n.icons &&
       e.push({
         render(t) {
-          let i = document.createElement("div");
+          let i = document.createElement('div');
           return (
-            i.classList.add("cm-completionIcon"),
+            i.classList.add('cm-completionIcon'),
             t.type &&
               i.classList.add(
-                ...t.type.split(/\s+/g).map((r) => "cm-completionIcon-" + r),
+                ...t.type.split(/\s+/g).map((r) => 'cm-completionIcon-' + r)
               ),
-            i.setAttribute("aria-hidden", "true"),
+            i.setAttribute('aria-hidden', 'true'),
             i
           );
         },
@@ -19012,17 +19003,17 @@ function CS(n) {
     e.push(
       {
         render(t, i, r) {
-          let s = document.createElement("span");
-          s.className = "cm-completionLabel";
+          let s = document.createElement('span');
+          s.className = 'cm-completionLabel';
           let o = t.displayLabel || t.label,
             l = 0;
           for (let a = 0; a < r.length; ) {
             let u = r[a++],
               h = r[a++];
             u > l && s.appendChild(document.createTextNode(o.slice(l, u)));
-            let c = s.appendChild(document.createElement("span"));
+            let c = s.appendChild(document.createElement('span'));
             c.appendChild(document.createTextNode(o.slice(u, h))),
-              (c.className = "cm-completionMatchedText"),
+              (c.className = 'cm-completionMatchedText'),
               (l = h);
           }
           return (
@@ -19035,13 +19026,13 @@ function CS(n) {
       {
         render(t) {
           if (!t.detail) return null;
-          let i = document.createElement("span");
+          let i = document.createElement('span');
           return (
-            (i.className = "cm-completionDetail"), (i.textContent = t.detail), i
+            (i.className = 'cm-completionDetail'), (i.textContent = t.detail), i
           );
         },
         position: 80,
-      },
+      }
     ),
     e.sort((t, i) => t.position - i.position).map((t) => t.render)
   );
@@ -19068,7 +19059,7 @@ class DS {
         key: this,
       }),
       (this.space = null),
-      (this.currentClass = "");
+      (this.currentClass = '');
     let r = e.state.field(t),
       { options: s, selected: o } = r.open,
       l = e.state.facet(ze);
@@ -19076,13 +19067,13 @@ class DS {
       (this.optionClass = l.optionClass),
       (this.tooltipClass = l.tooltipClass),
       (this.range = Ya(s.length, o, l.maxRenderedOptions)),
-      (this.dom = document.createElement("div")),
-      (this.dom.className = "cm-tooltip-autocomplete"),
+      (this.dom = document.createElement('div')),
+      (this.dom.className = 'cm-tooltip-autocomplete'),
       this.updateTooltipClass(e.state),
-      this.dom.addEventListener("mousedown", (a) => {
+      this.dom.addEventListener('mousedown', (a) => {
         for (let u = a.target, h; u && u != this.dom; u = u.parentNode)
           if (
-            u.nodeName == "LI" &&
+            u.nodeName == 'LI' &&
             (h = /-(\d+)$/.exec(u.id)) &&
             +h[1] < s.length
           ) {
@@ -19090,7 +19081,7 @@ class DS {
             return;
           }
       }),
-      this.dom.addEventListener("focusout", (a) => {
+      this.dom.addEventListener('focusout', (a) => {
         let u = e.state.field(this.stateField, !1);
         u &&
           u.tooltip &&
@@ -19099,9 +19090,9 @@ class DS {
           e.dispatch({ effects: an.of(null) });
       }),
       (this.list = this.dom.appendChild(
-        this.createListBox(s, r.id, this.range),
+        this.createListBox(s, r.id, this.range)
       )),
-      this.list.addEventListener("scroll", () => {
+      this.list.addEventListener('scroll', () => {
         this.info && this.view.requestMeasure(this.placeInfoReq);
       });
   }
@@ -19118,16 +19109,16 @@ class DS {
         ((t = s.open) === null || t === void 0 ? void 0 : t.disabled) !=
           ((i = o.open) === null || i === void 0 ? void 0 : i.disabled) &&
           this.dom.classList.toggle(
-            "cm-tooltip-autocomplete-disabled",
-            !!(!((r = s.open) === null || r === void 0) && r.disabled),
+            'cm-tooltip-autocomplete-disabled',
+            !!(!((r = s.open) === null || r === void 0) && r.disabled)
           ));
   }
   updateTooltipClass(e) {
     let t = this.tooltipClass(e);
     if (t != this.currentClass) {
-      for (let i of this.currentClass.split(" "))
+      for (let i of this.currentClass.split(' '))
         i && this.dom.classList.remove(i);
-      for (let i of t.split(" ")) i && this.dom.classList.add(i);
+      for (let i of t.split(' ')) i && this.dom.classList.add(i);
       this.currentClass = t;
     }
   }
@@ -19143,13 +19134,13 @@ class DS {
         ((this.range = Ya(
           t.options.length,
           t.selected,
-          this.view.state.facet(ze).maxRenderedOptions,
+          this.view.state.facet(ze).maxRenderedOptions
         )),
         this.list.remove(),
         (this.list = this.dom.appendChild(
-          this.createListBox(t.options, e.id, this.range),
+          this.createListBox(t.options, e.id, this.range)
         )),
-        this.list.addEventListener("scroll", () => {
+        this.list.addEventListener('scroll', () => {
           this.info && this.view.requestMeasure(this.placeInfoReq);
         })),
       this.updateSelectedOption(t.selected))
@@ -19158,23 +19149,23 @@ class DS {
       let { completion: i } = t.options[t.selected],
         { info: r } = i;
       if (!r) return;
-      let s = typeof r == "string" ? document.createTextNode(r) : r(i);
+      let s = typeof r == 'string' ? document.createTextNode(r) : r(i);
       if (!s) return;
-      "then" in s
+      'then' in s
         ? s
             .then((o) => {
               o &&
                 this.view.state.field(this.stateField, !1) == e &&
                 this.addInfoPane(o, i);
             })
-            .catch((o) => Ge(this.view.state, o, "completion info"))
+            .catch((o) => Ge(this.view.state, o, 'completion info'))
         : this.addInfoPane(s, i);
     }
   }
   addInfoPane(e, t) {
     this.destroyInfo();
-    let i = (this.info = document.createElement("div"));
-    if (((i.className = "cm-tooltip cm-completionInfo"), e.nodeType != null))
+    let i = (this.info = document.createElement('div'));
+    if (((i.className = 'cm-tooltip cm-completionInfo'), e.nodeType != null))
       i.appendChild(e), (this.infoDestroy = null);
     else {
       let { dom: r, destroy: s } = e;
@@ -19189,16 +19180,16 @@ class DS {
       i;
       i = i.nextSibling, r++
     )
-      i.nodeName != "LI" || !i.id
+      i.nodeName != 'LI' || !i.id
         ? r--
         : r == e
-        ? i.hasAttribute("aria-selected") ||
-          (i.setAttribute("aria-selected", "true"), (t = i))
-        : i.hasAttribute("aria-selected") && i.removeAttribute("aria-selected");
+        ? i.hasAttribute('aria-selected') ||
+          (i.setAttribute('aria-selected', 'true'), (t = i))
+        : i.hasAttribute('aria-selected') && i.removeAttribute('aria-selected');
     return t && QS(this.list, t), t;
   }
   measureInfo() {
-    let e = this.dom.querySelector("[aria-selected]");
+    let e = this.dom.querySelector('[aria-selected]');
     if (!e || !this.info) return null;
     let t = this.dom.getBoundingClientRect(),
       i = this.info.getBoundingClientRect(),
@@ -19218,31 +19209,31 @@ class DS {
       (e
         ? (e.style && (this.info.style.cssText = e.style),
           (this.info.className =
-            "cm-tooltip cm-completionInfo " + (e.class || "")))
-        : (this.info.style.cssText = "top: -1e6px"));
+            'cm-tooltip cm-completionInfo ' + (e.class || '')))
+        : (this.info.style.cssText = 'top: -1e6px'));
   }
   createListBox(e, t, i) {
-    const r = document.createElement("ul");
+    const r = document.createElement('ul');
     (r.id = t),
-      r.setAttribute("role", "listbox"),
-      r.setAttribute("aria-expanded", "true"),
-      r.setAttribute("aria-label", this.view.state.phrase("Completions"));
+      r.setAttribute('role', 'listbox'),
+      r.setAttribute('aria-expanded', 'true'),
+      r.setAttribute('aria-label', this.view.state.phrase('Completions'));
     let s = null;
     for (let o = i.from; o < i.to; o++) {
       let { completion: l, match: a } = e[o],
         { section: u } = l;
       if (u) {
-        let f = typeof u == "string" ? u : u.name;
+        let f = typeof u == 'string' ? u : u.name;
         if (f != s && (o > i.from || i.from == 0))
-          if (((s = f), typeof u != "string" && u.header))
+          if (((s = f), typeof u != 'string' && u.header))
             r.appendChild(u.header(u));
           else {
-            let d = r.appendChild(document.createElement("completion-section"));
+            let d = r.appendChild(document.createElement('completion-section'));
             d.textContent = f;
           }
       }
-      const h = r.appendChild(document.createElement("li"));
-      (h.id = t + "-" + o), h.setAttribute("role", "option");
+      const h = r.appendChild(document.createElement('li'));
+      (h.id = t + '-' + o), h.setAttribute('role', 'option');
       let c = this.optionClass(l);
       c && (h.className = c);
       for (let f of this.optionContent) {
@@ -19251,8 +19242,8 @@ class DS {
       }
     }
     return (
-      i.from && r.classList.add("cm-completionListIncompleteTop"),
-      i.to < e.length && r.classList.add("cm-completionListIncompleteBottom"),
+      i.from && r.classList.add('cm-completionListIncompleteTop'),
+      i.to < e.length && r.classList.add('cm-completionListIncompleteBottom'),
       r
     );
   }
@@ -19292,9 +19283,9 @@ function vS(n, e) {
       let { section: u } = a.completion;
       if (u) {
         i || (i = []);
-        let h = typeof u == "string" ? u : u.name;
+        let h = typeof u == 'string' ? u : u.name;
         i.some((c) => c.name == h) ||
-          i.push(typeof u == "string" ? { name: h } : u);
+          i.push(typeof u == 'string' ? { name: h } : u);
       }
     };
   for (let a of n)
@@ -19326,14 +19317,14 @@ function vS(n, e) {
     for (let c of i.sort(h)) (u -= 1e5), (a[c.name] = u);
     for (let c of t) {
       let { section: f } = c.completion;
-      f && (c.score += a[typeof f == "string" ? f : f.name]);
+      f && (c.score += a[typeof f == 'string' ? f : f.name]);
     }
   }
   let s = [],
     o = null,
     l = e.facet(ze).compareCompletions;
   for (let a of t.sort(
-    (u, h) => h.score - u.score || l(u.completion, h.completion),
+    (u, h) => h.score - u.score || l(u.completion, h.completion)
   )) {
     let u = a.completion;
     !o ||
@@ -19366,7 +19357,7 @@ class Oi {
           this.tooltip,
           this.timestamp,
           e,
-          this.disabled,
+          this.disabled
         );
   }
   static build(e, t, i, r, s) {
@@ -19394,7 +19385,7 @@ class Oi {
       },
       r ? r.timestamp : Date.now(),
       l,
-      !1,
+      !1
     );
   }
   map(e) {
@@ -19406,7 +19397,7 @@ class Oi {
       }),
       this.timestamp,
       this.selected,
-      this.disabled,
+      this.disabled
     );
   }
 }
@@ -19417,19 +19408,19 @@ class Qr {
   static start() {
     return new Qr(
       PS,
-      "cm-ac-" + Math.floor(Math.random() * 2e6).toString(36),
-      null,
+      'cm-ac-' + Math.floor(Math.random() * 2e6).toString(36),
+      null
     );
   }
   update(e) {
     let { state: t } = e,
       i = t.facet(ze),
-      s = (i.override || t.languageDataAt("autocomplete", Tt(t)).map(yS)).map(
+      s = (i.override || t.languageDataAt('autocomplete', Tt(t)).map(yS)).map(
         (l) =>
           (
             this.active.find((u) => u.source == l) ||
             new We(l, this.active.some((u) => u.state != 0) ? 1 : 0)
-          ).update(e, i),
+          ).update(e, i)
       );
     s.length == this.active.length &&
       s.every((l, a) => l == this.active[a]) &&
@@ -19467,21 +19458,21 @@ function AS(n, e) {
     if (n[t++].result != e[i++].result) return !1;
   }
 }
-const $S = { "aria-autocomplete": "list" };
+const $S = { 'aria-autocomplete': 'list' };
 function La(n, e) {
   let t = {
-    "aria-autocomplete": "list",
-    "aria-haspopup": "listbox",
-    "aria-controls": n,
+    'aria-autocomplete': 'list',
+    'aria-haspopup': 'listbox',
+    'aria-controls': n,
   };
-  return e > -1 && (t["aria-activedescendant"] = n + "-" + e), t;
+  return e > -1 && (t['aria-activedescendant'] = n + '-' + e), t;
 }
 const PS = [];
 function mo(n) {
-  return n.isUserEvent("input.type")
-    ? "input"
-    : n.isUserEvent("delete.backward")
-    ? "delete"
+  return n.isUserEvent('input.type')
+    ? 'input'
+    : n.isUserEvent('delete.backward')
+    ? 'delete'
     : null;
 }
 class We {
@@ -19506,7 +19497,7 @@ class We {
     return r;
   }
   handleUserEvent(e, t, i) {
-    return t == "delete" || !i.activateOnTyping
+    return t == 'delete' || !i.activateOnTyping
       ? this.map(e.changes)
       : new We(this.source, 1);
   }
@@ -19536,9 +19527,9 @@ class xi extends We {
     if (
       (this.explicitPos < 0 ? l <= s : l < this.from) ||
       l > o ||
-      (t == "delete" && Tt(e.startState) == this.from)
+      (t == 'delete' && Tt(e.startState) == this.from)
     )
-      return new We(this.source, t == "input" && i.activateOnTyping ? 1 : 0);
+      return new We(this.source, t == 'input' && i.activateOnTyping ? 1 : 0);
     let a = this.explicitPos < 0 ? -1 : e.changes.mapPos(this.explicitPos),
       u;
     return MS(this.result.validFor, e.state, s, o)
@@ -19550,7 +19541,7 @@ class xi extends We {
           a,
           u,
           u.from,
-          (r = u.to) !== null && r !== void 0 ? r : Tt(e.state),
+          (r = u.to) !== null && r !== void 0 ? r : Tt(e.state)
         )
       : new We(this.source, 1, a);
   }
@@ -19567,14 +19558,14 @@ class xi extends We {
           this.explicitPos < 0 ? -1 : e.mapPos(this.explicitPos),
           this.result,
           e.mapPos(this.from),
-          e.mapPos(this.to, 1),
+          e.mapPos(this.to, 1)
         );
   }
 }
 function MS(n, e, t, i) {
   if (!n) return !1;
   let r = e.sliceDoc(t, i);
-  return typeof n == "function" ? n(r, t, i, e) : td(n, !0).test(r);
+  return typeof n == 'function' ? n(r, t, i, e) : td(n, !0).test(r);
 }
 const id = Z.define({
     map(n, e) {
@@ -19598,17 +19589,17 @@ function rd(n, e) {
   const t = e.completion.apply || e.completion.label;
   let i = n.state.field(Ye).active.find((r) => r.source == e.source);
   return i instanceof xi
-    ? (typeof t == "string"
+    ? (typeof t == 'string'
         ? n.dispatch(
             Object.assign(Object.assign({}, bS(n.state, t, i.from, i.to)), {
               annotations: SS.of(e.completion),
-            }),
+            })
           )
         : t(n, e.completion, i.from, i.to),
       !0)
     : !1;
 }
-function Wn(n, e = "option") {
+function Wn(n, e = 'option') {
   return (t) => {
     let i = t.state.field(Ye, !1);
     if (
@@ -19620,13 +19611,13 @@ function Wn(n, e = "option") {
       return !1;
     let r = 1,
       s;
-    e == "page" &&
+    e == 'page' &&
       (s = Ac(t, i.open.tooltip)) &&
       (r = Math.max(
         2,
         Math.floor(
-          s.dom.offsetHeight / s.dom.querySelector("li").offsetHeight,
-        ) - 1,
+          s.dom.offsetHeight / s.dom.querySelector('li').offsetHeight
+        ) - 1
       ));
     let { length: o } = i.open.options,
       l =
@@ -19637,8 +19628,8 @@ function Wn(n, e = "option") {
           : o - 1;
     return (
       l < 0
-        ? (l = e == "page" ? 0 : o - 1)
-        : l >= o && (l = e == "page" ? o - 1 : 0),
+        ? (l = e == 'page' ? 0 : o - 1)
+        : l >= o && (l = e == 'page' ? o - 1 : 0),
       t.dispatch({ effects: nd.of(l) }),
       !0
     );
@@ -19691,7 +19682,7 @@ const qa = 50,
         if (!n.selectionSet && !n.docChanged && n.startState.field(Ye) == e)
           return;
         let t = n.transactions.some(
-          (i) => (i.selection || i.docChanged) && !mo(i),
+          (i) => (i.selection || i.docChanged) && !mo(i)
         );
         for (let i = 0; i < this.running.length; i++) {
           let r = this.running[i];
@@ -19714,14 +19705,14 @@ const qa = 50,
           (this.debounceUpdate = e.active.some(
             (i) =>
               i.state == 1 &&
-              !this.running.some((r) => r.active.source == i.source),
+              !this.running.some((r) => r.active.source == i.source)
           )
             ? setTimeout(() => this.startUpdate(), qa)
             : -1),
           this.composing != 0)
         )
           for (let i of n.transactions)
-            mo(i) == "input"
+            mo(i) == 'input'
               ? (this.composing = 2)
               : this.composing == 2 && i.selection && (this.composing = 3);
       }
@@ -19748,7 +19739,7 @@ const qa = 50,
             (s) => {
               this.view.dispatch({ effects: an.of(null) }),
                 Ge(this.view.state, s);
-            },
+            }
           );
       }
       scheduleAccept() {
@@ -19775,10 +19766,8 @@ const qa = 50,
               (n = r.done.to) !== null && n !== void 0
                 ? n
                 : Tt(
-                    r.updates.length
-                      ? r.updates[0].startState
-                      : this.view.state,
-                  ),
+                    r.updates.length ? r.updates[0].startState : this.view.state
+                  )
             );
             for (let l of r.updates) o = o.update(l, t);
             if (o.hasResult()) {
@@ -19818,106 +19807,106 @@ const qa = 50,
             (this.composing = 0);
         },
       },
-    },
+    }
   ),
   ZS = A.baseTheme({
-    ".cm-tooltip.cm-tooltip-autocomplete": {
-      "& > ul": {
-        fontFamily: "monospace",
-        whiteSpace: "nowrap",
-        overflow: "hidden auto",
-        maxWidth_fallback: "700px",
-        maxWidth: "min(700px, 95vw)",
-        minWidth: "250px",
-        maxHeight: "10em",
-        height: "100%",
-        listStyle: "none",
+    '.cm-tooltip.cm-tooltip-autocomplete': {
+      '& > ul': {
+        fontFamily: 'monospace',
+        whiteSpace: 'nowrap',
+        overflow: 'hidden auto',
+        maxWidth_fallback: '700px',
+        maxWidth: 'min(700px, 95vw)',
+        minWidth: '250px',
+        maxHeight: '10em',
+        height: '100%',
+        listStyle: 'none',
         margin: 0,
         padding: 0,
-        "& > li, & > completion-section": {
-          padding: "1px 3px",
+        '& > li, & > completion-section': {
+          padding: '1px 3px',
           lineHeight: 1.2,
         },
-        "& > li": {
-          overflowX: "hidden",
-          textOverflow: "ellipsis",
-          cursor: "pointer",
+        '& > li': {
+          overflowX: 'hidden',
+          textOverflow: 'ellipsis',
+          cursor: 'pointer',
         },
-        "& > completion-section": {
-          display: "list-item",
-          borderBottom: "1px solid silver",
-          paddingLeft: "0.5em",
+        '& > completion-section': {
+          display: 'list-item',
+          borderBottom: '1px solid silver',
+          paddingLeft: '0.5em',
           opacity: 0.7,
         },
       },
     },
-    "&light .cm-tooltip-autocomplete ul li[aria-selected]": {
-      background: "#17c",
-      color: "white",
+    '&light .cm-tooltip-autocomplete ul li[aria-selected]': {
+      background: '#17c',
+      color: 'white',
     },
-    "&light .cm-tooltip-autocomplete-disabled ul li[aria-selected]": {
-      background: "#777",
+    '&light .cm-tooltip-autocomplete-disabled ul li[aria-selected]': {
+      background: '#777',
     },
-    "&dark .cm-tooltip-autocomplete ul li[aria-selected]": {
-      background: "#347",
-      color: "white",
+    '&dark .cm-tooltip-autocomplete ul li[aria-selected]': {
+      background: '#347',
+      color: 'white',
     },
-    "&dark .cm-tooltip-autocomplete-disabled ul li[aria-selected]": {
-      background: "#444",
+    '&dark .cm-tooltip-autocomplete-disabled ul li[aria-selected]': {
+      background: '#444',
     },
-    ".cm-completionListIncompleteTop:before, .cm-completionListIncompleteBottom:after":
-      { content: '"···"', opacity: 0.5, display: "block", textAlign: "center" },
-    ".cm-tooltip.cm-completionInfo": {
-      position: "absolute",
-      padding: "3px 9px",
-      width: "max-content",
-      maxWidth: "400px",
-      boxSizing: "border-box",
+    '.cm-completionListIncompleteTop:before, .cm-completionListIncompleteBottom:after':
+      { content: '"···"', opacity: 0.5, display: 'block', textAlign: 'center' },
+    '.cm-tooltip.cm-completionInfo': {
+      position: 'absolute',
+      padding: '3px 9px',
+      width: 'max-content',
+      maxWidth: '400px',
+      boxSizing: 'border-box',
     },
-    ".cm-completionInfo.cm-completionInfo-left": { right: "100%" },
-    ".cm-completionInfo.cm-completionInfo-right": { left: "100%" },
-    ".cm-completionInfo.cm-completionInfo-left-narrow": { right: "30px" },
-    ".cm-completionInfo.cm-completionInfo-right-narrow": { left: "30px" },
-    "&light .cm-snippetField": { backgroundColor: "#00000022" },
-    "&dark .cm-snippetField": { backgroundColor: "#ffffff22" },
-    ".cm-snippetFieldPosition": {
-      verticalAlign: "text-top",
+    '.cm-completionInfo.cm-completionInfo-left': { right: '100%' },
+    '.cm-completionInfo.cm-completionInfo-right': { left: '100%' },
+    '.cm-completionInfo.cm-completionInfo-left-narrow': { right: '30px' },
+    '.cm-completionInfo.cm-completionInfo-right-narrow': { left: '30px' },
+    '&light .cm-snippetField': { backgroundColor: '#00000022' },
+    '&dark .cm-snippetField': { backgroundColor: '#ffffff22' },
+    '.cm-snippetFieldPosition': {
+      verticalAlign: 'text-top',
       width: 0,
-      height: "1.15em",
-      display: "inline-block",
-      margin: "0 -0.7px -.7em",
-      borderLeft: "1.4px dotted #888",
+      height: '1.15em',
+      display: 'inline-block',
+      margin: '0 -0.7px -.7em',
+      borderLeft: '1.4px dotted #888',
     },
-    ".cm-completionMatchedText": { textDecoration: "underline" },
-    ".cm-completionDetail": { marginLeft: "0.5em", fontStyle: "italic" },
-    ".cm-completionIcon": {
-      fontSize: "90%",
-      width: ".8em",
-      display: "inline-block",
-      textAlign: "center",
-      paddingRight: ".6em",
-      opacity: "0.6",
-      boxSizing: "content-box",
+    '.cm-completionMatchedText': { textDecoration: 'underline' },
+    '.cm-completionDetail': { marginLeft: '0.5em', fontStyle: 'italic' },
+    '.cm-completionIcon': {
+      fontSize: '90%',
+      width: '.8em',
+      display: 'inline-block',
+      textAlign: 'center',
+      paddingRight: '.6em',
+      opacity: '0.6',
+      boxSizing: 'content-box',
     },
-    ".cm-completionIcon-function, .cm-completionIcon-method": {
-      "&:after": { content: "'ƒ'" },
+    '.cm-completionIcon-function, .cm-completionIcon-method': {
+      '&:after': { content: "'ƒ'" },
     },
-    ".cm-completionIcon-class": { "&:after": { content: "'○'" } },
-    ".cm-completionIcon-interface": { "&:after": { content: "'◌'" } },
-    ".cm-completionIcon-variable": { "&:after": { content: "'𝑥'" } },
-    ".cm-completionIcon-constant": { "&:after": { content: "'𝐶'" } },
-    ".cm-completionIcon-type": { "&:after": { content: "'𝑡'" } },
-    ".cm-completionIcon-enum": { "&:after": { content: "'∪'" } },
-    ".cm-completionIcon-property": { "&:after": { content: "'□'" } },
-    ".cm-completionIcon-keyword": { "&:after": { content: "'🔑︎'" } },
-    ".cm-completionIcon-namespace": { "&:after": { content: "'▢'" } },
-    ".cm-completionIcon-text": {
-      "&:after": { content: "'abc'", fontSize: "50%", verticalAlign: "middle" },
+    '.cm-completionIcon-class': { '&:after': { content: "'○'" } },
+    '.cm-completionIcon-interface': { '&:after': { content: "'◌'" } },
+    '.cm-completionIcon-variable': { '&:after': { content: "'𝑥'" } },
+    '.cm-completionIcon-constant': { '&:after': { content: "'𝐶'" } },
+    '.cm-completionIcon-type': { '&:after': { content: "'𝑡'" } },
+    '.cm-completionIcon-enum': { '&:after': { content: "'∪'" } },
+    '.cm-completionIcon-property': { '&:after': { content: "'□'" } },
+    '.cm-completionIcon-keyword': { '&:after': { content: "'🔑︎'" } },
+    '.cm-completionIcon-namespace': { '&:after': { content: "'▢'" } },
+    '.cm-completionIcon-text': {
+      '&:after': { content: "'abc'", fontSize: '50%', verticalAlign: 'middle' },
     },
   }),
   un = {
-    brackets: ["(", "[", "{", "'", '"'],
-    before: ")]}:;>",
+    brackets: ['(', '[', '{', "'", '"'],
+    before: ')]}:;>',
     stringPrefixes: [],
   },
   ei = Z.define({
@@ -19948,17 +19937,17 @@ const sd = Qe.define({
 function od() {
   return [IS, sd];
 }
-const Ss = "()[]{}<>";
+const Ss = '()[]{}<>';
 function ld(n) {
   for (let e = 0; e < Ss.length; e += 2)
     if (Ss.charCodeAt(e) == n) return Ss.charAt(e + 1);
   return Bo(n < 128 ? n : n + 1);
 }
 function ad(n, e) {
-  return n.languageDataAt("closeBrackets", e)[0] || un;
+  return n.languageDataAt('closeBrackets', e)[0] || un;
 }
 const zS =
-    typeof navigator == "object" && /Android\b/.test(navigator.userAgent),
+    typeof navigator == 'object' && /Android\b/.test(navigator.userAgent),
   IS = A.inputHandler.of((n, e, t, i) => {
     if ((zS ? n.composing : n.compositionStarted) || n.state.readOnly)
       return !1;
@@ -19990,11 +19979,11 @@ const zS =
         return { range: (r = o) };
       });
     return (
-      r || e(n.update(s, { scrollIntoView: !0, userEvent: "delete.backward" })),
+      r || e(n.update(s, { scrollIntoView: !0, userEvent: 'delete.backward' })),
       !r
     );
   },
-  jS = [{ key: "Backspace", run: VS }];
+  jS = [{ key: 'Backspace', run: VS }];
 function US(n, e) {
   let t = ad(n, n.selection.main.head),
     i = t.brackets || un.brackets;
@@ -20048,7 +20037,7 @@ function _S(n, e, t, i) {
     });
   return r
     ? null
-    : n.update(s, { scrollIntoView: !0, userEvent: "input.type" });
+    : n.update(s, { scrollIntoView: !0, userEvent: 'input.type' });
 }
 function LS(n, e, t) {
   let i = null,
@@ -20058,11 +20047,11 @@ function LS(n, e, t) {
             changes: { from: s.head, to: s.head + t.length, insert: t },
             range: k.cursor(s.head + t.length),
           }
-        : (i = { range: s }),
+        : (i = { range: s })
     );
   return i
     ? null
-    : n.update(r, { scrollIntoView: !0, userEvent: "input.type" });
+    : n.update(r, { scrollIntoView: !0, userEvent: 'input.type' });
 }
 function qS(n, e, t, i) {
   let r = i.stringPrefixes || un.stringPrefixes,
@@ -20122,7 +20111,7 @@ function qS(n, e, t, i) {
     });
   return s
     ? null
-    : n.update(o, { scrollIntoView: !0, userEvent: "input.type" });
+    : n.update(o, { scrollIntoView: !0, userEvent: 'input.type' });
 }
 function Na(n, e) {
   let t = Pe(n).resolveInner(e + 1);
@@ -20161,16 +20150,16 @@ function GS(n = {}) {
   return [Ye, ze.of(n), WS, HS, ZS];
 }
 const hd = [
-    { key: "Ctrl-Space", run: ES },
-    { key: "Escape", run: TS },
-    { key: "ArrowDown", run: Wn(!0) },
-    { key: "ArrowUp", run: Wn(!1) },
-    { key: "PageDown", run: Wn(!0, "page") },
-    { key: "PageUp", run: Wn(!1, "page") },
-    { key: "Enter", run: BS },
+    { key: 'Ctrl-Space', run: ES },
+    { key: 'Escape', run: TS },
+    { key: 'ArrowDown', run: Wn(!0) },
+    { key: 'ArrowUp', run: Wn(!1) },
+    { key: 'PageDown', run: Wn(!0, 'page') },
+    { key: 'PageUp', run: Wn(!1, 'page') },
+    { key: 'Enter', run: BS },
   ],
   HS = $i.highest(
-    dn.computeN([ze], (n) => (n.facet(ze).defaultKeymap ? [hd] : [])),
+    dn.computeN([ze], (n) => (n.facet(ze).defaultKeymap ? [hd] : []))
   );
 class JS {
   constructor(e, t, i) {
@@ -20193,14 +20182,14 @@ class Gt {
           : T.mark({
               attributes: {
                 class:
-                  "cm-lintRange cm-lintRange-" +
+                  'cm-lintRange cm-lintRange-' +
                   l.severity +
-                  (l.markClass ? " " + l.markClass : ""),
+                  (l.markClass ? ' ' + l.markClass : ''),
               },
               diagnostic: l,
-            }).range(l.from, l.to),
+            }).range(l.from, l.to)
       ),
-      !0,
+      !0
     );
     return new Gt(o, t, Ai(o));
   }
@@ -20254,7 +20243,7 @@ const cd = Z.define(),
       A.decorations.from(n, (e) => e.diagnostics),
     ],
   }),
-  t1 = T.mark({ class: "cm-lintRange cm-lintRange-active" });
+  t1 = T.mark({ class: 'cm-lintRange cm-lintRange-active' });
 function i1(n, e, t) {
   let { diagnostics: i } = n.state.field(Le),
     r = [],
@@ -20283,16 +20272,16 @@ function i1(n, e, t) {
 }
 function n1(n, e) {
   return J(
-    "ul",
-    { class: "cm-tooltip-lint" },
-    e.map((t) => Od(n, t, !1)),
+    'ul',
+    { class: 'cm-tooltip-lint' },
+    e.map((t) => Od(n, t, !1))
   );
 }
 const r1 = (n) => {
     let e = n.state.field(Le, !1);
     (!e || !e.panel) && n.dispatch({ effects: e1(n.state, [sl.of(!0)]) });
     let t = rn(n, _r.open);
-    return t && t.dom.querySelector(".cm-panel-lint ul").focus(), !0;
+    return t && t.dom.querySelector('.cm-panel-lint ul').focus(), !0;
   },
   Ha = (n) => {
     let e = n.state.field(Le, !1);
@@ -20314,8 +20303,8 @@ const r1 = (n) => {
         !0);
   },
   o1 = [
-    { key: "Mod-Shift-m", run: r1, preventDefault: !0 },
-    { key: "F8", run: s1 },
+    { key: 'Mod-Shift-m', run: r1, preventDefault: !0 },
+    { key: 'F8', run: s1 },
   ],
   dd = B.define({
     combine(n) {
@@ -20329,8 +20318,8 @@ const r1 = (n) => {
             tooltipFilter: null,
             needsRefresh: null,
           },
-          { needsRefresh: (e, t) => (e ? (t ? (i) => e(i) || t(i) : e) : t) },
-        ),
+          { needsRefresh: (e, t) => (e ? (t ? (i) => e(i) || t(i) : e) : t) }
+        )
       );
     },
   });
@@ -20348,7 +20337,7 @@ function pd(n) {
           continue e;
         }
       }
-      e.push("");
+      e.push('');
     }
   return e;
 }
@@ -20356,12 +20345,12 @@ function Od(n, e, t) {
   var i;
   let r = t ? pd(e.actions) : [];
   return J(
-    "li",
-    { class: "cm-diagnostic cm-diagnostic-" + e.severity },
+    'li',
+    { class: 'cm-diagnostic cm-diagnostic-' + e.severity },
     J(
-      "span",
-      { class: "cm-diagnosticText" },
-      e.renderMessage ? e.renderMessage() : e.message,
+      'span',
+      { class: 'cm-diagnosticText' },
+      e.renderMessage ? e.renderMessage() : e.message
     ),
     (i = e.actions) === null || i === void 0
       ? void 0
@@ -20378,22 +20367,22 @@ function Od(n, e, t) {
             c =
               h < 0
                 ? u
-                : [u.slice(0, h), J("u", u.slice(h, h + 1)), u.slice(h + 1)];
+                : [u.slice(0, h), J('u', u.slice(h, h + 1)), u.slice(h + 1)];
           return J(
-            "button",
+            'button',
             {
-              type: "button",
-              class: "cm-diagnosticAction",
+              type: 'button',
+              class: 'cm-diagnosticAction',
               onclick: a,
               onmousedown: a,
-              "aria-label": ` Action: ${u}${
-                h < 0 ? "" : ` (access key "${r[o]})"`
+              'aria-label': ` Action: ${u}${
+                h < 0 ? '' : ` (access key "${r[o]})"`
               }.`,
             },
-            c,
+            c
           );
         }),
-    e.source && J("div", { class: "cm-diagnosticSource" }, e.source),
+    e.source && J('div', { class: 'cm-diagnosticSource' }, e.source)
   );
 }
 class l1 extends vt {
@@ -20404,18 +20393,18 @@ class l1 extends vt {
     return e.diagnostic == this.diagnostic;
   }
   toDOM() {
-    return J("span", {
-      class: "cm-lintPoint cm-lintPoint-" + this.diagnostic.severity,
+    return J('span', {
+      class: 'cm-lintPoint cm-lintPoint-' + this.diagnostic.severity,
     });
   }
 }
 class Ja {
   constructor(e, t) {
     (this.diagnostic = t),
-      (this.id = "item_" + Math.floor(Math.random() * 4294967295).toString(16)),
+      (this.id = 'item_' + Math.floor(Math.random() * 4294967295).toString(16)),
       (this.dom = Od(e, t, !0)),
       (this.dom.id = this.id),
-      this.dom.setAttribute("role", "option");
+      this.dom.setAttribute('role', 'option');
   }
 }
 class _r {
@@ -20425,7 +20414,7 @@ class _r {
         if (r.keyCode == 27) Ha(this.view), this.view.focus();
         else if (r.keyCode == 38 || r.keyCode == 33)
           this.moveSelection(
-            (this.selectedIndex - 1 + this.items.length) % this.items.length,
+            (this.selectedIndex - 1 + this.items.length) % this.items.length
           );
         else if (r.keyCode == 40 || r.keyCode == 34)
           this.moveSelection((this.selectedIndex + 1) % this.items.length);
@@ -20451,27 +20440,27 @@ class _r {
         for (let s = 0; s < this.items.length; s++)
           this.items[s].dom.contains(r.target) && this.moveSelection(s);
       };
-    (this.list = J("ul", {
+    (this.list = J('ul', {
       tabIndex: 0,
-      role: "listbox",
-      "aria-label": this.view.state.phrase("Diagnostics"),
+      role: 'listbox',
+      'aria-label': this.view.state.phrase('Diagnostics'),
       onkeydown: t,
       onclick: i,
     })),
       (this.dom = J(
-        "div",
-        { class: "cm-panel-lint" },
+        'div',
+        { class: 'cm-panel-lint' },
         this.list,
         J(
-          "button",
+          'button',
           {
-            type: "button",
-            name: "close",
-            "aria-label": this.view.state.phrase("close"),
+            type: 'button',
+            name: 'close',
+            'aria-label': this.view.state.phrase('close'),
             onclick: () => Ha(this.view),
           },
-          "×",
-        ),
+          '×'
+        )
       )),
       this.update();
   }
@@ -20503,10 +20492,10 @@ class _r {
           : ((h = this.items[u]),
             u > i && (this.items.splice(i, u - i), (r = !0))),
           t && h.diagnostic == t.diagnostic
-            ? h.dom.hasAttribute("aria-selected") ||
-              (h.dom.setAttribute("aria-selected", "true"), (s = h))
-            : h.dom.hasAttribute("aria-selected") &&
-              h.dom.removeAttribute("aria-selected"),
+            ? h.dom.hasAttribute('aria-selected') ||
+              (h.dom.setAttribute('aria-selected', 'true'), (s = h))
+            : h.dom.hasAttribute('aria-selected') &&
+              h.dom.removeAttribute('aria-selected'),
           i++;
       });
       i < this.items.length &&
@@ -20519,13 +20508,13 @@ class _r {
         new Ja(this.view, {
           from: -1,
           to: -1,
-          severity: "info",
-          message: this.view.state.phrase("No diagnostics"),
-        }),
+          severity: 'info',
+          message: this.view.state.phrase('No diagnostics'),
+        })
       ),
       (r = !0)),
       s
-        ? (this.list.setAttribute("aria-activedescendant", s.id),
+        ? (this.list.setAttribute('aria-activedescendant', s.id),
           this.view.requestMeasure({
             key: this,
             read: () => ({
@@ -20540,7 +20529,7 @@ class _r {
             },
           }))
         : this.selectedIndex < 0 &&
-          this.list.removeAttribute("aria-activedescendant"),
+          this.list.removeAttribute('aria-activedescendant'),
       r && this.sync();
   }
   sync() {
@@ -20573,89 +20562,89 @@ class _r {
 }
 function a1(n, e = 'viewBox="0 0 40 40"') {
   return `url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" ${e}>${encodeURIComponent(
-    n,
+    n
   )}</svg>')`;
 }
 function Zn(n) {
   return a1(
     `<path d="m0 2.5 l2 -1.5 l1 0 l2 1.5 l1 0" stroke="${n}" fill="none" stroke-width=".7"/>`,
-    'width="6" height="3"',
+    'width="6" height="3"'
   );
 }
 const u1 = A.baseTheme({
-    ".cm-diagnostic": {
-      padding: "3px 6px 3px 8px",
-      marginLeft: "-1px",
-      display: "block",
-      whiteSpace: "pre-wrap",
+    '.cm-diagnostic': {
+      padding: '3px 6px 3px 8px',
+      marginLeft: '-1px',
+      display: 'block',
+      whiteSpace: 'pre-wrap',
     },
-    ".cm-diagnostic-error": { borderLeft: "5px solid #d11" },
-    ".cm-diagnostic-warning": { borderLeft: "5px solid orange" },
-    ".cm-diagnostic-info": { borderLeft: "5px solid #999" },
-    ".cm-diagnostic-hint": { borderLeft: "5px solid #66d" },
-    ".cm-diagnosticAction": {
-      font: "inherit",
-      border: "none",
-      padding: "2px 4px",
-      backgroundColor: "#444",
-      color: "white",
-      borderRadius: "3px",
-      marginLeft: "8px",
-      cursor: "pointer",
+    '.cm-diagnostic-error': { borderLeft: '5px solid #d11' },
+    '.cm-diagnostic-warning': { borderLeft: '5px solid orange' },
+    '.cm-diagnostic-info': { borderLeft: '5px solid #999' },
+    '.cm-diagnostic-hint': { borderLeft: '5px solid #66d' },
+    '.cm-diagnosticAction': {
+      font: 'inherit',
+      border: 'none',
+      padding: '2px 4px',
+      backgroundColor: '#444',
+      color: 'white',
+      borderRadius: '3px',
+      marginLeft: '8px',
+      cursor: 'pointer',
     },
-    ".cm-diagnosticSource": { fontSize: "70%", opacity: 0.7 },
-    ".cm-lintRange": {
-      backgroundPosition: "left bottom",
-      backgroundRepeat: "repeat-x",
-      paddingBottom: "0.7px",
+    '.cm-diagnosticSource': { fontSize: '70%', opacity: 0.7 },
+    '.cm-lintRange': {
+      backgroundPosition: 'left bottom',
+      backgroundRepeat: 'repeat-x',
+      paddingBottom: '0.7px',
     },
-    ".cm-lintRange-error": { backgroundImage: Zn("#d11") },
-    ".cm-lintRange-warning": { backgroundImage: Zn("orange") },
-    ".cm-lintRange-info": { backgroundImage: Zn("#999") },
-    ".cm-lintRange-hint": { backgroundImage: Zn("#66d") },
-    ".cm-lintRange-active": { backgroundColor: "#ffdd9980" },
-    ".cm-tooltip-lint": { padding: 0, margin: 0 },
-    ".cm-lintPoint": {
-      position: "relative",
-      "&:after": {
+    '.cm-lintRange-error': { backgroundImage: Zn('#d11') },
+    '.cm-lintRange-warning': { backgroundImage: Zn('orange') },
+    '.cm-lintRange-info': { backgroundImage: Zn('#999') },
+    '.cm-lintRange-hint': { backgroundImage: Zn('#66d') },
+    '.cm-lintRange-active': { backgroundColor: '#ffdd9980' },
+    '.cm-tooltip-lint': { padding: 0, margin: 0 },
+    '.cm-lintPoint': {
+      position: 'relative',
+      '&:after': {
         content: '""',
-        position: "absolute",
+        position: 'absolute',
         bottom: 0,
-        left: "-2px",
-        borderLeft: "3px solid transparent",
-        borderRight: "3px solid transparent",
-        borderBottom: "4px solid #d11",
+        left: '-2px',
+        borderLeft: '3px solid transparent',
+        borderRight: '3px solid transparent',
+        borderBottom: '4px solid #d11',
       },
     },
-    ".cm-lintPoint-warning": { "&:after": { borderBottomColor: "orange" } },
-    ".cm-lintPoint-info": { "&:after": { borderBottomColor: "#999" } },
-    ".cm-lintPoint-hint": { "&:after": { borderBottomColor: "#66d" } },
-    ".cm-panel.cm-panel-lint": {
-      position: "relative",
-      "& ul": {
-        maxHeight: "100px",
-        overflowY: "auto",
-        "& [aria-selected]": {
-          backgroundColor: "#ddd",
-          "& u": { textDecoration: "underline" },
+    '.cm-lintPoint-warning': { '&:after': { borderBottomColor: 'orange' } },
+    '.cm-lintPoint-info': { '&:after': { borderBottomColor: '#999' } },
+    '.cm-lintPoint-hint': { '&:after': { borderBottomColor: '#66d' } },
+    '.cm-panel.cm-panel-lint': {
+      position: 'relative',
+      '& ul': {
+        maxHeight: '100px',
+        overflowY: 'auto',
+        '& [aria-selected]': {
+          backgroundColor: '#ddd',
+          '& u': { textDecoration: 'underline' },
         },
-        "&:focus [aria-selected]": {
-          background_fallback: "#bdf",
-          backgroundColor: "Highlight",
-          color_fallback: "white",
-          color: "HighlightText",
+        '&:focus [aria-selected]': {
+          background_fallback: '#bdf',
+          backgroundColor: 'Highlight',
+          color_fallback: 'white',
+          color: 'HighlightText',
         },
-        "& u": { textDecoration: "none" },
+        '& u': { textDecoration: 'none' },
         padding: 0,
         margin: 0,
       },
-      "& [name=close]": {
-        position: "absolute",
-        top: "0",
-        right: "2px",
-        background: "inherit",
-        border: "none",
-        font: "inherit",
+      '& [name=close]': {
+        position: 'absolute',
+        top: '0',
+        right: '2px',
+        background: 'inherit',
+        border: 'none',
+        font: 'inherit',
         padding: 0,
         margin: 0,
       },
@@ -20703,70 +20692,70 @@ var Ka = function (e) {
     e.highlightActiveLine !== !1 && i.push(wc()),
     e.highlightSelectionMatches !== !1 && i.push(Lf()),
     e.tabSize &&
-      typeof e.tabSize == "number" &&
-      i.push(Fr.of(" ".repeat(e.tabSize))),
+      typeof e.tabSize == 'number' &&
+      i.push(Fr.of(' '.repeat(e.tabSize))),
     i.concat([dn.of(t.flat())]).filter(Boolean)
   );
 };
-const c1 = "#e5c07b",
-  eu = "#e06c75",
-  f1 = "#56b6c2",
-  d1 = "#ffffff",
-  Gn = "#abb2bf",
-  So = "#7d8799",
-  p1 = "#61afef",
-  O1 = "#98c379",
-  tu = "#d19a66",
-  g1 = "#c678dd",
-  m1 = "#21252b",
-  iu = "#2c313a",
-  nu = "#282c34",
-  bs = "#353a42",
-  S1 = "#3E4451",
-  ru = "#528bff",
+const c1 = '#e5c07b',
+  eu = '#e06c75',
+  f1 = '#56b6c2',
+  d1 = '#ffffff',
+  Gn = '#abb2bf',
+  So = '#7d8799',
+  p1 = '#61afef',
+  O1 = '#98c379',
+  tu = '#d19a66',
+  g1 = '#c678dd',
+  m1 = '#21252b',
+  iu = '#2c313a',
+  nu = '#282c34',
+  bs = '#353a42',
+  S1 = '#3E4451',
+  ru = '#528bff',
   b1 = A.theme(
     {
-      "&": { color: Gn, backgroundColor: nu },
-      ".cm-content": { caretColor: ru },
-      ".cm-cursor, .cm-dropCursor": { borderLeftColor: ru },
-      "&.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground, .cm-selectionBackground, .cm-content ::selection":
+      '&': { color: Gn, backgroundColor: nu },
+      '.cm-content': { caretColor: ru },
+      '.cm-cursor, .cm-dropCursor': { borderLeftColor: ru },
+      '&.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground, .cm-selectionBackground, .cm-content ::selection':
         { backgroundColor: S1 },
-      ".cm-panels": { backgroundColor: m1, color: Gn },
-      ".cm-panels.cm-panels-top": { borderBottom: "2px solid black" },
-      ".cm-panels.cm-panels-bottom": { borderTop: "2px solid black" },
-      ".cm-searchMatch": {
-        backgroundColor: "#72a1ff59",
-        outline: "1px solid #457dff",
+      '.cm-panels': { backgroundColor: m1, color: Gn },
+      '.cm-panels.cm-panels-top': { borderBottom: '2px solid black' },
+      '.cm-panels.cm-panels-bottom': { borderTop: '2px solid black' },
+      '.cm-searchMatch': {
+        backgroundColor: '#72a1ff59',
+        outline: '1px solid #457dff',
       },
-      ".cm-searchMatch.cm-searchMatch-selected": {
-        backgroundColor: "#6199ff2f",
+      '.cm-searchMatch.cm-searchMatch-selected': {
+        backgroundColor: '#6199ff2f',
       },
-      ".cm-activeLine": { backgroundColor: "#6699ff0b" },
-      ".cm-selectionMatch": { backgroundColor: "#aafe661a" },
-      "&.cm-focused .cm-matchingBracket, &.cm-focused .cm-nonmatchingBracket": {
-        backgroundColor: "#bad0f847",
+      '.cm-activeLine': { backgroundColor: '#6699ff0b' },
+      '.cm-selectionMatch': { backgroundColor: '#aafe661a' },
+      '&.cm-focused .cm-matchingBracket, &.cm-focused .cm-nonmatchingBracket': {
+        backgroundColor: '#bad0f847',
       },
-      ".cm-gutters": { backgroundColor: nu, color: So, border: "none" },
-      ".cm-activeLineGutter": { backgroundColor: iu },
-      ".cm-foldPlaceholder": {
-        backgroundColor: "transparent",
-        border: "none",
-        color: "#ddd",
+      '.cm-gutters': { backgroundColor: nu, color: So, border: 'none' },
+      '.cm-activeLineGutter': { backgroundColor: iu },
+      '.cm-foldPlaceholder': {
+        backgroundColor: 'transparent',
+        border: 'none',
+        color: '#ddd',
       },
-      ".cm-tooltip": { border: "none", backgroundColor: bs },
-      ".cm-tooltip .cm-tooltip-arrow:before": {
-        borderTopColor: "transparent",
-        borderBottomColor: "transparent",
+      '.cm-tooltip': { border: 'none', backgroundColor: bs },
+      '.cm-tooltip .cm-tooltip-arrow:before': {
+        borderTopColor: 'transparent',
+        borderBottomColor: 'transparent',
       },
-      ".cm-tooltip .cm-tooltip-arrow:after": {
+      '.cm-tooltip .cm-tooltip-arrow:after': {
         borderTopColor: bs,
         borderBottomColor: bs,
       },
-      ".cm-tooltip-autocomplete": {
-        "& > ul > li[aria-selected]": { backgroundColor: iu, color: Gn },
+      '.cm-tooltip-autocomplete': {
+        '& > ul > li[aria-selected]': { backgroundColor: iu, color: Gn },
       },
     },
-    { dark: !0 },
+    { dark: !0 }
   ),
   y1 = Pi.define([
     { tag: O.keyword, color: g1 },
@@ -20803,41 +20792,41 @@ const c1 = "#e5c07b",
       color: f1,
     },
     { tag: [O.meta, O.comment], color: So },
-    { tag: O.strong, fontWeight: "bold" },
-    { tag: O.emphasis, fontStyle: "italic" },
-    { tag: O.strikethrough, textDecoration: "line-through" },
-    { tag: O.link, color: So, textDecoration: "underline" },
-    { tag: O.heading, fontWeight: "bold", color: eu },
+    { tag: O.strong, fontWeight: 'bold' },
+    { tag: O.emphasis, fontStyle: 'italic' },
+    { tag: O.strikethrough, textDecoration: 'line-through' },
+    { tag: O.link, color: So, textDecoration: 'underline' },
+    { tag: O.heading, fontWeight: 'bold', color: eu },
     { tag: [O.atom, O.bool, O.special(O.variableName)], color: tu },
     { tag: [O.processingInstruction, O.string, O.inserted], color: O1 },
     { tag: O.invalid, color: d1 },
   ]),
   x1 = [b1, Zr(y1)];
-var k1 = A.theme({ "&": { backgroundColor: "#fff" } }, { dark: !1 }),
+var k1 = A.theme({ '&': { backgroundColor: '#fff' } }, { dark: !1 }),
   C1 = function (e) {
     e === void 0 && (e = {});
     var {
         indentWithTab: t = !0,
         editable: i = !0,
         readOnly: r = !1,
-        theme: s = "light",
-        placeholder: o = "",
+        theme: s = 'light',
+        placeholder: o = '',
         basicSetup: l = !0,
       } = e,
       a = [];
     switch (
       (t && a.unshift(dn.of([j0])),
-      l && (typeof l == "boolean" ? a.unshift(Ka()) : a.unshift(Ka(l))),
+      l && (typeof l == 'boolean' ? a.unshift(Ka()) : a.unshift(Ka(l))),
       o && a.unshift(hg(o)),
       s)
     ) {
-      case "light":
+      case 'light':
         a.push(k1);
         break;
-      case "dark":
+      case 'dark':
         a.push(x1);
         break;
-      case "none":
+      case 'none':
         break;
       default:
         a.push(s);
@@ -20861,10 +20850,10 @@ var k1 = A.theme({ "&": { backgroundColor: "#fff" } }, { dark: !1 }),
     ranges: n.state.selection.ranges,
     selectionCode: n.state.sliceDoc(
       n.state.selection.main.from,
-      n.state.selection.main.to,
+      n.state.selection.main.to
     ),
     selections: n.state.selection.ranges.map((e) =>
-      n.state.sliceDoc(e.from, e.to),
+      n.state.sliceDoc(e.from, e.to)
     ),
     selectedText: n.state.selection.ranges.some((e) => !e.empty),
   }),
@@ -20880,14 +20869,14 @@ function Q1(n) {
       onUpdate: o,
       extensions: l = w1,
       autoFocus: a,
-      theme: u = "light",
-      height: h = "",
-      minHeight: c = "",
-      maxHeight: f = "",
-      placeholder: d = "",
-      width: p = "",
-      minWidth: m = "",
-      maxWidth: g = "",
+      theme: u = 'light',
+      height: h = '',
+      minHeight: c = '',
+      maxHeight: f = '',
+      placeholder: d = '',
+      width: p = '',
+      minWidth: m = '',
+      maxWidth: g = '',
       editable: S = !0,
       readOnly: x = !1,
       indentWithTab: w = !0,
@@ -20899,7 +20888,7 @@ function Q1(n) {
     [$, E] = N.useState(),
     [z, U] = N.useState(),
     ee = A.theme({
-      "&": {
+      '&': {
         height: h,
         minHeight: c,
         maxHeight: f,
@@ -20907,12 +20896,12 @@ function Q1(n) {
         minWidth: m,
         maxWidth: g,
       },
-      "& .cm-scroller": { height: "100% !important" },
+      '& .cm-scroller': { height: '100% !important' },
     }),
     q = A.updateListener.of((te) => {
       if (
         te.docChanged &&
-        typeof i == "function" &&
+        typeof i == 'function' &&
         !te.transactions.some((fe) => fe.annotation(su))
       ) {
         var G = te.state.doc,
@@ -20931,7 +20920,7 @@ function Q1(n) {
     }),
     se = [q, ee, ...le];
   return (
-    o && typeof o == "function" && se.push(A.updateListener.of(o)),
+    o && typeof o == 'function' && se.push(A.updateListener.of(o)),
     (se = se.concat(l)),
     N.useEffect(() => {
       if (P && !z) {
@@ -20951,7 +20940,7 @@ function Q1(n) {
       () => () => {
         $ && ($.destroy(), E(void 0));
       },
-      [$],
+      [$]
     ),
     N.useEffect(() => {
       a && $ && $.focus();
@@ -20961,11 +20950,11 @@ function Q1(n) {
     }, [u, l, h, c, f, p, m, g, d, S, x, w, y, i, o]),
     N.useEffect(() => {
       if (e !== void 0) {
-        var te = $ ? $.state.doc.toString() : "";
+        var te = $ ? $.state.doc.toString() : '';
         $ &&
           e !== te &&
           $.dispatch({
-            changes: { from: 0, to: te.length, insert: e || "" },
+            changes: { from: 0, to: te.length, insert: e || '' },
             annotations: [su.of(!0)],
           });
       }
@@ -20981,34 +20970,34 @@ function Q1(n) {
   );
 }
 var v1 = [
-    "className",
-    "value",
-    "selection",
-    "extensions",
-    "onChange",
-    "onStatistics",
-    "onCreateEditor",
-    "onUpdate",
-    "autoFocus",
-    "theme",
-    "height",
-    "minHeight",
-    "maxHeight",
-    "width",
-    "minWidth",
-    "maxWidth",
-    "basicSetup",
-    "placeholder",
-    "indentWithTab",
-    "editable",
-    "readOnly",
-    "root",
-    "initialState",
+    'className',
+    'value',
+    'selection',
+    'extensions',
+    'onChange',
+    'onStatistics',
+    'onCreateEditor',
+    'onUpdate',
+    'autoFocus',
+    'theme',
+    'height',
+    'minHeight',
+    'maxHeight',
+    'width',
+    'minWidth',
+    'maxWidth',
+    'basicSetup',
+    'placeholder',
+    'indentWithTab',
+    'editable',
+    'readOnly',
+    'root',
+    'initialState',
   ],
   gd = N.forwardRef((n, e) => {
     var {
         className: t,
-        value: i = "",
+        value: i = '',
         selection: r,
         extensions: s = [],
         onChange: o,
@@ -21016,7 +21005,7 @@ var v1 = [
         onCreateEditor: a,
         onUpdate: u,
         autoFocus: h,
-        theme: c = "light",
+        theme: c = 'light',
         height: f,
         minHeight: d,
         maxHeight: p,
@@ -21066,18 +21055,18 @@ var v1 = [
       (N.useImperativeHandle(
         e,
         () => ({ editor: E.current, state: z, view: U }),
-        [E, ee, z, U],
+        [E, ee, z, U]
       ),
-      typeof i != "string")
+      typeof i != 'string')
     )
-      throw new Error("value must be typeof string but got " + typeof i);
-    var q = typeof c == "string" ? "cm-theme-" + c : "cm-theme";
+      throw new Error('value must be typeof string but got ' + typeof i);
+    var q = typeof c == 'string' ? 'cm-theme-' + c : 'cm-theme';
     return b.jsx(
-      "div",
-      Bd({ ref: E, className: "" + q + (t ? " " + t : "") }, $),
+      'div',
+      Bd({ ref: E, className: '' + q + (t ? ' ' + t : '') }, $)
     );
   });
-gd.displayName = "CodeMirror";
+gd.displayName = 'CodeMirror';
 class vr {
   constructor(e, t, i, r, s, o, l, a, u, h = 0, c) {
     (this.p = e),
@@ -21095,7 +21084,7 @@ class vr {
   toString() {
     return `[${this.stack.filter((e, t) => t % 3 == 0).concat(this.state)}]@${
       this.pos
-    }${this.score ? "!" + this.score : ""}`;
+    }${this.score ? '!' + this.score : ''}`;
   }
   static start(e, t, i = 0) {
     let r = e.parser.context;
@@ -21110,7 +21099,7 @@ class vr {
       0,
       r ? new ou(r, r.start) : null,
       0,
-      null,
+      null
     );
   }
   get context() {
@@ -21233,8 +21222,8 @@ class vr {
             this.curContext.context,
             e,
             this,
-            this.p.stream.reset(this.pos - e.length),
-          ),
+            this.p.stream.reset(this.pos - e.length)
+          )
         );
   }
   split() {
@@ -21255,7 +21244,7 @@ class vr {
       r,
       this.curContext,
       this.lookAhead,
-      e,
+      e
     );
   }
   recoverByDelete(e, t) {
@@ -21384,8 +21373,8 @@ class vr {
           this.curContext.context,
           e,
           this,
-          this.p.stream.reset(t),
-        ),
+          this.p.stream.reset(t)
+        )
       );
   }
   reduceContext(e, t) {
@@ -21395,8 +21384,8 @@ class vr {
           this.curContext.context,
           e,
           this,
-          this.p.stream.reset(t),
-        ),
+          this.p.stream.reset(t)
+        )
       );
   }
   emitContext() {
@@ -21488,7 +21477,7 @@ class Ar {
   }
 }
 function Vi(n, e = Uint16Array) {
-  if (typeof n != "string") return n;
+  if (typeof n != 'string') return n;
   let t = null;
   for (let i = 0, r = 0; i < n.length; ) {
     let s = 0;
@@ -21524,9 +21513,9 @@ class $1 {
   constructor(e, t) {
     (this.input = e),
       (this.ranges = t),
-      (this.chunk = ""),
+      (this.chunk = ''),
       (this.chunkOff = 0),
-      (this.chunk2 = ""),
+      (this.chunk2 = ''),
       (this.chunk2Pos = 0),
       (this.next = -1),
       (this.token = lu),
@@ -21586,7 +21575,7 @@ class $1 {
   acceptToken(e, t = 0) {
     let i = t ? this.resolveOffset(t, -1) : this.pos;
     if (i == null || i < this.token.start)
-      throw new RangeError("Token end out of bounds");
+      throw new RangeError('Token end out of bounds');
     (this.token.value = e), (this.token.end = i);
   }
   getChunk() {
@@ -21633,7 +21622,7 @@ class $1 {
     return (
       (this.pos = this.chunkPos = this.end),
       (this.range = this.ranges[(this.rangeIndex = this.ranges.length - 1)]),
-      (this.chunk = ""),
+      (this.chunk = ''),
       (this.next = -1)
     );
   }
@@ -21652,7 +21641,7 @@ class $1 {
       for (; e >= this.range.to; ) this.range = this.ranges[++this.rangeIndex];
       e >= this.chunkPos && e < this.chunkPos + this.chunk.length
         ? (this.chunkOff = e - this.chunkPos)
-        : ((this.chunk = ""), (this.chunkOff = 0)),
+        : ((this.chunk = ''), (this.chunkOff = 0)),
         this.readNext();
     }
     return this;
@@ -21664,7 +21653,7 @@ class $1 {
       return this.chunk2.slice(e - this.chunk2Pos, t - this.chunk2Pos);
     if (e >= this.range.from && t <= this.range.to)
       return this.input.read(e, t);
-    let i = "";
+    let i = '';
     for (let r of this.ranges) {
       if (r.from >= t) break;
       r.to > e &&
@@ -21687,7 +21676,7 @@ class bo {
   constructor(e, t, i) {
     (this.precTable = t),
       (this.elseToken = i),
-      (this.data = typeof e == "string" ? Vi(e) : e);
+      (this.data = typeof e == 'string' ? Vi(e) : e);
   }
   token(e, t) {
     let i = e.pos,
@@ -21769,7 +21758,7 @@ function P1(n, e, t, i) {
   let r = au(t, i, e);
   return r < 0 || au(t, i, n) < r;
 }
-const je = typeof process < "u" && process.env && /\bparse\b/.test({}.LOG);
+const je = typeof process < 'u' && process.env && /\bparse\b/.test({}.LOG);
 let ys = null;
 function uu(n, e, t) {
   let i = n.cursor(ke.IncludeAnonymous);
@@ -22014,7 +22003,7 @@ class E1 {
       let o = r && F1(r);
       if (o)
         return (
-          je && console.log("Finish with " + this.stackID(o)),
+          je && console.log('Finish with ' + this.stackID(o)),
           this.stackToTree(o)
         );
       if (this.parser.strict)
@@ -22022,12 +22011,12 @@ class E1 {
           (je &&
             r &&
             console.log(
-              "Stuck with token " +
+              'Stuck with token ' +
                 (this.tokens.mainToken
                   ? this.parser.getName(this.tokens.mainToken.value)
-                  : "none"),
+                  : 'none')
             ),
-          new SyntaxError("No parse at " + t))
+          new SyntaxError('No parse at ' + t))
         );
       this.recovering || (this.recovering = 5);
     }
@@ -22038,7 +22027,7 @@ class E1 {
           : this.runRecovery(r, s, i);
       if (o)
         return (
-          je && console.log("Force-finish " + this.stackID(o)),
+          je && console.log('Force-finish ' + this.stackID(o)),
           this.stackToTree(o.forceAll())
         );
     }
@@ -22079,7 +22068,7 @@ class E1 {
   advanceStack(e, t, i) {
     let r = e.pos,
       { parser: s } = this,
-      o = je ? this.stackID(e) + " -> " : "";
+      o = je ? this.stackID(e) + ' -> ' : '';
     if (this.stoppedAt != null && r > this.stoppedAt)
       return e.forceReduce() ? e : null;
     if (this.fragments) {
@@ -22095,7 +22084,7 @@ class E1 {
             e.useNode(c, f),
             je &&
               console.log(
-                o + this.stackID(e) + ` (via reuse of ${s.getName(c.type.id)})`,
+                o + this.stackID(e) + ` (via reuse of ${s.getName(c.type.id)})`
               ),
             !0
           );
@@ -22112,9 +22101,7 @@ class E1 {
         e.reduce(l),
         je &&
           console.log(
-            o +
-              this.stackID(e) +
-              ` (via always-reduce ${s.getName(l & 65535)})`,
+            o + this.stackID(e) + ` (via always-reduce ${s.getName(l & 65535)})`
           ),
         !0
       );
@@ -22134,8 +22121,8 @@ class E1 {
             o +
               this.stackID(p) +
               ` (via ${
-                h & 65536 ? `reduce of ${s.getName(h & 65535)}` : "shift"
-              } for ${s.getName(c)} @ ${r}${p == e ? "" : ", split"})`,
+                h & 65536 ? `reduce of ${s.getName(h & 65535)}` : 'shift'
+              } for ${s.getName(c)} @ ${r}${p == e ? '' : ', split'})`
           ),
         d)
       )
@@ -22158,13 +22145,13 @@ class E1 {
       let l = e[o],
         a = t[o << 1],
         u = t[(o << 1) + 1],
-        h = je ? this.stackID(l) + " -> " : "";
+        h = je ? this.stackID(l) + ' -> ' : '';
       if (
         l.deadEnd &&
         (s ||
           ((s = !0),
           l.restart(),
-          je && console.log(h + this.stackID(l) + " (restarted)"),
+          je && console.log(h + this.stackID(l) + ' (restarted)'),
           this.advanceFully(l, i)))
       )
         continue;
@@ -22174,13 +22161,13 @@ class E1 {
         let d = 0;
         c.forceReduce() &&
         d < 10 &&
-        (je && console.log(f + this.stackID(c) + " (via force-reduce)"),
+        (je && console.log(f + this.stackID(c) + ' (via force-reduce)'),
         !this.advanceFully(c, i));
         d++
       )
-        je && (f = this.stackID(c) + " -> ");
+        je && (f = this.stackID(c) + ' -> ');
       for (let d of l.recoverByInsert(a))
-        je && console.log(h + this.stackID(d) + " (via recover-insert)"),
+        je && console.log(h + this.stackID(d) + ' (via recover-insert)'),
           this.advanceFully(d, i);
       this.stream.end > l.pos
         ? (u == l.pos && (u++, (a = 0)),
@@ -22189,7 +22176,7 @@ class E1 {
             console.log(
               h +
                 this.stackID(l) +
-                ` (via recover-delete ${this.parser.getName(a)})`,
+                ` (via recover-delete ${this.parser.getName(a)})`
             ),
           hu(l, i))
         : (!r || r.score < l.score) && (r = l);
@@ -22251,11 +22238,11 @@ class $r extends Xc {
   constructor(e) {
     if ((super(), (this.wrappers = []), e.version != 14))
       throw new RangeError(
-        `Parser version (${e.version}) doesn't match runtime version (14)`,
+        `Parser version (${e.version}) doesn't match runtime version (14)`
       );
-    let t = e.nodeNames.split(" ");
+    let t = e.nodeNames.split(' ');
     this.minRepeatTerm = t.length;
-    for (let l = 0; l < e.repeatNodeCount; l++) t.push("");
+    for (let l = 0; l < e.repeatNodeCount; l++) t.push('');
     let i = Object.keys(e.topRules).map((l) => e.topRules[l][1]),
       r = [];
     for (let l = 0; l < t.length; l++) r.push([]);
@@ -22265,7 +22252,7 @@ class $r extends Xc {
     if (e.nodeProps)
       for (let l of e.nodeProps) {
         let a = l[0];
-        typeof a == "string" && (a = I[a]);
+        typeof a == 'string' && (a = I[a]);
         for (let u = 1; u < l.length; ) {
           let h = l[u++];
           if (h >= 0) s(h, a, l[u++]);
@@ -22285,8 +22272,8 @@ class $r extends Xc {
           top: i.indexOf(a) > -1,
           error: a == 0,
           skipped: e.skippedNodes && e.skippedNodes.indexOf(a) > -1,
-        }),
-      ),
+        })
+      )
     )),
       e.propSources && (this.nodeSet = this.nodeSet.extend(...e.propSources)),
       (this.strict = !1),
@@ -22303,7 +22290,7 @@ class $r extends Xc {
       (this.goto = Vi(e.goto)),
       (this.maxTerm = e.maxTerm),
       (this.tokenizers = e.tokenizers.map((l) =>
-        typeof l == "number" ? new ki(o, l) : l,
+        typeof l == 'number' ? new ki(o, l) : l
       )),
       (this.topRules = e.topRules),
       (this.dialects = e.dialects || {}),
@@ -22429,7 +22416,7 @@ class $r extends Xc {
     let t = Object.keys(this.dialects),
       i = t.map(() => !1);
     if (e)
-      for (let s of e.split(" ")) {
+      for (let s of e.split(' ')) {
         let o = t.indexOf(s);
         o >= 0 && (i[o] = !0);
       }
@@ -22495,7 +22482,7 @@ const X1 = 303,
       let { next: t } = n;
       (t == Sd || t == -1 || e.context) && n.acceptToken(Z1);
     },
-    { contextual: !0, fallback: !0 },
+    { contextual: !0, fallback: !0 }
   ),
   H1 = new ol(
     (n, e) => {
@@ -22505,7 +22492,7 @@ const X1 = 303,
         (t == du && ((i = n.peek(1)) == du || i == _1)) ||
         (t != Sd && t != Y1 && t != -1 && !e.context && n.acceptToken(X1));
     },
-    { contextual: !0 },
+    { contextual: !0 }
   ),
   J1 = new ol(
     (n, e) => {
@@ -22516,16 +22503,16 @@ const X1 = 303,
         n.acceptToken(i ? fu : W1);
       }
     },
-    { contextual: !0 },
+    { contextual: !0 }
   ),
   K1 = Wc({
-    "get set async static": O.modifier,
-    "for while do if else switch try catch finally return throw break continue default case":
+    'get set async static': O.modifier,
+    'for while do if else switch try catch finally return throw break continue default case':
       O.controlKeyword,
-    "in of await yield void typeof delete instanceof": O.operatorKeyword,
-    "let var const function class extends": O.definitionKeyword,
-    "import export from": O.moduleKeyword,
-    "with debugger as new": O.keyword,
+    'in of await yield void typeof delete instanceof': O.operatorKeyword,
+    'let var const function class extends': O.definitionKeyword,
+    'import export from': O.moduleKeyword,
+    'with debugger as new': O.keyword,
     TemplateString: O.special(O.string),
     super: O.atom,
     BooleanLiteral: O.bool,
@@ -22533,17 +22520,17 @@ const X1 = 303,
     null: O.null,
     Star: O.modifier,
     VariableName: O.variableName,
-    "CallExpression/VariableName TaggedTemplateExpression/VariableName":
+    'CallExpression/VariableName TaggedTemplateExpression/VariableName':
       O.function(O.variableName),
     VariableDefinition: O.definition(O.variableName),
     Label: O.labelName,
     PropertyName: O.propertyName,
     PrivatePropertyName: O.special(O.propertyName),
-    "CallExpression/MemberExpression/PropertyName": O.function(O.propertyName),
-    "FunctionDeclaration/VariableDefinition": O.function(
-      O.definition(O.variableName),
+    'CallExpression/MemberExpression/PropertyName': O.function(O.propertyName),
+    'FunctionDeclaration/VariableDefinition': O.function(
+      O.definition(O.variableName)
     ),
-    "ClassDeclaration/VariableDefinition": O.definition(O.className),
+    'ClassDeclaration/VariableDefinition': O.definition(O.className),
     PropertyDefinition: O.definition(O.propertyName),
     PrivatePropertyDefinition: O.definition(O.special(O.propertyName)),
     UpdateOp: O.updateOperator,
@@ -22559,27 +22546,27 @@ const X1 = 303,
     RegExp: O.regexp,
     Equals: O.definitionOperator,
     Arrow: O.function(O.punctuation),
-    ": Spread": O.punctuation,
-    "( )": O.paren,
-    "[ ]": O.squareBracket,
-    "{ }": O.brace,
-    "InterpolationStart InterpolationEnd": O.special(O.brace),
-    ".": O.derefOperator,
-    ", ;": O.separator,
-    "@": O.meta,
+    ': Spread': O.punctuation,
+    '( )': O.paren,
+    '[ ]': O.squareBracket,
+    '{ }': O.brace,
+    'InterpolationStart InterpolationEnd': O.special(O.brace),
+    '.': O.derefOperator,
+    ', ;': O.separator,
+    '@': O.meta,
     TypeName: O.typeName,
     TypeDefinition: O.definition(O.typeName),
-    "type enum interface implements namespace module declare":
+    'type enum interface implements namespace module declare':
       O.definitionKeyword,
-    "abstract global Privacy readonly override": O.modifier,
-    "is keyof unique infer": O.operatorKeyword,
+    'abstract global Privacy readonly override': O.modifier,
+    'is keyof unique infer': O.operatorKeyword,
     JSXAttributeValue: O.attributeValue,
     JSXText: O.content,
-    "JSXStartTag JSXStartCloseTag JSXSelfCloseEndTag JSXEndTag": O.angleBracket,
-    "JSXIdentifier JSXNameSpacedName": O.tagName,
-    "JSXAttribute/JSXIdentifier JSXAttribute/JSXNameSpacedName":
+    'JSXStartTag JSXStartCloseTag JSXSelfCloseEndTag JSXEndTag': O.angleBracket,
+    'JSXIdentifier JSXNameSpacedName': O.tagName,
+    'JSXAttribute/JSXIdentifier JSXAttribute/JSXNameSpacedName':
       O.attributeName,
-    "JSXBuiltin/JSXIdentifier": O.standard(O.tagName),
+    'JSXBuiltin/JSXIdentifier': O.standard(O.tagName),
   }),
   eb = {
     __proto__: null,
@@ -22661,7 +22648,7 @@ const X1 = 303,
     accessor: 197,
     new: 385,
   },
-  ib = { __proto__: null, "<": 137 },
+  ib = { __proto__: null, '<': 137 },
   nb = $r.deserialize({
     version: 14,
     states:
@@ -22670,12 +22657,12 @@ const X1 = 303,
       "'$W~O'nOS'oOSROS'pRQ~OPYOQYOV!UO^qOayObxOikOkYOlkOmkOskOuYOwYO|WO!QkO!RkO!XXO!ctO!hZO!kYO!lYO!mYO!ouO!qvO!twO!x]O#p!OO$Q{O$UfO%`|O%b!PO%d}O%e}O%f}O%i!QO%k!RO%n!SO%o!SO%q!TO%}!VO&T!WO&V!XO&X!YO&Z!ZO&^![O&d!]O&j!^O&l!_O&n!`O&p!aO&r!bO'uSO'wTO'zUO(SVO(b[O(oiO~OPYOQYOa!iOb!hOikOkYOlkOmkOskOuYOwYO|WO!QkO!RkO!X!dO!ctO!hZO!kYO!lYO!mYO!ouO!q!fO!t!gO$Q!jO$UfO'u!cO'wTO'zUO(SVO(b[O(oiO~O^!uOl!mO|!nO![!wO!]!tO!^!tO!x9qO!|!oO!}!oO#O!vO#P!oO#Q!oO#T!xO#U!xO'v!kO'wTO'zUO(V!lO(b!rO~O'p!yO~OPYXXYX^YXkYXyYXzYX|YX!VYX!eYX!fYX!hYX!lYX#XYX#dcX#gYX#hYX#iYX#jYX#kYX#lYX#mYX#nYX#oYX#qYX#sYX#uYX#vYX#{YX'lYX(SYX(cYX(jYX(kYX~O!a$zX~P(jO[!{O'w!}O'x!{O'y!}O~O[#OO'y!}O'z!}O'{#OO~Oq#QO!O#RO(T#RO(U#TO~OPYOQYOa!iOb!hOikOkYOlkOmkOskOuYOwYO|WO!QkO!RkO!X!dO!ctO!hZO!kYO!lYO!mYO!ouO!q!fO!t!gO$Q!jO$UfO'u9uO'wTO'zUO(SVO(b[O(oiO~O!U#XO!V#UO!S(YP!S(gP~P+vO!W#aO~P`OPYOQYOa!iOb!hOkYOlkOmkOskOuYOwYO|WO!QkO!RkO!X!dO!ctO!hZO!kYO!lYO!mYO!ouO!q!fO!t!gO$Q!jO$UfO'wTO'zUO(SVO(b[O(oiO~Oi#kO!U#gO!x]O#b#jO#c#gO'u9vO!g(dP~P.bO!h#mO'u#lO~O!t#qO!x]O%`#rO~O#d#sO~O!a#tO#d#sO~OP$[OX$cOk$POy#xOz#yO|#zO!V$`O!e$RO!f#vO!h#wO!l$[O#g#}O#h$OO#i$OO#j$OO#k$QO#l$RO#m$RO#n$bO#o$RO#q$SO#s$UO#u$WO#v$XO(SVO(c$YO(j#{O(k#|O~O^(WX'l(WX'j(WX!g(WX!S(WX!X(WX%a(WX!a(WX~P1jO#X$dO#{$dOP(XXX(XXk(XXy(XXz(XX|(XX!V(XX!e(XX!h(XX!l(XX#g(XX#h(XX#i(XX#j(XX#k(XX#l(XX#m(XX#n(XX#o(XX#q(XX#s(XX#u(XX#v(XX(S(XX(c(XX(j(XX(k(XX!X(XX%a(XX~O^(XX!f(XX'l(XX'j(XX!S(XX!g(XXo(XX!a(XX~P4QO#X$dO~O$W$fO$Y$eO$a$kO~O!X$lO$UfO$d$mO$f$oO~Oi%ROk$sOl$rOm$rOs%SOu%TOw%UO|$zO!X${O!c%ZO!h$wO#c%[O$Q%XO$m%VO$o%WO$r%YO'u$qO'wTO'zUO(O%QO(S$tOd(PP~O!h%]O~O|%`O!X%aO'u%_O~O!a%eO~O^%fO'l%fO~O'v!kO~P%TO%f%mO~P%TO!h%]O'u%_O'v!kO(O%QO~Ob%tO!h%]O'u%_O~O#o$RO~Oy%yO!X%vO!h%xO%b%|O'u%_O'v!kO'wTO'zUO](xP~O!t#qO~O%k&OO|(tX!X(tX'u(tX~O'u&PO~O!q&UO#p!OO%b!PO%d}O%e}O%f}O%i!QO%k!RO%n!SO%o!SO~Oa&ZOb&YO!t&WO%`&XO%s&VO~P;kOa&^ObxO!X&]O!q&UO!twO!x]O#p!OO%`|O%d}O%e}O%f}O%i!QO%k!RO%n!SO%o!SO%q!TO~O_&aO#X&dO%b&_O'v!kO~P<pO!h&eO!q&iO~O!h#mO~O!XXO~O^%fO'k&qO'l%fO~O^%fO'k&tO'l%fO~O^%fO'k&vO'l%fO~O'jYX!SYXoYX!gYX&RYX!XYX%aYX!aYX~P(jO!['TO!]&|O!^&|O'v!kO'wTO'zUO~Ol&zO|&yO!U&}O(V&xO!W(ZP!W(iP~P?wOg'WO!X'UO'u%_O~Ob']O!h%]O'u%_O~Oy%yO!h%xO~Ol!mO|!nO!x9qO!|!oO!}!oO#P!oO#Q!oO'v!kO'wTO'zUO(V!lO(b!rO~O!['cO!]'bO!^'bO#O!oO#T'dO#U'dO~PAcO^%fO!a#tO!h%]O'l%fO(O%QO(c'fO~O!l'jO#X'hO~PBqOl!mO|!nO'wTO'zUO(V!lO(b!rO~O!XXOl(`X|(`X![(`X!](`X!^(`X!x(`X!|(`X!}(`X#O(`X#P(`X#Q(`X#T(`X#U(`X'v(`X'w(`X'z(`X(V(`X(b(`X~O!]'bO!^'bO'v!kO~PCaO'q'nO'r'nO's'pO~O[!{O'w'rO'x!{O'y'rO~O[#OO'y'rO'z'rO'{#OO~Oq#QO!O#RO(T#RO(U'vO~O!U'xO!S&}X!S'TX!V&}X!V'TX~P+vO!V'zO!S(YX~OP$[OX$cOk$POy#xOz#yO|#zO!V'zO!e$RO!f#vO!h#wO!l$[O#g#}O#h$OO#i$OO#j$OO#k$QO#l$RO#m$RO#n$bO#o$RO#q$SO#s$UO#u$WO#v$XO(SVO(c$YO(j#{O(k#|O~O!S(YX~PGTO!S(PO~O!S(fX!V(fX!a(fX!g(fX(c(fX~O#X(fX#d#]X!W(fX~PIZO#X(QO!S(hX!V(hX~O!V(RO!S(gX~O!S(UO~O#X$dO~PIZO!W(VO~P`Oy#xOz#yO|#zO!f#vO!h#wO(SVOP!jaX!jak!ja!V!ja!e!ja!l!ja#g!ja#h!ja#i!ja#j!ja#k!ja#l!ja#m!ja#n!ja#o!ja#q!ja#s!ja#u!ja#v!ja(c!ja(j!ja(k!ja~O^!ja'l!ja'j!ja!S!ja!g!jao!ja!X!ja%a!ja!a!ja~PJqO!g(WO~O!a#tO#X(XO(c'fO!V(eX^(eX'l(eX~O!g(eX~PMaO|%`O!X%aO!x]O#b(^O#c(]O'u%_O~O!V(_O!g(dX~O!g(aO~O|%`O!X%aO#c(]O'u%_O~OP(XXX(XXk(XXy(XXz(XX|(XX!V(XX!e(XX!f(XX!h(XX!l(XX#g(XX#h(XX#i(XX#j(XX#k(XX#l(XX#m(XX#n(XX#o(XX#q(XX#s(XX#u(XX#v(XX(S(XX(c(XX(j(XX(k(XX~O!a#tO!g(XX~PN}Oy(bOz(cO!f#vO!h#wO!x!wa|!wa~O!t!wa%`!wa!X!wa#b!wa#c!wa'u!wa~P!#RO!t(gO~OPYOQYOa!iOb!hOikOkYOlkOmkOskOuYOwYO|WO!QkO!RkO!XXO!ctO!hZO!kYO!lYO!mYO!ouO!q!fO!t!gO$Q!jO$UfO'u!cO'wTO'zUO(SVO(b[O(oiO~Oi%ROk$sOl$rOm$rOs%SOu%TOw:ZO|$zO!X${O!c;eO!h$wO#c:aO$Q%XO$m:]O$o:_O$r%YO'u(kO'wTO'zUO(O%QO(S$tO~O#d(mO~Oi%ROk$sOl$rOm$rOs%SOu%TOw%UO|$zO!X${O!c%ZO!h$wO#c%[O$Q%XO$m%VO$o%WO$r%YO'u(kO'wTO'zUO(O%QO(S$tO~Od(]P~P!'oO!U(qO!g(^P~P%TO(V(sO(b[O~O|(uO!h#wO(V(sO(b[O~OP9pOQ9pOa;aOb!hOikOk9pOlkOmkOskOu9pOw9pO|WO!QkO!RkO!X!dO!c9sO!hZO!k9pO!l9pO!m9pO!o9tO!q9wO!t!gO$Q!jO$UfO'u)TO'wTO'zUO(SVO(b[O(o;_O~Oz)WO!h#wO~O!V$`O^$ka'l$ka'j$ka!g$ka!S$ka!X$ka%a$ka!a$ka~O#p)[O~P!&VOy)_O!a)^O!X$XX$T$XX$W$XX$Y$XX$a$XX~O!a)^O!X(lX$T(lX$W(lX$Y(lX$a(lX~Oy)_O~P!-eOy)_O!X(lX$T(lX$W(lX$Y(lX$a(lX~O!X)aO$T)eO$W)`O$Y)`O$a)fO~O!U)iO~P!){O$W$fO$Y$eO$a)mO~Og$sXy$sX|$sX!f$sX(j$sX(k$sX~OdfXd$sXgfX!VfX#XfX~P!/ZOl)oO~Oq)pO(T)qO(U)sO~Og)|Oy)uO|)vO(j)xO(k)zO~Od)tO~P!0dOd)}O~Oi%ROk$sOl$rOm$rOs%SOu%TOw:ZO|$zO!X${O!c;eO!h$wO#c:aO$Q%XO$m:]O$o:_O$r%YO'wTO'zUO(O%QO(S$tO~O!U*RO'u*OO!g(pP~P!1RO#d*TO~O!h*UO~O!U*ZO'u*WO!S(qP~P!1ROk*gO|*_O![*eO!]*^O!^*^O!h*UO#T*fO%W*aO'v!kO(V!lO~O!W*dO~P!3XO!f#vOg(RXy(RX|(RX(j(RX(k(RX!V(RX#X(RX~Od(RX#y(RX~P!4QOg*jO#X*iOd(QX!V(QX~O!V*kOd(PX~O'u&POd(PP~O!h*rO~O'u(kO~Oi*vO|%`O!U#gO!X%aO!x]O#b#jO#c#gO'u%_O!g(dP~O!a#tO#d*wO~O|%`O!U*yO!V(RO!X%aO'u%_O!S(gP~Ol'QO|*{O!U*zO'wTO'zUO(V(sO~O!W(iP~P!6{O!V*|O^(uX'l(uX~OP$[OX$cOk$POy#xOz#yO|#zO!e$RO!f#vO!h#wO!l$[O#g#}O#h$OO#i$OO#j$OO#k$QO#l$RO#m$RO#n$bO#o$RO#q$SO#s$UO#u$WO#v$XO(SVO(c$YO(j#{O(k#|O~O^!ba!V!ba'l!ba'j!ba!S!ba!g!bao!ba!X!ba%a!ba!a!ba~P!7sOy#xOz#yO|#zO!f#vO!h#wO(SVOP!naX!nak!na!V!na!e!na!l!na#g!na#h!na#i!na#j!na#k!na#l!na#m!na#n!na#o!na#q!na#s!na#u!na#v!na(c!na(j!na(k!na~O^!na'l!na'j!na!S!na!g!nao!na!X!na%a!na!a!na~P!:^Oy#xOz#yO|#zO!f#vO!h#wO(SVOP!paX!pak!pa!V!pa!e!pa!l!pa#g!pa#h!pa#i!pa#j!pa#k!pa#l!pa#m!pa#n!pa#o!pa#q!pa#s!pa#u!pa#v!pa(c!pa(j!pa(k!pa~O^!pa'l!pa'j!pa!S!pa!g!pao!pa!X!pa%a!pa!a!pa~P!<wOg+VO!X'UO%a+UO(O%QO~O!a+XO^'}X!X'}X'l'}X!V'}X~O^%fO!XXO'l%fO~O!h%]O(O%QO~O!h%]O'u%_O(O%QO~O!a#tO#d(mO~O%b+eO'u+aO'wTO'zUO!W(yP~O!V+fO](xX~OX+jO~O]+kO~O!X%vO'u%_O'v!kO](xP~O#X+pO(O%QO~Og+sO!X${O(O%QO~O!X+uO~Oy+wO!XXO~O%f%mO~O!t+|O~Ob,RO~O'u#lO!W(wP~Ob%tO~O%b!PO'u&PO~P<pOX,XO],WO~OPYOQYOayObxOikOkYOlkOmkOskOuYOwYO|WO!QkO!RkO!ctO!hZO!kYO!lYO!mYO!ouO!twO!x]O$UfO%`|O'wTO'zUO(SVO(b[O(oiO~O!X!dO!q!fO$Q!jO'u!cO~P!CnO],WO^%fO'l%fO~OPYOQYOa!iOb!hOikOkYOlkOmkOskOuYOwYO|WO!QkO!RkO!X!dO!ctO!hZO!kYO!lYO!mYO!ouO!t!gO$Q!jO$UfO'u!cO'wTO'zUO(SVO(b[O(oiO~O^,^O!qvO#p}O%d}O%e}O%f}O~P!FWO!h&eO~O&T,dO~O!X,fO~O&f,hO&h,iOP&caQ&caV&ca^&caa&cab&cai&cak&cal&cam&cas&cau&caw&ca|&ca!Q&ca!R&ca!X&ca!c&ca!h&ca!k&ca!l&ca!m&ca!o&ca!q&ca!t&ca!x&ca#p&ca$Q&ca$U&ca%`&ca%b&ca%d&ca%e&ca%f&ca%i&ca%k&ca%n&ca%o&ca%q&ca%}&ca&T&ca&V&ca&X&ca&Z&ca&^&ca&d&ca&j&ca&l&ca&n&ca&p&ca&r&ca'j&ca'u&ca'w&ca'z&ca(S&ca(b&ca(o&ca!W&ca&[&ca_&ca&a&ca~O'u,nO~O!V{X!V!_X!W{X!W!_X!a{X!a!_X!h!_X#X{X(O!_X~O!a,sO#X,rO!V#aX!V([X!W#aX!W([X!a([X!h([X(O([X~O!a,uO!h%]O(O%QO!V!ZX!W!ZX~Ol!mO|!nO'wTO'zUO(V!lO~OP9pOQ9pOa;aOb!hOikOk9pOlkOmkOskOu9pOw9pO|WO!QkO!RkO!X!dO!c9sO!hZO!k9pO!l9pO!m9pO!o9tO!q9wO!t!gO$Q!jO$UfO'wTO'zUO(SVO(b[O(o;_O~O'u:fO~P# ^O!V,yO!W(ZX~O!W,{O~O!a,sO#X,rO!V#aX!W#aX~O!V,|O!W(iX~O!W-OO~O!]-PO!^-PO'v!kO~P!N{O!W-SO~P'WOg-VO!X'UO~O!S-[O~Ol!wa![!wa!]!wa!^!wa!|!wa!}!wa#O!wa#P!wa#Q!wa#T!wa#U!wa'v!wa'w!wa'z!wa(V!wa(b!wa~P!#RO!l-aO#X-_O~PBqO!]-cO!^-cO'v!kO~PCaO^%fO#X-_O'l%fO~O^%fO!a#tO#X-_O'l%fO~O^%fO!a#tO!l-aO#X-_O'l%fO(c'fO~O'q'nO'r'nO's-hO~Oo-iO~O!S&}a!V&}a~P!7sO!U-mO!S&}X!V&}X~P%TO!V'zO!S(Ya~O!S(Ya~PGTO!V(RO!S(ga~O|%`O!U-qO!X%aO'u%_O!S'TX!V'TX~O#X-sO!V(ea!g(ea^(ea'l(ea~O!a#tO~P#)dO!V(_O!g(da~O|%`O!X%aO#c-wO'u%_O~Oi-|O|%`O!U-yO!X%aO!x]O#b-{O#c-yO'u%_O!V'WX!g'WX~Oz.QO!h#wO~Og.TO!X'UO%a.SO(O%QO~O^#[i!V#[i'l#[i'j#[i!S#[i!g#[io#[i!X#[i%a#[i!a#[i~P!7sOg;kOy)uO|)vO(j)xO(k)zO~O#d#Wa^#Wa#X#Wa'l#Wa!V#Wa!g#Wa!X#Wa!S#Wa~P#,`O#d(RXP(RXX(RX^(RXk(RXz(RX!e(RX!h(RX!l(RX#g(RX#h(RX#i(RX#j(RX#k(RX#l(RX#m(RX#n(RX#o(RX#q(RX#s(RX#u(RX#v(RX'l(RX(S(RX(c(RX!g(RX!S(RX'j(RXo(RX!X(RX%a(RX!a(RX~P!4QO!V.^Od(]X~P!0dOd.`O~O!V.aO!g(^X~P!7sO!g.dO~O!S.fO~OP$[Oy#xOz#yO|#zO!f#vO!h#wO!l$[O(SVOX#fi^#fik#fi!V#fi!e#fi#h#fi#i#fi#j#fi#k#fi#l#fi#m#fi#n#fi#o#fi#q#fi#s#fi#u#fi#v#fi'l#fi(c#fi(j#fi(k#fi'j#fi!S#fi!g#fio#fi!X#fi%a#fi!a#fi~O#g#fi~P#0[O#g#}O~P#0[OP$[Oy#xOz#yO|#zO!f#vO!h#wO!l$[O#g#}O#h$OO#i$OO#j$OO(SVOX#fi^#fi!V#fi!e#fi#k#fi#l#fi#m#fi#n#fi#o#fi#q#fi#s#fi#u#fi#v#fi'l#fi(c#fi(j#fi(k#fi'j#fi!S#fi!g#fio#fi!X#fi%a#fi!a#fi~Ok#fi~P#2|Ok$PO~P#2|OP$[Ok$POy#xOz#yO|#zO!f#vO!h#wO!l$[O#g#}O#h$OO#i$OO#j$OO#k$QO(SVO^#fi!V#fi#q#fi#s#fi#u#fi#v#fi'l#fi(c#fi(j#fi(k#fi'j#fi!S#fi!g#fio#fi!X#fi%a#fi!a#fi~OX#fi!e#fi#l#fi#m#fi#n#fi#o#fi~P#5nOX$cO!e$RO#l$RO#m$RO#n$bO#o$RO~P#5nOP$[OX$cOk$POy#xOz#yO|#zO!e$RO!f#vO!h#wO!l$[O#g#}O#h$OO#i$OO#j$OO#k$QO#l$RO#m$RO#n$bO#o$RO#q$SO(SVO^#fi!V#fi#s#fi#u#fi#v#fi'l#fi(c#fi(k#fi'j#fi!S#fi!g#fio#fi!X#fi%a#fi!a#fi~O(j#fi~P#8oO(j#{O~P#8oOP$[OX$cOk$POy#xOz#yO|#zO!e$RO!f#vO!h#wO!l$[O#g#}O#h$OO#i$OO#j$OO#k$QO#l$RO#m$RO#n$bO#o$RO#q$SO#s$UO(SVO(j#{O^#fi!V#fi#u#fi#v#fi'l#fi(c#fi'j#fi!S#fi!g#fio#fi!X#fi%a#fi!a#fi~O(k#fi~P#;aO(k#|O~P#;aOP$[OX$cOk$POy#xOz#yO|#zO!e$RO!f#vO!h#wO!l$[O#g#}O#h$OO#i$OO#j$OO#k$QO#l$RO#m$RO#n$bO#o$RO#q$SO#s$UO#u$WO(SVO(j#{O(k#|O~O^#fi!V#fi#v#fi'l#fi(c#fi'j#fi!S#fi!g#fio#fi!X#fi%a#fi!a#fi~P#>ROPYXXYXkYXyYXzYX|YX!eYX!fYX!hYX!lYX#XYX#dcX#gYX#hYX#iYX#jYX#kYX#lYX#mYX#nYX#oYX#qYX#sYX#uYX#vYX#{YX(SYX(cYX(jYX(kYX!VYX!WYX~O#yYX~P#@lOP$[OX:XOk9{Oy#xOz#yO|#zO!e9}O!f#vO!h#wO!l$[O#g9yO#h9zO#i9zO#j9zO#k9|O#l9}O#m9}O#n:WO#o9}O#q:OO#s:QO#u:SO#v:TO(SVO(c$YO(j#{O(k#|O~O#y.hO~P#ByO#X:YO#{:YO#y(XX!W(XX~PN}O^'Za!V'Za'l'Za'j'Za!g'Za!S'Zao'Za!X'Za%a'Za!a'Za~P!7sOP#fiX#fi^#fik#fiz#fi!V#fi!e#fi!f#fi!h#fi!l#fi#g#fi#h#fi#i#fi#j#fi#k#fi#l#fi#m#fi#n#fi#o#fi#q#fi#s#fi#u#fi#v#fi'l#fi(S#fi(c#fi'j#fi!S#fi!g#fio#fi!X#fi%a#fi!a#fi~P#,`O^#zi!V#zi'l#zi'j#zi!S#zi!g#zio#zi!X#zi%a#zi!a#zi~P!7sO$W.mO$Y.mO~O$W.nO$Y.nO~O!a)^O#X.oO!X$^X$T$^X$W$^X$Y$^X$a$^X~O!U.pO~O!X)aO$T.rO$W)`O$Y)`O$a.sO~O!V:UO!W(WX~P#ByO!W.tO~O!a)^O$a(lX~O$a.vO~Oq)pO(T)qO(U.yO~O!S.}O~P!&VO!VcX!acX!gcX!g$sX(ccX~P!/ZO!g/TO~P#,`O!V/UO!a#tO(c'fO!g(pX~O!g/ZO~O!U*RO'u%_O!g(pP~O#d/]O~O!S$sX!V$sX!a$zX~P!/ZO!V/^O!S(qX~P#,`O!a/`O~O!S/bO~Ok/fO!a#tO!h%]O(O%QO(c'fO~O'u/hO~O!a+XO~O^%fO!V/lO'l%fO~O!W/nO~P!3XO!]/oO!^/oO'v!kO(V!lO~O|/qO(V!lO~O#T/rO~O'u&POd'`X!V'`X~O!V*kOd(Pa~Od/wO~Oy/xOz/xO|/yOgva(jva(kva!Vva#Xva~Odva#yva~P$ aOy)uO|)vOg$la(j$la(k$la!V$la#X$la~Od$la#y$la~P$!VOy)uO|)vOg$na(j$na(k$na!V$na#X$na~Od$na#y$na~P$!xO#d/{O~Od$|a!V$|a#X$|a#y$|a~P!0dO!a#tO~O#d0OO~O!V*|O^(ua'l(ua~Oy#xOz#yO|#zO!f#vO!h#wO(SVOP!niX!nik!ni!V!ni!e!ni!l!ni#g!ni#h!ni#i!ni#j!ni#k!ni#l!ni#m!ni#n!ni#o!ni#q!ni#s!ni#u!ni#v!ni(c!ni(j!ni(k!ni~O^!ni'l!ni'j!ni!S!ni!g!nio!ni!X!ni%a!ni!a!ni~P$$gOg.TO!X'UO%a.SO~Oi0YO'u0XO~P!1UO!a+XO^'}a!X'}a'l'}a!V'}a~O#d0`O~OXYX!VcX!WcX~O!V0aO!W(yX~O!W0cO~OX0dO~O'u+aO'wTO'zUO~O!X%vO'u%_O]'hX!V'hX~O!V+fO](xa~O!g0iO~P!7sOX0lO~O]0mO~O#X0pO~Og0sO!X${O~O(V(sO!W(vP~Og0|O!X0yO%a0{O(O%QO~OX1WO!V1UO!W(wX~O!W1XO~O]1ZO^%fO'l%fO~O'u#lO'wTO'zUO~O#X$dO#{$dOP(XXX(XXk(XXy(XXz(XX|(XX!V(XX!e(XX!h(XX!l(XX#g(XX#h(XX#i(XX#j(XX#k(XX#l(XX#m(XX#n(XX#q(XX#s(XX#u(XX#v(XX(S(XX(c(XX(j(XX(k(XX~O#o1^O&R1_O^(XX!f(XX~P$+]O#X$dO#o1^O&R1_O~O^1aO~P%TO^1cO~O&[1fOP&YiQ&YiV&Yi^&Yia&Yib&Yii&Yik&Yil&Yim&Yis&Yiu&Yiw&Yi|&Yi!Q&Yi!R&Yi!X&Yi!c&Yi!h&Yi!k&Yi!l&Yi!m&Yi!o&Yi!q&Yi!t&Yi!x&Yi#p&Yi$Q&Yi$U&Yi%`&Yi%b&Yi%d&Yi%e&Yi%f&Yi%i&Yi%k&Yi%n&Yi%o&Yi%q&Yi%}&Yi&T&Yi&V&Yi&X&Yi&Z&Yi&^&Yi&d&Yi&j&Yi&l&Yi&n&Yi&p&Yi&r&Yi'j&Yi'u&Yi'w&Yi'z&Yi(S&Yi(b&Yi(o&Yi!W&Yi_&Yi&a&Yi~O_1lO!W1jO&a1kO~P`O!XXO!h1nO~O&h,iOP&ciQ&ciV&ci^&cia&cib&cii&cik&cil&cim&cis&ciu&ciw&ci|&ci!Q&ci!R&ci!X&ci!c&ci!h&ci!k&ci!l&ci!m&ci!o&ci!q&ci!t&ci!x&ci#p&ci$Q&ci$U&ci%`&ci%b&ci%d&ci%e&ci%f&ci%i&ci%k&ci%n&ci%o&ci%q&ci%}&ci&T&ci&V&ci&X&ci&Z&ci&^&ci&d&ci&j&ci&l&ci&n&ci&p&ci&r&ci'j&ci'u&ci'w&ci'z&ci(S&ci(b&ci(o&ci!W&ci&[&ci_&ci&a&ci~O!S1tO~O!V!Za!W!Za~P#ByOl!mO|!nO!U1zO(V!lO!V'OX!W'OX~P?wO!V,yO!W(Za~O!V'UX!W'UX~P!6{O!V,|O!W(ia~O!W2RO~P'WO^%fO#X2[O'l%fO~O^%fO!a#tO#X2[O'l%fO~O^%fO!a#tO!l2`O#X2[O'l%fO(c'fO~O^%fO'l%fO~P!7sO!V$`Oo$ka~O!S&}i!V&}i~P!7sO!V'zO!S(Yi~O!V(RO!S(gi~O!S(hi!V(hi~P!7sO!V(ei!g(ei^(ei'l(ei~P!7sO#X2bO!V(ei!g(ei^(ei'l(ei~O!V(_O!g(di~O|%`O!X%aO!x]O#b2gO#c2fO'u%_O~O|%`O!X%aO#c2fO'u%_O~Og2nO!X'UO%a2mO~Og2nO!X'UO%a2mO(O%QO~O#dvaPvaXva^vakva!eva!fva!hva!lva#gva#hva#iva#jva#kva#lva#mva#nva#ova#qva#sva#uva#vva'lva(Sva(cva!gva!Sva'jvaova!Xva%ava!ava~P$ aO#d$laP$laX$la^$lak$laz$la!e$la!f$la!h$la!l$la#g$la#h$la#i$la#j$la#k$la#l$la#m$la#n$la#o$la#q$la#s$la#u$la#v$la'l$la(S$la(c$la!g$la!S$la'j$lao$la!X$la%a$la!a$la~P$!VO#d$naP$naX$na^$nak$naz$na!e$na!f$na!h$na!l$na#g$na#h$na#i$na#j$na#k$na#l$na#m$na#n$na#o$na#q$na#s$na#u$na#v$na'l$na(S$na(c$na!g$na!S$na'j$nao$na!X$na%a$na!a$na~P$!xO#d$|aP$|aX$|a^$|ak$|az$|a!V$|a!e$|a!f$|a!h$|a!l$|a#g$|a#h$|a#i$|a#j$|a#k$|a#l$|a#m$|a#n$|a#o$|a#q$|a#s$|a#u$|a#v$|a'l$|a(S$|a(c$|a!g$|a!S$|a'j$|a#X$|ao$|a!X$|a%a$|a!a$|a~P#,`O^#[q!V#[q'l#[q'j#[q!S#[q!g#[qo#[q!X#[q%a#[q!a#[q~P!7sOd'PX!V'PX~P!'oO!V.^Od(]a~O!U2vO!V'QX!g'QX~P%TO!V.aO!g(^a~O!V.aO!g(^a~P!7sO!S2yO~O#y!ja!W!ja~PJqO#y!ba!V!ba!W!ba~P#ByO#y!na!W!na~P!:^O#y!pa!W!pa~P!<wO!X3]O$UfO$_3^O~O!W3bO~Oo3cO~P#,`O^$hq!V$hq'l$hq'j$hq!S$hq!g$hqo$hq!X$hq%a$hq!a$hq~P!7sO!S3dO~P#,`Oy)uO|)vO(k)zOg%Xi(j%Xi!V%Xi#X%Xi~Od%Xi#y%Xi~P$IuOy)uO|)vOg%Zi(j%Zi(k%Zi!V%Zi#X%Zi~Od%Zi#y%Zi~P$JhO(c$YO~P#,`O!U3gO'u%_O!V'[X!g'[X~O!V/UO!g(pa~O!V/UO!a#tO!g(pa~O!V/UO!a#tO(c'fO!g(pa~Od$ui!V$ui#X$ui#y$ui~P!0dO!U3oO'u*WO!S'^X!V'^X~P!1RO!V/^O!S(qa~O!V/^O!S(qa~P#,`O!a#tO#o3wO~Ok3zO!a#tO(c'fO~Od(Qi!V(Qi~P!0dO#X3}Od(Qi!V(Qi~P!0dO!g4QO~O^$iq!V$iq'l$iq'j$iq!S$iq!g$iqo$iq!X$iq%a$iq!a$iq~P!7sO!S4UO~O!V4VO!X(rX~P#,`O!f#vO~P4QO^$sX!X$sX%UYX'l$sX!V$sX~P!/ZO%U4XO^hXghXyhX|hX!XhX'lhX(jhX(khX!VhX~O%U4XO~O%b4`O'u+aO'wTO'zUO!V'gX!W'gX~O!V0aO!W(ya~OX4dO~O]4eO~O^%fO'l%fO~P#,`O!X${O~P#,`O!V4mO#X4oO!W(vX~O!W4pO~Ol!mO|4qO![!wO!]!tO!^!tO!x9qO!|!oO!}!oO#O!oO#P!oO#Q!oO#T4vO#U!xO'v!kO'wTO'zUO(V!lO(b!rO~O!W4uO~P%$gOg4{O!X0yO%a4zO~Og4{O!X0yO%a4zO(O%QO~O'u#lO!V'fX!W'fX~O!V1UO!W(wa~O'wTO'zUO(V5UO~O]5YO~O#o5]O&R5^O~PMaO!g5_O~P%TO^5aO~O^5aO~P%TO_1lO!W5fO&a1kO~P`O!a5hO~O!a5jO!V([i!W([i!a([i!h([i(O([i~O!V#ai!W#ai~P#ByO#X5kO!V#ai!W#ai~O!V!Zi!W!Zi~P#ByO^%fO#X5tO'l%fO~O^%fO!a#tO#X5tO'l%fO~O!V(eq!g(eq^(eq'l(eq~P!7sO!V(_O!g(dq~O|%`O!X%aO#c5{O'u%_O~O!X'UO%a6OO~Og6RO!X'UO%a6OO~O#d%XiP%XiX%Xi^%Xik%Xiz%Xi!e%Xi!f%Xi!h%Xi!l%Xi#g%Xi#h%Xi#i%Xi#j%Xi#k%Xi#l%Xi#m%Xi#n%Xi#o%Xi#q%Xi#s%Xi#u%Xi#v%Xi'l%Xi(S%Xi(c%Xi!g%Xi!S%Xi'j%Xio%Xi!X%Xi%a%Xi!a%Xi~P$IuO#d%ZiP%ZiX%Zi^%Zik%Ziz%Zi!e%Zi!f%Zi!h%Zi!l%Zi#g%Zi#h%Zi#i%Zi#j%Zi#k%Zi#l%Zi#m%Zi#n%Zi#o%Zi#q%Zi#s%Zi#u%Zi#v%Zi'l%Zi(S%Zi(c%Zi!g%Zi!S%Zi'j%Zio%Zi!X%Zi%a%Zi!a%Zi~P$JhO#d$uiP$uiX$ui^$uik$uiz$ui!V$ui!e$ui!f$ui!h$ui!l$ui#g$ui#h$ui#i$ui#j$ui#k$ui#l$ui#m$ui#n$ui#o$ui#q$ui#s$ui#u$ui#v$ui'l$ui(S$ui(c$ui!g$ui!S$ui'j$ui#X$uio$ui!X$ui%a$ui!a$ui~P#,`Od'Pa!V'Pa~P!0dO!V'Qa!g'Qa~P!7sO!V.aO!g(^i~O#y#[i!V#[i!W#[i~P#ByOP$[Oy#xOz#yO|#zO!f#vO!h#wO!l$[O(SVOX#fik#fi!e#fi#h#fi#i#fi#j#fi#k#fi#l#fi#m#fi#n#fi#o#fi#q#fi#s#fi#u#fi#v#fi#y#fi(c#fi(j#fi(k#fi!V#fi!W#fi~O#g#fi~P%2vO#g9yO~P%2vOP$[Oy#xOz#yO|#zO!f#vO!h#wO!l$[O#g9yO#h9zO#i9zO#j9zO(SVOX#fi!e#fi#k#fi#l#fi#m#fi#n#fi#o#fi#q#fi#s#fi#u#fi#v#fi#y#fi(c#fi(j#fi(k#fi!V#fi!W#fi~Ok#fi~P%5ROk9{O~P%5ROP$[Ok9{Oy#xOz#yO|#zO!f#vO!h#wO!l$[O#g9yO#h9zO#i9zO#j9zO#k9|O(SVO#q#fi#s#fi#u#fi#v#fi#y#fi(c#fi(j#fi(k#fi!V#fi!W#fi~OX#fi!e#fi#l#fi#m#fi#n#fi#o#fi~P%7^OX:XO!e9}O#l9}O#m9}O#n:WO#o9}O~P%7^OP$[OX:XOk9{Oy#xOz#yO|#zO!e9}O!f#vO!h#wO!l$[O#g9yO#h9zO#i9zO#j9zO#k9|O#l9}O#m9}O#n:WO#o9}O#q:OO(SVO#s#fi#u#fi#v#fi#y#fi(c#fi(k#fi!V#fi!W#fi~O(j#fi~P%9xO(j#{O~P%9xOP$[OX:XOk9{Oy#xOz#yO|#zO!e9}O!f#vO!h#wO!l$[O#g9yO#h9zO#i9zO#j9zO#k9|O#l9}O#m9}O#n:WO#o9}O#q:OO#s:QO(SVO(j#{O#u#fi#v#fi#y#fi(c#fi!V#fi!W#fi~O(k#fi~P%<TO(k#|O~P%<TOP$[OX:XOk9{Oy#xOz#yO|#zO!e9}O!f#vO!h#wO!l$[O#g9yO#h9zO#i9zO#j9zO#k9|O#l9}O#m9}O#n:WO#o9}O#q:OO#s:QO#u:SO(SVO(j#{O(k#|O~O#v#fi#y#fi(c#fi!V#fi!W#fi~P%>`O^#wy!V#wy'l#wy'j#wy!S#wy!g#wyo#wy!X#wy%a#wy!a#wy~P!7sOg;lOy)uO|)vO(j)xO(k)zO~OP#fiX#fik#fiz#fi!e#fi!f#fi!h#fi!l#fi#g#fi#h#fi#i#fi#j#fi#k#fi#l#fi#m#fi#n#fi#o#fi#q#fi#s#fi#u#fi#v#fi#y#fi(S#fi(c#fi!V#fi!W#fi~P%AWO!f#vOP(RXX(RXg(RXk(RXy(RXz(RX|(RX!e(RX!h(RX!l(RX#g(RX#h(RX#i(RX#j(RX#k(RX#l(RX#m(RX#n(RX#o(RX#q(RX#s(RX#u(RX#v(RX#y(RX(S(RX(c(RX(j(RX(k(RX!V(RX!W(RX~O#y#zi!V#zi!W#zi~P#ByO#y!ni!W!ni~P$$gO!W6_O~O!V'Za!W'Za~P#ByO!a#tO(c'fO!V'[a!g'[a~O!V/UO!g(pi~O!V/UO!a#tO!g(pi~Od$uq!V$uq#X$uq#y$uq~P!0dO!S'^a!V'^a~P#,`O!a6fO~O!V/^O!S(qi~P#,`O!V/^O!S(qi~O!S6jO~O!a#tO#o6oO~Ok6pO!a#tO(c'fO~O!S6rO~Od$wq!V$wq#X$wq#y$wq~P!0dO^$iy!V$iy'l$iy'j$iy!S$iy!g$iyo$iy!X$iy%a$iy!a$iy~P!7sO!a5jO~O!V4VO!X(ra~O^#[y!V#[y'l#[y'j#[y!S#[y!g#[yo#[y!X#[y%a#[y!a#[y~P!7sOX6wO~O!V0aO!W(yi~O]6}O~O(V(sO!V'cX!W'cX~O!V4mO!W(va~OikO'u7UO~P.bO!W7XO~P%$gOl!mO|7YO'wTO'zUO(V!lO(b!rO~O!X0yO~O!X0yO%a7[O~Og7_O!X0yO%a7[O~OX7dO!V'fa!W'fa~O!V1UO!W(wi~O!g7hO~O!g7iO~O!g7lO~O!g7lO~P%TO^7nO~O!a7oO~O!g7pO~O!V(hi!W(hi~P#ByO^%fO#X7xO'l%fO~O!V(ey!g(ey^(ey'l(ey~P!7sO!V(_O!g(dy~O!X'UO%a7{O~O#d$uqP$uqX$uq^$uqk$uqz$uq!V$uq!e$uq!f$uq!h$uq!l$uq#g$uq#h$uq#i$uq#j$uq#k$uq#l$uq#m$uq#n$uq#o$uq#q$uq#s$uq#u$uq#v$uq'l$uq(S$uq(c$uq!g$uq!S$uq'j$uq#X$uqo$uq!X$uq%a$uq!a$uq~P#,`O#d$wqP$wqX$wq^$wqk$wqz$wq!V$wq!e$wq!f$wq!h$wq!l$wq#g$wq#h$wq#i$wq#j$wq#k$wq#l$wq#m$wq#n$wq#o$wq#q$wq#s$wq#u$wq#v$wq'l$wq(S$wq(c$wq!g$wq!S$wq'j$wq#X$wqo$wq!X$wq%a$wq!a$wq~P#,`O!V'Qi!g'Qi~P!7sO#y#[q!V#[q!W#[q~P#ByOy/xOz/xO|/yOPvaXvagvakva!eva!fva!hva!lva#gva#hva#iva#jva#kva#lva#mva#nva#ova#qva#sva#uva#vva#yva(Sva(cva(jva(kva!Vva!Wva~Oy)uO|)vOP$laX$lag$lak$laz$la!e$la!f$la!h$la!l$la#g$la#h$la#i$la#j$la#k$la#l$la#m$la#n$la#o$la#q$la#s$la#u$la#v$la#y$la(S$la(c$la(j$la(k$la!V$la!W$la~Oy)uO|)vOP$naX$nag$nak$naz$na!e$na!f$na!h$na!l$na#g$na#h$na#i$na#j$na#k$na#l$na#m$na#n$na#o$na#q$na#s$na#u$na#v$na#y$na(S$na(c$na(j$na(k$na!V$na!W$na~OP$|aX$|ak$|az$|a!e$|a!f$|a!h$|a!l$|a#g$|a#h$|a#i$|a#j$|a#k$|a#l$|a#m$|a#n$|a#o$|a#q$|a#s$|a#u$|a#v$|a#y$|a(S$|a(c$|a!V$|a!W$|a~P%AWO#y$hq!V$hq!W$hq~P#ByO#y$iq!V$iq!W$iq~P#ByO!W8VO~O#y8WO~P!0dO!a#tO!V'[i!g'[i~O!a#tO(c'fO!V'[i!g'[i~O!V/UO!g(pq~O!S'^i!V'^i~P#,`O!V/^O!S(qq~O!S8^O~P#,`O!S8^O~Od(Qy!V(Qy~P!0dO!V'aa!X'aa~P#,`O^%Tq!X%Tq'l%Tq!V%Tq~P#,`OX8cO~O!V0aO!W(yq~O#X8gO!V'ca!W'ca~O!V4mO!W(vi~P#ByOPYXXYXkYXyYXzYX|YX!SYX!VYX!eYX!fYX!hYX!lYX#XYX#dcX#gYX#hYX#iYX#jYX#kYX#lYX#mYX#nYX#oYX#qYX#sYX#uYX#vYX#{YX(SYX(cYX(jYX(kYX~O!a%RX#o%RX~P&2WO!X0yO%a8kO~O'wTO'zUO(V8pO~O!V1UO!W(wq~O!g8sO~O!g8tO~O!g8uO~O!g8uO~P%TO#X8xO!V#ay!W#ay~O!V#ay!W#ay~P#ByO!X'UO%a8}O~O#y#wy!V#wy!W#wy~P#ByOP$uiX$uik$uiz$ui!e$ui!f$ui!h$ui!l$ui#g$ui#h$ui#i$ui#j$ui#k$ui#l$ui#m$ui#n$ui#o$ui#q$ui#s$ui#u$ui#v$ui#y$ui(S$ui(c$ui!V$ui!W$ui~P%AWOy)uO|)vO(k)zOP%XiX%Xig%Xik%Xiz%Xi!e%Xi!f%Xi!h%Xi!l%Xi#g%Xi#h%Xi#i%Xi#j%Xi#k%Xi#l%Xi#m%Xi#n%Xi#o%Xi#q%Xi#s%Xi#u%Xi#v%Xi#y%Xi(S%Xi(c%Xi(j%Xi!V%Xi!W%Xi~Oy)uO|)vOP%ZiX%Zig%Zik%Ziz%Zi!e%Zi!f%Zi!h%Zi!l%Zi#g%Zi#h%Zi#i%Zi#j%Zi#k%Zi#l%Zi#m%Zi#n%Zi#o%Zi#q%Zi#s%Zi#u%Zi#v%Zi#y%Zi(S%Zi(c%Zi(j%Zi(k%Zi!V%Zi!W%Zi~O#y$iy!V$iy!W$iy~P#ByO#y#[y!V#[y!W#[y~P#ByO!a#tO!V'[q!g'[q~O!V/UO!g(py~O!S'^q!V'^q~P#,`O!S9UO~P#,`O!V0aO!W(yy~O!V4mO!W(vq~O!X0yO%a9]O~O!g9`O~O!X'UO%a9eO~OP$uqX$uqk$uqz$uq!e$uq!f$uq!h$uq!l$uq#g$uq#h$uq#i$uq#j$uq#k$uq#l$uq#m$uq#n$uq#o$uq#q$uq#s$uq#u$uq#v$uq#y$uq(S$uq(c$uq!V$uq!W$uq~P%AWOP$wqX$wqk$wqz$wq!e$wq!f$wq!h$wq!l$wq#g$wq#h$wq#i$wq#j$wq#k$wq#l$wq#m$wq#n$wq#o$wq#q$wq#s$wq#u$wq#v$wq#y$wq(S$wq(c$wq!V$wq!W$wq~P%AWOd%]!Z!V%]!Z#X%]!Z#y%]!Z~P!0dO!V'cq!W'cq~P#ByO!V#a!Z!W#a!Z~P#ByO#d%]!ZP%]!ZX%]!Z^%]!Zk%]!Zz%]!Z!V%]!Z!e%]!Z!f%]!Z!h%]!Z!l%]!Z#g%]!Z#h%]!Z#i%]!Z#j%]!Z#k%]!Z#l%]!Z#m%]!Z#n%]!Z#o%]!Z#q%]!Z#s%]!Z#u%]!Z#v%]!Z'l%]!Z(S%]!Z(c%]!Z!g%]!Z!S%]!Z'j%]!Z#X%]!Zo%]!Z!X%]!Z%a%]!Z!a%]!Z~P#,`OP%]!ZX%]!Zk%]!Zz%]!Z!e%]!Z!f%]!Z!h%]!Z!l%]!Z#g%]!Z#h%]!Z#i%]!Z#j%]!Z#k%]!Z#l%]!Z#m%]!Z#n%]!Z#o%]!Z#q%]!Z#s%]!Z#u%]!Z#v%]!Z#y%]!Z(S%]!Z(c%]!Z!V%]!Z!W%]!Z~P%AWOo(WX~P1jO'v!kO~P!){O!ScX!VcX#XcX~P&2WOPYXXYXkYXyYXzYX|YX!VYX!VcX!eYX!fYX!hYX!lYX#XYX#XcX#dcX#gYX#hYX#iYX#jYX#kYX#lYX#mYX#nYX#oYX#qYX#sYX#uYX#vYX#{YX(SYX(cYX(jYX(kYX~O!acX!gYX!gcX(ccX~P&GnOP9pOQ9pOa;aOb!hOikOk9pOlkOmkOskOu9pOw9pO|WO!QkO!RkO!XXO!c9sO!hZO!k9pO!l9pO!m9pO!o9tO!q9wO!t!gO$Q!jO$UfO'u)TO'wTO'zUO(SVO(b[O(o;_O~O!V:UO!W$ka~Oi%ROk$sOl$rOm$rOs%SOu%TOw:[O|$zO!X${O!c;fO!h$wO#c:bO$Q%XO$m:^O$o:`O$r%YO'u(kO'wTO'zUO(O%QO(S$tO~O#p)[O~P&LdO!WYX!WcX~P&GnO#d9xO~O!a#tO#d9xO~O#X:YO~O#o9}O~O#X:dO!V(hX!W(hX~O#X:YO!V(fX!W(fX~O#d:eO~Od:gO~P!0dO#d:lO~O#d:mO~O!a#tO#d:nO~O!a#tO#d:eO~O#y:oO~P#ByO#d:pO~O#d:qO~O#d:rO~O#d:sO~O#d:tO~O#d:uO~O#y:vO~P!0dO#y:wO~P!0dO$U~!f!|!}#P#Q#T#b#c#n(o$m$o$r%U%`%a%b%i%k%n%o%q%s~'pR$U(o#h!R'n'v#il#g#jky'o(V'o'u$W$Y$W~",
     goto: "$&a(}PPPP)OP)RP)cP*r.uPPPP5UPP5kP;f>mP?QP?QPPP?QP@rP?QP?QP?QP@vPP@{PAfPF]PPPFaPPPPFaIaPPPIgJbPFaPLoPPPPN}FaPPPFaPFaP!#]FaP!&p!'r!'{P!(n!(r!(nPPPPP!+|!'rPP!,j!-dP!0WFaFa!0]!3f!7z!7z!;oPPP!;vFaPPPPPPPPPPP!?SP!@ePPFa!ArPFaPFaFaFaFaPFa!CUPP!F]P!I`P!Id!In!Ir!IrP!FYP!Iv!IvP!LyP!L}FaFa!MT#!V?QP?QP?Q?QP##a?Q?Q#%]?Q#'l?Q#)b?Q?Q#*O#+|#+|#,Q#,Y#+|#,bP#+|P?Q#,z?Q#.T?Q?Q5UPPP#/aPPP#/y#/yP#/yP#0`#/yPP#0fP#0]P#0]#0x#0]#1d#1j5R)R#1m)RP#1t#1t#1tP)RP)RP)RP)RPP)RP#1z#1}P#1})RP#2RP#2UP)RP)RP)RP)RP)RP)R)RPP#2[#2b#2l#2r#2x#3O#3U#3d#3j#3p#3z#4Q#4[#4k#4q#5b#5t#5z#6Q#6`#6u#8W#8f#8l#8r#8x#9O#9Y#9`#9f#9p#:S#:YPPPPPPPPPP#:`PPPPPPP#;S#>ZP#?j#?q#?yPPPP#DX#F}#Me#Mh#Mk#Nd#Ng#Nj#Nq#NyPP$ P$ T$ {$!z$#O$#dPP$#h$#n$#rP$#u$#y$#|$$r$%Y$%p$%t$%w$%z$&Q$&T$&X$&]R!zRmqOXs!Y#b%e&h&j&k&m,a,f1f1iY!tQ'U-R0y4tQ%kuQ%sxQ%z{Q&`!US&|!d,yQ'[!hS'b!q!wS*^${*cQ+_%tQ+l%|Q,Q&YQ-P'TQ-Z']Q-c'cQ/o*eQ1T,RR:c9t$|dOPWXYZstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$`$d%e%k%x&a&d&h&j&k&m&q&y'W'h'x'z(Q(X(m(q(u)t*w*{,^,a,f-V-_-m-s.a.h/y0O0`0|1^1_1a1c1f1i1k2[2b2v4q4{5]5^5a5t7Y7_7n7xS#o]9q!r)V$Z$l&})i,r,u.p1z3]4o5k8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bQ*n%UQ+d%vQ,S&]Q,Z&eQ.W:ZQ0V+VQ0Z+XQ0f+eQ1],XQ2j.TQ4_0aQ5S1UQ6Q2nQ6W:[Q6y4`R8O6R&zkOPWXYZstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$Z$`$d$l%e%k%x&a&d&e&h&j&k&m&q&y&}'W'h'x'z(Q(X(m(q(u)i)t*w*{+V,^,a,f,r,u-V-_-m-s.T.a.h.p/y0O0`0|1^1_1a1c1f1i1k1z2[2b2n2v3]4o4q4{5]5^5a5k5t6R7Y7_7n7x8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bt!mQ!q!t!w!x&|'T'U'b'c'd,y-P-R-c0y4t4v$^$ri#t#v$b$c$w$z%V%W%[)p)v)y){)|*T*Z*i*j+U+X+p+s.S.^/O/]/^/`/{0p0s0{2m3e3o3w3}4V4X4z6O6f6o7[7{8W8k8}9]9e:W:X:]:^:_:`:a:b:h:i:j:k:l:m:p:q:r:s:v:w;_;g;h;k;lQ%}{Q&z!dS'Q%a,|Q+d%vQ/z*rQ0f+eQ0k+kQ1[,WQ1],XQ4_0aQ4h0mQ5V1WQ5W1ZQ6y4`Q6|4eQ7g5YQ8f6}R8q7dpnOXs!U!Y#b%e&_&h&j&k&m,a,f1f1iR,U&a&t^OPXYstuvy!Y!_!f!i!n#Q#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$Z$`$d$l%e%k%x&a&d&e&h&j&k&m&q&y'W'h'z(Q(X(m(q(u)i)t*w*{+V,^,a,f,r,u-V-_-m-s.T.a.h.p/y0O0`0|1^1_1a1c1f1i1k1z2[2b2n2v3]4o4q4{5]5^5a5k5t6R7Y7_7n7x8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;a;b[#ZWZ#U#X&}'x!S%bm#f#g#j%]%`(R(](^(_*y*z*|,],s-q-w-x-y-{1n2f2g5j5{Q%nwQ%rxS%w{%|Q&T!SQ'X!gQ'Z!hQ(f#qS*Q$w*US+^%s%tQ+b%vQ+{&WQ,P&YS-Y'[']Q.V(gQ/Y*RQ0_+_Q0e+eQ0g+fQ0j+jQ1O+|S1S,Q,RQ2W-ZQ3f/UQ4^0aQ4b0dQ4g0lQ5R1TQ6c3gQ6x4`Q6{4dQ8b6wR9W8cv$yi#v%V%W%[)y){*T*i*j.^/]/{3e3}8W;_;g;h!S%px!h!s%r%s%t&{'Z'[']'a'k*]+^+_,v-Y-Z-b/g0_2P2W2_3yQ+W%nQ+q&QQ+t&RQ,O&YQ.U(fQ0}+{U1R,P,Q,RQ2o.VQ4|1OS5Q1S1TQ7c5R#O;c#t$b$c$w$z)p)v)|*Z+U+X+p+s.S/O/^/`0p0s0{2m3o3w4V4X4z6O6f6o7[7{8k8}9]9e:]:_:a:h:j:l:p:r:v;k;lg;d:W:X:^:`:b:i:k:m:q:s:wW%Oi%Q*k;_S&Q!P&_Q&R!QQ&S!RR+o&O$_$}i#t#v$b$c$w$z%V%W%[)p)v)y){)|*T*Z*i*j+U+X+p+s.S.^/O/]/^/`/{0p0s0{2m3e3o3w3}4V4X4z6O6f6o7[7{8W8k8}9]9e:W:X:]:^:_:`:a:b:h:i:j:k:l:m:p:q:r:s:v:w;_;g;h;k;lT)q$t)rV*o%U:Z:[U'Q!d%a,|S(t#x#yQ+i%yS.O(b(cQ0t+uQ4O/xR7R4m&zkOPWXYZstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$Z$`$d$l%e%k%x&a&d&e&h&j&k&m&q&y&}'W'h'x'z(Q(X(m(q(u)i)t*w*{+V,^,a,f,r,u-V-_-m-s.T.a.h.p/y0O0`0|1^1_1a1c1f1i1k1z2[2b2n2v3]4o4q4{5]5^5a5k5t6R7Y7_7n7x8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;b$i$_c#W#c%i%j%l'w'}(i(p(x(y(z({(|(})O)P)Q)R)S)U)X)])g+S+h,w-f-k-p-r.].c.g.i.j.k.z/|1u1x2Y2a2u2z2{2|2}3O3P3Q3R3S3T3U3V3W3Z3[3a4S4[5m5s5x6U6V6[6]7T7r7v8P8T8U8z9Y9a9r;UT#RV#S&{kOPWXYZstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$Z$`$d$l%e%k%x&a&d&e&h&j&k&m&q&y&}'W'h'x'z(Q(X(m(q(u)i)t*w*{+V,^,a,f,r,u-V-_-m-s.T.a.h.p/y0O0`0|1^1_1a1c1f1i1k1z2[2b2n2v3]4o4q4{5]5^5a5k5t6R7Y7_7n7x8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bQ'O!dR1{,yv!mQ!d!q!t!w!x&|'T'U'b'c'd,y-P-R-c0y4t4vS*]${*cS/g*^*eQ/p*fQ0v+wQ3y/oR3|/rlqOXs!Y#b%e&h&j&k&m,a,f1f1iQ&o!]Q'l!vS(h#s9xQ+[%qQ+y&TQ+z&VQ-W'YQ-e'eS.[(m:eS/}*w:nQ0]+]Q0x+xQ1m,hQ1o,iQ1w,tQ2U-XQ2X-]S4T0O:tQ4Y0^S4]0`:uQ5l1yQ5p2VQ5u2^Q6v4ZQ7s5nQ7t5qQ7w5vR8w7p$d$^c#W#c%j%l'w'}(i(p(x(y(z({(|(})O)P)Q)R)S)U)X)])g+S+h,w-f-k-p-r.].c.g.j.k.z/|1u1x2Y2a2u2z2{2|2}3O3P3Q3R3S3T3U3V3W3Z3[3a4S4[5m5s5x6U6V6[6]7T7r7v8P8T8U8z9Y9a9r;US(e#n'_U*h$|(l3YS+R%i.iQ2k0VQ5}2jQ7}6QR9O8O$d$]c#W#c%j%l'w'}(i(p(x(y(z({(|(})O)P)Q)R)S)U)X)])g+S+h,w-f-k-p-r.].c.g.j.k.z/|1u1x2Y2a2u2z2{2|2}3O3P3Q3R3S3T3U3V3W3Z3[3a4S4[5m5s5x6U6V6[6]7T7r7v8P8T8U8z9Y9a9r;US(d#n'_S(v#y$^S+Q%i.iS.P(c(eQ.l)WQ0S+RR2h.Q&zkOPWXYZstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$Z$`$d$l%e%k%x&a&d&e&h&j&k&m&q&y&}'W'h'x'z(Q(X(m(q(u)i)t*w*{+V,^,a,f,r,u-V-_-m-s.T.a.h.p/y0O0`0|1^1_1a1c1f1i1k1z2[2b2n2v3]4o4q4{5]5^5a5k5t6R7Y7_7n7x8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bS#o]9qQ&j!WQ&k!XQ&m!ZQ&n![R1e,dQ'V!gQ+T%nQ-U'XS.R(f+WQ2S-TW2l.U.V0U0WQ5o2TU5|2i2k2oS7z5}6PS8|7|7}S9c8{9OQ9k9dR9n9lU!uQ'U-RT4r0y4t!O_OXZ`s!U!Y#b#f%]%e&_&a&h&j&k&m(_,a,f-x1f1i]!oQ!q'U-R0y4tT#o]9q%WzOPWXYZstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$`$d%e%k%x&a&d&e&h&j&k&m&q&y'W'h'x'z(Q(X(m(q(u)t*w*{+V,^,a,f-V-_-m-s.T.a.h/y0O0`0|1^1_1a1c1f1i1k2[2b2n2v4q4{5]5^5a5t6R7Y7_7n7xS(t#x#yS.O(b(c!s:{$Z$l&})i,r,u.p1z3]4o5k8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bY!sQ'U-R0y4tQ'a!qS'k!t!wS'm!x4vS-b'b'cQ-d'dR2_-cQ'j!sS(Z#e1`S-a'a'mQ/X*QQ/e*]Q2`-dQ3k/YS3t/f/pQ6b3fS6m3z3|Q8Y6cR8a6pQ#ubQ'i!sS(Y#e1`S([#k*vQ*x%^Q+Y%oQ+`%uU-`'a'j'mQ-t(ZQ/W*QQ/d*]Q/j*`Q0[+ZQ1P+}S2]-a-dQ2e-|S3j/X/YS3s/e/pQ3v/iQ3x/kQ5O1QQ5w2`Q6a3fQ6e3kS6i3t3|Q6n3{Q7a5PS8X6b6cQ8]6jQ8_6mQ8n7bQ9S8YQ9T8^Q9V8aQ9_8oQ9g9UQ;O:yQ;Z;SR;[;TV!uQ'U-R%WaOPWXYZstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$`$d%e%k%x&a&d&e&h&j&k&m&q&y'W'h'x'z(Q(X(m(q(u)t*w*{+V,^,a,f-V-_-m-s.T.a.h/y0O0`0|1^1_1a1c1f1i1k2[2b2n2v4q4{5]5^5a5t6R7Y7_7n7xS#uy!i!r:x$Z$l&})i,r,u.p1z3]4o5k8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bR;O;a%WbOPWXYZstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$`$d%e%k%x&a&d&e&h&j&k&m&q&y'W'h'x'z(Q(X(m(q(u)t*w*{+V,^,a,f-V-_-m-s.T.a.h/y0O0`0|1^1_1a1c1f1i1k2[2b2n2v4q4{5]5^5a5t6R7Y7_7n7xQ%^j!S%ox!h!s%r%s%t&{'Z'[']'a'k*]+^+_,v-Y-Z-b/g0_2P2W2_3yS%uy!iQ+Z%pQ+}&YW1Q,O,P,Q,RU5P1R1S1TS7b5Q5RQ8o7c!r:y$Z$l&})i,r,u.p1z3]4o5k8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bQ;S;`R;T;a$zeOPXYstuv!Y!_!f!n#Q#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$`$d%e%k%x&a&d&h&j&k&m&q&y'W'h'z(Q(X(m(q(u)t*w*{+V,^,a,f-V-_-m-s.T.a.h/y0O0`0|1^1_1a1c1f1i1k2[2b2n2v4q4{5]5^5a5t6R7Y7_7n7xY#`WZ#U#X'x!S%bm#f#g#j%]%`(R(](^(_*y*z*|,],s-q-w-x-y-{1n2f2g5j5{Q,[&e!p:z$Z$l)i,r,u.p1z3]4o5k8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bR:}&}S'R!d%aR1},|$|dOPWXYZstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$`$d%e%k%x&a&d&h&j&k&m&q&y'W'h'x'z(Q(X(m(q(u)t*w*{,^,a,f-V-_-m-s.a.h/y0O0`0|1^1_1a1c1f1i1k2[2b2v4q4{5]5^5a5t7Y7_7n7x!r)V$Z$l&})i,r,u.p1z3]4o5k8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bQ,Z&eQ0V+VQ2j.TQ6Q2nR8O6R!f$Tc#W%i'w'}(i(p)P)Q)R)S)X)]+h-f-k-p-r.].c.z/|2Y2a2u3W4S4[5s5x6U7v8z9r!T:P)U)g,w.i1u1x2z3S3T3U3V3Z3a5m6V6[6]7T7r8P8T8U9Y9a;U!b$Vc#W%i'w'}(i(p)R)S)X)]+h-f-k-p-r.].c.z/|2Y2a2u3W4S4[5s5x6U7v8z9r!P:R)U)g,w.i1u1x2z3U3V3Z3a5m6V6[6]7T7r8P8T8U9Y9a;U!^$Zc#W%i'w'}(i(p)X)]+h-f-k-p-r.].c.z/|2Y2a2u3W4S4[5s5x6U7v8z9rQ3e/Sz;b)U)g,w.i1u1x2z3Z3a5m6V6[6]7T7r8P8T8U9Y9a;UQ;g;iR;h;j&zkOPWXYZstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$Z$`$d$l%e%k%x&a&d&e&h&j&k&m&q&y&}'W'h'x'z(Q(X(m(q(u)i)t*w*{+V,^,a,f,r,u-V-_-m-s.T.a.h.p/y0O0`0|1^1_1a1c1f1i1k1z2[2b2n2v3]4o4q4{5]5^5a5k5t6R7Y7_7n7x8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bS$mh$nR3^.o'RgOPWXYZhstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$Z$`$d$l$n%e%k%x&a&d&e&h&j&k&m&q&y&}'W'h'x'z(Q(X(m(q(u)i)t*w*{+V,^,a,f,r,u-V-_-m-s.T.a.h.o.p/y0O0`0|1^1_1a1c1f1i1k1z2[2b2n2v3]4o4q4{5]5^5a5k5t6R7Y7_7n7x8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bT$if$oQ$gfS)`$j)dR)l$oT$hf$oT)b$j)d'RhOPWXYZhstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$Z$`$d$l$n%e%k%x&a&d&e&h&j&k&m&q&y&}'W'h'x'z(Q(X(m(q(u)i)t*w*{+V,^,a,f,r,u-V-_-m-s.T.a.h.o.p/y0O0`0|1^1_1a1c1f1i1k1z2[2b2n2v3]4o4q4{5]5^5a5k5t6R7Y7_7n7x8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;bT$mh$nQ$phR)k$n%WjOPWXYZstuv!Y!_!f!n#Q#U#X#b#m#s#w#z#}$O$P$Q$R$S$T$U$V$W$X$`$d%e%k%x&a&d&e&h&j&k&m&q&y'W'h'x'z(Q(X(m(q(u)t*w*{+V,^,a,f-V-_-m-s.T.a.h/y0O0`0|1^1_1a1c1f1i1k2[2b2n2v4q4{5]5^5a5t6R7Y7_7n7x!s;`$Z$l&})i,r,u.p1z3]4o5k8g8x9p9s9t9w9x9y9z9{9|9}:O:P:Q:R:S:T:U:Y:c:d:e:g:n:o:t:u;b#alOPXZs!Y!_!n#Q#b#m#z$l%e&a&d&e&h&j&k&m&q&y'W(u)i*{+V,^,a,f-V.T.p/y0|1^1_1a1c1f1i1k2n3]4q4{5]5^5a6R7Y7_7nv$|i#v%V%W%[)y){*T*i*j.^/]/{3e3}8W;_;g;h#O(l#t$b$c$w$z)p)v)|*Z+U+X+p+s.S/O/^/`0p0s0{2m3o3w4V4X4z6O6f6o7[7{8k8}9]9e:]:_:a:h:j:l:p:r:v;k;lQ*s%YQ.{)ug3Y:W:X:^:`:b:i:k:m:q:s:wv$xi#v%V%W%[)y){*T*i*j.^/]/{3e3}8W;_;g;hQ*V$yS*`${*cQ*t%ZQ/k*a#O;Q#t$b$c$w$z)p)v)|*Z+U+X+p+s.S/O/^/`0p0s0{2m3o3w4V4X4z6O6f6o7[7{8k8}9]9e:]:_:a:h:j:l:p:r:v;k;lf;R:W:X:^:`:b:i:k:m:q:s:wQ;V;cQ;W;dQ;X;eR;Y;fv$|i#v%V%W%[)y){*T*i*j.^/]/{3e3}8W;_;g;h#O(l#t$b$c$w$z)p)v)|*Z+U+X+p+s.S/O/^/`0p0s0{2m3o3w4V4X4z6O6f6o7[7{8k8}9]9e:]:_:a:h:j:l:p:r:v;k;lg3Y:W:X:^:`:b:i:k:m:q:s:wloOXs!Y#b%e&h&j&k&m,a,f1f1iQ*Y$zQ,o&tQ,p&vR3n/^$^$}i#t#v$b$c$w$z%V%W%[)p)v)y){)|*T*Z*i*j+U+X+p+s.S.^/O/]/^/`/{0p0s0{2m3e3o3w3}4V4X4z6O6f6o7[7{8W8k8}9]9e:W:X:]:^:_:`:a:b:h:i:j:k:l:m:p:q:r:s:v:w;_;g;h;k;lQ+r&RQ0r+tQ4k0qR7Q4lT*b${*cS*b${*cT4s0y4tS/i*_4qT3{/q7YQ+Y%oQ/j*`Q0[+ZQ1P+}Q5O1QQ7a5PQ8n7bR9_8on)y$u(n*u/[/s/t2s3l4R6`6q9R;P;];^!Y:h(j)Z*P*X.Z.w.|/S/a0T0o0q2r3m3q4j4l6S6T6g6k6s6u8[8`9f;i;j]:i3X6Z8Q9P9Q9op){$u(n*u/Q/[/s/t2s3l4R6`6q9R;P;];^![:j(j)Z*P*X.Z.w.|/S/a0T0o0q2p2r3m3q4j4l6S6T6g6k6s6u8[8`9f;i;j_:k3X6Z8Q8R9P9Q9opnOXs!U!Y#b%e&_&h&j&k&m,a,f1f1iQ&[!TR,^&epnOXs!U!Y#b%e&_&h&j&k&m,a,f1f1iR&[!TQ+v&SR0n+oqnOXs!U!Y#b%e&_&h&j&k&m,a,f1f1iQ0z+{S4y0}1OU7Z4w4x4|S8j7]7^S9Z8i8lQ9h9[R9m9iQ&c!UR,V&_R5V1WS%w{%|R0g+fQ&h!VR,a&iR,g&nT1g,f1iR,k&oQ,j&oR1p,kQ'o!yR-g'oQsOQ#bXT%hs#bQ!|TR'q!|Q#PUR's#PQ)r$tR.x)rQ#SVR'u#SQ#VWU'{#V'|-nQ'|#WR-n'}Q,z'OR1|,zQ._(nR2t._Q.b(pS2w.b2xR2x.cQ-R'UR2Q-RY!qQ'U-R0y4tR'`!qS#]W%`U(S#](T-oQ(T#^R-o(OQ,}'RR2O,}r`OXs!U!Y#b%e&_&a&h&j&k&m,a,f1f1iS#fZ%]U#p`#f-xR-x(_Q(`#hQ-u([W-}(`-u2c5yQ2c-vR5y2dQ)d$jR.q)dQ$nhR)j$nQ$acU)Y$a-j:VQ-j9rR:V)gQ/V*QW3h/V3i6d8ZU3i/W/X/YS6d3j3kR8Z6e#o)w$u(j(n)Z*P*X*p*q*u.X.Y.Z.w.|/Q/R/S/[/a/s/t0T0o0q2p2q2r2s3X3l3m3q4R4j4l6S6T6X6Y6Z6`6g6k6q6s6u8Q8R8S8[8`9P9Q9R9f9o;P;];^;i;jQ/_*XU3p/_3r6hQ3r/aR6h3qQ*c${R/m*cQ*l%PR/v*lQ4W0TR6t4WQ*}%cR0R*}Q4n0tS7S4n8hR8h7TQ+x&TR0w+xQ4t0yR7W4tQ1V,SS5T1V7eR7e5VQ0b+bW4a0b4c6z8dQ4c0eQ6z4bR8d6{Q+g%wR0h+gQ1i,fR5e1iWrOXs#bQ&l!YQ+P%eQ,`&hQ,b&jQ,c&kQ,e&mQ1d,aS1g,f1iR5d1fQ%gpQ&p!^Q&s!`Q&u!aQ&w!bQ'g!sQ+O%dQ+[%qQ+n%}Q,U&cQ,m&rW-^'a'i'j'mQ-e'eQ/l*bQ0]+]S1Y,V,YQ1q,lQ1r,oQ1s,pQ2X-]W2Z-`-a-d-fQ4Y0^Q4f0kQ4i0oQ4}1PQ5X1[Q5c1eU5r2Y2]2`Q5u2^Q6v4ZQ7O4hQ7P4jQ7V4sQ7`5OQ7f5WS7u5s5wQ7w5vQ8e6|Q8m7aQ8r7gQ8y7vQ9X8fQ9^8nQ9b8zR9j9_Q%qxQ'Y!hQ'e!sU+]%r%s%tQ,t&{U-X'Z'[']S-]'a'kQ/c*]S0^+^+_Q1y,vS2V-Y-ZQ2^-bQ3u/gQ4Z0_Q5n2PQ5q2WQ5v2_R6l3yS$vi;_R*m%QU%Pi%Q;_R/u*kQ$uiS(j#t+XQ(n#vS)Z$b$cQ*P$wQ*X$zQ*p%VQ*q%WQ*u%[Q.X:]Q.Y:_Q.Z:aQ.w)pS.|)v/OQ/Q)yQ/R){Q/S)|Q/[*TQ/a*ZQ/s*iQ/t*jh0T+U.S0{2m4z6O7[7{8k8}9]9eQ0o+pQ0q+sQ2p:hQ2q:jQ2r:lQ2s.^S3X:W:XQ3l/]Q3m/^Q3q/`Q4R/{Q4j0pQ4l0sQ6S:pQ6T:rQ6X:^Q6Y:`Q6Z:bQ6`3eQ6g3oQ6k3wQ6q3}Q6s4VQ6u4XQ8Q:mQ8R:iQ8S:kQ8[6fQ8`6oQ9P:qQ9Q:sQ9R8WQ9f:vQ9o:wQ;P;_Q;];gQ;^;hQ;i;kR;j;llpOXs!Y#b%e&h&j&k&m,a,f1f1iQ!ePS#dZ#mQ&r!_U'^!n4q7YQ't#QQ(w#zQ)h$lS,Y&a&dQ,_&eQ,l&qQ,q&yQ-T'WQ.e(uQ.u)iQ0P*{Q0W+VQ1b,^Q2T-VQ2k.TQ3`.pQ4P/yQ4x0|Q5Z1^Q5[1_Q5`1aQ5b1cQ5g1kQ5}2nQ6^3]Q7^4{Q7j5]Q7k5^Q7m5aQ7}6RQ8l7_R8v7n#UcOPXZs!Y!_!n#b#m#z%e&a&d&e&h&j&k&m&q&y'W(u*{+V,^,a,f-V.T/y0|1^1_1a1c1f1i1k2n4q4{5]5^5a6R7Y7_7nQ#WWQ#cYQ%itQ%juS%lv!fS'w#U'zQ'}#XQ(i#sQ(p#wQ(x#}Q(y$OQ(z$PQ({$QQ(|$RQ(}$SQ)O$TQ)P$UQ)Q$VQ)R$WQ)S$XQ)U$ZQ)X$`Q)]$dW)g$l)i.p3]Q+S%kQ+h%xS,w&}1zQ-f'hS-k'x-mQ-p(QQ-r(XQ.](mQ.c(qQ.g9pQ.i9sQ.j9tQ.k9wQ.z)tQ/|*wQ1u,rQ1x,uQ2Y-_Q2a-sQ2u.aQ2z9xQ2{9yQ2|9zQ2}9{Q3O9|Q3P9}Q3Q:OQ3R:PQ3S:QQ3T:RQ3U:SQ3V:TQ3W.hQ3Z:YQ3[:cQ3a:UQ4S0OQ4[0`Q5m:dQ5s2[Q5x2bQ6U2vQ6V:eQ6[:gQ6]:nQ7T4oQ7r5kQ7v5tQ8P:oQ8T:tQ8U:uQ8z7xQ9Y8gQ9a8xQ9r#QR;U;bR#YWR'P!dY!sQ'U-R0y4tS&{!d,yQ'a!qS'k!t!wS'm!x4vS,v&|'TS-b'b'cQ-d'dQ2P-PR2_-cR(o#vR(r#wQ!eQT-Q'U-R]!pQ!q'U-R0y4tQ#n]R'_9qT#iZ%]S#hZ%]S%cm,]U([#f#g#jS-v(](^Q-z(_Q0Q*|Q2d-wU2e-x-y-{S5z2f2gR7y5{`#[W#U#X%`'x(R*y-qr#eZm#f#g#j%](](^(_*|-w-x-y-{2f2g5{Q1`,]Q1v,sQ5i1nQ7q5jT:|&}*zT#_W%`S#^W%`S'y#U(RS(O#X*yS,x&}*zT-l'x-qT'S!d%aQ$jfR)n$oT)c$j)dR3_.oT*S$w*UR*[$zQ0U+UQ2i.SQ4w0{Q6P2mQ7]4zQ7|6OQ8i7[Q8{7{Q9[8kQ9d8}Q9i9]R9l9elqOXs!Y#b%e&h&j&k&m,a,f1f1iQ&b!UR,U&_rmOXs!T!U!Y#b%e&_&h&j&k&m,a,f1f1iR,]&eT%dm,]R0u+uR,T&]Q%{{R+m%|R+c%vT&f!V&iT&g!V&iT1h,f1i",
     nodeNames:
-      "⚠ ArithOp ArithOp LineComment BlockComment Script ExportDeclaration export Star as VariableName String Escape from ; default FunctionDeclaration async function VariableDefinition > TypeParamList TypeDefinition extends ThisType this LiteralType ArithOp Number BooleanLiteral TemplateType InterpolationEnd Interpolation InterpolationStart NullType null VoidType void TypeofType typeof MemberExpression . ?. PropertyName [ TemplateString Escape Interpolation super RegExp ] ArrayExpression Spread , } { ObjectExpression Property async get set PropertyDefinition Block : NewExpression new TypeArgList CompareOp < ) ( ArgList UnaryExpression delete LogicOp BitOp YieldExpression yield AwaitExpression await ParenthesizedExpression ClassExpression class ClassBody MethodDeclaration Decorator @ MemberExpression PrivatePropertyName CallExpression declare Privacy static abstract override PrivatePropertyDefinition PropertyDeclaration readonly accessor Optional TypeAnnotation Equals StaticBlock FunctionExpression ArrowFunction ParamList ParamList ArrayPattern ObjectPattern PatternProperty Privacy readonly Arrow MemberExpression BinaryExpression ArithOp ArithOp ArithOp ArithOp BitOp CompareOp instanceof satisfies in const CompareOp BitOp BitOp BitOp LogicOp LogicOp ConditionalExpression LogicOp LogicOp AssignmentExpression UpdateOp PostfixExpression CallExpression TaggedTemplateExpression DynamicImport import ImportMeta JSXElement JSXSelfCloseEndTag JSXStartTag JSXSelfClosingTag JSXIdentifier JSXBuiltin JSXIdentifier JSXNamespacedName JSXMemberExpression JSXSpreadAttribute JSXAttribute JSXAttributeValue JSXEscape JSXEndTag JSXOpenTag JSXFragmentTag JSXText JSXEscape JSXStartCloseTag JSXCloseTag PrefixCast ArrowFunction TypeParamList SequenceExpression KeyofType keyof UniqueType unique ImportType InferredType infer TypeName ParenthesizedType FunctionSignature ParamList NewSignature IndexedType TupleType Label ArrayType ReadonlyType ObjectType MethodType PropertyType IndexSignature PropertyDefinition CallSignature TypePredicate is NewSignature new UnionType LogicOp IntersectionType LogicOp ConditionalType ParameterizedType ClassDeclaration abstract implements type VariableDeclaration let var using TypeAliasDeclaration InterfaceDeclaration interface EnumDeclaration enum EnumBody NamespaceDeclaration namespace module AmbientDeclaration declare GlobalDeclaration global ClassDeclaration ClassBody AmbientFunctionDeclaration ExportGroup VariableName VariableName ImportDeclaration ImportGroup ForStatement for ForSpec ForInSpec ForOfSpec of WhileStatement while WithStatement with DoStatement do IfStatement if else SwitchStatement switch SwitchBody CaseLabel case DefaultLabel TryStatement try CatchClause catch FinallyClause finally ReturnStatement return ThrowStatement throw BreakStatement break ContinueStatement continue DebuggerStatement debugger LabeledStatement ExpressionStatement SingleExpression SingleClassItem",
+      '⚠ ArithOp ArithOp LineComment BlockComment Script ExportDeclaration export Star as VariableName String Escape from ; default FunctionDeclaration async function VariableDefinition > TypeParamList TypeDefinition extends ThisType this LiteralType ArithOp Number BooleanLiteral TemplateType InterpolationEnd Interpolation InterpolationStart NullType null VoidType void TypeofType typeof MemberExpression . ?. PropertyName [ TemplateString Escape Interpolation super RegExp ] ArrayExpression Spread , } { ObjectExpression Property async get set PropertyDefinition Block : NewExpression new TypeArgList CompareOp < ) ( ArgList UnaryExpression delete LogicOp BitOp YieldExpression yield AwaitExpression await ParenthesizedExpression ClassExpression class ClassBody MethodDeclaration Decorator @ MemberExpression PrivatePropertyName CallExpression declare Privacy static abstract override PrivatePropertyDefinition PropertyDeclaration readonly accessor Optional TypeAnnotation Equals StaticBlock FunctionExpression ArrowFunction ParamList ParamList ArrayPattern ObjectPattern PatternProperty Privacy readonly Arrow MemberExpression BinaryExpression ArithOp ArithOp ArithOp ArithOp BitOp CompareOp instanceof satisfies in const CompareOp BitOp BitOp BitOp LogicOp LogicOp ConditionalExpression LogicOp LogicOp AssignmentExpression UpdateOp PostfixExpression CallExpression TaggedTemplateExpression DynamicImport import ImportMeta JSXElement JSXSelfCloseEndTag JSXStartTag JSXSelfClosingTag JSXIdentifier JSXBuiltin JSXIdentifier JSXNamespacedName JSXMemberExpression JSXSpreadAttribute JSXAttribute JSXAttributeValue JSXEscape JSXEndTag JSXOpenTag JSXFragmentTag JSXText JSXEscape JSXStartCloseTag JSXCloseTag PrefixCast ArrowFunction TypeParamList SequenceExpression KeyofType keyof UniqueType unique ImportType InferredType infer TypeName ParenthesizedType FunctionSignature ParamList NewSignature IndexedType TupleType Label ArrayType ReadonlyType ObjectType MethodType PropertyType IndexSignature PropertyDefinition CallSignature TypePredicate is NewSignature new UnionType LogicOp IntersectionType LogicOp ConditionalType ParameterizedType ClassDeclaration abstract implements type VariableDeclaration let var using TypeAliasDeclaration InterfaceDeclaration interface EnumDeclaration enum EnumBody NamespaceDeclaration namespace module AmbientDeclaration declare GlobalDeclaration global ClassDeclaration ClassBody AmbientFunctionDeclaration ExportGroup VariableName VariableName ImportDeclaration ImportGroup ForStatement for ForSpec ForInSpec ForOfSpec of WhileStatement while WithStatement with DoStatement do IfStatement if else SwitchStatement switch SwitchBody CaseLabel case DefaultLabel TryStatement try CatchClause catch FinallyClause finally ReturnStatement return ThrowStatement throw BreakStatement break ContinueStatement continue DebuggerStatement debugger LabeledStatement ExpressionStatement SingleExpression SingleClassItem',
     maxTerm: 366,
     context: N1,
     nodeProps: [
       [
-        "group",
+        'group',
         -26,
         6,
         14,
@@ -22703,7 +22690,7 @@ const X1 = 303,
         263,
         265,
         266,
-        "Statement",
+        'Statement',
         -32,
         10,
         11,
@@ -22737,7 +22724,7 @@ const X1 = 303,
         162,
         163,
         165,
-        "Expression",
+        'Expression',
         -23,
         24,
         26,
@@ -22762,42 +22749,42 @@ const X1 = 303,
         195,
         197,
         198,
-        "Type",
+        'Type',
         -3,
         84,
         96,
         102,
-        "ClassItem",
+        'ClassItem',
       ],
       [
-        "openedBy",
+        'openedBy',
         31,
-        "InterpolationStart",
+        'InterpolationStart',
         50,
-        "[",
+        '[',
         54,
-        "{",
+        '{',
         69,
-        "(",
+        '(',
         143,
-        "JSXStartTag",
+        'JSXStartTag',
         155,
-        "JSXStartTag JSXStartCloseTag",
+        'JSXStartTag JSXStartCloseTag',
       ],
       [
-        "closedBy",
+        'closedBy',
         33,
-        "InterpolationEnd",
+        'InterpolationEnd',
         44,
-        "]",
+        ']',
         55,
-        "}",
+        '}',
         70,
-        ")",
+        ')',
         144,
-        "JSXSelfCloseEndTag JSXEndTag",
+        'JSXSelfCloseEndTag JSXEndTag',
         160,
-        "JSXEndTag",
+        'JSXEndTag',
       ],
     ],
     propSources: [K1],
@@ -22824,7 +22811,7 @@ const X1 = 303,
       new bo(
         "$S~RRtu[#O#Pg#S#T#|~_P#o#pb~gOq~~jVO#i!P#i#j!U#j#l!P#l#m!q#m;'S!P;'S;=`#v<%lO!P~!UO!O~~!XS!Q![!e!c!i!e#T#Z!e#o#p#Z~!hR!Q![!q!c!i!q#T#Z!q~!tR!Q![!}!c!i!}#T#Z!}~#QR!Q![!P!c!i!P#T#Z!P~#^R!Q![#g!c!i#g#T#Z#g~#jS!Q![#g!c!i#g#T#Z#g#q#r!P~#yP;=`<%l!P~$RO(U~~",
         141,
-        327,
+        327
       ),
       new bo("j~RQYZXz{^~^O'r~~aP!P!Qd~iO's~~", 25, 309),
     ],
@@ -22843,7 +22830,7 @@ const X1 = 303,
     tokenPrec: 12820,
   }),
   rb = pr.define({
-    name: "javascript",
+    name: 'javascript',
     parser: nb.configure({
       props: [
         Vc.add({
@@ -22856,10 +22843,10 @@ const X1 = 303,
               i = /^\s*(case|default)\b/.test(e);
             return n.baseIndent + (t ? 0 : i ? 1 : 2) * n.unit;
           },
-          Block: sm({ closing: "}" }),
+          Block: sm({ closing: '}' }),
           ArrowFunction: (n) => n.baseIndent + n.unit,
-          "TemplateString BlockComment": () => null,
-          "Statement Property": cs({ except: /^{/ }),
+          'TemplateString BlockComment': () => null,
+          'Statement Property': cs({ except: /^{/ }),
           JSXElement(n) {
             let e = /^\s*<\//.test(n.textAfter);
             return n.lineIndent(n.node.from) + (e ? 0 : n.unit);
@@ -22868,12 +22855,12 @@ const X1 = 303,
             let e = /\s*\}/.test(n.textAfter);
             return n.lineIndent(n.node.from) + (e ? 0 : n.unit);
           },
-          "JSXOpenTag JSXSelfClosingTag"(n) {
+          'JSXOpenTag JSXSelfClosingTag'(n) {
             return n.column(n.node.from) + n.unit;
           },
         }),
         _c.add({
-          "Block ClassBody SwitchBody EnumBody ObjectExpression ArrayExpression ObjectType":
+          'Block ClassBody SwitchBody EnumBody ObjectExpression ArrayExpression ObjectType':
             um,
           BlockComment(n) {
             return { from: n.from + 2, to: n.to - 2 };
@@ -22882,10 +22869,10 @@ const X1 = 303,
       ],
     }),
     languageData: {
-      closeBrackets: { brackets: ["(", "[", "{", "'", '"', "`"] },
-      commentTokens: { line: "//", block: { open: "/*", close: "*/" } },
+      closeBrackets: { brackets: ['(', '[', '{', "'", '"', '`'] },
+      commentTokens: { line: '//', block: { open: '/*', close: '*/' } },
       indentOnInput: /^\s*(?:case |default:|\{|\}|<\/)$/,
-      wordChars: "$",
+      wordChars: '$',
     },
   });
 var sb = /[\u1680\u2000-\u200A\u202F\u205F\u3000]/,
@@ -22896,42 +22883,42 @@ var sb = /[\u1680\u2000-\u200A\u202F\u205F\u3000]/,
   ks = { Space_Separator: sb, ID_Start: ob, ID_Continue: lb },
   de = {
     isSpaceSeparator(n) {
-      return typeof n == "string" && ks.Space_Separator.test(n);
+      return typeof n == 'string' && ks.Space_Separator.test(n);
     },
     isIdStartChar(n) {
       return (
-        typeof n == "string" &&
-        ((n >= "a" && n <= "z") ||
-          (n >= "A" && n <= "Z") ||
-          n === "$" ||
-          n === "_" ||
+        typeof n == 'string' &&
+        ((n >= 'a' && n <= 'z') ||
+          (n >= 'A' && n <= 'Z') ||
+          n === '$' ||
+          n === '_' ||
           ks.ID_Start.test(n))
       );
     },
     isIdContinueChar(n) {
       return (
-        typeof n == "string" &&
-        ((n >= "a" && n <= "z") ||
-          (n >= "A" && n <= "Z") ||
-          (n >= "0" && n <= "9") ||
-          n === "$" ||
-          n === "_" ||
-          n === "‌" ||
-          n === "‍" ||
+        typeof n == 'string' &&
+        ((n >= 'a' && n <= 'z') ||
+          (n >= 'A' && n <= 'Z') ||
+          (n >= '0' && n <= '9') ||
+          n === '$' ||
+          n === '_' ||
+          n === '‌' ||
+          n === '‍' ||
           ks.ID_Continue.test(n))
       );
     },
     isDigit(n) {
-      return typeof n == "string" && /[0-9]/.test(n);
+      return typeof n == 'string' && /[0-9]/.test(n);
     },
     isHexDigit(n) {
-      return typeof n == "string" && /[0-9A-Fa-f]/.test(n);
+      return typeof n == 'string' && /[0-9A-Fa-f]/.test(n);
     },
   };
 let yo, Re, kt, Pr, It, et, xe, ll, Ni;
 var ab = function (e, t) {
   (yo = String(e)),
-    (Re = "start"),
+    (Re = 'start'),
     (kt = []),
     (Pr = 0),
     (It = 1),
@@ -22940,12 +22927,12 @@ var ab = function (e, t) {
     (ll = void 0),
     (Ni = void 0);
   do (xe = ub()), fb[Re]();
-  while (xe.type !== "eof");
-  return typeof t == "function" ? xo({ "": Ni }, "", t) : Ni;
+  while (xe.type !== 'eof');
+  return typeof t == 'function' ? xo({ '': Ni }, '', t) : Ni;
 };
 function xo(n, e, t) {
   const i = n[e];
-  if (i != null && typeof i == "object")
+  if (i != null && typeof i == 'object')
     if (Array.isArray(i))
       for (let r = 0; r < i.length; r++) {
         const s = String(r),
@@ -22975,7 +22962,7 @@ function xo(n, e, t) {
 }
 let W, R, ji, St, V;
 function ub() {
-  for (W = "default", R = "", ji = !1, St = 1; ; ) {
+  for (W = 'default', R = '', ji = !1, St = 1; ; ) {
     V = Dt();
     const n = bd[W]();
     if (n) return n;
@@ -23001,24 +22988,24 @@ function D() {
 const bd = {
   default() {
     switch (V) {
-      case "	":
-      case "\v":
-      case "\f":
-      case " ":
-      case " ":
-      case "\uFEFF":
+      case '	':
+      case '\v':
+      case '\f':
+      case ' ':
+      case ' ':
+      case '\uFEFF':
       case `
 `:
-      case "\r":
-      case "\u2028":
-      case "\u2029":
+      case '\r':
+      case '\u2028':
+      case '\u2029':
         D();
         return;
-      case "/":
-        D(), (W = "comment");
+      case '/':
+        D(), (W = 'comment');
         return;
       case void 0:
-        return D(), ie("eof");
+        return D(), ie('eof');
     }
     if (de.isSpaceSeparator(V)) {
       D();
@@ -23028,19 +23015,19 @@ const bd = {
   },
   comment() {
     switch (V) {
-      case "*":
-        D(), (W = "multiLineComment");
+      case '*':
+        D(), (W = 'multiLineComment');
         return;
-      case "/":
-        D(), (W = "singleLineComment");
+      case '/':
+        D(), (W = 'singleLineComment');
         return;
     }
     throw ne(D());
   },
   multiLineComment() {
     switch (V) {
-      case "*":
-        D(), (W = "multiLineCommentAsterisk");
+      case '*':
+        D(), (W = 'multiLineCommentAsterisk');
         return;
       case void 0:
         throw ne(D());
@@ -23049,229 +23036,229 @@ const bd = {
   },
   multiLineCommentAsterisk() {
     switch (V) {
-      case "*":
+      case '*':
         D();
         return;
-      case "/":
-        D(), (W = "default");
+      case '/':
+        D(), (W = 'default');
         return;
       case void 0:
         throw ne(D());
     }
-    D(), (W = "multiLineComment");
+    D(), (W = 'multiLineComment');
   },
   singleLineComment() {
     switch (V) {
       case `
 `:
-      case "\r":
-      case "\u2028":
-      case "\u2029":
-        D(), (W = "default");
+      case '\r':
+      case '\u2028':
+      case '\u2029':
+        D(), (W = 'default');
         return;
       case void 0:
-        return D(), ie("eof");
+        return D(), ie('eof');
     }
     D();
   },
   value() {
     switch (V) {
-      case "{":
-      case "[":
-        return ie("punctuator", D());
-      case "n":
-        return D(), Yt("ull"), ie("null", null);
-      case "t":
-        return D(), Yt("rue"), ie("boolean", !0);
-      case "f":
-        return D(), Yt("alse"), ie("boolean", !1);
-      case "-":
-      case "+":
-        D() === "-" && (St = -1), (W = "sign");
+      case '{':
+      case '[':
+        return ie('punctuator', D());
+      case 'n':
+        return D(), Yt('ull'), ie('null', null);
+      case 't':
+        return D(), Yt('rue'), ie('boolean', !0);
+      case 'f':
+        return D(), Yt('alse'), ie('boolean', !1);
+      case '-':
+      case '+':
+        D() === '-' && (St = -1), (W = 'sign');
         return;
-      case ".":
-        (R = D()), (W = "decimalPointLeading");
+      case '.':
+        (R = D()), (W = 'decimalPointLeading');
         return;
-      case "0":
-        (R = D()), (W = "zero");
+      case '0':
+        (R = D()), (W = 'zero');
         return;
-      case "1":
-      case "2":
-      case "3":
-      case "4":
-      case "5":
-      case "6":
-      case "7":
-      case "8":
-      case "9":
-        (R = D()), (W = "decimalInteger");
+      case '1':
+      case '2':
+      case '3':
+      case '4':
+      case '5':
+      case '6':
+      case '7':
+      case '8':
+      case '9':
+        (R = D()), (W = 'decimalInteger');
         return;
-      case "I":
-        return D(), Yt("nfinity"), ie("numeric", 1 / 0);
-      case "N":
-        return D(), Yt("aN"), ie("numeric", NaN);
+      case 'I':
+        return D(), Yt('nfinity'), ie('numeric', 1 / 0);
+      case 'N':
+        return D(), Yt('aN'), ie('numeric', NaN);
       case '"':
       case "'":
-        (ji = D() === '"'), (R = ""), (W = "string");
+        (ji = D() === '"'), (R = ''), (W = 'string');
         return;
     }
     throw ne(D());
   },
   identifierNameStartEscape() {
-    if (V !== "u") throw ne(D());
+    if (V !== 'u') throw ne(D());
     D();
     const n = ko();
     switch (n) {
-      case "$":
-      case "_":
+      case '$':
+      case '_':
         break;
       default:
         if (!de.isIdStartChar(n)) throw pu();
         break;
     }
-    (R += n), (W = "identifierName");
+    (R += n), (W = 'identifierName');
   },
   identifierName() {
     switch (V) {
-      case "$":
-      case "_":
-      case "‌":
-      case "‍":
+      case '$':
+      case '_':
+      case '‌':
+      case '‍':
         R += D();
         return;
-      case "\\":
-        D(), (W = "identifierNameEscape");
+      case '\\':
+        D(), (W = 'identifierNameEscape');
         return;
     }
     if (de.isIdContinueChar(V)) {
       R += D();
       return;
     }
-    return ie("identifier", R);
+    return ie('identifier', R);
   },
   identifierNameEscape() {
-    if (V !== "u") throw ne(D());
+    if (V !== 'u') throw ne(D());
     D();
     const n = ko();
     switch (n) {
-      case "$":
-      case "_":
-      case "‌":
-      case "‍":
+      case '$':
+      case '_':
+      case '‌':
+      case '‍':
         break;
       default:
         if (!de.isIdContinueChar(n)) throw pu();
         break;
     }
-    (R += n), (W = "identifierName");
+    (R += n), (W = 'identifierName');
   },
   sign() {
     switch (V) {
-      case ".":
-        (R = D()), (W = "decimalPointLeading");
+      case '.':
+        (R = D()), (W = 'decimalPointLeading');
         return;
-      case "0":
-        (R = D()), (W = "zero");
+      case '0':
+        (R = D()), (W = 'zero');
         return;
-      case "1":
-      case "2":
-      case "3":
-      case "4":
-      case "5":
-      case "6":
-      case "7":
-      case "8":
-      case "9":
-        (R = D()), (W = "decimalInteger");
+      case '1':
+      case '2':
+      case '3':
+      case '4':
+      case '5':
+      case '6':
+      case '7':
+      case '8':
+      case '9':
+        (R = D()), (W = 'decimalInteger');
         return;
-      case "I":
-        return D(), Yt("nfinity"), ie("numeric", St * (1 / 0));
-      case "N":
-        return D(), Yt("aN"), ie("numeric", NaN);
+      case 'I':
+        return D(), Yt('nfinity'), ie('numeric', St * (1 / 0));
+      case 'N':
+        return D(), Yt('aN'), ie('numeric', NaN);
     }
     throw ne(D());
   },
   zero() {
     switch (V) {
-      case ".":
-        (R += D()), (W = "decimalPoint");
+      case '.':
+        (R += D()), (W = 'decimalPoint');
         return;
-      case "e":
-      case "E":
-        (R += D()), (W = "decimalExponent");
+      case 'e':
+      case 'E':
+        (R += D()), (W = 'decimalExponent');
         return;
-      case "x":
-      case "X":
-        (R += D()), (W = "hexadecimal");
+      case 'x':
+      case 'X':
+        (R += D()), (W = 'hexadecimal');
         return;
     }
-    return ie("numeric", St * 0);
+    return ie('numeric', St * 0);
   },
   decimalInteger() {
     switch (V) {
-      case ".":
-        (R += D()), (W = "decimalPoint");
+      case '.':
+        (R += D()), (W = 'decimalPoint');
         return;
-      case "e":
-      case "E":
-        (R += D()), (W = "decimalExponent");
+      case 'e':
+      case 'E':
+        (R += D()), (W = 'decimalExponent');
         return;
     }
     if (de.isDigit(V)) {
       R += D();
       return;
     }
-    return ie("numeric", St * Number(R));
+    return ie('numeric', St * Number(R));
   },
   decimalPointLeading() {
     if (de.isDigit(V)) {
-      (R += D()), (W = "decimalFraction");
+      (R += D()), (W = 'decimalFraction');
       return;
     }
     throw ne(D());
   },
   decimalPoint() {
     switch (V) {
-      case "e":
-      case "E":
-        (R += D()), (W = "decimalExponent");
+      case 'e':
+      case 'E':
+        (R += D()), (W = 'decimalExponent');
         return;
     }
     if (de.isDigit(V)) {
-      (R += D()), (W = "decimalFraction");
+      (R += D()), (W = 'decimalFraction');
       return;
     }
-    return ie("numeric", St * Number(R));
+    return ie('numeric', St * Number(R));
   },
   decimalFraction() {
     switch (V) {
-      case "e":
-      case "E":
-        (R += D()), (W = "decimalExponent");
+      case 'e':
+      case 'E':
+        (R += D()), (W = 'decimalExponent');
         return;
     }
     if (de.isDigit(V)) {
       R += D();
       return;
     }
-    return ie("numeric", St * Number(R));
+    return ie('numeric', St * Number(R));
   },
   decimalExponent() {
     switch (V) {
-      case "+":
-      case "-":
-        (R += D()), (W = "decimalExponentSign");
+      case '+':
+      case '-':
+        (R += D()), (W = 'decimalExponentSign');
         return;
     }
     if (de.isDigit(V)) {
-      (R += D()), (W = "decimalExponentInteger");
+      (R += D()), (W = 'decimalExponentInteger');
       return;
     }
     throw ne(D());
   },
   decimalExponentSign() {
     if (de.isDigit(V)) {
-      (R += D()), (W = "decimalExponentInteger");
+      (R += D()), (W = 'decimalExponentInteger');
       return;
     }
     throw ne(D());
@@ -23281,11 +23268,11 @@ const bd = {
       R += D();
       return;
     }
-    return ie("numeric", St * Number(R));
+    return ie('numeric', St * Number(R));
   },
   hexadecimal() {
     if (de.isHexDigit(V)) {
-      (R += D()), (W = "hexadecimalInteger");
+      (R += D()), (W = 'hexadecimalInteger');
       return;
     }
     throw ne(D());
@@ -23295,27 +23282,27 @@ const bd = {
       R += D();
       return;
     }
-    return ie("numeric", St * Number(R));
+    return ie('numeric', St * Number(R));
   },
   string() {
     switch (V) {
-      case "\\":
+      case '\\':
         D(), (R += hb());
         return;
       case '"':
-        if (ji) return D(), ie("string", R);
+        if (ji) return D(), ie('string', R);
         R += D();
         return;
       case "'":
-        if (!ji) return D(), ie("string", R);
+        if (!ji) return D(), ie('string', R);
         R += D();
         return;
       case `
 `:
-      case "\r":
+      case '\r':
         throw ne(D());
-      case "\u2028":
-      case "\u2029":
+      case '\u2028':
+      case '\u2029':
         db(V);
         break;
       case void 0:
@@ -23325,58 +23312,58 @@ const bd = {
   },
   start() {
     switch (V) {
-      case "{":
-      case "[":
-        return ie("punctuator", D());
+      case '{':
+      case '[':
+        return ie('punctuator', D());
     }
-    W = "value";
+    W = 'value';
   },
   beforePropertyName() {
     switch (V) {
-      case "$":
-      case "_":
-        (R = D()), (W = "identifierName");
+      case '$':
+      case '_':
+        (R = D()), (W = 'identifierName');
         return;
-      case "\\":
-        D(), (W = "identifierNameStartEscape");
+      case '\\':
+        D(), (W = 'identifierNameStartEscape');
         return;
-      case "}":
-        return ie("punctuator", D());
+      case '}':
+        return ie('punctuator', D());
       case '"':
       case "'":
-        (ji = D() === '"'), (W = "string");
+        (ji = D() === '"'), (W = 'string');
         return;
     }
     if (de.isIdStartChar(V)) {
-      (R += D()), (W = "identifierName");
+      (R += D()), (W = 'identifierName');
       return;
     }
     throw ne(D());
   },
   afterPropertyName() {
-    if (V === ":") return ie("punctuator", D());
+    if (V === ':') return ie('punctuator', D());
     throw ne(D());
   },
   beforePropertyValue() {
-    W = "value";
+    W = 'value';
   },
   afterPropertyValue() {
     switch (V) {
-      case ",":
-      case "}":
-        return ie("punctuator", D());
+      case ',':
+      case '}':
+        return ie('punctuator', D());
     }
     throw ne(D());
   },
   beforeArrayValue() {
-    if (V === "]") return ie("punctuator", D());
-    W = "value";
+    if (V === ']') return ie('punctuator', D());
+    W = 'value';
   },
   afterArrayValue() {
     switch (V) {
-      case ",":
-      case "]":
-        return ie("punctuator", D());
+      case ',':
+      case ']':
+        return ie('punctuator', D());
     }
     throw ne(D());
   },
@@ -23395,51 +23382,51 @@ function Yt(n) {
 }
 function hb() {
   switch (Dt()) {
-    case "b":
-      return D(), "\b";
-    case "f":
-      return D(), "\f";
-    case "n":
+    case 'b':
+      return D(), '\b';
+    case 'f':
+      return D(), '\f';
+    case 'n':
       return (
         D(),
         `
 `
       );
-    case "r":
-      return D(), "\r";
-    case "t":
-      return D(), "	";
-    case "v":
-      return D(), "\v";
-    case "0":
+    case 'r':
+      return D(), '\r';
+    case 't':
+      return D(), '	';
+    case 'v':
+      return D(), '\v';
+    case '0':
       if ((D(), de.isDigit(Dt()))) throw ne(D());
-      return "\0";
-    case "x":
+      return '\0';
+    case 'x':
       return D(), cb();
-    case "u":
+    case 'u':
       return D(), ko();
     case `
 `:
-    case "\u2028":
-    case "\u2029":
-      return D(), "";
-    case "\r":
+    case '\u2028':
+    case '\u2029':
+      return D(), '';
+    case '\r':
       return (
         D(),
         Dt() ===
           `
 ` && D(),
-        ""
+        ''
       );
-    case "1":
-    case "2":
-    case "3":
-    case "4":
-    case "5":
-    case "6":
-    case "7":
-    case "8":
-    case "9":
+    case '1':
+    case '2':
+    case '3':
+    case '4':
+    case '5':
+    case '6':
+    case '7':
+    case '8':
+    case '9':
       throw ne(D());
     case void 0:
       throw ne(D());
@@ -23447,14 +23434,14 @@ function hb() {
   return D();
 }
 function cb() {
-  let n = "",
+  let n = '',
     e = Dt();
   if (!de.isHexDigit(e) || ((n += D()), (e = Dt()), !de.isHexDigit(e)))
     throw ne(D());
   return (n += D()), String.fromCodePoint(parseInt(n, 16));
 }
 function ko() {
-  let n = "",
+  let n = '',
     e = 4;
   for (; e-- > 0; ) {
     const t = Dt();
@@ -23465,55 +23452,55 @@ function ko() {
 }
 const fb = {
   start() {
-    if (xe.type === "eof") throw _t();
+    if (xe.type === 'eof') throw _t();
     Cs();
   },
   beforePropertyName() {
     switch (xe.type) {
-      case "identifier":
-      case "string":
-        (ll = xe.value), (Re = "afterPropertyName");
+      case 'identifier':
+      case 'string':
+        (ll = xe.value), (Re = 'afterPropertyName');
         return;
-      case "punctuator":
+      case 'punctuator':
         zn();
         return;
-      case "eof":
+      case 'eof':
         throw _t();
     }
   },
   afterPropertyName() {
-    if (xe.type === "eof") throw _t();
-    Re = "beforePropertyValue";
+    if (xe.type === 'eof') throw _t();
+    Re = 'beforePropertyValue';
   },
   beforePropertyValue() {
-    if (xe.type === "eof") throw _t();
+    if (xe.type === 'eof') throw _t();
     Cs();
   },
   beforeArrayValue() {
-    if (xe.type === "eof") throw _t();
-    if (xe.type === "punctuator" && xe.value === "]") {
+    if (xe.type === 'eof') throw _t();
+    if (xe.type === 'punctuator' && xe.value === ']') {
       zn();
       return;
     }
     Cs();
   },
   afterPropertyValue() {
-    if (xe.type === "eof") throw _t();
+    if (xe.type === 'eof') throw _t();
     switch (xe.value) {
-      case ",":
-        Re = "beforePropertyName";
+      case ',':
+        Re = 'beforePropertyName';
         return;
-      case "}":
+      case '}':
         zn();
     }
   },
   afterArrayValue() {
-    if (xe.type === "eof") throw _t();
+    if (xe.type === 'eof') throw _t();
     switch (xe.value) {
-      case ",":
-        Re = "beforeArrayValue";
+      case ',':
+        Re = 'beforeArrayValue';
         return;
-      case "]":
+      case ']':
         zn();
     }
   },
@@ -23522,20 +23509,20 @@ const fb = {
 function Cs() {
   let n;
   switch (xe.type) {
-    case "punctuator":
+    case 'punctuator':
       switch (xe.value) {
-        case "{":
+        case '{':
           n = {};
           break;
-        case "[":
+        case '[':
           n = [];
           break;
       }
       break;
-    case "null":
-    case "boolean":
-    case "numeric":
-    case "string":
+    case 'null':
+    case 'boolean':
+    case 'numeric':
+    case 'string':
       n = xe.value;
       break;
   }
@@ -23551,34 +23538,34 @@ function Cs() {
           configurable: !0,
         });
   }
-  if (n !== null && typeof n == "object")
+  if (n !== null && typeof n == 'object')
     kt.push(n),
       Array.isArray(n)
-        ? (Re = "beforeArrayValue")
-        : (Re = "beforePropertyName");
+        ? (Re = 'beforeArrayValue')
+        : (Re = 'beforePropertyName');
   else {
     const e = kt[kt.length - 1];
     e == null
-      ? (Re = "end")
+      ? (Re = 'end')
       : Array.isArray(e)
-      ? (Re = "afterArrayValue")
-      : (Re = "afterPropertyValue");
+      ? (Re = 'afterArrayValue')
+      : (Re = 'afterPropertyValue');
   }
 }
 function zn() {
   kt.pop();
   const n = kt[kt.length - 1];
   n == null
-    ? (Re = "end")
+    ? (Re = 'end')
     : Array.isArray(n)
-    ? (Re = "afterArrayValue")
-    : (Re = "afterPropertyValue");
+    ? (Re = 'afterArrayValue')
+    : (Re = 'afterPropertyValue');
 }
 function ne(n) {
   return Mr(
     n === void 0
       ? `JSON5: invalid end of input at ${It}:${et}`
-      : `JSON5: invalid character '${yd(n)}' at ${It}:${et}`,
+      : `JSON5: invalid character '${yd(n)}' at ${It}:${et}`
   );
 }
 function _t() {
@@ -23589,28 +23576,28 @@ function pu() {
 }
 function db(n) {
   console.warn(
-    `JSON5: '${yd(n)}' in strings is not valid ECMAScript; consider escaping`,
+    `JSON5: '${yd(n)}' in strings is not valid ECMAScript; consider escaping`
   );
 }
 function yd(n) {
   const e = {
     "'": "\\'",
     '"': '\\"',
-    "\\": "\\\\",
-    "\b": "\\b",
-    "\f": "\\f",
-    "\n": "\\n",
-    "\r": "\\r",
-    "	": "\\t",
-    "\v": "\\v",
-    "\0": "\\0",
-    "\u2028": "\\u2028",
-    "\u2029": "\\u2029",
+    '\\': '\\\\',
+    '\b': '\\b',
+    '\f': '\\f',
+    '\n': '\\n',
+    '\r': '\\r',
+    '	': '\\t',
+    '\v': '\\v',
+    '\0': '\\0',
+    '\u2028': '\\u2028',
+    '\u2029': '\\u2029',
   };
   if (e[n]) return e[n];
-  if (n < " ") {
+  if (n < ' ') {
     const t = n.charCodeAt(0).toString(16);
-    return "\\x" + ("00" + t).substring(t.length);
+    return '\\x' + ('00' + t).substring(t.length);
   }
   return n;
 }
@@ -23620,26 +23607,26 @@ function Mr(n) {
 }
 var pb = function (e, t, i) {
   const r = [];
-  let s = "",
+  let s = '',
     o,
     l,
-    a = "",
+    a = '',
     u;
   if (
     (t != null &&
-      typeof t == "object" &&
+      typeof t == 'object' &&
       !Array.isArray(t) &&
       ((i = t.space), (u = t.quote), (t = t.replacer)),
-    typeof t == "function")
+    typeof t == 'function')
   )
     l = t;
   else if (Array.isArray(t)) {
     o = [];
     for (const m of t) {
       let g;
-      typeof m == "string"
+      typeof m == 'string'
         ? (g = m)
-        : (typeof m == "number" ||
+        : (typeof m == 'number' ||
             m instanceof String ||
             m instanceof Number) &&
           (g = String(m)),
@@ -23650,19 +23637,19 @@ var pb = function (e, t, i) {
     i instanceof Number
       ? (i = Number(i))
       : i instanceof String && (i = String(i)),
-    typeof i == "number"
+    typeof i == 'number'
       ? i > 0 &&
-        ((i = Math.min(10, Math.floor(i))), (a = "          ".substr(0, i)))
-      : typeof i == "string" && (a = i.substr(0, 10)),
-    h("", { "": e })
+        ((i = Math.min(10, Math.floor(i))), (a = '          '.substr(0, i)))
+      : typeof i == 'string' && (a = i.substr(0, 10)),
+    h('', { '': e })
   );
   function h(m, g) {
     let S = g[m];
     switch (
       (S != null &&
-        (typeof S.toJSON5 == "function"
+        (typeof S.toJSON5 == 'function'
           ? (S = S.toJSON5(m))
-          : typeof S.toJSON == "function" && (S = S.toJSON(m))),
+          : typeof S.toJSON == 'function' && (S = S.toJSON(m))),
       l && (S = l.call(g, m, S)),
       S instanceof Number
         ? (S = Number(S))
@@ -23672,33 +23659,33 @@ var pb = function (e, t, i) {
       S)
     ) {
       case null:
-        return "null";
+        return 'null';
       case !0:
-        return "true";
+        return 'true';
       case !1:
-        return "false";
+        return 'false';
     }
-    if (typeof S == "string") return c(S);
-    if (typeof S == "number") return String(S);
-    if (typeof S == "object") return Array.isArray(S) ? p(S) : f(S);
+    if (typeof S == 'string') return c(S);
+    if (typeof S == 'number') return String(S);
+    if (typeof S == 'object') return Array.isArray(S) ? p(S) : f(S);
   }
   function c(m) {
     const g = { "'": 0.1, '"': 0.2 },
       S = {
         "'": "\\'",
         '"': '\\"',
-        "\\": "\\\\",
-        "\b": "\\b",
-        "\f": "\\f",
-        "\n": "\\n",
-        "\r": "\\r",
-        "	": "\\t",
-        "\v": "\\v",
-        "\0": "\\0",
-        "\u2028": "\\u2028",
-        "\u2029": "\\u2029",
+        '\\': '\\\\',
+        '\b': '\\b',
+        '\f': '\\f',
+        '\n': '\\n',
+        '\r': '\\r',
+        '	': '\\t',
+        '\v': '\\v',
+        '\0': '\\0',
+        '\u2028': '\\u2028',
+        '\u2029': '\\u2029',
       };
-    let x = "";
+    let x = '';
     for (let y = 0; y < m.length; y++) {
       const C = m[y];
       switch (C) {
@@ -23706,9 +23693,9 @@ var pb = function (e, t, i) {
         case '"':
           g[C]++, (x += C);
           continue;
-        case "\0":
+        case '\0':
           if (de.isDigit(m[y + 1])) {
-            x += "\\x00";
+            x += '\\x00';
             continue;
           }
       }
@@ -23716,19 +23703,19 @@ var pb = function (e, t, i) {
         x += S[C];
         continue;
       }
-      if (C < " ") {
+      if (C < ' ') {
         let Q = C.charCodeAt(0).toString(16);
-        x += "\\x" + ("00" + Q).substring(Q.length);
+        x += '\\x' + ('00' + Q).substring(Q.length);
         continue;
       }
       x += C;
     }
     const w = u || Object.keys(g).reduce((y, C) => (g[y] < g[C] ? y : C));
-    return (x = x.replace(new RegExp(w, "g"), S[w])), w + x + w;
+    return (x = x.replace(new RegExp(w, 'g'), S[w])), w + x + w;
   }
   function f(m) {
     if (r.indexOf(m) >= 0)
-      throw TypeError("Converting circular structure to JSON5");
+      throw TypeError('Converting circular structure to JSON5');
     r.push(m);
     let g = s;
     s = s + a;
@@ -23737,15 +23724,15 @@ var pb = function (e, t, i) {
     for (const y of S) {
       const C = h(y, m);
       if (C !== void 0) {
-        let Q = d(y) + ":";
-        a !== "" && (Q += " "), (Q += C), x.push(Q);
+        let Q = d(y) + ':';
+        a !== '' && (Q += ' '), (Q += C), x.push(Q);
       }
     }
     let w;
-    if (x.length === 0) w = "{}";
+    if (x.length === 0) w = '{}';
     else {
       let y;
-      if (a === "") (y = x.join(",")), (w = "{" + y + "}");
+      if (a === '') (y = x.join(',')), (w = '{' + y + '}');
       else {
         let C =
           `,
@@ -23759,7 +23746,7 @@ var pb = function (e, t, i) {
             `,
 ` +
             g +
-            "}");
+            '}');
       }
     }
     return r.pop(), (s = g), w;
@@ -23775,18 +23762,18 @@ var pb = function (e, t, i) {
   }
   function p(m) {
     if (r.indexOf(m) >= 0)
-      throw TypeError("Converting circular structure to JSON5");
+      throw TypeError('Converting circular structure to JSON5');
     r.push(m);
     let g = s;
     s = s + a;
     let S = [];
     for (let w = 0; w < m.length; w++) {
       const y = h(String(w), m);
-      S.push(y !== void 0 ? y : "null");
+      S.push(y !== void 0 ? y : 'null');
     }
     let x;
-    if (S.length === 0) x = "[]";
-    else if (a === "") x = "[" + S.join(",") + "]";
+    if (S.length === 0) x = '[]';
+    else if (a === '') x = '[' + S.join(',') + ']';
     else {
       let w =
           `,
@@ -23800,14 +23787,14 @@ var pb = function (e, t, i) {
         `,
 ` +
         g +
-        "]";
+        ']';
     }
     return r.pop(), (s = g), x;
   }
 };
 const Ob = { parse: ab, stringify: pb };
 var gb = Ob;
-const Ui = ["v1", "vX", "v2021-03-25", "v2021-10-21"],
+const Ui = ['v1', 'vX', 'v2021-03-25', 'v2021-10-21'],
   [xd] = Ui.slice(-1);
 function kd(n) {
   const [e, t] = N.useState(!1);
@@ -23846,25 +23833,25 @@ function bb(n) {
     s = dl.gray[n.sanity.color.dark ? 900 : 100].hex;
   return A.theme(
     {
-      "&": { color: i.fg, backgroundColor: i.bg },
-      ".cm-content": { caretColor: r },
-      ".cm-editor": {
+      '&': { color: i.fg, backgroundColor: i.bg },
+      '.cm-content': { caretColor: r },
+      '.cm-editor': {
         fontFamily: t.code.family,
         fontSize: at(t.code.sizes[1].fontSize),
-        lineHeight: "inherit",
+        lineHeight: 'inherit',
       },
-      ".cm-cursor, .cm-dropCursor": { borderLeftColor: r },
-      "&.cm-focused .cm-selectionBackground, .cm-selectionBackground, .cm-content ::selection":
+      '.cm-cursor, .cm-dropCursor': { borderLeftColor: r },
+      '&.cm-focused .cm-selectionBackground, .cm-selectionBackground, .cm-content ::selection':
         { backgroundColor: s },
-      ".cm-panels": { backgroundColor: i.bg, color: i.fg },
-      ".cm-panels.cm-panels-top": {
-        borderBottom: "2px solid ".concat(i.border),
+      '.cm-panels': { backgroundColor: i.bg, color: i.fg },
+      '.cm-panels.cm-panels-top': {
+        borderBottom: '2px solid '.concat(i.border),
       },
-      ".cm-panels.cm-panels-bottom": {
-        borderTop: "2px solid ".concat(i.border),
+      '.cm-panels.cm-panels-bottom': {
+        borderTop: '2px solid '.concat(i.border),
       },
     },
-    { dark: e.dark },
+    { dark: e.dark }
   );
 }
 function yb(n) {
@@ -23908,10 +23895,10 @@ function yb(n) {
       color: t.operator,
     },
     { tag: [O.meta, O.comment], color: t.comment },
-    { tag: O.strong, fontWeight: "bold" },
-    { tag: O.emphasis, fontStyle: "italic" },
-    { tag: O.strikethrough, textDecoration: "line-through" },
-    { tag: O.heading, fontWeight: "bold", color: t.property },
+    { tag: O.strong, fontWeight: 'bold' },
+    { tag: O.emphasis, fontStyle: 'italic' },
+    { tag: O.strikethrough, textDecoration: 'line-through' },
+    { tag: O.heading, fontWeight: 'bold', color: t.property },
     { tag: [O.atom, O.bool, O.special(O.variableName)], color: t.boolean },
     { tag: [O.processingInstruction, O.string, O.inserted], color: t.string },
     { tag: O.invalid, color: e.fg },
@@ -23919,7 +23906,7 @@ function yb(n) {
 }
 var Ou = Object.freeze,
   xb = Object.defineProperty,
-  kb = (n, e) => Ou(xb(n, "raw", { value: Ou(e || n.slice()) })),
+  kb = (n, e) => Ou(xb(n, 'raw', { value: Ou(e || n.slice()) })),
   gu;
 const Cb = ce.div(
   gu ||
@@ -23968,7 +23955,7 @@ const Cb = ce.div(
   (n) => {
     let { theme: e } = n;
     return at(e.sanity.space[5]);
-  },
+  }
 );
 function Cd(n) {
   const e = Zd(),
@@ -23980,18 +23967,18 @@ function Cd(n) {
 function Db(n) {
   return (
     !!n &&
-    typeof n == "object" &&
-    Object.prototype.toString.call(n) === "[object Object]"
+    typeof n == 'object' &&
+    Object.prototype.toString.call(n) === '[object Object]'
   );
 }
 const wb = vb();
 function Qb(n) {
-  const e = "sanityVision:".concat(n);
+  const e = 'sanityVision:'.concat(n);
   let t = null;
   return { get: i, set: r, merge: s };
   function i(a, u) {
     const h = o();
-    return typeof h[a] > "u" ? u : h[a];
+    return typeof h[a] > 'u' ? u : h[a];
   }
   function r(a, u) {
     const h = o();
@@ -24007,7 +23994,7 @@ function Qb(n) {
   function l() {
     if (!wb) return {};
     try {
-      const a = JSON.parse(localStorage.getItem(e) || "{}");
+      const a = JSON.parse(localStorage.getItem(e) || '{}');
       return Db(a) ? a : {};
     } catch {
       return {};
@@ -24015,7 +24002,7 @@ function Qb(n) {
   }
 }
 function vb() {
-  const n = "lsCheck";
+  const n = 'lsCheck';
   try {
     return localStorage.setItem(n, n), localStorage.removeItem(n), !0;
   } catch {
@@ -24026,36 +24013,36 @@ function Ab(n) {
   const e = {},
     t = {};
   for (const [i, r] of n.entries()) {
-    if (i[0] === "$") {
+    if (i[0] === '$') {
       e[i.slice(1)] = JSON.parse(r);
       continue;
     }
-    if (i === "perspective") {
+    if (i === 'perspective') {
       t[i] = r;
       continue;
     }
   }
-  return { query: n.get("query") || "", params: e, options: t };
+  return { query: n.get('query') || '', params: e, options: t };
 }
 function Ds(n) {
-  const e = n.replace(/^v/, "").trim().toUpperCase();
+  const e = n.replace(/^v/, '').trim().toUpperCase();
   return (
     e.length > 0 &&
-    (e === "X" || (/^\d{4}-\d{2}-\d{2}$/.test(e) && !isNaN(Date.parse(e))))
+    (e === 'X' || (/^\d{4}-\d{2}-\d{2}$/.test(e) && !isNaN(Date.parse(e))))
   );
 }
 function $b(n) {
-  return n[0] !== "v" && n !== "other" ? "v".concat(n) : n;
+  return n[0] !== 'v' && n !== 'other' ? 'v'.concat(n) : n;
 }
 function Dd(n) {
   try {
     const e = n ? gb.parse(n) : {};
-    return typeof e == "object" && e && !Array.isArray(e) ? e : {};
+    return typeof e == 'object' && e && !Array.isArray(e) ? e : {};
   } catch (e) {
     return (
       (e.message = `Parameters are not valid JSON:
 
-`.concat(e.message.replace("JSON5:", ""))),
+`.concat(e.message.replace('JSON5:', ''))),
       e
     );
   }
@@ -24064,18 +24051,18 @@ function mu(n) {
   let e = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {},
     t = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {};
   const i = new URLSearchParams();
-  i.set("query", n);
+  i.set('query', n);
   for (const [r, s] of Object.entries(e))
-    i.set("$".concat(r), JSON.stringify(s));
-  for (const [r, s] of Object.entries(t)) s && i.set(r, "".concat(s));
-  return "?".concat(i);
+    i.set('$'.concat(r), JSON.stringify(s));
+  for (const [r, s] of Object.entries(t)) s && i.set(r, ''.concat(s));
+  return '?'.concat(i);
 }
-const Gi = ["raw", "previewDrafts", "published"],
+const Gi = ['raw', 'previewDrafts', 'published'],
   Su = Gi[0];
 function Pb(n) {
   return Gi.includes(n);
 }
-const Mb = typeof document > "u" ? zd : window.ResizeObserver,
+const Mb = typeof document > 'u' ? zd : window.ResizeObserver,
   Bb = `{
   
 }`;
@@ -24092,7 +24079,7 @@ function Eb(n) {
         const d = bu(f);
         l(d.valid), e(d);
       },
-      [e],
+      [e]
     ),
     c = N.useMemo(() => Id(h, 333), [h]);
   return b.jsx(Cd, { value: n.value || Bb, onChange: c });
@@ -24105,7 +24092,7 @@ function bu(n) {
 }
 var yu = Object.freeze,
   Tb = Object.defineProperty,
-  Rb = (n, e) => yu(Tb(n, "raw", { value: yu(e || n.slice()) })),
+  Rb = (n, e) => yu(Tb(n, 'raw', { value: yu(e || n.slice()) })),
   xu;
 const Fb = ce.div((n) => {
     let { theme: e } = n;
@@ -24272,7 +24259,7 @@ const Fb = ce.div((n) => {
       at(r[2]),
       t.syntax.string,
       t.syntax.boolean,
-      t.syntax.number,
+      t.syntax.number
     );
   }),
   Co = qd(5e4);
@@ -24287,12 +24274,12 @@ function ku(n) {
           onClick: Wb,
         }),
       })
-    : b.jsx(eh, { language: "json", children: JSON.stringify(e) });
+    : b.jsx(eh, { language: 'json', children: JSON.stringify(e) });
 }
 function Xb(n, e) {
   const i = Co.get(n);
-  if (typeof i == "boolean") return i;
-  const r = n.split(".", 4);
+  if (typeof i == 'boolean') return i;
+  const r = n.split('.', 4);
   return r.length === 4
     ? !1
     : Array.isArray(e)
@@ -24305,7 +24292,7 @@ function Wb(n) {
   t !== void 0 && Co.set(e, !t);
 }
 function wd(n) {
-  return n !== null && typeof n == "object" && !Array.isArray(n);
+  return n !== null && typeof n == 'object' && !Array.isArray(n);
 }
 const Zb = /^\d+$/;
 function zb(n) {
@@ -24314,7 +24301,7 @@ function zb(n) {
 }
 var Cu = Object.freeze,
   Ib = Object.defineProperty,
-  Vb = (n, e) => Cu(Ib(n, "raw", { value: Cu(e || n.slice()) })),
+  Vb = (n, e) => Cu(Ib(n, 'raw', { value: Cu(e || n.slice()) })),
   Du;
 const Do = ce(eh)(
   Du ||
@@ -24327,22 +24314,22 @@ const Do = ce(eh)(
   (n) => {
     let { theme: e } = n;
     return e.sanity.color.muted.critical.enabled.fg;
-  },
+  }
 );
 function jb(n) {
   let { error: e } = n;
-  if (!("details" in e)) return null;
+  if (!('details' in e)) return null;
   const t = { ...e.details, ...Ub(e.details) };
   return t.line
-    ? b.jsxs("div", {
+    ? b.jsxs('div', {
         children: [
           b.jsx(Do, {
             size: 1,
-            children: ""
+            children: ''
               .concat(
                 t.line,
                 `
-`,
+`
               )
               .concat(Yb(t.column, t.columnEnd)),
           }),
@@ -24350,11 +24337,11 @@ function jb(n) {
             marginTop: 4,
             children: b.jsx(Do, {
               size: 1,
-              children: "Line:   "
+              children: 'Line:   '
                 .concat(
                   t.lineNumber,
                   `
-Column: `,
+Column: `
                 )
                 .concat(t.column),
             }),
@@ -24364,7 +24351,7 @@ Column: `,
     : null;
 }
 function Ub(n) {
-  if (!n || typeof n.query != "string" || typeof n.start != "number") return {};
+  if (!n || typeof n.query != 'string' || typeof n.start != 'number') return {};
   const { query: e, start: t, end: i } = n,
     r =
       e.slice(0, t).lastIndexOf(`
@@ -24375,17 +24362,17 @@ function Ub(n) {
       e.indexOf(
         `
 `,
-        r,
-      ),
+        r
+      )
     ),
     l = t - r,
-    a = typeof i == "number" ? i - r : void 0;
+    a = typeof i == 'number' ? i - r : void 0;
   return { line: o, lineNumber: s, column: l, columnEnd: a };
 }
 function Yb(n, e) {
-  const t = "-".repeat(n),
-    i = "^".repeat(e ? e - n : 1);
-  return "".concat(t).concat(i);
+  const t = '-'.repeat(n),
+    i = '^'.repeat(e ? e - n : 1);
+  return ''.concat(t).concat(i);
 }
 function _b(n) {
   return b.jsxs(Lt, {
@@ -24399,7 +24386,7 @@ function _b(n) {
 }
 var wu = Object.freeze,
   Lb = Object.defineProperty,
-  Qd = (n, e) => wu(Lb(n, "raw", { value: wu(e || n.slice()) })),
+  Qd = (n, e) => wu(Lb(n, 'raw', { value: wu(e || n.slice()) })),
   Qu,
   vu;
 const qb = ce(_)(
@@ -24409,7 +24396,7 @@ const qb = ce(_)(
   /* This limits the width of the popover content */
   max-width: 240px;
 `,
-      ])),
+      ]))
   ),
   Nb = ce.a(
     vu ||
@@ -24418,7 +24405,7 @@ const qb = ce(_)(
   cursor: pointer;
   margin-right: auto;
 `,
-      ])),
+      ]))
   );
 function Gb() {
   const [n, e] = N.useState(!1),
@@ -24436,8 +24423,8 @@ function Gb() {
             b.jsxs(Ku, {
               space: 2,
               children: [
-                b.jsx(yt, { weight: "medium", children: "Perspectives" }),
-                b.jsx(Ud, { tone: "primary", children: "New" }),
+                b.jsx(yt, { weight: 'medium', children: 'Perspectives' }),
+                b.jsx(Ud, { tone: 'primary', children: 'New' }),
               ],
             }),
             b.jsx(Be, {
@@ -24450,25 +24437,25 @@ function Gb() {
             b.jsx(Be, {
               children: b.jsx(yt, {
                 children: b.jsx(Nb, {
-                  href: "https://sanity.io/docs/perspectives",
-                  target: "_blank",
-                  children: "Read docs →",
+                  href: 'https://sanity.io/docs/perspectives',
+                  target: '_blank',
+                  children: 'Read docs →',
                 }),
               }),
             }),
           ],
         }),
       }),
-      placement: "bottom-start",
+      placement: 'bottom-start',
       portal: !0,
       padding: 3,
       ref: s,
       open: n,
       children: b.jsx(wo, {
         icon: Yd,
-        mode: "bleed",
+        mode: 'bleed',
         padding: 2,
-        tone: "primary",
+        tone: 'primary',
         fontSize: 1,
         ref: i,
         onClick: o,
@@ -24479,7 +24466,7 @@ function Gb() {
 }
 var Au = Object.freeze,
   Hb = Object.defineProperty,
-  ye = (n, e) => Au(Hb(n, "raw", { value: Au(e || n.slice()) })),
+  ye = (n, e) => Au(Hb(n, 'raw', { value: Au(e || n.slice()) })),
   $u,
   Pu,
   Mu,
@@ -24546,16 +24533,16 @@ const vd = ce(Ht)(
     border-color: transparent;
   }
 `,
-    ])),
+    ]))
 );
-vd.displayName = "Root";
+vd.displayName = 'Root';
 const Jb = ce(Be)(
     Pu ||
       (Pu = ye([
         `
   border-bottom: 1px solid var(--card-border-color);
 `,
-      ])),
+      ]))
   ),
   bt = ce(_d)(
     Mu ||
@@ -24563,7 +24550,7 @@ const Jb = ce(Be)(
         `
   flex: 1;
 `,
-      ])),
+      ]))
   ),
   Kb = ce(_)(
     Bu ||
@@ -24571,7 +24558,7 @@ const Jb = ce(Be)(
         `
   position: relative;
 `,
-      ])),
+      ]))
   ),
   ey = ce.a(
     Eu ||
@@ -24580,7 +24567,7 @@ const Jb = ce(Be)(
   cursor: pointer;
   margin-right: auto;
 `,
-      ])),
+      ]))
   ),
   Ad = ce(_)(
     Tu ||
@@ -24600,7 +24587,7 @@ const Jb = ce(Be)(
   }
 `,
       ])),
-    bt,
+    bt
   ),
   qu = ce(Ad)(
     Ru ||
@@ -24609,7 +24596,7 @@ const Jb = ce(Be)(
   // This is so its aligned with the gutters of CodeMirror
   left: 33px;
 `,
-      ])),
+      ]))
   ),
   Nu = ce(Be)(
     Fu ||
@@ -24620,7 +24607,7 @@ const Jb = ce(Be)(
   position: relative;
   flex-direction: column;
 `,
-      ])),
+      ]))
   ),
   ty = ce(Ht)(
     Xu ||
@@ -24628,7 +24615,7 @@ const Jb = ce(Be)(
         `
   height: 100%;
 `,
-      ])),
+      ]))
   ),
   iy = ce(_)(
     Wu ||
@@ -24636,7 +24623,7 @@ const Jb = ce(Be)(
         `
   position: relative;
 `,
-      ])),
+      ]))
   ),
   ny = ce(Be)(
     zu ||
@@ -24669,10 +24656,10 @@ const Jb = ce(Be)(
         width: 100%;
       }
     `,
-            ])),
+            ]))
         )
       );
-    },
+    }
   ),
   ry = ce(_)(
     Iu ||
@@ -24683,7 +24670,7 @@ const Jb = ce(Be)(
   height: 100%;
   z-index: 20;
 `,
-      ])),
+      ]))
   ),
   sy = ce(_)(
     Vu ||
@@ -24691,7 +24678,7 @@ const Jb = ce(Be)(
         `
   border-top: 1px solid var(--card-border-color);
 `,
-      ])),
+      ]))
   ),
   oy = ce(Be)(
     ju ||
@@ -24699,7 +24686,7 @@ const Jb = ce(Be)(
         `
   position: relative;
 `,
-      ])),
+      ]))
   );
 ce(_)(
   Uu ||
@@ -24708,7 +24695,7 @@ ce(_)(
   width: 100%;
   height: 100%;
 `,
-    ])),
+    ]))
 );
 const ly = ce(Ht)(
     Yu ||
@@ -24725,9 +24712,9 @@ const ly = ce(Ht)(
         e.sanity.space[3] * 2 +
           e.sanity.fonts.text.sizes[2].lineHeight -
           e.sanity.fonts.text.sizes[2].ascenderHeight -
-          e.sanity.fonts.text.sizes[2].descenderHeight,
+          e.sanity.fonts.text.sizes[2].descenderHeight
       );
-    },
+    }
   ),
   ay = ce(_)(
     _u ||
@@ -24735,7 +24722,7 @@ const ly = ce(Ht)(
         `
   border-top: 1px solid var(--card-border-color);
 `,
-      ])),
+      ]))
   ),
   Gu = ce(wo)(
     Lu ||
@@ -24743,20 +24730,20 @@ const ly = ce(Ht)(
         `
   width: 100%;
 `,
-      ])),
+      ]))
   );
 var uy = Object.defineProperty,
   hy = (n, e, t) =>
     e in n
       ? uy(n, e, { enumerable: !0, configurable: !0, writable: !0, value: t })
       : (n[e] = t),
-  st = (n, e, t) => (hy(n, typeof e != "symbol" ? e + "" : e, t), t);
+  st = (n, e, t) => (hy(n, typeof e != 'symbol' ? e + '' : e, t), t);
 function cy(n, e) {
   return !n || !e ? !1 : n === e || !!(n.compareDocumentPosition(e) & 16);
 }
 const fy =
     /\.(?:api|apicdn)\.sanity\.io\/(vX|v1|v\d{4}-\d\d-\d\d)\/.*?(?:query|listen)\/(.*?)\?(.*)/,
-  dy = (n) => fl("ctrl+enter", n) || fl("mod+enter", n);
+  dy = (n) => fl('ctrl+enter', n) || fl('mod+enter', n);
 function Hu(n) {
   return {
     defaultSize: n / 2,
@@ -24769,32 +24756,32 @@ function Hu(n) {
 class py extends Ae.PureComponent {
   constructor(e) {
     super(e),
-      st(this, "_visionRoot"),
-      st(this, "_queryEditorContainer"),
-      st(this, "_paramsEditorContainer"),
-      st(this, "_operationUrlElement"),
-      st(this, "_customApiVersionElement"),
-      st(this, "_resizeListener"),
-      st(this, "_querySubscription"),
-      st(this, "_listenSubscription"),
-      st(this, "_client"),
-      st(this, "_localStorage");
+      st(this, '_visionRoot'),
+      st(this, '_queryEditorContainer'),
+      st(this, '_paramsEditorContainer'),
+      st(this, '_operationUrlElement'),
+      st(this, '_customApiVersionElement'),
+      st(this, '_resizeListener'),
+      st(this, '_querySubscription'),
+      st(this, '_listenSubscription'),
+      st(this, '_client'),
+      st(this, '_localStorage');
     const { client: t, datasets: i, config: r } = e;
-    this._localStorage = Qb(t.config().projectId || "default");
-    const s = this._localStorage.get("query", ""),
+    this._localStorage = Qb(t.config().projectId || 'default');
+    const s = this._localStorage.get('query', ''),
       o = this._localStorage.get(
-        "params",
+        'params',
         `{
   
-}`,
+}`
       ),
       l = r.defaultDataset || t.config().dataset || i[0],
-      a = $b("".concat(r.defaultApiVersion)),
+      a = $b(''.concat(r.defaultApiVersion)),
       u = Su;
-    let h = this._localStorage.get("dataset", l),
-      c = this._localStorage.get("apiVersion", a);
+    let h = this._localStorage.get('dataset', l),
+      c = this._localStorage.get('apiVersion', a);
     const f = Ui.includes(c) ? !1 : c;
-    let d = this._localStorage.get("perspective", u);
+    let d = this._localStorage.get('perspective', u);
     i.includes(h) || (h = i.includes(l) ? l : i[0]),
       Ui.includes(c) || (c = xd),
       Gi.includes(d) || (d = Su),
@@ -24810,7 +24797,7 @@ class py extends Ae.PureComponent {
         allowReconfigure: !0,
       }));
     const p =
-        typeof window < "u" && typeof document < "u"
+        typeof window < 'u' && typeof document < 'u'
           ? document.body.getBoundingClientRect().height - 60
           : 0,
       m = o ? Dd(o) : void 0;
@@ -24845,8 +24832,8 @@ class py extends Ae.PureComponent {
       (this.handleResize = this.handleResize.bind(this));
   }
   componentDidMount() {
-    window.document.addEventListener("paste", this.handlePaste),
-      window.document.addEventListener("keydown", this.handleKeyDown),
+    window.document.addEventListener('paste', this.handlePaste),
+      window.document.addEventListener('keydown', this.handleKeyDown),
       this.handleResizeListen();
   }
   componentWillUnmount() {
@@ -24869,7 +24856,7 @@ class py extends Ae.PureComponent {
   }
   handlePaste(e) {
     if (!e.clipboardData) return;
-    const i = e.clipboardData.getData("text/plain").match(fy);
+    const i = e.clipboardData.getData('text/plain').match(fy);
     if (!i) return;
     const [, r, s, o] = i;
     let l;
@@ -24877,7 +24864,7 @@ class py extends Ae.PureComponent {
       const c = new URLSearchParams(o);
       l = Ab(c);
     } catch (c) {
-      console.warn("Error while trying to parse API URL: ", c.message);
+      console.warn('Error while trying to parse API URL: ', c.message);
       return;
     }
     let a, u;
@@ -24892,9 +24879,9 @@ class py extends Ae.PureComponent {
           query: l.query,
           params: l.params,
           rawParams: JSON.stringify(l.params, null, 2),
-          apiVersion: typeof a > "u" ? c.apiVersion : a,
-          customApiVersion: typeof u > "u" ? c.customApiVersion : u,
-          perspective: typeof h > "u" ? c.perspective : h,
+          apiVersion: typeof a > 'u' ? c.apiVersion : a,
+          customApiVersion: typeof u > 'u' ? c.customApiVersion : u,
+          perspective: typeof h > 'u' ? c.perspective : h,
         }),
         () => {
           this._localStorage.merge({
@@ -24912,11 +24899,11 @@ class py extends Ae.PureComponent {
             this.handleQueryExecution(),
             this.props.toast.push({
               closable: !0,
-              id: "vision-paste",
-              status: "info",
-              title: "Parsed URL to query",
+              id: 'vision-paste',
+              status: 'info',
+              title: 'Parsed URL to query',
             });
-        },
+        }
       );
   }
   cancelQuery() {
@@ -24930,63 +24917,63 @@ class py extends Ae.PureComponent {
       (this._listenSubscription = void 0));
   }
   cancelEventListener() {
-    window.removeEventListener("keydown", this.handleKeyDown);
+    window.removeEventListener('keydown', this.handleKeyDown);
   }
   handleChangeDataset(e) {
     const t = e.target.value;
-    this._localStorage.set("dataset", t),
+    this._localStorage.set('dataset', t),
       this.setState({ dataset: t }),
       this._client.config({ dataset: t }),
       this.handleQueryExecution();
   }
   handleChangeApiVersion(e) {
     const t = e.target.value;
-    if (t === "other") {
-      this.setState({ customApiVersion: "v" }, () => {
+    if (t === 'other') {
+      this.setState({ customApiVersion: 'v' }, () => {
         var i;
         (i = this._customApiVersionElement.current) == null || i.focus();
       });
       return;
     }
     this.setState({ apiVersion: t, customApiVersion: !1 }, () => {
-      this._localStorage.set("apiVersion", this.state.apiVersion),
+      this._localStorage.set('apiVersion', this.state.apiVersion),
         this._client.config({ apiVersion: this.state.apiVersion }),
         this.handleQueryExecution();
     });
   }
   handleCustomApiVersionChange(e) {
-    const t = e.target.value || "",
+    const t = e.target.value || '',
       i = Ds(t);
     this.setState(
       (r) => ({
         apiVersion: i ? t : r.apiVersion,
-        customApiVersion: t || "v",
+        customApiVersion: t || 'v',
         isValidApiVersion: i,
       }),
       () => {
         !this.state.isValidApiVersion ||
-          typeof this.state.customApiVersion != "string" ||
-          (this._localStorage.set("apiVersion", this.state.customApiVersion),
+          typeof this.state.customApiVersion != 'string' ||
+          (this._localStorage.set('apiVersion', this.state.customApiVersion),
           this._client.config({ apiVersion: this.state.customApiVersion }));
-      },
+      }
     );
   }
   handleChangePerspective(e) {
     const t = e.target.value;
     Pb(t) &&
       this.setState({ perspective: t }, () => {
-        this._localStorage.set("perspective", this.state.perspective),
+        this._localStorage.set('perspective', this.state.perspective),
           this._client.config({ perspective: this.state.perspective }),
           this.handleQueryExecution();
       });
   }
   handleListenerEvent(e) {
-    if (e.type !== "mutation") {
+    if (e.type !== 'mutation') {
       this.props.toast.push({
         closable: !0,
-        id: "vision-listen",
-        status: "success",
-        title: "Listening for mutations…",
+        id: 'vision-listen',
+        status: 'success',
+        title: 'Listening for mutations…',
       });
       return;
     }
@@ -25025,10 +25012,10 @@ class py extends Ae.PureComponent {
     this.ensureSelectedApiVersion();
     const s = t instanceof Error ? t : void 0,
       o = t instanceof Error ? {} : t || {},
-      l = this._client.getDataUrl("listen", mu(e, o, {})),
+      l = this._client.getDataUrl('listen', mu(e, o, {})),
       a = !s && e.trim().length > 0;
-    this._localStorage.set("query", e),
-      this._localStorage.set("params", i),
+    this._localStorage.set('query', e),
+      this._localStorage.set('params', i),
       this.cancelQuery(),
       this.setState({
         url: l,
@@ -25042,7 +25029,7 @@ class py extends Ae.PureComponent {
       }),
       a &&
         (this._listenSubscription = this._client
-          .listen(e, t, { events: ["mutation", "welcome"] })
+          .listen(e, t, { events: ['mutation', 'welcome'] })
           .subscribe({
             next: this.handleListenerEvent,
             error: (u) =>
@@ -25065,8 +25052,8 @@ class py extends Ae.PureComponent {
       );
     const s = t instanceof Error && t;
     if (
-      (this._localStorage.set("query", e),
-      this._localStorage.set("params", i),
+      (this._localStorage.set('query', e),
+      this._localStorage.set('params', i),
       this.cancelListener(),
       this.setState({
         queryInProgress: !s && !!e,
@@ -25082,16 +25069,16 @@ class py extends Ae.PureComponent {
       return !0;
     this.ensureSelectedApiVersion();
     const o = {};
-    this.state.perspective !== "raw" &&
+    this.state.perspective !== 'raw' &&
       (o.perspective = this.state.perspective);
     const l = this._client.getUrl(
-      this._client.getDataUrl("query", mu(e, t, o)),
+      this._client.getDataUrl('query', mu(e, t, o))
     );
     this.setState({ url: l });
     const a = Date.now();
     return (
       (this._querySubscription = this._client.observable
-        .fetch(e, t, { filterResponse: !1, tag: "vision" })
+        .fetch(e, t, { filterResponse: !1, tag: 'vision' })
         .subscribe({
           next: (u) =>
             this.setState({
@@ -25114,7 +25101,7 @@ class py extends Ae.PureComponent {
     let { raw: t, parsed: i, valid: r, error: s } = e;
     this.setState(
       { rawParams: t, params: i, hasValidParams: r, paramsError: s },
-      () => this._localStorage.set("params", t),
+      () => this._localStorage.set('params', t)
     );
   }
   handleCopyUrl() {
@@ -25122,15 +25109,15 @@ class py extends Ae.PureComponent {
     if (e)
       try {
         e.select(),
-          document.execCommand("copy"),
+          document.execCommand('copy'),
           this.props.toast.push({
             closable: !0,
-            title: "Copied to clipboard",
-            status: "info",
-            id: "vision-copy",
+            title: 'Copied to clipboard',
+            status: 'info',
+            id: 'vision-copy',
           });
       } catch {
-        console.error("Unable to copy to clipboard :(");
+        console.error('Unable to copy to clipboard :(');
       }
   }
   render() {
@@ -25153,13 +25140,13 @@ class py extends Ae.PureComponent {
         paramsError: g,
         perspective: S,
       } = this.state,
-      x = !t && !s && typeof i < "u";
+      x = !t && !s && typeof i < 'u';
     return b.jsxs(vd, {
-      direction: "column",
-      height: "fill",
+      direction: 'column',
+      height: 'fill',
       ref: this._visionRoot,
-      sizing: "border",
-      overflow: "hidden",
+      sizing: 'border',
+      overflow: 'hidden',
       children: [
         b.jsx(Jb, {
           paddingX: 3,
@@ -25175,13 +25162,13 @@ class py extends Ae.PureComponent {
                     b.jsx(Be, {
                       paddingTop: 2,
                       paddingBottom: 3,
-                      children: b.jsx(bt, { children: "Dataset" }),
+                      children: b.jsx(bt, { children: 'Dataset' }),
                     }),
                     b.jsx(Lr, {
                       value: f,
                       onChange: this.handleChangeDataset,
                       children: e.map((w) =>
-                        b.jsx("option", { children: w }, w),
+                        b.jsx('option', { children: w }, w)
                       ),
                     }),
                   ],
@@ -25195,17 +25182,17 @@ class py extends Ae.PureComponent {
                     b.jsx(Be, {
                       paddingTop: 2,
                       paddingBottom: 3,
-                      children: b.jsx(bt, { children: "API version" }),
+                      children: b.jsx(bt, { children: 'API version' }),
                     }),
                     b.jsxs(Lr, {
-                      value: d === !1 ? c : "other",
+                      value: d === !1 ? c : 'other',
                       onChange: this.handleChangeApiVersion,
                       children: [
-                        Ui.map((w) => b.jsx("option", { children: w }, w)),
+                        Ui.map((w) => b.jsx('option', { children: w }, w)),
                         b.jsx(
-                          "option",
-                          { value: "other", children: "Other" },
-                          "other",
+                          'option',
+                          { value: 'other', children: 'Other' },
+                          'other'
                         ),
                       ],
                     }),
@@ -25222,15 +25209,15 @@ class py extends Ae.PureComponent {
                         paddingTop: 2,
                         paddingBottom: 3,
                         children: b.jsx(bt, {
-                          textOverflow: "ellipsis",
-                          children: "Custom API version",
+                          textOverflow: 'ellipsis',
+                          children: 'Custom API version',
                         }),
                       }),
                       b.jsx(ul, {
                         ref: this._customApiVersionElement,
                         value: d,
                         onChange: this.handleCustomApiVersionChange,
-                        customValidity: p ? void 0 : "Invalid API version",
+                        customValidity: p ? void 0 : 'Invalid API version',
                         maxLength: 11,
                       }),
                     ],
@@ -25247,7 +25234,7 @@ class py extends Ae.PureComponent {
                         space: 1,
                         children: [
                           b.jsx(_, {
-                            children: b.jsx(bt, { children: "PERSPECTIVE" }),
+                            children: b.jsx(bt, { children: 'PERSPECTIVE' }),
                           }),
                           b.jsx(_, { children: b.jsx(Gb, {}) }),
                         ],
@@ -25257,13 +25244,13 @@ class py extends Ae.PureComponent {
                       value: S,
                       onChange: this.handleChangePerspective,
                       children: Gi.map((w) =>
-                        b.jsx("option", { children: w }, w),
+                        b.jsx('option', { children: w }, w)
                       ),
                     }),
                   ],
                 }),
               }),
-              typeof r == "string"
+              typeof r == 'string'
                 ? b.jsx(_, {
                     padding: 1,
                     flex: 1,
@@ -25275,10 +25262,10 @@ class py extends Ae.PureComponent {
                           paddingBottom: 3,
                           children: b.jsxs(bt, {
                             children: [
-                              "Query URL ",
+                              'Query URL ',
                               b.jsx(ey, {
                                 onClick: this.handleCopyUrl,
-                                children: "[copy]",
+                                children: '[copy]',
                               }),
                             ],
                           }),
@@ -25291,7 +25278,7 @@ class py extends Ae.PureComponent {
                               flex: 1,
                               children: b.jsx(ul, {
                                 readOnly: !0,
-                                type: "url",
+                                type: 'url',
                                 ref: this._operationUrlElement,
                                 value: r,
                               }),
@@ -25300,13 +25287,13 @@ class py extends Ae.PureComponent {
                               content: b.jsx(_, {
                                 padding: 2,
                                 children: b.jsx(yt, {
-                                  children: "Copy to clipboard",
+                                  children: 'Copy to clipboard',
                                 }),
                               }),
                               children: b.jsx(wo, {
-                                "aria-label": "Copy to clipboard",
-                                type: "button",
-                                mode: "ghost",
+                                'aria-label': 'Copy to clipboard',
+                                type: 'button',
+                                mode: 'ghost',
                                 icon: Td,
                                 onClick: this.handleCopyUrl,
                               }),
@@ -25323,26 +25310,26 @@ class py extends Ae.PureComponent {
         b.jsx(Kb, {
           flex: 1,
           children: b.jsxs(Hi, {
-            split: "vertical",
+            split: 'vertical',
             minSize: 280,
             defaultSize: 400,
             maxSize: -400,
             children: [
               b.jsx(_, {
-                height: "stretch",
+                height: 'stretch',
                 flex: 1,
                 children: b.jsxs(Hi, {
-                  className: "sidebarPanes",
-                  split: "horizontal",
+                  className: 'sidebarPanes',
+                  split: 'horizontal',
                   defaultSize: l.defaultSize,
                   size: l.size,
                   allowResize: l.allowResize,
                   minSize: l.minSize,
                   maxSize: l.maxSize,
-                  primary: "first",
+                  primary: 'first',
                   children: [
                     b.jsx(Nu, {
-                      display: "flex",
+                      display: 'flex',
                       ref: this._queryEditorContainer,
                       children: b.jsxs(_, {
                         flex: 1,
@@ -25351,7 +25338,7 @@ class py extends Ae.PureComponent {
                             children: b.jsx(Ht, {
                               children: b.jsx(bt, {
                                 muted: !0,
-                                children: "Query",
+                                children: 'Query',
                               }),
                             }),
                           }),
@@ -25363,20 +25350,20 @@ class py extends Ae.PureComponent {
                       }),
                     }),
                     b.jsxs(Nu, {
-                      display: "flex",
+                      display: 'flex',
                       ref: this._paramsEditorContainer,
                       children: [
                         b.jsxs(Be, {
                           flex: 1,
-                          tone: m ? "default" : "critical",
+                          tone: m ? 'default' : 'critical',
                           children: [
                             b.jsx(qu, {
                               children: b.jsxs(Ht, {
                                 children: [
-                                  b.jsx(bt, { muted: !0, children: "Params" }),
+                                  b.jsx(bt, { muted: !0, children: 'Params' }),
                                   g &&
                                     b.jsx(Sn, {
-                                      placement: "top-end",
+                                      placement: 'top-end',
                                       portal: !0,
                                       content: b.jsx(_, {
                                         padding: 2,
@@ -25410,14 +25397,14 @@ class py extends Ae.PureComponent {
                                 children: b.jsx(yt, {
                                   size: 1,
                                   muted: !0,
-                                  children: "Parameters are not valid JSON",
+                                  children: 'Parameters are not valid JSON',
                                 }),
                               }),
-                              placement: "top",
+                              placement: 'top',
                               disabled: m,
                               portal: !0,
                               children: b.jsxs(Ht, {
-                                justify: "space-evenly",
+                                justify: 'space-evenly',
                                 children: [
                                   b.jsx(_, {
                                     flex: 1,
@@ -25426,18 +25413,18 @@ class py extends Ae.PureComponent {
                                         padding: 2,
                                         radius: 4,
                                         children: b.jsx(Fd, {
-                                          keys: ["Ctrl", "Enter"],
+                                          keys: ['Ctrl', 'Enter'],
                                         }),
                                       }),
-                                      placement: "top",
+                                      placement: 'top',
                                       portal: !0,
                                       children: b.jsx(Gu, {
                                         onClick: this.handleQueryExecution,
-                                        type: "button",
+                                        type: 'button',
                                         icon: s ? hl : cl,
                                         disabled: o || !m,
-                                        tone: s ? "positive" : "primary",
-                                        text: s ? "Cancel" : "Fetch",
+                                        tone: s ? 'positive' : 'primary',
+                                        text: s ? 'Cancel' : 'Fetch',
                                       }),
                                     }),
                                   }),
@@ -25446,12 +25433,12 @@ class py extends Ae.PureComponent {
                                     marginLeft: 3,
                                     children: b.jsx(Gu, {
                                       onClick: this.handleListenExecution,
-                                      type: "button",
+                                      type: 'button',
                                       icon: o ? hl : cl,
-                                      text: o ? "Stop" : "Listen",
-                                      mode: "ghost",
+                                      text: o ? 'Stop' : 'Listen',
+                                      mode: 'ghost',
                                       disabled: !m,
-                                      tone: o ? "positive" : "default",
+                                      tone: o ? 'positive' : 'default',
                                     }),
                                   }),
                                 ],
@@ -25465,24 +25452,24 @@ class py extends Ae.PureComponent {
                 }),
               }),
               b.jsxs(ty, {
-                direction: "column",
+                direction: 'column',
                 children: [
                   b.jsx(iy, {
                     flex: 1,
                     children: b.jsx(ny, {
                       flex: 1,
-                      overflow: "hidden",
-                      tone: t ? "critical" : "default",
+                      overflow: 'hidden',
+                      tone: t ? 'critical' : 'default',
                       $isInvalid: !!t,
                       children: b.jsxs(ry, {
-                        overflow: "auto",
+                        overflow: 'auto',
                         children: [
                           b.jsx(Ad, {
                             children: b.jsx(_, {
                               marginLeft: 3,
                               children: b.jsx(bt, {
                                 muted: !0,
-                                children: "Result",
+                                children: 'Result',
                               }),
                             }),
                           }),
@@ -25508,18 +25495,18 @@ class py extends Ae.PureComponent {
                     children: b.jsx(oy, {
                       paddingX: 4,
                       paddingY: 3,
-                      sizing: "border",
+                      sizing: 'border',
                       children: b.jsxs(ly, {
-                        align: "center",
+                        align: 'center',
                         children: [
                           b.jsx(_, {
                             children: b.jsxs(yt, {
                               muted: !0,
                               children: [
-                                "Execution: ",
-                                typeof a == "number"
-                                  ? "".concat(a, "ms")
-                                  : "n/a",
+                                'Execution: ',
+                                typeof a == 'number'
+                                  ? ''.concat(a, 'ms')
+                                  : 'n/a',
                               ],
                             }),
                           }),
@@ -25528,10 +25515,10 @@ class py extends Ae.PureComponent {
                             children: b.jsxs(yt, {
                               muted: !0,
                               children: [
-                                "End-to-end: ",
-                                typeof u == "number"
-                                  ? "".concat(u, "ms")
-                                  : "n/a",
+                                'End-to-end: ',
+                                typeof u == 'number'
+                                  ? ''.concat(u, 'ms')
+                                  : 'n/a',
                               ],
                             }),
                           }),
@@ -25553,12 +25540,10 @@ function Oy(n) {
     [t, i] = N.useState();
   return (
     N.useEffect(() => {
-      const r = n.observable.datasets
-        .list()
-        .subscribe({
-          next: (s) => i(s.map((o) => o.name)),
-          error: (s) => i(s),
-        });
+      const r = n.observable.datasets.list().subscribe({
+        next: (s) => i(s.map((o) => o.name)),
+        error: (s) => i(s),
+      });
       return () => r.unsubscribe();
     }, [n, e]),
     t || void 0
@@ -25569,11 +25554,11 @@ function gy(n) {
     t = Oy(n.client);
   if (!t) return b.jsx(kd, {});
   const i =
-    t instanceof Error ? [n.client.config().dataset || "production"] : t;
+    t instanceof Error ? [n.client.config().dataset || 'production'] : t;
   return b.jsx(py, { ...n, datasets: i, toast: e });
 }
 function yy(n) {
-  const e = Xd({ apiVersion: "1" }),
+  const e = Xd({ apiVersion: '1' }),
     t = { defaultApiVersion: xd, ...n.tool.options };
   return b.jsx(gy, { client: e, config: t });
 }

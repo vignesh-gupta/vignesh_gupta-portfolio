@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import React from "react";
-import clsx from "clsx";
-import { BiMenuAltRight } from "react-icons/bi";
-import { RxCross2 } from "react-icons/rx";
-import { navLinks } from "@/components/constants/mappingConstants";
-import { motion } from "framer-motion";
+import React from 'react';
+import clsx from 'clsx';
+import { BiMenuAltRight } from 'react-icons/bi';
+import { RxCross2 } from 'react-icons/rx';
+import { navLinks } from '@/components/constants/mappingConstants';
+import { motion } from 'framer-motion';
 import {
   plusJakartaSans,
   poppins,
-} from "@/components/constants/designConstants";
+} from '@/components/constants/designConstants';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -17,31 +17,31 @@ const Navbar = () => {
   return (
     <header
       className={clsx(
-        "bg-secondary z-50 sticky top-0 left-0 right-0 h-20 flex justify-between xl:px-80 lg:px-48 md:px-32 sm:px-16 px-10 py-3",
-        plusJakartaSans.className,
+        'sticky left-0 right-0 top-0 z-50 flex h-20 justify-between bg-secondary px-10 py-3 sm:px-16 md:px-32 lg:px-48 xl:px-80',
+        plusJakartaSans.className
       )}
     >
-      <div id="logo" className="flex items-center">
-        <a href="/" className={clsx("text-3xl font-bold", poppins.className)}>
+      <div id='logo' className='flex items-center'>
+        <a href='/' className={clsx('text-3xl font-bold', poppins.className)}>
           VG
         </a>
       </div>
 
-      <div className="hidden items-center gap-2 md:flex">
+      <div className='hidden items-center gap-2 md:flex'>
         {navLinks.map((link) => (
           <a
             key={link.title.toLocaleLowerCase()}
             href={link.url}
-            className="hover:bg-primary p-3 rounded-lg"
+            className='rounded-lg p-3 hover:bg-primary'
           >
             {link.title}
           </a>
         ))}
       </div>
 
-      <div className="self-end md:hidden ">
+      <div className='self-end md:hidden '>
         <button
-          className="p-2 text-3xl bg-secondary-text text-secondary rounded-full"
+          className='rounded-full bg-secondary-text p-2 text-3xl text-secondary'
           onClick={() => setIsMenuOpen((prev) => !prev)}
         >
           <BiMenuAltRight />
@@ -50,23 +50,23 @@ const Navbar = () => {
           // Backdrop for sliding menu
           <div
             onClick={() => setIsMenuOpen((prev) => !prev)}
-            className="fixed top-0 right-0 backdrop-brightness-50 h-screen w-full flex justify-end"
+            className='fixed right-0 top-0 flex h-screen w-full justify-end backdrop-brightness-50'
           >
             <motion.div
               whileInView={{ x: [100, 0] }}
-              transition={{ duration: 0.3, ease: "linear" }}
-              className="bg-secondary w-2/3 h-full right-0 flex flex-col"
+              transition={{ duration: 0.3, ease: 'linear' }}
+              className='right-0 flex h-full w-2/3 flex-col bg-secondary'
             >
-              <div className="flex self-end text-2xl mx-8 px-8 my-5 py-5">
+              <div className='mx-8 my-5 flex self-end px-8 py-5 text-2xl'>
                 <RxCross2 />
               </div>
 
-              <div className="flex flex-col ">
+              <div className='flex flex-col '>
                 {navLinks.map((link) => (
                   <a
                     key={link.title.toLocaleLowerCase()}
                     href={link.url}
-                    className="p-3  text-center"
+                    className='p-3  text-center'
                   >
                     {link.title}
                   </a>

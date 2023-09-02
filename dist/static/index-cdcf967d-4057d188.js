@@ -66,13 +66,13 @@ import {
   ac as Te,
   ad as wt,
   ae as Pt,
-} from "./sanity-bc09dbe8.js";
-import { useDeskToolSetting as oe } from "./index-504fa488-e977e6f0.js";
-import { P as Ct } from "./PaneItem-cc425889-7ee349fe.js";
-import "./index-ffc1c3cc.js";
+} from './sanity-bc09dbe8.js';
+import { useDeskToolSetting as oe } from './index-504fa488-e977e6f0.js';
+import { P as Ct } from './PaneItem-cc425889-7ee349fe.js';
+import './index-ffc1c3cc.js';
 const ie = 100,
   J = 2e3,
-  je = { by: [{ field: "_updatedAt", direction: "desc" }] },
+  je = { by: [{ field: '_updatedAt', direction: 'desc' }] },
   At = {};
 function Mt(s) {
   return vt(s).map((e) => ({
@@ -87,11 +87,11 @@ function Le(s) {
   let e = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
   const r = s.match(Ot);
   if (!r) return null;
-  const n = (r[1] || r[2]).trim().replace(/^["']|["']$/g, "");
-  if (n[0] === "$") {
+  const n = (r[1] || r[2]).trim().replace(/^["']|["']$/g, '');
+  if (n[0] === '$') {
     const a = n.slice(1),
       d = e[a];
-    return typeof d == "string" ? d : null;
+    return typeof d == 'string' ? d : null;
   }
   return n;
 }
@@ -103,10 +103,10 @@ function Dt(s, e) {
     if (n.mapWith) return n;
     const a = Nt(e, n.field);
     return a
-      ? kt(a, "datetime")
-        ? { ...n, mapWith: "dateTime" }
-        : a.jsonType === "string"
-        ? { ...n, mapWith: "lower" }
+      ? kt(a, 'datetime')
+        ? { ...n, mapWith: 'dateTime' }
+        : a.jsonType === 'string'
+        ? { ...n, mapWith: 'lower' }
         : n
       : n;
   });
@@ -117,11 +117,11 @@ function Nt(s, e) {
   let n = s;
   for (const a of r) {
     if (!n) return;
-    if (typeof a == "string") {
+    if (typeof a == 'string') {
       n = $t(n, a);
       continue;
     }
-    if (!(Ze(a) || et(a)) || n.jsonType !== "array") return;
+    if (!(Ze(a) || et(a)) || n.jsonType !== 'array') return;
     const [i, c] = n.of || [];
     if (c || !i) return;
     if (!tt(i)) {
@@ -135,7 +135,7 @@ function Nt(s, e) {
   return n;
 }
 function $t(s, e) {
-  if (!("fields" in s)) return;
+  if (!('fields' in s)) return;
   const r = s.fields.find((n) => n.name === e);
   return r ? r.type : void 0;
 }
@@ -149,7 +149,7 @@ function kt(s, e) {
 }
 var ce = Object.freeze,
   Bt = Object.defineProperty,
-  _e = (s, e) => ce(Bt(s, "raw", { value: ce(e || s.slice()) })),
+  _e = (s, e) => ce(Bt(s, 'raw', { value: ce(e || s.slice()) })),
   le,
   ue;
 const Qt = Y(D)(
@@ -158,7 +158,7 @@ const Qt = Y(D)(
         `
   position: relative;
 `,
-      ])),
+      ]))
   ),
   Wt = Y(D)(
     ue ||
@@ -170,7 +170,7 @@ const Qt = Y(D)(
   top: 0;
   bottom: 0;
 `,
-      ])),
+      ]))
   ),
   qt = [...Array(30).keys()];
 function Vt(s) {
@@ -182,8 +182,8 @@ function Vt(s) {
       t.jsx(
         ve,
         { padding: 2, children: t.jsx(It, { isPlaceholder: !0, layout: e }) },
-        r,
-      ),
+        r
+      )
     ),
   });
 }
@@ -246,8 +246,8 @@ function Yt(s) {
             }),
             z &&
               t.jsx(Q, {
-                align: "center",
-                justify: "center",
+                align: 'center',
+                justify: 'center',
                 padding: 4,
                 children: t.jsx(rt, { muted: !0 }),
               }),
@@ -257,68 +257,68 @@ function Yt(s) {
                 paddingX: 3,
                 paddingY: 4,
                 children: t.jsxs(W, {
-                  align: "center",
+                  align: 'center',
                   muted: !0,
                   size: 1,
-                  children: ["Displaying a maximum of ", J, " documents"],
+                  children: ['Displaying a maximum of ', J, ' documents'],
                 }),
               }),
           ],
         });
       },
-      [e, i, m.length, v, E, T, a, c],
+      [e, i, m.length, v, E, T, a, c]
     ),
     N = o.useMemo(
       () =>
         d
           ? t.jsx(Q, {
-              align: "center",
-              direction: "column",
-              height: "fill",
-              justify: "center",
+              align: 'center',
+              direction: 'column',
+              height: 'fill',
+              justify: 'center',
               children: t.jsx(K, {
                 width: 1,
                 children: t.jsx(D, {
                   paddingX: 4,
                   paddingY: 5,
                   children: t.jsx(W, {
-                    align: "center",
+                    align: 'center',
                     muted: !0,
-                    children: "No results found",
+                    children: 'No results found',
                   }),
                 }),
               }),
             })
           : t.jsx(Q, {
-              align: "center",
-              direction: "column",
-              height: "fill",
-              justify: "center",
+              align: 'center',
+              direction: 'column',
+              height: 'fill',
+              justify: 'center',
               children: t.jsx(K, {
                 width: 1,
                 children: t.jsx(D, {
                   paddingX: 4,
                   paddingY: 5,
                   children: t.jsx(W, {
-                    align: "center",
+                    align: 'center',
                     muted: !0,
                     children: n
-                      ? "No documents of this type"
-                      : "No matching documents",
+                      ? 'No documents of this type'
+                      : 'No matching documents',
                   }),
                 }),
               }),
             }),
-      [n, d],
+      [n, d]
     ),
     w = o.useMemo(() => {
       if (!j) return null;
       if (r)
         return t.jsx(Q, {
-          align: "center",
-          direction: "column",
-          height: "fill",
-          justify: "center",
+          align: 'center',
+          direction: 'column',
+          height: 'fill',
+          justify: 'center',
           children: t.jsx(K, {
             width: 1,
             children: t.jsxs(Se, {
@@ -326,18 +326,18 @@ function Yt(s) {
               paddingY: 5,
               space: 4,
               children: [
-                t.jsx(at, { as: "h3", children: "Could not fetch list items" }),
+                t.jsx(at, { as: 'h3', children: 'Could not fetch list items' }),
                 t.jsxs(W, {
-                  as: "p",
-                  children: ["Error: ", t.jsx("code", { children: r.message })],
+                  as: 'p',
+                  children: ['Error: ', t.jsx('code', { children: r.message })],
                 }),
                 g &&
                   t.jsx(D, {
                     children: t.jsx(ge, {
                       icon: ot,
                       onClick: g,
-                      text: "Retry",
-                      tone: "primary",
+                      text: 'Retry',
+                      tone: 'primary',
                     }),
                   }),
               ],
@@ -345,18 +345,18 @@ function Yt(s) {
           }),
         });
       if (!l && m.length === 0) return N;
-      if (y === "initial" && l)
+      if (y === 'initial' && l)
         return t.jsx(it, { ms: 300, children: t.jsx(Vt, { layout: v }) });
-      if (y === "spinner" && l) return null;
-      const x = "".concat(_, "-").concat(p);
+      if (y === 'spinner' && l) return null;
+      const x = ''.concat(_, '-').concat(p);
       return t.jsx(Qt, {
-        overflow: "hidden",
-        height: "fill",
+        overflow: 'hidden',
+        height: 'fill',
         children: t.jsx(Wt, {
           children: t.jsx(
             ct,
             {
-              activeItemDataAttr: "data-hovered",
+              activeItemDataAttr: 'data-hovered',
               ariaLabel: u,
               canReceiveFocus: !0,
               focusRingOffset: -3,
@@ -371,13 +371,13 @@ function Yt(s) {
               renderItem: A,
               wrapAround: !1,
             },
-            x,
+            x
           ),
         }),
       });
     }, [p, r, C, _, l, m, v, y, g, A, b, j]);
   return t.jsx(lt, {
-    overflow: L || y === "initial" ? "hidden" : "auto",
+    overflow: L || y === 'initial' ? 'hidden' : 'auto',
     children: w,
   });
 }
@@ -405,7 +405,7 @@ const Re = o.memo((s) => {
           c(u);
         },
       }),
-      [i, c],
+      [i, c]
     );
   return t.jsx(Qe, {
     actions: t.jsx(We, {
@@ -417,13 +417,13 @@ const Re = o.memo((s) => {
     backButton:
       m.backButton &&
       r > 0 &&
-      t.jsx(ge, { as: qe, "data-as": "a", icon: Ve, mode: "bleed" }),
+      t.jsx(ge, { as: qe, 'data-as': 'a', icon: Ve, mode: 'bleed' }),
     contentAfter: e,
     tabIndex: I,
     title: l,
   });
 });
-Re.displayName = "DocumentListPaneHeader";
+Re.displayName = 'DocumentListPaneHeader';
 function zt(s) {
   const {
       client: e,
@@ -438,46 +438,46 @@ function zt(s) {
     m = n.by,
     v = n == null ? void 0 : n.extendedProjection,
     y = bt(() =>
-      e.listen("*[".concat(i, "]"), d, {
-        events: ["welcome", "mutation", "reconnect"],
+      e.listen('*['.concat(i, ']'), d, {
+        events: ['welcome', 'mutation', 'reconnect'],
         includeResult: !1,
-        visibility: "query",
-      }),
+        visibility: 'query',
+      })
     ).pipe(
       q((u, b) =>
-        b === 0 && u.type !== "welcome"
+        b === 0 && u.type !== 'welcome'
           ? X(
               () =>
                 new Error(
-                  u.type === "reconnect"
-                    ? "Could not establish EventSource connection"
+                  u.type === 'reconnect'
+                    ? 'Could not establish EventSource connection'
                     : 'Received unexpected type of first event "'.concat(
                         u.type,
-                        '"',
-                      ),
-                ),
+                        '"'
+                      )
+                )
             )
-          : V(u),
+          : V(u)
       ),
-      Tt(),
+      Tt()
     ),
-    [I, g] = jt(y, (u) => u.type === "welcome");
+    [I, g] = jt(y, (u) => u.type === 'welcome');
   return Ie(
     I.pipe(be(1)),
-    g.pipe(Lt(1e3, wt, { leading: !0, trailing: !0 })),
+    g.pipe(Lt(1e3, wt, { leading: !0, trailing: !0 }))
   ).pipe(
     _t((u) =>
       (l
         ? V(l)
-        : e.observable.fetch("array::unique(*[".concat(i, "][]._type)"), d)
+        : e.observable.fetch('array::unique(*['.concat(i, '][]._type)'), d)
       ).pipe(
         q((T) => {
           const E = T.flatMap((C) => r.get(C) || []),
-            L = { filter: i, query: c || "", types: E },
+            L = { filter: i, query: c || '', types: E },
             p = {
               __unstable_extendedProjection: v,
               comments: [
-                "findability-source: ".concat(c ? "list-query" : "list"),
+                'findability-source: '.concat(c ? 'list-query' : 'list'),
               ],
               limit: a,
               params: d,
@@ -485,12 +485,12 @@ function zt(s) {
             },
             { query: _, params: j } = Pt(L, p),
             S = () => e.observable.fetch(_, j);
-          return u.type === "mutation" && u.visibility !== "query"
+          return u.type === 'mutation' && u.visibility !== 'query'
             ? Te(1200).pipe(q(S))
             : S();
-        }),
-      ),
-    ),
+        })
+      )
+    )
   );
 }
 const Ut = [],
@@ -543,7 +543,7 @@ function Gt(s) {
         }
         T(!1), m(h);
       },
-      [p],
+      [p]
     ),
     w = o.useMemo(() => {
       const h = new dt(),
@@ -554,7 +554,7 @@ function Gt(s) {
         limit: p ? J : ie,
         params: r,
         schema: c,
-        searchQuery: a || "",
+        searchQuery: a || '',
         sort: n || je,
         staticTypeNames: j ? [j] : void 0,
       }).pipe(
@@ -562,19 +562,19 @@ function Gt(s) {
         mt(Ht),
         re((f) =>
           f instanceof ProgressEvent
-            ? X(() => new Error("Request error"))
-            : X(() => f),
+            ? X(() => new Error('Request error'))
+            : X(() => f)
         ),
         re((f, R) =>
           Rt(
             V({ result: null, error: f }),
-            Ie(Et(window, "online"), h).pipe(
+            Ie(Et(window, 'online'), h).pipe(
               be(1),
-              q(() => R),
-            ),
-          ),
+              q(() => R)
+            )
+          )
         ),
-        pt((f, R) => ({ ...f, ...R, onRetry: P })),
+        pt((f, R) => ({ ...f, ...R, onRetry: P }))
       );
     }, [i, e, r, c, a, p, n, j]);
   o.useEffect(() => {
@@ -604,7 +604,7 @@ function Gt(s) {
 }
 var me = Object.freeze,
   Kt = Object.defineProperty,
-  te = (s, e) => me(Kt(s, "raw", { value: me(e || s.slice()) })),
+  te = (s, e) => me(Kt(s, 'raw', { value: me(e || s.slice()) })),
   pe,
   he,
   fe;
@@ -620,7 +620,7 @@ const Z = [],
     transform: rotate(360deg);
   }
 `,
-      ])),
+      ]))
   ),
   Jt = Y(ht)(
     he ||
@@ -630,7 +630,7 @@ const Z = [],
         ` 500ms linear infinite;
 `,
       ])),
-    Xt,
+    Xt
   ),
   Zt = Y(ve)(
     fe ||
@@ -640,7 +640,7 @@ const Z = [],
     border-radius: inherit;
   }
 `,
-      ])),
+      ]))
   );
 function en(s) {
   const e = o.useRef(s);
@@ -664,7 +664,7 @@ const tn = (s) => {
                   r == null ? void 0 : r.by,
                   ((l = a == null ? void 0 : a.params) == null
                     ? void 0
-                    : l.by) || Z,
+                    : l.by) || Z
                 ),
               }
             : { ...a, selected: !1 };
@@ -682,7 +682,7 @@ const tn = (s) => {
       l = ee(),
       { name: m } = ze(),
       {
-        defaultLayout: v = "default",
+        defaultLayout: v = 'default',
         displayOptions: y,
         initialValueTemplates: I = Z,
         menuItemGroups: g,
@@ -695,16 +695,16 @@ const tn = (s) => {
       j = i.source,
       S = o.useMemo(() => Le(p, _), [p, _]),
       C = (y == null ? void 0 : y.showIcons) !== !1,
-      [A, N] = oe(S, "layout", v),
-      [w, x] = o.useState(""),
-      [h, P] = o.useState(""),
+      [A, N] = oe(S, 'layout', v),
+      [w, x] = o.useState(''),
+      [h, P] = o.useState(''),
       [M, O] = o.useState(null),
       f = o.useRef(!1),
       R = o.useMemo(
         () => ((L == null ? void 0 : L.length) > 0 ? { by: L } : je),
-        [L],
+        [L]
       ),
-      [F, z] = oe(S, "sortOrder", R),
+      [F, z] = oe(S, 'sortOrder', R),
       U = S && F ? Dt(F, l.get(S)) : F,
       Ee = Ue(U),
       we = Ft(p),
@@ -726,26 +726,26 @@ const tn = (s) => {
       }),
       De = o.useMemo(
         () => tn({ menuItems: u, sortOrderRaw: F, layout: A }),
-        [A, u, F],
+        [A, u, F]
       ),
       Ne = He(
         (B) =>
           B.pipe(
             xe((G) => G.target.value),
             ae(P),
-            gt((G) => (G === "" ? V("") : Te(300))),
-            ae(x),
+            gt((G) => (G === '' ? V('') : Te(300))),
+            ae(x)
           ),
-        [],
+        []
       ),
       k = o.useCallback(() => {
-        x(""), P("");
+        x(''), P('');
       }, []),
       $e = o.useCallback(
         (B) => {
-          B.key === "Escape" && k();
+          B.key === 'Escape' && k();
         },
-        [k],
+        [k]
       );
     o.useEffect(
       () => (
@@ -754,33 +754,33 @@ const tn = (s) => {
           f.current = !1;
         }
       ),
-      [$],
+      [$]
     ),
       o.useEffect(() => {
         k(), (f.current = !1);
       }, [c, k]);
     const ne = o.useMemo(
-        () => ($ && H.length === 0 && f.current ? "spinner" : "initial"),
-        [$, H.length],
+        () => ($ && H.length === 0 && f.current ? 'spinner' : 'initial'),
+        [$, H.length]
       ),
       ke = t.jsx(D, {
         paddingX: 2,
         paddingBottom: 2,
         children: t.jsx(Zt, {
           radius: 4,
-          tone: "transparent",
+          tone: 'transparent',
           children: t.jsx(St, {
-            "aria-label": "Search list",
-            autoComplete: "off",
+            'aria-label': 'Search list',
+            autoComplete: 'off',
             border: !1,
             clearButton: !!w,
             disabled: !Me,
             fontSize: [2, 2, 1],
-            icon: ne === "spinner" ? Jt : xt,
+            icon: ne === 'spinner' ? Jt : xt,
             onChange: Ne,
             onClear: k,
             onKeyDown: $e,
-            placeholder: "Search list",
+            placeholder: 'Search list',
             radius: 2,
             ref: O,
             spellCheck: !1,
@@ -792,7 +792,7 @@ const tn = (s) => {
       name: j || m,
       children: t.jsxs(Ke, {
         currentMaxWidth: 350,
-        "data-ui": "DocumentListPane",
+        'data-ui': 'DocumentListPane',
         id: c,
         maxWidth: 640,
         minWidth: 320,
@@ -829,7 +829,7 @@ const tn = (s) => {
               searchInputElement: M,
               showIcons: C,
             },
-            c,
+            c
           ),
         ],
       }),

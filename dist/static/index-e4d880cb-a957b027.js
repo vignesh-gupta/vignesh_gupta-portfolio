@@ -12,7 +12,7 @@ import {
   A as I,
   e as y,
   f as k,
-} from "./sanity-bc09dbe8.js";
+} from './sanity-bc09dbe8.js';
 function C(e) {
   const {
       actionHandlers: n,
@@ -33,13 +33,13 @@ function C(e) {
         backButton:
           a.backButton &&
           o > 0 &&
-          t.jsx(E, { as: H, "data-as": "a", icon: I, mode: "bleed" }),
+          t.jsx(E, { as: H, 'data-as': 'a', icon: I, mode: 'bleed' }),
         title: i,
       });
 }
 var d = Object.freeze,
   w = Object.defineProperty,
-  A = (e, n) => d(w(e, "raw", { value: d(n || e.slice()) })),
+  A = (e, n) => d(w(e, 'raw', { value: d(n || e.slice()) })),
   u;
 const R = j(y)(
   u ||
@@ -47,12 +47,12 @@ const R = j(y)(
       `
   position: relative;
 `,
-    ])),
+    ]))
 );
 function U(e) {
   const { children: n } = e,
     { collapsed: o } = k();
-  return t.jsx(R, { hidden: o, height: "fill", overflow: "auto", children: n });
+  return t.jsx(R, { hidden: o, height: 'fill', overflow: 'auto', children: n });
 }
 function G(e) {
   const { index: n, pane: o, paneKey: s, ...r } = e,
@@ -61,7 +61,7 @@ function G(e) {
       component: a,
       menuItems: m,
       menuItemGroups: p,
-      title: f = "",
+      title: f = '',
       type: g,
       ...x
     } = o,
