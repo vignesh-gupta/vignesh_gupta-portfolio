@@ -6,7 +6,6 @@ import Image from "next/image";
 import { getSkills } from "@/sanity/utils";
 
 const Skills = () => {
-  // const data = await client.fetch(`*[_type == "skills"]`)
 
   const [skills, setSkills] = useState<any[]>([]);
 
@@ -27,10 +26,9 @@ const Skills = () => {
         </span>
       </p>
 
-      {/* TODO: Fetch Skills Dynamically */}
       <div className="flex justify-center items-center gap-3 flex-wrap">
-        {skills.map(({ _id, name, icon }) => (
-          <SkillsCircle key={_id} name={name} icon={icon} />
+        {skills.map(({ _id, name, icon }, i) => (
+          <SkillsCircle key={_id} delay={i} name={name} icon={icon} />
         ))}
       </div>
 
