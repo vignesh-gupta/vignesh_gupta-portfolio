@@ -6,8 +6,10 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { RxCross2 } from "react-icons/rx";
 import { navLinks } from "@/components/constants/mappingConstants";
 import { motion } from "framer-motion";
-import { plusJakartaSans , poppins } from "@/components/constants/designConstants";
-
+import {
+  plusJakartaSans,
+  poppins,
+} from "@/components/constants/designConstants";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -16,7 +18,7 @@ const Navbar = () => {
     <header
       className={clsx(
         "bg-secondary z-50 sticky top-0 left-0 right-0 h-20 flex justify-between xl:px-80 lg:px-48 md:px-32 sm:px-16 px-10 py-3",
-        plusJakartaSans.className
+        plusJakartaSans.className,
       )}
     >
       <div id="logo" className="flex items-center">

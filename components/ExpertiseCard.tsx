@@ -8,30 +8,28 @@ type ExpertiseCardProps = {
   description: string;
   icon: string;
   title: string;
-}
+};
 
-const ExpertiseCard = ({ variant , description , title , icon } : ExpertiseCardProps) => {
+const ExpertiseCard = ({
+  variant,
+  description,
+  title,
+  icon,
+}: ExpertiseCardProps) => {
   return (
     <div
       className={clsx(
         "flex z-10 justify-center items-center md:px-8 px-2 pl-4 py-5 gap-4 border-t-4 border-[#4F228D] ",
         poppins.className,
-        "card-gradient-" + variant
+        "card-gradient-" + variant,
       )}
     >
       <div className="">
-        <Image
-          src={`/icons/${icon}`}
-          alt={title}
-          width={100}
-          height={100}
-        />
+        <Image src={`/icons/${icon}`} alt={title} width={100} height={100} />
       </div>
       <div className="flex flex-col shrink py-5">
         <h3 className="text-xl">{title}</h3>
-        <p className="text-xs my-2">
-          {description}
-        </p>
+        <p className="text-xs my-2">{description}</p>
         {/* <button
           type="button"
           className="px-4 py-2  my-1 rounded-lg bg-[#2C1250] border-4 border-[#693B93] text-xs  w-fit"

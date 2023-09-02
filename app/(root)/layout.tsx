@@ -8,7 +8,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
     <div
       className={clsx(
         "w-full bg-primary text-foreground min-h-screen flex flex-col -z-50",
-        preahvihear.className
+        preahvihear.className,
       )}
     >
       <Navbar />

@@ -14,7 +14,7 @@ const Projects = () => {
     getProjects(true)
       .then((res) => {
         console.log(res);
-        setProjects(res)
+        setProjects(res);
       })
       .catch(console.error);
   }, []);
@@ -23,7 +23,15 @@ const Projects = () => {
       className={clsx("w-full my-10 flex flex-col gap-10", poppins.className)}
     >
       {projects.map((project, i) => (
-        <Project title={project.title} codeLink={project.codeLink} projectLink={project.projectLink} description={project.description} imgUrl={project.imgUrl} key={i} isEven={(i+1) % 2 === 0} />
+        <Project
+          title={project.title}
+          codeLink={project.codeLink}
+          projectLink={project.projectLink}
+          description={project.description}
+          imgUrl={project.imgUrl}
+          key={i}
+          isEven={(i + 1) % 2 === 0}
+        />
       ))}
     </div>
   );

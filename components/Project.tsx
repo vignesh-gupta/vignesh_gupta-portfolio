@@ -25,13 +25,13 @@ const Project = ({
     <div
       className={clsx(
         "flex flex-col items-center gap-1",
-        isEven ? "lg:flex-row-reverse" : "lg:flex-row"
+        isEven ? "lg:flex-row-reverse" : "lg:flex-row",
       )}
     >
       <div
         className={clsx(
           "flex flex-col shrink basis-[70%] md:basis-[85%] lg:basis-[90%] lg:py-12",
-          isEven && "lg:items-end"
+          isEven && "lg:items-end",
         )}
       >
         <p className="font-bold text-primary-text">Featured Project</p>
@@ -40,7 +40,7 @@ const Project = ({
         <div
           className={clsx(
             " p-6 z-10 lg:w-[calc(100%+3rem)] flex flex-col gap-3  bg-blue-300 rounded-md backdrop-filter backdrop-blur-lg bg-opacity-10 self-start ",
-            isEven ? "lg:-ml-12" : "lg:-mr-12"
+            isEven ? "lg:-ml-12" : "lg:-mr-12",
           )}
         >
           <p>{description}</p>
@@ -70,7 +70,7 @@ const Project = ({
         <div
           className={clsx(
             "radial-gradient brightness-50 h-full rounded-full blur-sm absolute w-full top-0 lg:block hidden",
-            isEven ? "-left-1/3 " : "left-1/3"
+            isEven ? "-left-1/3 " : "left-1/3",
           )}
         />
         <Image

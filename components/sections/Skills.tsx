@@ -6,7 +6,6 @@ import Image from "next/image";
 import { getSkills } from "@/sanity/utils";
 
 const Skills = () => {
-
   const [skills, setSkills] = useState<any[]>([]);
 
   useEffect(() => {

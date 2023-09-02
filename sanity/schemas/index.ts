@@ -15,7 +15,7 @@ const schemas = [
   skill,
   testimonial,
   experience,
-  duration
+  duration,
 ];
 
 export default schemas;

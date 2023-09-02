@@ -5,14 +5,13 @@ import { navLinks } from "@/components/constants/mappingConstants";
 import clsx from "clsx";
 import { useRouter } from "next/navigation";
 
-
 export default function Page({
   params: { endpoint },
 }: {
   params: { endpoint: string };
 }) {
   const validLinks = navLinks.map((link) =>
-    link.url.toLocaleLowerCase().replace("/", "")
+    link.url.toLocaleLowerCase().replace("/", ""),
   );
 
   const router = useRouter();
@@ -25,15 +24,13 @@ export default function Page({
     <div
       className={clsx(
         "flex flex-col justify-center items-center grow gap-5 text-center",
-        poppins.className
+        poppins.className,
       )}
     >
       <h1 className="md:text-2xl text-xl capitalize">
-        {
-          validLinks.includes(endpoint.toLocaleLowerCase())
-            ? `${endpoint} Page is under construction`
-            : "404 | Oops seems like a wrong page"
-        }
+        {validLinks.includes(endpoint.toLocaleLowerCase())
+          ? `${endpoint} Page is under construction`
+          : "404 | Oops seems like a wrong page"}
       </h1>
       <button
         onClick={handleGoToHome}

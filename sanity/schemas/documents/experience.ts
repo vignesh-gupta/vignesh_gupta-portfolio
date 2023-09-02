@@ -14,7 +14,7 @@ const experience = {
       title: "Duration",
       type: "duration",
     },
-    
+
     {
       name: "description",
       title: "Description",

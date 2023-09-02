@@ -1,7 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
 
-
 export const metadata: Metadata = {
   title: "Portfolio | Vignesh Gupta",
   themeColor: [
@@ -71,7 +70,7 @@ export const metadata: Metadata = {
         height: 75,
         alt: "Vignesh Gupta's Portfolio",
       },
-    ]
+    ],
   },
   metadataBase: new URL("https://vigneshgupta.vercel.app"),
 };

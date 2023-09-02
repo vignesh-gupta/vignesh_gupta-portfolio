@@ -4,7 +4,6 @@ import clsx from "clsx";
 import { HiOutlineMail } from "react-icons/hi";
 import { poppins } from "./constants/designConstants";
 
-
 type ContactInfoProps = {
   Icon: IconType;
   href?: string;
@@ -25,7 +24,6 @@ const ContactInfo = ({ Icon, href, text }: ContactInfoProps) => {
 };
 
 export default ContactInfo;
-
 
 // might use this later
 const Contact = () => {

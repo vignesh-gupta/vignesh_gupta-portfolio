@@ -13,7 +13,13 @@ const Hero = () => {
           height={300}
         />
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-          <Image priority src="/hero.png" alt="Vignesh Gupta" width={200} height={200} />
+          <Image
+            priority
+            src="/hero.png"
+            alt="Vignesh Gupta"
+            width={200}
+            height={200}
+          />
         </div>
       </div>
 

@@ -6,7 +6,7 @@
   --primary: #11071f;
   --primary-text: #7127ba;
   --secondary: #1a0b2e;
-  --secondary-text: #CCD6F6;
+  --secondary-text: #ccd6f6;
   --foreground: #f2f2f2;
 }
 
@@ -17,7 +17,8 @@
   /* border: 2px solid #fff; */
 }
 
-html, body{
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -29,7 +30,7 @@ html, body{
   );
 }
 
-.spread-gradient{
+.spread-gradient {
   position: absolute;
   background: rgba(149, 66, 232, 0.35);
   filter: blur(175px);

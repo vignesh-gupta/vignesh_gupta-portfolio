@@ -15,7 +15,9 @@ export async function getSkills() {
 }
 
 export async function getProjects(featuredOnly = false) {
-  return sanityFetch(`*[_type == "project"  ${featuredOnly ? "&& isFeatured == true " : ""}]{
+  return sanityFetch(`*[_type == "project"  ${
+    featuredOnly ? "&& isFeatured == true " : ""
+  }]{
     _id,
     _createdAt,
     title,
