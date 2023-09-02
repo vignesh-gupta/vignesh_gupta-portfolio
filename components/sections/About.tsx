@@ -1,10 +1,28 @@
+"use client";
+
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const About = () => {
   return (
     <div className="mt-10" id="aboutMe">
       <h2 className="lg:text-5xl md:text-4xl text-3xl">
-        I&apos;m a Software Engineer.
+        I&apos;m a{" "}
+        <TypeAnimation
+          sequence={[
+            "Frontend Developer",
+            1000, // pause 1 second between each message
+            "Full Stack Developer",
+            1000,
+            "Software Developer",
+            1000,
+            "Software Engineer",
+            1000,
+          ]}
+          wrapper="span"
+          speed={50}
+          repeat={Infinity}
+        />
       </h2>
       <p>
         Currently, I&apos;m a Software Engineer at

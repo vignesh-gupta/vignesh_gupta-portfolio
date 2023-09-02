@@ -1,5 +1,6 @@
 import React from "react";
 import ExpertiseCard from "../ExpertiseCard";
+import { expertise } from "../constants/mappingConstants";
 
 const Expertise = () => {
   return (
@@ -8,7 +9,7 @@ const Expertise = () => {
 
       {/* TODO: Update the Card with actually value */}
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 py-10">
-        {[1,2,3,4].map((val, i)=> <ExpertiseCard key={val} variant={i+1} /> )}
+        {expertise.map((val, i)=> <ExpertiseCard {...val} key={val.title} variant={i+1} /> )}
       </div>
     </div>
   );

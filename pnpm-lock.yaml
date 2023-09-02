@@ -56,6 +56,9 @@ dependencies:
   react-icons:
     specifier: ^4.10.1
     version: 4.10.1(react@18.2.0)
+  react-type-animation:
+    specifier: ^3.1.0
+    version: 3.1.0(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
   react-xarrows:
     specifier: ^2.0.2
     version: 2.0.2(react@18.2.0)
@@ -4884,6 +4887,18 @@ packages:
     resolution: {integrity: sha512-ywYLSjNkxKHiZOqNlso9PZByNEY+FTyh3C+7uuziK0xFXu9xzdyfHwg4S9iyiRRoPCR4k2LqaBBsWVmSBwCWYQ==}
     dependencies:
       prop-types: 15.8.1
+    dev: false
+
+  /react-type-animation@3.1.0(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Ju74SpUFpSINqlGU8UeFAF+AnAn0nZcc8MB0Ho6QvRkh8uDKkOzAiMD3l9xEmkbKXnSYsljfVgIDM/zwqEImpQ==}
+    peerDependencies:
+      prop-types: ^15.5.4
+      react: '>= 15.0.0'
+      react-dom: '>= 15.0.0'
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react-xarrows@2.0.2(react@18.2.0):

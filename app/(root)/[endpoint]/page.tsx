@@ -30,7 +30,7 @@ export default function Page({
     >
       <h1 className="md:text-2xl text-xl capitalize">
         {
-          validLinks.includes(endpoint)
+          validLinks.includes(endpoint.toLocaleLowerCase())
             ? `${endpoint} Page is under construction`
             : "404 | Oops seems like a wrong page"
         }

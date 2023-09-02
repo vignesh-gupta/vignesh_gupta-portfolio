@@ -3,8 +3,14 @@ import React from "react";
 import clsx from "clsx";
 import { poppins } from "./constants/designConstants";
 
+type ExpertiseCardProps = {
+  variant: number;
+  description: string;
+  icon: string;
+  title: string;
+}
 
-const ExpertiseCard = ({ variant: variant }: { variant: number }) => {
+const ExpertiseCard = ({ variant , description , title , icon } : ExpertiseCardProps) => {
   return (
     <div
       className={clsx(
@@ -15,25 +21,23 @@ const ExpertiseCard = ({ variant: variant }: { variant: number }) => {
     >
       <div className="">
         <Image
-          src={`/icons/expertise${variant}.svg`}
-          alt="Expertise"
+          src={`/icons/${icon}`}
+          alt={title}
           width={100}
           height={100}
         />
       </div>
-      <div className="flex flex-col shrink">
-        <h3 className="text-xl">Frontend</h3>
+      <div className="flex flex-col shrink py-5">
+        <h3 className="text-xl">{title}</h3>
         <p className="text-xs my-2">
-          Take your client onboard seamlessly by our amazing tool of digital
-          onboard process.
+          {description}
         </p>
-        <button
+        {/* <button
           type="button"
-          // className="w-fit stroke-2 p-3 stroke-[#693B93] text-sm fill-[#2C1250]"
           className="px-4 py-2  my-1 rounded-lg bg-[#2C1250] border-4 border-[#693B93] text-xs  w-fit"
         >
           Learn More
-        </button>
+        </button> */}
       </div>
 
       {/* TODO: Add a model on learn more btn click */}

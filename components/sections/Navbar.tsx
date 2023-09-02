@@ -6,7 +6,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { RxCross2 } from "react-icons/rx";
 import { navLinks } from "../constants/mappingConstants";
 import { motion } from "framer-motion";
-import { plusJakartaSans } from "@/components/constants/designConstants";
+import { plusJakartaSans , poppins } from "@/components/constants/designConstants";
 
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
       )}
     >
       <div id="logo" className="flex items-center">
-        <a href="/" className="text-3xl">
+        <a href="/" className={clsx("text-3xl font-bold", poppins.className)}>
           VG
         </a>
       </div>
