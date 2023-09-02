@@ -2,9 +2,9 @@
 
 import React, { useEffect, useState } from "react";
 
-import Project from "../Project";
+import Project from "@/components/Project";
 import clsx from "clsx";
-import { poppins } from "../constants/designConstants";
+import { poppins } from "@/components/constants/designConstants";
 import { getProjects } from "@/sanity/utils";
 
 const Projects = () => {

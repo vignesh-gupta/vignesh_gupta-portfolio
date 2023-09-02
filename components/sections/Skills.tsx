@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import SkillsCircle from "../SkillsCircle";
+import SkillsCircle from "@/components/SkillsCircle";
 import Image from "next/image";
 import { getSkills } from "@/sanity/utils";
 

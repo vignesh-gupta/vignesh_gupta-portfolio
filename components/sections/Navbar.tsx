@@ -4,7 +4,7 @@ import React from "react";
 import clsx from "clsx";
 import { BiMenuAltRight } from "react-icons/bi";
 import { RxCross2 } from "react-icons/rx";
-import { navLinks } from "../constants/mappingConstants";
+import { navLinks } from "@/components/constants/mappingConstants";
 import { motion } from "framer-motion";
 import { plusJakartaSans , poppins } from "@/components/constants/designConstants";
 

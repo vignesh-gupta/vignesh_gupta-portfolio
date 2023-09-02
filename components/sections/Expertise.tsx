@@ -1,6 +1,6 @@
 import React from "react";
-import ExpertiseCard from "../ExpertiseCard";
-import { expertise } from "../constants/mappingConstants";
+import ExpertiseCard from "@/components/ExpertiseCard";
+import { expertise } from "@/components/constants/mappingConstants";
 
 const Expertise = () => {
   return (
