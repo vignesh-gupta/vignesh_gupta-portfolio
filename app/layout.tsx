@@ -17,6 +17,9 @@ export const metadata: Metadata = {
       color: '#CCD6F6',
     },
   ],
+  verification: {
+    google: 'CMGvGxmKn2AHfQJX0pLgJHDEDjXT7xYWgX8J0Crz_xs',
+  },
   description: "Vignesh Gupta's Portfolio",
   authors: {
     name: 'Vignesh Gupta',
