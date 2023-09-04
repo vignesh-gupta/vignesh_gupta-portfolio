@@ -12,10 +12,7 @@ const Projects = () => {
 
   useEffect(() => {
     getProjects(true)
-      .then((res) => {
-        console.log(res);
-        setProjects(res);
-      })
+      .then((res) => setProjects(res))
       .catch(console.error);
   }, []);
   return (
