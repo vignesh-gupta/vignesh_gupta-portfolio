@@ -41,7 +41,9 @@ const Navbar = () => {
 
       <div className='self-end md:hidden '>
         <button
+          aria-labelledby='menu-open'
           className='rounded-full bg-secondary-text p-2 text-3xl text-secondary'
+          aria-label='menu-open'
           onClick={() => setIsMenuOpen((prev) => !prev)}
         >
           <BiMenuAltRight />
