@@ -9,11 +9,19 @@ const Footer = () => {
       </p>
 
       <div className='flex gap-3 text-xl'>
-        <a target='_blank' href='https://www.linkedin.com/in/vigneshgupta/'>
+        <a
+          target='_blank'
+          aria-label='LinkedIn Link'
+          href='https://www.linkedin.com/in/vigneshgupta/'
+        >
           <BsLinkedin />
         </a>
 
-        <a target='_blank' href='http://github.com/vignesh-gupta/'>
+        <a
+          target='_blank'
+          aria-label='GitHub Link'
+          href='http://github.com/vignesh-gupta/'
+        >
           <BsGithub />
         </a>
       </div>
