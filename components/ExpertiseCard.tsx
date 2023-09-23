@@ -24,10 +24,10 @@ const ExpertiseCard = ({
         'card-gradient-' + variant
       )}
     >
-      <div className=''>
+      <div>
         <Image src={`/icons/${icon}`} alt={title} width={100} height={100} />
       </div>
-      <div className='flex shrink flex-col py-5'>
+      <div className='flex shrink grow flex-col py-5 '>
         <h3 className='text-xl'>{title}</h3>
         <p className='my-2 text-xs'>{description}</p>
         {/* <button

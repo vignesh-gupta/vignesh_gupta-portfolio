@@ -30,7 +30,7 @@ const Project = ({
     >
       <div
         className={clsx(
-          'flex shrink basis-[70%] flex-col md:basis-[85%] lg:basis-[90%] lg:py-12',
+          'flex w-full shrink flex-col items-stretch md:basis-[85%] lg:basis-[90%] lg:py-12',
           isEven && 'lg:items-end'
         )}
       >
@@ -39,13 +39,16 @@ const Project = ({
 
         <div
           className={clsx(
-            ' z-10 flex flex-col gap-3 self-start rounded-md  bg-blue-300 bg-opacity-10 p-6 backdrop-blur-lg backdrop-filter lg:w-[calc(100%+3rem)] ',
+            ' z-10 flex w-full flex-col gap-3 self-start rounded-md  bg-blue-300 bg-opacity-10 p-6 backdrop-blur-lg backdrop-filter lg:w-[calc(100%+3rem)] ',
             isEven ? 'lg:-ml-12' : 'lg:-mr-12'
           )}
         >
           <p>{description}</p>
           <div
-            className={clsx('flex items-center gap-3', isEven && 'justify-end')}
+            className={clsx(
+              'flex items-center gap-3',
+              isEven && 'lg:justify-end'
+            )}
           >
             <Link
               href={projectLink}
