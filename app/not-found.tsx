@@ -8,7 +8,7 @@ export default function Page404() {
   return (
     <div
       className={clsx(
-        'flex grow flex-col items-center justify-center gap-5 text-center',
+        'flex min-h-screen w-full grow flex-col items-center justify-center gap-5 bg-primary text-center text-foreground',
         poppins.className
       )}
     >

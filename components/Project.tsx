@@ -39,7 +39,7 @@ const Project = ({
         <p
           className={clsx(
             'font-bold text-primary-text',
-            !isFeatured && 'opacity-0'
+            !isFeatured && 'hidden'
           )}
         >
           Featured Project
