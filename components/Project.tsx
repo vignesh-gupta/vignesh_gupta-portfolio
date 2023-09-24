@@ -11,6 +11,7 @@ type ProjectProps = {
   imgUrl: string;
   projectLink: string;
   codeLink: string;
+  isFeatured: boolean;
 };
 
 const Project = ({
@@ -20,6 +21,7 @@ const Project = ({
   imgUrl,
   codeLink,
   projectLink,
+  isFeatured,
 }: ProjectProps) => {
   return (
     <div
@@ -34,7 +36,14 @@ const Project = ({
           isEven && 'lg:items-end'
         )}
       >
-        <p className='font-bold text-primary-text'>Featured Project</p>
+        <p
+          className={clsx(
+            'font-bold text-primary-text',
+            !isFeatured && 'opacity-0'
+          )}
+        >
+          Featured Project
+        </p>
         <h4 className='text-3xl text-secondary-text'>{title}</h4>
 
         <div

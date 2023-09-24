@@ -22,7 +22,7 @@
     "autoprefixer": "10.4.15",
     "clsx": "^2.0.0",
     "framer-motion": "^10.16.1",
-    "next": "13.4.19",
+    "next": "13.5.2",
     "next-sanity": "^5.4.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -35,7 +35,7 @@
   "devDependencies": {
     "@types/react": "18.2.21",
     "eslint": "8.47.0",
-    "eslint-config-next": "13.4.19",
+    "eslint-config-next": "13.5.2",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.0",
     "postcss": "8.4.28",

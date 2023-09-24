@@ -1,24 +1,8 @@
-import { poppins } from '@/components/constants/designConstants';
-import clsx from 'clsx';
-import Link from 'next/link';
+import ProjectsSection from '@/components/sections/Projects';
 import React from 'react';
 
 const ProjectsPage = () => {
-  return (
-    <div
-      className={clsx(
-        'flex grow flex-col items-center justify-center gap-5 text-center',
-        poppins.className
-      )}
-    >
-      <h1 className='text-xl capitalize md:text-2xl'>
-        Projects Page is under construction
-      </h1>
-      <Link href='/' className='rounded-lg bg-blue-950 px-5 py-3 text-base'>
-        Go home
-      </Link>
-    </div>
-  );
+  return <ProjectsSection showAll />;
 };
 
 export default ProjectsPage;

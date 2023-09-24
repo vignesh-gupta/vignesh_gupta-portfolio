@@ -7,14 +7,14 @@ import clsx from 'clsx';
 import { poppins } from '@/components/constants/designConstants';
 import { getProjects } from '@/sanity/utils';
 
-const Projects = () => {
+const Projects = ({ showAll }: { showAll?: boolean }) => {
   const [projects, setProjects] = useState<any[]>([]);
 
   useEffect(() => {
-    getProjects(true)
+    getProjects(!showAll)
       .then((res) => setProjects(res))
       .catch(console.error);
-  }, []);
+  }, [showAll]);
   return (
     <div
       className={clsx('my-10 flex w-full flex-col gap-10', poppins.className)}
@@ -27,6 +27,7 @@ const Projects = () => {
           description={project.description}
           imgUrl={project.imgUrl}
           key={i}
+          isFeatured={project.isFeatured}
           isEven={(i + 1) % 2 === 0}
         />
       ))}
