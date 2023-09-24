@@ -5,14 +5,22 @@ const Footer = () => {
   return (
     <footer className='flex h-20 justify-between border-t border-secondary px-10 py-3 sm:px-16 md:px-32 lg:px-48 xl:px-80'>
       <p>
-        &copy; {new Date().getFullYear()} Vignesh Gupta. All Rights Reserved.
+        &copy; {new Date().getFullYear()} Vignesh Gupta. Checkout on
+        <a
+          target='_blank'
+          aria-label='GitHub Code'
+          className='ml-1 underline underline-offset-4'
+          href='https://github.com/vignesh-gupta/vignesh_gupta-portfolio'
+        >
+          GitHub
+        </a>
       </p>
 
       <div className='flex gap-3 text-xl'>
         <a
           target='_blank'
           aria-label='LinkedIn Link'
-          href='https://www.linkedin.com/in/vigneshgupta/'
+          href='https://linkedin.com/in/vigneshgupta/'
         >
           <BsLinkedin />
         </a>
@@ -20,7 +28,7 @@ const Footer = () => {
         <a
           target='_blank'
           aria-label='GitHub Link'
-          href='http://github.com/vignesh-gupta/'
+          href='https://github.com/vignesh-gupta/'
         >
           <BsGithub />
         </a>
