@@ -62,7 +62,7 @@ const Project = ({
             <Link
               href={projectLink}
               target='_blank'
-              className='my-1 flex w-fit gap-2 rounded-lg border-4 border-[#693B93] bg-[#2C1250] px-4 py-2  text-xs'
+              className='my-1 flex w-fit gap-2 rounded-lg border-4 border-[#693B93] bg-secondary px-4 py-2  text-xs'
             >
               <BsBoxArrowUpRight /> Live site
             </Link>
@@ -70,7 +70,7 @@ const Project = ({
             <Link
               href={codeLink}
               target='_blank'
-              className='my-1 flex w-fit gap-2 rounded-lg border-4 border-[#693B93] bg-[#2C1250] px-4 py-2  text-xs'
+              className='my-1 flex w-fit gap-2 rounded-lg border-4 border-[#693B93] bg-secondary px-4 py-2  text-xs'
             >
               <BsGithub /> GitHub Repo
             </Link>
@@ -78,7 +78,7 @@ const Project = ({
         </div>
       </div>
 
-      <div className='relative w-full  flex-grow basis-auto rounded-lg bg-[#2B0B3A] p-6 lg:p-10'>
+      <div className='relative w-full  flex-grow basis-auto rounded-lg bg-secondary p-6 lg:p-10'>
         <div
           className={clsx(
             'radial-gradient absolute top-0 hidden h-full w-full rounded-full blur-sm brightness-50 lg:block',
