@@ -10,6 +10,7 @@ import {
   plusJakartaSans,
   poppins,
 } from '@/components/constants/designConstants';
+import ThemeSwitch from '../ThemeSwitch';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -28,6 +29,7 @@ const Navbar = () => {
       </div>
 
       <div className='hidden items-center gap-2 md:flex'>
+        <ThemeSwitch />
         {navLinks.map((link) => (
           <a
             key={link.title.toLocaleLowerCase()}

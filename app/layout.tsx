@@ -83,9 +83,5 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang='en'>
-      <body className='min-h-screen'>{children}</body>
-    </html>
-  );
+  return <html lang='en'>{children}</html>;
 }

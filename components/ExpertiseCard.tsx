@@ -32,7 +32,7 @@ const ExpertiseCard = ({
         <p className='my-2 text-xs'>{description}</p>
         {/* <button
           type="button"
-          className="px-4 py-2  my-1 rounded-lg bg-[#2C1250] border-4 border-[#693B93] text-xs  w-fit"
+          className="px-4 py-2  my-1 rounded-lg bg-secondary border-4 border-[#693B93] text-xs  w-fit"
         >
           Learn More
         </button> */}
