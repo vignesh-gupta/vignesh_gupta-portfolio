@@ -36,15 +36,10 @@ const Project = ({
           isEven && 'lg:items-end'
         )}
       >
-        <p
-          className={clsx(
-            'font-bold text-accent',
-            !isFeatured && 'hidden'
-          )}
-        >
+        <p className={clsx('font-bold text-accent', !isFeatured && 'hidden')}>
           Featured Project
         </p>
-        <h4 className='text-3xl text-secondary-text'>{title}</h4>
+        <h4 className='text-secondary-text text-3xl'>{title}</h4>
 
         <div
           className={clsx(

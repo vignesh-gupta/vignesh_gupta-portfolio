@@ -15,7 +15,7 @@ const ContactInfo = ({ Icon, href, text }: ContactInfoProps) => {
     <a
       href={href ?? text.toLocaleLowerCase()}
       target='_blank'
-      className=' flex cursor-pointer items-center justify-center rounded-lg bg-secondary p-4 pr-10 text-xl text-secondary-text shadow-lg'
+      className=' text-secondary-text flex cursor-pointer items-center justify-center rounded-lg bg-secondary p-4 pr-10 text-xl shadow-lg'
     >
       <Icon />
       <span className='ml-2 block text-base'>{text}</span>
@@ -30,8 +30,7 @@ const Contact = () => {
   return (
     <div className={clsx(poppins.className, 'mb-10 w-full')}>
       <h2 className='w-full text-center text-2xl font-bold md:text-3xl lg:text-4xl'>
-        Take a Coffee &
-        <span className='block text-accent'>Talk with me</span>
+        Take a Coffee &<span className='block text-accent'>Talk with me</span>
       </h2>
 
       <div className='my-3 flex w-full gap-10 rounded-lg bg-[#2B0B3A] p-10'>
