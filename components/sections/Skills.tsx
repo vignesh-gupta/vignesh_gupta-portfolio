@@ -18,7 +18,7 @@ const Skills = () => {
     <div className='w-full'>
       <p className='mb-5 w-full text-center text-lg md:text-xl lg:text-2xl'>
         I&apos;m currently looking to join a
-        <span className='text-primary-text'> cross-functional</span> team
+        <span className='text-accent'> cross-functional</span> team
         <span className='md::text-base block text-sm'>
           that values improving people&apos; lives through accessible design &
           technology.

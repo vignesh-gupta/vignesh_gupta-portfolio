@@ -38,7 +38,7 @@ const Project = ({
       >
         <p
           className={clsx(
-            'font-bold text-primary-text',
+            'font-bold text-accent',
             !isFeatured && 'hidden'
           )}
         >

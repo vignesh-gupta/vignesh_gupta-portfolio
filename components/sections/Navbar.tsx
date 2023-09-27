@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       <div className='hidden items-center gap-2 md:flex'>
-        {/* <ThemeSwitch /> */}
+        <ThemeSwitch />
         {navLinks.map((link) => (
           <a
             key={link.title.toLocaleLowerCase()}

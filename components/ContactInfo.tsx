@@ -31,7 +31,7 @@ const Contact = () => {
     <div className={clsx(poppins.className, 'mb-10 w-full')}>
       <h2 className='w-full text-center text-2xl font-bold md:text-3xl lg:text-4xl'>
         Take a Coffee &
-        <span className='block text-primary-text'>Talk with me</span>
+        <span className='block text-accent'>Talk with me</span>
       </h2>
 
       <div className='my-3 flex w-full gap-10 rounded-lg bg-[#2B0B3A] p-10'>
@@ -46,10 +46,6 @@ const Contact = () => {
             text='vigneshgupta32@gmail.com'
             href='mailto:vigneshgupta32@gmail.com'
           />
-        </div>
-        {/* <div className='' /> */}
-        <div className='flex-1'>
-          <div className='flex flex-1 rounded-lg bg-secondary pr-10 text-secondary-text shadow-lg'></div>
         </div>
       </div>
     </div>

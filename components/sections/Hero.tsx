@@ -26,14 +26,14 @@ const Hero = () => {
       <div id='hero-content' className='flex flex-col justify-evenly'>
         <p className='md:-mb-7'>
           Hello I&apos;m
-          <span className='text-primary-text'> Vignesh Gupta</span>
+          <span className='text-accent'> Vignesh Gupta</span>
         </p>
 
         <div className='md:ml-7'>
           <p>An Engineer who...</p>
           <h1 className='text-3xl md:text-4xl lg:text-5xl'>
             Loves to <br />
-            have<span className='text-primary-text'> problem</span>...
+            have<span className='text-accent'> problem</span>...
           </h1>
           <p className='text-sm'>
             Because if there is no problem then what’s there to engineer?

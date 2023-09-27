@@ -26,7 +26,7 @@ const About = () => {
       </h2>
       <p>
         Currently, I&apos;m a Software Engineer at
-        <span className='text-primary-text'> HCLTECH</span>.
+        <span className='text-accent'> HCLTECH</span>.
       </p>
 
       <p className='mt-10 md:w-5/6'>
