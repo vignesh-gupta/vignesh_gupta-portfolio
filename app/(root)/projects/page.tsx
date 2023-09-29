@@ -16,11 +16,11 @@ const ProjectsPage = () => {
       </h1>
       <ProjectsSection showAll />
 
-      <p className='text-center mb-5'>
+      <p className='mb-5 text-center'>
         <a
           target='_blank'
           aria-label='GitHub Code'
-          className='ml-1 underline hover:no-underline underline-offset-4'
+          className='ml-1 underline underline-offset-4 hover:no-underline'
           href='https://github.com/vignesh-gupta'
         >
           Looking for more?

@@ -19,7 +19,7 @@ const ExpertiseCard = ({
   return (
     <div
       className={clsx(
-        'z-10 flex items-center text-white justify-center gap-4 border-t-4 border-[#4F228D] px-2 py-5 pl-4 md:px-8 rounded-2xl ',
+        'z-10 flex items-center justify-center gap-4 rounded-2xl border-t-4 border-[#4F228D] px-2 py-5 pl-4 text-white md:px-8 ',
         poppins.className,
         'card-gradient-' + variant
       )}

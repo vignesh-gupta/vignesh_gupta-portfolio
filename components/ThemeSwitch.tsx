@@ -9,13 +9,12 @@ const ThemeSwitch = ({ className }: { className?: string }) => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className={clsx('self-center',className)}>
+    <div className={clsx('self-center', className)}>
       <button
         className='rounded-lg p-3 text-2xl hover:bg-primary'
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       >
-      { theme === 'dark' ? <HiMoon /> : <HiSun />}
-        
+        {theme === 'dark' ? <HiMoon /> : <HiSun />}
       </button>
     </div>
   );

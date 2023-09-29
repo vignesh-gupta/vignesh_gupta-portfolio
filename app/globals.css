@@ -8,7 +8,7 @@
     --background: #ebe2f8;
     --primary: #ebe2f8;
     --secondary: #e1d2f4;
-    --accent: #4F228D;
+    --accent: #4f228d;
     --primary-text: #6e1dd9;
     --secondary-text: rgb(90, 114, 191);
   }
@@ -19,7 +19,7 @@
     --primary-text: #b887e8;
     --secondary: #1a0b2e;
     --secondary-text: #ccd6f6;
-    --accent: #4F228D;
+    --accent: #4f228d;
   }
 }
 
@@ -42,7 +42,6 @@ body {
     rgba(111, 88, 164, 0) 100%
   );
 }
-
 
 /****************************************************************
 ************************ dark mode ******************************
