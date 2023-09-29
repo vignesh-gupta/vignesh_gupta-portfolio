@@ -74,12 +74,12 @@ const Project = ({
       </div>
 
       <div className='relative w-full  flex-grow basis-auto rounded-lg bg-secondary p-6 lg:p-10'>
-        <div
+        {/* <div
           className={clsx(
             'radial-gradient absolute top-0 hidden h-full w-full rounded-full blur-sm brightness-50 lg:block',
             isEven ? '-left-1/3 ' : 'left-1/3'
           )}
-        />
+        /> */}
         <Image
           src={imgUrl}
           className='h-full w-full transform rounded-lg object-cover shadow-xl'

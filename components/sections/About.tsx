@@ -17,11 +17,13 @@ const About = () => {
             'Software Developer',
             1000,
             'Software Engineer',
-            1000,
+            2000,
           ]}
           wrapper='span'
           speed={50}
           repeat={Infinity}
+          className='text-accent'
+          id='tes'
         />
       </h2>
       <p>

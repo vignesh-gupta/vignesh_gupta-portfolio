@@ -8,7 +8,7 @@
     --background: #ebe2f8;
     --primary: #ebe2f8;
     --secondary: #e1d2f4;
-    --accent: #6884b6;
+    --accent: #4F228D;
     --primary-text: #6e1dd9;
     --secondary-text: rgb(90, 114, 191);
   }
@@ -19,7 +19,7 @@
     --primary-text: #b887e8;
     --secondary: #1a0b2e;
     --secondary-text: #ccd6f6;
-    --accent: #4a6798;
+    --accent: #4F228D;
   }
 }
 
@@ -34,6 +34,19 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
+.radial-gradient {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #cdaaee 0%,
+    rgba(111, 88, 164, 0) 100%
+  );
+}
+
+
+/****************************************************************
+************************ dark mode ******************************
+****************************************************************/
 
 .dark .radial-gradient {
   background: radial-gradient(
@@ -50,8 +63,7 @@ body {
   z-index: -1;
 }
 
-.dark .card-gradient-1 {
-  border-radius: 15px;
+.card-gradient-1 {
   background: linear-gradient(
     141deg,
     #130428 7.29%,
@@ -61,9 +73,8 @@ body {
   box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
 }
 
-.dark .card-gradient-2,
-.dark .card-gradient-3 {
-  border-radius: 15px;
+.card-gradient-2,
+.card-gradient-3 {
   background: linear-gradient(
     137deg,
     #130428 7.29%,
@@ -75,8 +86,7 @@ body {
   box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
 }
 
-.dark .card-gradient-4 {
-  border-radius: 15px;
+.card-gradient-4 {
   background: linear-gradient(
     135deg,
     #38126d 1.37%,

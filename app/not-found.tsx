@@ -15,7 +15,7 @@ export default function Page404() {
       <h1 className='text-xl capitalize md:text-2xl'>
         404 | Oops seems like a wrong page
       </h1>
-      <Link href='/' className='rounded-lg bg-blue-950 px-5 py-3 text-base'>
+      <Link href='/' className='rounded-lg bg-accent px-5 py-3 text-white'>
         Go home
       </Link>
     </div>

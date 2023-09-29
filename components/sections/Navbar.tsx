@@ -29,7 +29,6 @@ const Navbar = () => {
       </div>
 
       <div className='hidden items-center gap-2 md:flex'>
-        <ThemeSwitch />
         {navLinks.map((link) => (
           <a
             key={link.title.toLocaleLowerCase()}
@@ -40,11 +39,12 @@ const Navbar = () => {
           </a>
         ))}
       </div>
-
-      <div className='self-end md:hidden '>
+      <ThemeSwitch className='hidden md:block' />
+      <div className='flex gap-2 self-center md:hidden '>
+        <ThemeSwitch />
         <button
           aria-labelledby='menu-open'
-          className='bg-secondary-text rounded-full p-2 text-3xl text-secondary'
+          className='rounded-full bg-accent p-2 text-3xl text-white'
           aria-label='menu-open'
           onClick={() => setIsMenuOpen((prev) => !prev)}
         >

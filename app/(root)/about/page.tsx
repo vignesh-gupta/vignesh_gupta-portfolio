@@ -14,7 +14,7 @@ const AboutPage = () => {
       <h1 className='text-xl capitalize md:text-2xl'>
         About Page is under construction
       </h1>
-      <Link href='/' className='rounded-lg bg-blue-950 px-5 py-3 text-base'>
+      <Link href='/' className='rounded-lg bg-accent px-5 py-3 text-white'>
         Go home
       </Link>
     </div>
