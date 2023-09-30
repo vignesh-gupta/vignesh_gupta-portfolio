@@ -5,11 +5,11 @@ import AboutSection from '@/components/sections/About';
 
 const AboutPage = () => {
   return (
-   <div className='flex flex-col gap-10'>
-    <HeroSection />
-    <AboutSection />
-    <SkillsSection />
-   </div>
+    <div className='flex flex-col gap-10'>
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+    </div>
   );
 };
 

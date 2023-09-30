@@ -14,8 +14,8 @@ const ThemeSwitch = ({ className }: { className?: string }) => {
         className='rounded-lg p-3 text-2xl hover:bg-primary'
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       >
-        <div className='dark:hidden block'>
-          <HiMoon  />
+        <div className='block dark:hidden'>
+          <HiMoon />
         </div>
 
         <div className='hidden dark:block'>
