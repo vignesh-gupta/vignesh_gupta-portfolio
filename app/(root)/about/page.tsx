@@ -1,23 +1,15 @@
-import { poppins } from '@/components/constants/designConstants';
-import clsx from 'clsx';
-import Link from 'next/link';
 import React from 'react';
+import HeroSection from '@/components/sections/Hero';
+import SkillsSection from '@/components/sections/Skills';
+import AboutSection from '@/components/sections/About';
 
 const AboutPage = () => {
   return (
-    <div
-      className={clsx(
-        'flex grow flex-col items-center justify-center gap-5 text-center',
-        poppins.className
-      )}
-    >
-      <h1 className='text-xl capitalize md:text-2xl'>
-        About Page is under construction
-      </h1>
-      <Link href='/' className='rounded-lg bg-accent px-5 py-3 text-white'>
-        Go home
-      </Link>
-    </div>
+   <div className='flex flex-col gap-10'>
+    <HeroSection />
+    <AboutSection />
+    <SkillsSection />
+   </div>
   );
 };
 
