@@ -15,11 +15,11 @@ const ThemeSwitch = ({ className }: { className?: string }) => {
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       >
         <div className='block dark:hidden'>
-          <HiMoon />
+          <HiSun />
         </div>
 
         <div className='hidden dark:block'>
-          <HiSun />
+          <HiMoon />
         </div>
       </button>
     </div>

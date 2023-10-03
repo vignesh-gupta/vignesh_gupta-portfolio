@@ -39,3 +39,19 @@ export const expertise = [
     icon: 'expertise4.svg',
   },
 ];
+
+export const experiences = [
+  {
+    duration: '2021 - Present',
+    company: 'HCLTECH',
+    position: 'Software Engineer',
+    description:
+      'Working as a software engineer in the field of web development. Worked on multiple projects and technologies.',
+  },
+  {
+    duration: '2021',
+    company: 'HCLTECH',
+    position: 'Software Engineering Intern',
+    description: 'Worked as an intern in the field of web development.',
+  },
+];
