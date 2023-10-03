@@ -3,7 +3,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
-const About = () => {
+const AboutSection = () => {
   return (
     <div className='mt-10' id='aboutMe'>
       <h2 className='text-3xl md:text-4xl lg:text-5xl'>
@@ -41,4 +41,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;

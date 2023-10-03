@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
-const Footer = () => {
+const FooterSection = () => {
   return (
     <footer className='flex h-20 justify-between border-t border-secondary px-10 py-3 sm:px-16 md:px-32 lg:px-48 xl:px-80'>
       <p>
@@ -37,4 +37,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterSection;

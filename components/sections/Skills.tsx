@@ -5,7 +5,7 @@ import SkillsCircle from '@/components/SkillsCircle';
 import Image from 'next/image';
 import { getSkills } from '@/sanity/utils';
 
-const Skills = () => {
+const SkillsSection = () => {
   const [skills, setSkills] = useState<any[]>([]);
 
   useEffect(() => {
@@ -45,4 +45,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default SkillsSection;

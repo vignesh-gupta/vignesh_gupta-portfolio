@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <div className='flex w-full flex-col justify-center gap-3 pt-8 md:flex-row md:justify-start md:pt-20'>
       <div id='hero-img' className='relative flex items-start justify-center'>
@@ -44,4 +44,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;

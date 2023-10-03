@@ -7,7 +7,7 @@ import clsx from 'clsx';
 import { poppins } from '@/components/constants/designConstants';
 import { getProjects } from '@/sanity/utils';
 
-const Projects = ({ showAll }: { showAll?: boolean }) => {
+const ProjectsSection = ({ showAll }: { showAll?: boolean }) => {
   const [projects, setProjects] = useState<any[]>([]);
 
   useEffect(() => {
@@ -35,4 +35,4 @@ const Projects = ({ showAll }: { showAll?: boolean }) => {
   );
 };
 
-export default Projects;
+export default ProjectsSection;
