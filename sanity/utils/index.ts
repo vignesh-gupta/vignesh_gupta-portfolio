@@ -29,3 +29,13 @@ export async function getProjects(featuredOnly = false) {
     "imgUrl": imgUrl.asset->url
   }${featuredOnly ? '[0...3]' : ''}`);
 }
+
+export async function getExperience() {
+  return sanityFetch(`*[_type == "experience" || _type == "Experience"]{
+    _id,
+    role,
+    company,
+    description,
+    duration
+  }`);
+}

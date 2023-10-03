@@ -1,5 +1,5 @@
 const experience = {
-  name: 'Experience',
+  name: 'experience',
   title: 'Experiences',
   type: 'document',
   fields: [
@@ -14,7 +14,6 @@ const experience = {
       title: 'Duration',
       type: 'duration',
     },
-
     {
       name: 'description',
       title: 'Description',

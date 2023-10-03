@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -9,10 +9,17 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import { MdWork } from 'react-icons/md';
 import { experiences } from '../constants/mappingConstants';
-import clsx from 'clsx';
-import { poppins } from '../constants/designConstants';
+import { getExperience } from '@/sanity/utils';
 
 const ExperienceSection = () => {
+  const [experience, setExperience] = React.useState(experiences);
+
+  useEffect(() => {
+    getExperience().then((data) => {
+      console.log(data);
+    });
+  }, []);
+
   return (
     <div>
       <h2 className='mb-5 text-2xl md:text-3xl lg:text-4xl'>My Tech Journey</h2>
