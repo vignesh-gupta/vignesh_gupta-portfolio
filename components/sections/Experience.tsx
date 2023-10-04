@@ -8,16 +8,13 @@ import {
 import 'react-vertical-timeline-component/style.min.css';
 
 import { MdWork } from 'react-icons/md';
-import { experiences } from '../constants/mappingConstants';
 import { getExperience } from '@/sanity/utils';
 
 const ExperienceSection = () => {
-  const [experience, setExperience] = React.useState(experiences);
+  const [experiences, setExperiences] = React.useState<any[]>([]);
 
   useEffect(() => {
-    getExperience().then((data) => {
-      console.log(data);
-    });
+    getExperience().then((data) => setExperiences(data));
   }, []);
 
   return (
@@ -37,13 +34,15 @@ const ExperienceSection = () => {
             contentArrowStyle={{
               borderRight: '7px solid  var(--secondary)',
             }}
-            date={experience.duration}
+            date={`${experience.startDate} - ${
+              experience.endDate || 'Present'
+            }`}
             iconStyle={{ background: 'var(--accent)', color: '#fff' }}
             icon={<MdWork />}
           >
-            <h3 className='text-xl'>{experience.position}</h3>
+            <h3 className='text-xl'>{experience.role}</h3>
             <h4 className='text-md'>{experience.company}</h4>
-            <p className='text-sm'>{experience.description}</p>
+            <p className='text-sm'>{experience.text}</p>
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>
