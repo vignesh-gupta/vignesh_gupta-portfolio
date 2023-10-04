@@ -31,11 +31,12 @@ export async function getProjects(featuredOnly = false) {
 }
 
 export async function getExperience() {
-  return sanityFetch(`*[_type == "experience" || _type == "Experience"]{
+  return sanityFetch(`*[_type == "experience"]{
     _id,
     role,
     company,
-    description,
-    duration
+    "text" : description[0].children[0].text,
+    'startDate' : duration.start,
+    'endDate' : duration.end,
   }`);
 }
