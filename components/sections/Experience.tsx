@@ -9,9 +9,10 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import { MdWork } from 'react-icons/md';
 import { getExperience } from '@/sanity/utils';
+import { TExperience } from '@/types';
 
 const ExperienceSection = () => {
-  const [experiences, setExperiences] = React.useState<any[]>([]);
+  const [experiences, setExperiences] = React.useState<TExperience[]>([]);
 
   useEffect(() => {
     getExperience().then((data) => setExperiences(data));
@@ -32,17 +33,25 @@ const ExperienceSection = () => {
               background: 'var(--secondary)',
             }}
             contentArrowStyle={{
-              borderRight: '7px solid  var(--secondary)',
+              borderRight: '7px solid var(--secondary)',
             }}
-            date={`${experience.startDate} - ${
-              experience.endDate || 'Present'
+            date={`${new Date(experience.startDate).toLocaleDateString(
+              'default',
+              { month: 'long', year: 'numeric' }
+            )} - ${
+              experience.endDate
+                ? new Date(experience.endDate).toLocaleDateString('default', {
+                    month: 'long',
+                    year: 'numeric',
+                  })
+                : 'Present'
             }`}
             iconStyle={{ background: 'var(--accent)', color: '#fff' }}
             icon={<MdWork />}
           >
             <h3 className='text-xl'>{experience.role}</h3>
             <h4 className='text-md'>{experience.company}</h4>
-            <p className='text-sm'>{experience.text}</p>
+            <p className='text-sm'>{experience.description}</p>
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>
