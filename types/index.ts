@@ -4,5 +4,5 @@ export type TExperience = {
   company: string;
   startDate: string;
   endDate?: string;
-  description: string;
+  description: {text: string , _key: string}[];
 };

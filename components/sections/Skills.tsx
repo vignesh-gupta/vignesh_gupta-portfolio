@@ -16,14 +16,6 @@ const SkillsSection = () => {
 
   return (
     <div className='w-full'>
-      <p className='mb-5 w-full text-center text-lg md:text-xl lg:text-2xl'>
-        I&apos;m currently looking to join a
-        <span className='text-accent'> cross-functional</span> team
-        <span className='md::text-base block text-sm'>
-          that values improving people&apos; lives through accessible design &
-          technology.
-        </span>
-      </p>
 
       <div className='flex flex-wrap items-center justify-center gap-3'>
         {skills.map(({ _id, name, icon }, i) => (

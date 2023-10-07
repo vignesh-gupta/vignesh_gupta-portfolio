@@ -35,7 +35,7 @@ export async function getExperience() {
     _id,
     role,
     company,
-    'description' : description[0].children[0].text,
+    'description' : description[].children[] {text, _key},
     'startDate' : duration.start,
     'endDate' : duration.end,
   }`);
