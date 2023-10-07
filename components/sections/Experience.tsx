@@ -53,7 +53,9 @@ const ExperienceSection = () => {
             <h4 className='text-md'>{experience.company}</h4>
             <p className='text-sm'>
               {experience.description.map(({ _key, text }) => (
-                <li className="list-none before:content-['✔️'] ml-2" key={_key}>{text.trim()}</li>
+                <li className="ml-2 list-none before:content-['✔️']" key={_key}>
+                  {text.trim()}
+                </li>
               ))}
             </p>
           </VerticalTimelineElement>
