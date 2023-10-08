@@ -13,7 +13,7 @@ const AboutPage = () => {
       <p className='w-full text-center text-xl md:text-2xl lg:text-3xl'>
         I&apos;m good with
         <span className='text-accent'> these techs</span>
-        <span className='md:text-lg block text-base'>
+        <span className='block text-base md:text-lg'>
           to build some awesome stuff
         </span>
       </p>

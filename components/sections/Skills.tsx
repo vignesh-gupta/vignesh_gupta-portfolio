@@ -9,9 +9,7 @@ const SkillsSection = () => {
   const [skills, setSkills] = useState<any[]>([]);
 
   useEffect(() => {
-    getSkills()
-      .then(setSkills)
-      .catch(console.error);
+    getSkills().then(setSkills).catch(console.error);
   }, []);
 
   return (

@@ -16,9 +16,7 @@ const ExperienceSection = () => {
   const [experiences, setExperiences] = useState<TExperience[]>([]);
 
   useEffect(() => {
-    getExperience()
-      .then(setExperiences)
-      .catch(console.error);
+    getExperience().then(setExperiences).catch(console.error);
   }, []);
 
   return (

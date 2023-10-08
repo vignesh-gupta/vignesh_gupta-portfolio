@@ -12,9 +12,7 @@ const ProjectsSection = ({ showAll }: { showAll?: boolean }) => {
   const [projects, setProjects] = useState<any[]>([]);
 
   useEffect(() => {
-    getProjects(!showAll)
-      .then(setProjects)
-      .catch(console.error);
+    getProjects(!showAll).then(setProjects).catch(console.error);
   }, [showAll]);
 
   if (projects.length === 0) return <Loading />;
