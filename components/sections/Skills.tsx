@@ -10,7 +10,7 @@ const SkillsSection = () => {
 
   useEffect(() => {
     getSkills()
-      .then((res) => setSkills(res))
+      .then(setSkills)
       .catch(console.error);
   }, []);
 

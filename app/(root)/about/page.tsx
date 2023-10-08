@@ -10,10 +10,10 @@ const AboutPage = () => {
       <HeroSection />
       <AboutSection />
       <ExperienceSection />
-      <p className='w-full text-center text-lg md:text-xl lg:text-2xl'>
+      <p className='w-full text-center text-xl md:text-2xl lg:text-3xl'>
         I&apos;m good with
         <span className='text-accent'> these techs</span>
-        <span className='md::text-base block text-sm'>
+        <span className='md:text-lg block text-base'>
           to build some awesome stuff
         </span>
       </p>
