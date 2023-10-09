@@ -2,5 +2,7 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npm run lint
+
+# TODO: Fix husky pre-commit hook
 # git add -A .
 # git commit -m "[linting] 🤖✨"
