@@ -7,9 +7,10 @@ import clsx from 'clsx';
 import { poppins } from '@/components/constants/designConstants';
 import { getProjects } from '@/sanity/utils';
 import Loading from '@/components/Loading';
+import { TProject } from '@/types';
 
 const ProjectsSection = ({ showAll }: { showAll?: boolean }) => {
-  const [projects, setProjects] = useState<any[]>([]);
+  const [projects, setProjects] = useState<TProject[]>([]);
 
   useEffect(() => {
     getProjects(!showAll).then(setProjects).catch(console.error);
