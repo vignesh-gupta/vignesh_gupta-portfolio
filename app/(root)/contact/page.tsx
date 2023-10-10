@@ -6,7 +6,9 @@ import clsx from 'clsx';
 import React, { useState } from 'react';
 
 const ContactPage = () => {
-  const [isSubmitted, setIsSubmitted] = useState(localStorage?.getItem('isSubmitted') === 'true' ? true : false);
+  const [isSubmitted, setIsSubmitted] = useState(
+    localStorage?.getItem('isSubmitted') === 'true' ? true : false
+  );
 
   const [formData, setFormData] = useState({
     name: '',
