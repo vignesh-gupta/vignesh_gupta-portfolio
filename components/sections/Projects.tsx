@@ -19,22 +19,37 @@ const ProjectsSection = ({ showAll }: { showAll?: boolean }) => {
   if (projects.length === 0) return <Loading />;
 
   return (
-    <div
-      className={clsx('my-10 flex w-full flex-col gap-10', poppins.className)}
-    >
-      {projects.map((project, i) => (
-        <Project
-          title={project.title}
-          codeLink={project.codeLink}
-          projectLink={project.projectLink}
-          description={project.description}
-          imgUrl={project.imgUrl}
-          key={i}
-          isFeatured={project.isFeatured}
-          isEven={(i + 1) % 2 === 0}
-        />
-      ))}
-    </div>
+    <>
+      <div
+        className={clsx('my-10 flex w-full flex-col gap-10', poppins.className)}
+      >
+        {projects.map((project, i) => (
+          <Project
+            title={project.title}
+            codeLink={project.codeLink}
+            projectLink={project.projectLink}
+            description={project.description}
+            imgUrl={project.imgUrl}
+            key={i}
+            isFeatured={project.isFeatured}
+            isEven={(i + 1) % 2 === 0}
+          />
+        ))}
+      </div>
+
+      {showAll && (
+        <p className='mb-5 text-center'>
+          <a
+            target='_blank'
+            aria-label='GitHub Code'
+            className='ml-1 underline underline-offset-4 hover:no-underline'
+            href='https://github.com/vignesh-gupta?tab=repositories'
+          >
+            Looking for more?
+          </a>
+        </p>
+      )}
+    </>
   );
 };
 
