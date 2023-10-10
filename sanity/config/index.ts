@@ -6,7 +6,8 @@ const config = {
   projectId,
   dataset,
   apiVersion,
-  useCDN: true,
+  token: process.env.NEXT_PUBLIC_SANITY_TOKEN,
+  useCdn: true,
 };
 
 export default config;

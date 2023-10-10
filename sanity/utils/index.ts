@@ -1,8 +1,10 @@
 import { createClient, groq } from 'next-sanity';
 import clientConfig from '../config';
 
+export const sanityClient = createClient(clientConfig);
+
 export async function sanityFetch(query: string) {
-  return createClient(clientConfig).fetch(groq`${query}`);
+  return sanityClient.fetch(groq`${query}`);
 }
 
 export async function getSkills() {
