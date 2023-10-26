@@ -11,6 +11,7 @@ const ThemeSwitch = ({ className }: { className?: string }) => {
   return (
     <div className={clsx('self-center', className)}>
       <button
+        aria-label='Toggle Dark Mode'
         className='rounded-lg p-3 text-2xl hover:bg-primary'
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       >

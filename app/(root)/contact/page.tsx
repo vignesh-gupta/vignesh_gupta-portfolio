@@ -101,8 +101,7 @@ const ContactPage = () => {
         <textarea
           name='message'
           id='message'
-          cols={30}
-          rows={10}
+          rows={8}
           placeholder='Drop you comments'
           className='rounded-lg bg-secondary p-3 text-foreground'
           value={formData.message}

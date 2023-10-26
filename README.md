@@ -1,5 +1,5 @@
 <div align="center">
-<image src="./public/hero.png" width="60" alt="Vignesh Gupta"/ >
+<img src="./public/hero.png" width="60" alt="Vignesh Gupta"/ >
 <br />
 <h1> Portfolio </h1>
 
