@@ -2,4 +2,6 @@
 dist
 public
 
-**/*.js
+node_modules/*
+.next/*
+*lock*
