@@ -30,7 +30,7 @@ const ProjectsSection = ({ showAll }: { showAll?: boolean }) => {
             projectLink={project.projectLink}
             description={project.description}
             imgUrl={project.imgUrl}
-            key={i}
+            key={project._id}
             isFeatured={project.isFeatured}
             isEven={(i + 1) % 2 === 0}
           />
