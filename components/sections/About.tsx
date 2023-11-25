@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const AboutSection = () => {
   return (
-    <div className='mt-10' id='aboutMe'>
+    <section className='mt-10' id='aboutMe'>
       <h2 className='text-3xl md:text-4xl lg:text-5xl'>
         I&apos;m a{' '}
         <TypeAnimation
@@ -23,7 +23,6 @@ const AboutSection = () => {
           speed={50}
           repeat={Infinity}
           className='text-accent'
-          id='tes'
         />
       </h2>
       <p>
@@ -37,7 +36,7 @@ const AboutSection = () => {
         work across technologies and domains. I love to explore new technologies
         and leverage them to solve real-life problems.
       </p>
-    </div>
+    </section>
   );
 };
 

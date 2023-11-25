@@ -20,7 +20,7 @@ const ExperienceSection = () => {
   }, []);
 
   return (
-    <div>
+    <section>
       <h2 className='mb-5 text-2xl md:text-3xl lg:text-4xl'>My Tech Journey</h2>
       {experiences.length === 0 ? (
         <div className='flex grow items-center justify-center'>
@@ -73,7 +73,7 @@ const ExperienceSection = () => {
           ))}
         </VerticalTimeline>
       )}
-    </div>
+    </section>
   );
 };
 

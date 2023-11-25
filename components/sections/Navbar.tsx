@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <header
       className={clsx(
-        'sticky left-0 right-0 top-0 z-50 flex h-20 justify-between bg-secondary px-10 py-3 sm:px-16 md:px-32 lg:px-48 xl:px-80',
+        'sticky left-0 right-0 top-0 z-50 flex h-16 justify-between bg-secondary px-10 py-3 sm:px-16 md:px-32 lg:px-48 xl:px-80',
         plusJakartaSans.className
       )}
     >

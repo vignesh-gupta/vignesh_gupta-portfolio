@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactSection = () => {
   return (
-    <div className='mb-10'>
+    <section className='mb-10'>
       <h2 className='text-2xl md:text-3xl lg:text-4xl'>Contact</h2>
       <p>
         Take A Coffee & Chat With Me.
@@ -12,7 +12,7 @@ const ContactSection = () => {
       <div className='py-5'>
         <a href='mailto:vighneshgupta32@gmail.com'>vighneshgupta32@gmail.com</a>
       </div>
-    </div>
+    </section>
   );
 };
 

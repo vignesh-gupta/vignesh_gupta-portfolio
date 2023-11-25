@@ -14,7 +14,7 @@ const SkillsSection = () => {
   }, []);
 
   return (
-    <div className='w-full'>
+    <section className='w-full'>
       <div className='flex flex-wrap items-center justify-center gap-3'>
         {skills.map(({ _id, name, icon }, i) => (
           <SkillsCircle key={_id} delay={i} name={name} icon={icon} />
@@ -31,7 +31,7 @@ const SkillsSection = () => {
           height={100}
         />
       </div>
-    </div>
+    </section>
   );
 };
 
