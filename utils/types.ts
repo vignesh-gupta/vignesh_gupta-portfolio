@@ -1,3 +1,5 @@
+import { IconType } from 'react-icons';
+
 export type TExperience = {
   _id: string;
   role: string;
@@ -24,4 +26,10 @@ export type TSkill = {
   _createdAt: string;
   name: string;
   icon: string;
+};
+
+export type TSocial = {
+  text: string;
+  url: string;
+  Icon: IconType;
 };
