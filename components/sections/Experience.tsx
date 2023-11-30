@@ -9,7 +9,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import { MdWork } from 'react-icons/md';
 import { getExperience } from '@/sanity/utils';
-import { TExperience } from '@/types';
+import { TExperience } from '@/utils/types';
 import LoadingPage from '@/components/Loading';
 
 const ExperienceSection = () => {

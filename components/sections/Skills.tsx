@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import SkillsCircle from '@/components/SkillsCircle';
 import Image from 'next/image';
 import { getSkills } from '@/sanity/utils';
-import { TSkill } from '@/types';
+import { TSkill } from '@/utils/types';
 
 const SkillsSection = () => {
   const [skills, setSkills] = useState<TSkill[]>([]);
