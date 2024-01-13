@@ -5,8 +5,8 @@ const nextConfig = {
       {
         hostname: 'cdn.sanity.io',
         protocol: 'https',
-      }
-    ]
+      },
+    ],
   },
 };
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "Vignesh Gupta's Portfolio",
   authors: {
     name: 'Vignesh Gupta',
-    url: 'https://vigneshgupta.vercel.app/',
+    url: 'https://vigneshgupta.tech/',
   },
   creator: 'Vignesh Gupta',
   publisher: 'Vignesh Gupta',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: 'website',
-    url: 'https://vigneshgupta.vercel.app/',
+    url: 'https://vigneshgupta.tech/',
     title: 'Portfolio | Vignesh Gupta',
     description: "Vignesh Gupta's Portfolio",
     siteName: 'Vignesh Gupta Portfolio',
@@ -39,28 +39,24 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: 'https://vigneshgupta.vercel.app/_next/image?url=%2Fhero.png&w=256&q=75',
-        width: 256,
-        height: 75,
-        alt: "Vignesh Gupta's Portfolio",
+        url: '/thumbnail.png',
+        alt: "Hey there, I'm Vignesh Gupta",
       },
     ],
   },
   twitter: {
     creator: '@VighneshGupta9',
     creatorId: 'twitter.com/VighneshGupta9',
-    site: 'https://vigneshgupta.vercel.app/',
+    site: 'https://vigneshgupta.tech/',
     title: 'Portfolio | Vignesh Gupta',
     images: [
       {
-        url: 'https://vigneshgupta.vercel.app/_next/image?url=%2Fhero.png&w=256&q=75',
-        width: 256,
-        height: 75,
-        alt: "Vignesh Gupta's Portfolio",
+        url: '/thumbnail.png',
+        alt: "Hey there, I'm Vignesh Gupta",
       },
     ],
   },
-  metadataBase: new URL('https://vigneshgupta.vercel.app'),
+  metadataBase: new URL('https://vigneshgupta.tech'),
 };
 
 export default function RootLayout({
