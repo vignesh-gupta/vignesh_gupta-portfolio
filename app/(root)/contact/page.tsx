@@ -57,7 +57,7 @@ const ContactPage = () => {
         <span className='block text-accent'>
           Feel free to reach out on{' '}
           <a className='underline' href='mailto:vigneshgupta32@gmail.com'>
-            vigneshgupta32@gmail.com
+            hello@vigneshgupta.tech
           </a>
         </span>
       </div>

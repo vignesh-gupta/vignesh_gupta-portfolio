@@ -52,4 +52,4 @@ This is my developer portfolio, designed to showcase my technical skills and pro
 
 ## Recent Projects ⚒️
 
--Companion IO: An AI platform to have great conversation with a virtual experts [ [Live](https://companionio.vercel.app/) / [code](https://github.com/vignesh-gupta/companion-io) ]
+-Companion IO: An AI platform to have great conversation with a virtual experts [ [Live](https://companionio.vigneshgupta.tech/) / [code](https://github.com/vignesh-gupta/companion-io) ]

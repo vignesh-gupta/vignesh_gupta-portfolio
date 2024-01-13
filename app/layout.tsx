@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    creator: '@VighneshGupta9',
-    creatorId: 'twitter.com/VighneshGupta9',
+    creator: '@vigneshfixes',
+    creatorId: 'twitter.com/vigneshfixes',
     site: 'https://vigneshgupta.tech/',
     title: 'Portfolio | Vignesh Gupta',
     images: [
