@@ -1,3 +1,4 @@
+import { CONTACT_EMAIL } from '@/utils/constant';
 import './globals.css';
 import type { Metadata } from 'next';
 
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
     title: 'Portfolio | Vignesh Gupta',
     description: "Vignesh Gupta's Portfolio",
     siteName: 'Vignesh Gupta Portfolio',
-    emails: ['vighneshgupta32@gmail.com'],
+    emails: [CONTACT_EMAIL],
     locale: 'en_US',
     images: [
       {

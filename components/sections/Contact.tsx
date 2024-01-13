@@ -1,16 +1,14 @@
+import { CONTACT_EMAIL } from '@/utils/constant';
 import React from 'react';
 
 const ContactSection = () => {
   return (
     <section className='mb-10'>
-      <h2 className='text-2xl md:text-3xl lg:text-4xl'>Contact</h2>
-      <p>
-        Take A Coffee & Chat With Me.
-        <span className='text-accent'> Let&apos;s Connect!</span>
-      </p>
+      <h2 className='text-2xl md:text-3xl lg:text-4xl'>Let&apos;s Connect!</h2>
+      <p className='text-accent'>Take A Coffee & Chat With Me.</p>
 
-      <div className='py-5'>
-        <a href='mailto:vighneshgupta32@gmail.com'>vighneshgupta32@gmail.com</a>
+      <div className='py-5 underline underline-offset-4'>
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
       </div>
     </section>
   );

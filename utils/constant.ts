@@ -18,3 +18,5 @@ export const socials: TSocial[] = [
     Icon: BsTwitterX,
   },
 ];
+
+export const CONTACT_EMAIL = 'hello@vigneshgupta.tech';

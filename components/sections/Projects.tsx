@@ -6,7 +6,6 @@ import Project from '@/components/Project';
 import clsx from 'clsx';
 import { poppins } from '@/components/constants/designConstants';
 import { getProjects } from '@/sanity/utils';
-import Loading from '@/components/Loading';
 import { TProject } from '@/utils/types';
 
 const ProjectsSection = ({ showAll }: { showAll?: boolean }) => {
@@ -15,8 +14,6 @@ const ProjectsSection = ({ showAll }: { showAll?: boolean }) => {
   useEffect(() => {
     getProjects(!showAll).then(setProjects).catch(console.error);
   }, [showAll]);
-
-  if (projects.length === 0) return <Loading />;
 
   return (
     <>

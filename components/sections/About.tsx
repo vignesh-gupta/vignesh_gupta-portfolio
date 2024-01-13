@@ -7,23 +7,7 @@ const AboutSection = () => {
   return (
     <section className='mt-10' id='aboutMe'>
       <h2 className='text-3xl md:text-4xl lg:text-5xl'>
-        I&apos;m a{' '}
-        <TypeAnimation
-          sequence={[
-            'Frontend Developer',
-            1000, // pause 1 second between each message
-            'Full Stack Developer',
-            1000,
-            'Software Developer',
-            1000,
-            'Software Engineer',
-            2000,
-          ]}
-          wrapper='span'
-          speed={50}
-          repeat={Infinity}
-          className='text-accent'
-        />
+        I&apos;m a <span className='text-accent'>Full Stack Developer</span>
       </h2>
       <p>
         Currently, I&apos;m a Software Engineer at

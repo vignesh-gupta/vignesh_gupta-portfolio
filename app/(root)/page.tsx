@@ -1,23 +1,11 @@
-'use client';
-
-import { useEffect, useState } from 'react';
 import About from '@/components/sections/About';
 import Contact from '@/components/sections/Contact';
 import Expertise from '@/components/sections/Expertise';
 import Hero from '@/components/sections/Hero';
 import Projects from '@/components/sections/Projects';
 import Skills from '@/components/sections/Skills';
-import Loading from '@/components/Loading';
 
 export default function Home() {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    setIsLoading(false);
-  }, []);
-
-  if (isLoading) return <Loading />;
-
   return (
     <div className='flex flex-col items-center md:items-start'>
       <div className='relative'>

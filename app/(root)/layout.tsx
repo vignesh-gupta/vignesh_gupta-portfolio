@@ -4,6 +4,8 @@ import Footer from '@/components/sections/Footer';
 import { preahvihear } from '@/components/constants/designConstants';
 import { Providers } from '@/components/providers';
 
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <body
@@ -24,6 +26,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
         </main>
         <Footer />
       </Providers>
+      <SpeedInsights />
     </body>
   );
 };

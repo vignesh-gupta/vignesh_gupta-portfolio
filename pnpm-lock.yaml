@@ -26,6 +26,12 @@ dependencies:
   '@sanity/vision':
     specifier: ^3.24.1
     version: 3.24.1(@babel/runtime@7.23.8)(@codemirror/lint@6.4.2)(@codemirror/state@6.4.0)(@codemirror/theme-one-dark@6.1.2)(@lezer/common@1.2.0)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@6.1.8)
+  '@types/react-vertical-timeline-component':
+    specifier: ^3.3.6
+    version: 3.3.6
+  '@vercel/speed-insights':
+    specifier: ^1.0.3
+    version: 1.0.3
   autoprefixer:
     specifier: 10.4.15
     version: 10.4.15(postcss@8.4.28)
@@ -59,9 +65,6 @@ dependencies:
   react-vertical-timeline-component:
     specifier: ^3.6.0
     version: 3.6.0(react@18.2.0)
-  react-xarrows:
-    specifier: ^2.0.2
-    version: 2.0.2(react@18.2.0)
   sanity:
     specifier: ^3.24.1
     version: 3.24.1(@types/node@20.5.3)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)
@@ -79,9 +82,6 @@ devDependencies:
   '@types/react-dom':
     specifier: 18.2.7
     version: 18.2.7
-  '@types/react-vertical-timeline-component':
-    specifier: ^3.3.6
-    version: 3.3.6
   eslint:
     specifier: 8.47.0
     version: 8.47.0
@@ -1819,7 +1819,7 @@ packages:
     resolution: {integrity: sha512-OUvyPXRjXvUD/SNLO0CW0GbIxVF32Ios5qHecMSfw6kxnK1cPULD9NV80EuqZ3WmS/s6BgbcwmN8k4ISb3akhQ==}
     dependencies:
       '@types/react': 18.2.21
-    dev: true
+    dev: false
 
   /@types/react@18.2.21:
     resolution: {integrity: sha512-neFKG/sBAwGxHgXiIxnbm3/AAVQ/cMRS93hvBpg8xYRbeQSPVABp9U2bRnPf0iI4+Ucdv3plSxKK+3CW2ENJxA==}
@@ -1964,6 +1964,11 @@ packages:
       - '@codemirror/language'
       - '@codemirror/lint'
       - '@codemirror/search'
+    dev: false
+
+  /@vercel/speed-insights@1.0.3:
+    resolution: {integrity: sha512-bKIt0HDdF6hP2bJZyS+za3k6sKeAXNRLSIUbwVwvyvKdsHBWS6ILBvmD1wXHZZyTqjU1TP7dTE/F6lHM6rBdKA==}
+    requiresBuild: true
     dev: false
 
   /@vercel/stega@0.1.0:
@@ -5366,17 +5371,6 @@ packages:
       react-intersection-observer: 8.34.0(react@18.2.0)
     transitivePeerDependencies:
       - react
-    dev: false
-
-  /react-xarrows@2.0.2(react@18.2.0):
-    resolution: {integrity: sha512-tDlAqaxHNmy0vegW/6NdhoWyXJq1LANX/WUAlHyzoHe9BwFVnJPPDghmDjYeVr7XWFmBrVTUrHsrW7GKYI6HtQ==}
-    peerDependencies:
-      react: '>=16.8.0'
-    dependencies:
-      '@types/prop-types': 15.7.11
-      lodash: 4.17.21
-      prop-types: 15.8.1
-      react: 18.2.0
     dev: false
 
   /react@18.2.0:

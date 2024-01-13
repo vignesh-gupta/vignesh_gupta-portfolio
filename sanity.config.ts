@@ -1,7 +1,7 @@
-import { deskTool } from 'sanity/desk';
+import schemas from '@/sanity/schemas';
 import { visionTool } from '@sanity/vision';
 import { defineConfig } from 'sanity';
-import schemas from '@/sanity/schemas';
+import { structureTool } from 'sanity/structure';
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!;
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || 'production';
@@ -13,7 +13,7 @@ const client = defineConfig({
   apiVersion,
   title: 'Dev Portfolio',
   basePath: '/admin',
-  plugins: [deskTool(), visionTool()],
+  plugins: [structureTool(), visionTool()],
   schema: { types: schemas },
 });
 

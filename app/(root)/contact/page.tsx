@@ -2,6 +2,7 @@
 
 import { poppins } from '@/components/constants/designConstants';
 import { sanityClient } from '@/sanity/utils';
+import { CONTACT_EMAIL } from '@/utils/constant';
 import clsx from 'clsx';
 import React, { useState } from 'react';
 
@@ -56,8 +57,8 @@ const ContactPage = () => {
         </h1>
         <span className='block text-accent'>
           Feel free to reach out on{' '}
-          <a className='underline' href='mailto:vigneshgupta32@gmail.com'>
-            hello@vigneshgupta.tech
+          <a className='underline' href={`mailto:${CONTACT_EMAIL}`}>
+            {CONTACT_EMAIL}
           </a>
         </span>
       </div>
@@ -108,10 +109,7 @@ const ContactPage = () => {
           onChange={handleChange}
         />
 
-        <button
-          type='submit'
-          className='rounded-lg bg-accent p-3 text-foreground'
-        >
+        <button type='submit' className='rounded-lg bg-accent p-3 text-white'>
           Send Message
         </button>
       </form>

@@ -3,6 +3,7 @@ import { IconType } from 'react-icons';
 import clsx from 'clsx';
 import { HiOutlineMail } from 'react-icons/hi';
 import { poppins } from './constants/designConstants';
+import { CONTACT_EMAIL } from '@/utils/constant';
 
 type ContactInfoProps = {
   Icon: IconType;
@@ -37,13 +38,13 @@ const Contact = () => {
         <div className='flex flex-1 flex-col gap-3 rounded-lg pr-10'>
           <ContactInfo
             Icon={HiOutlineMail}
-            text='vigneshgupta32@gmail.com'
+            text={CONTACT_EMAIL}
             href='https://www.figma.com/file/Atd3ZE6CjSlQaSN8j2ju6n/Portfolio-Design?type=design&node-id=0-1&mode=design&t=f0ik29q2yZsmyw7T-0'
           />
           <ContactInfo
             Icon={HiOutlineMail}
-            text='vigneshgupta32@gmail.com'
-            href='mailto:vigneshgupta32@gmail.com'
+            text={CONTACT_EMAIL}
+            href={`mailto:${CONTACT_EMAIL}`}
           />
         </div>
       </div>
