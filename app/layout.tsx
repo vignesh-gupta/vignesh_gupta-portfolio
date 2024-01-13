@@ -3,20 +3,6 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Portfolio | Vignesh Gupta',
-  themeColor: [
-    {
-      color: '#11071f',
-    },
-    {
-      color: '#7127ba',
-    },
-    {
-      color: '#1a0b2e',
-    },
-    {
-      color: '#CCD6F6',
-    },
-  ],
   verification: {
     google: 'CMGvGxmKn2AHfQJX0pLgJHDEDjXT7xYWgX8J0Crz_xs',
   },
@@ -25,7 +11,6 @@ export const metadata: Metadata = {
     name: 'Vignesh Gupta',
     url: 'https://vigneshgupta.vercel.app/',
   },
-  colorScheme: 'dark',
   creator: 'Vignesh Gupta',
   publisher: 'Vignesh Gupta',
   keywords: [
