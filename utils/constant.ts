@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin, BsTwitterX } from 'react-Icons/bs';
+import { BsGithub, BsLinkedin, BsTwitterX } from 'react-icons/bs';
 import { TSocial } from './types';
 
 export const socials: TSocial[] = [
