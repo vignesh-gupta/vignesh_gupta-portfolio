@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   verification: {
     google: 'CMGvGxmKn2AHfQJX0pLgJHDEDjXT7xYWgX8J0Crz_xs',
   },
-  description: "Vignesh Gupta's Portfolio",
+  description:
+    'Experienced fullstack developer specializing in frontend technologies. Explore my portfolio for a showcase of projects and skills.',
   authors: {
     name: 'Vignesh Gupta',
     url: 'https://vigneshgupta.tech/',
@@ -29,12 +30,24 @@ export const metadata: Metadata = {
     'software developer',
     'react create app',
     'web developer',
+    'Fullstack Developer',
+    'Frontend',
+    'React JS',
+    'Node JS',
+    'Express JS',
+    'Spring Boot',
+    'PostgreSQL',
+    'AWS',
+    'Git',
+    'MongoDB',
+    'MySQL',
   ],
   openGraph: {
     type: 'website',
     url: 'https://vigneshgupta.tech/',
     title: 'Portfolio | Vignesh Gupta',
-    description: "Vignesh Gupta's Portfolio",
+    description:
+      'Experienced fullstack developer specializing in frontend technologies. Explore my portfolio for a showcase of projects and skills.',
     siteName: 'Vignesh Gupta Portfolio',
     emails: [CONTACT_EMAIL],
     locale: 'en_US',
