@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "npx prettier . --write && next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@portabletext/react": "^3.0.11",
@@ -38,6 +39,7 @@
     "@types/node": "20.5.3",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "cypress": "^13.6.5",
     "eslint": "8.47.0",
     "eslint-config-next": "14.0.4",
     "eslint-config-prettier": "^9.1.0",
