@@ -1,11 +1,11 @@
 import clsx from 'clsx';
-import Navbar from '@/components/sections/Navbar';
-import Footer from '@/components/sections/Footer';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import { preahvihear } from '@/components/constants/designConstants';
 import { Providers } from '@/components/providers';
-
-import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Analytics } from '@vercel/analytics/react';
+import Footer from '@/components/sections/Footer';
+import Navbar from '@/components/sections/Navbar';
 
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (

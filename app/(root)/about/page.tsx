@@ -1,8 +1,7 @@
-import React from 'react';
-import HeroSection from '@/components/sections/Hero';
-import SkillsSection from '@/components/sections/Skills';
 import AboutSection from '@/components/sections/About';
 import ExperienceSection from '@/components/sections/Experience';
+import HeroSection from '@/components/sections/Hero';
+import SkillsSection from '@/components/sections/Skills';
 
 const AboutPage = () => {
   return (

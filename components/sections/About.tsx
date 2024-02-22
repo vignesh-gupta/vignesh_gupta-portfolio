@@ -1,14 +1,11 @@
 'use client';
 
-import React from 'react';
-import { TypeAnimation } from 'react-type-animation';
-
 const AboutSection = () => {
   return (
     <section className='mt-10' id='aboutMe'>
-      <h2 className='text-3xl md:text-4xl lg:text-5xl'>
+      <h1 className='text-3xl md:text-4xl lg:text-5xl'>
         I&apos;m a <span className='text-accent'>Full Stack Developer</span>
-      </h2>
+      </h1>
       <p>
         Currently, I&apos;m a Software Engineer at
         <span className='text-accent'> HCLTECH</span>.

@@ -1,6 +1,7 @@
+import type { Metadata } from 'next';
+
 import { CONTACT_EMAIL } from '@/utils/constant';
 import './globals.css';
-import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Portfolio | Vignesh Gupta',

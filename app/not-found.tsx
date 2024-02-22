@@ -1,8 +1,9 @@
 'use client';
 
-import { poppins } from '@/components/constants/designConstants';
 import clsx from 'clsx';
 import Link from 'next/link';
+
+import { poppins } from '@/components/constants/designConstants';
 
 export default function Page404() {
   return (

@@ -1,7 +1,7 @@
+import clsx from 'clsx';
+
 import { poppins } from '@/components/constants/designConstants';
 import ProjectsSection from '@/components/sections/Projects';
-import clsx from 'clsx';
-import React from 'react';
 
 const ProjectsPage = () => {
   return (

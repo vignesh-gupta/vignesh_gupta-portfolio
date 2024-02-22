@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import React from 'react';
 
 const HeroSection = () => {
   return (
@@ -31,10 +30,10 @@ const HeroSection = () => {
 
         <div className='md:ml-7'>
           <p>An Engineer who...</p>
-          <h1 className='text-3xl md:text-4xl lg:text-5xl'>
+          <h2 className='text-3xl md:text-4xl lg:text-5xl'>
             Loves to <br />
-            have<span className='text-accent'> problem</span>...
-          </h1>
+            <span className='text-accent'>solve problems</span>...
+          </h2>
           <p className='text-sm'>
             Because if there is no problem then what’s there to engineer?
           </p>
