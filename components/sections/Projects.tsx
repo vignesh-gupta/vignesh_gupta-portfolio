@@ -16,7 +16,7 @@ const ProjectsSection = ({ showAll }: { showAll?: boolean }) => {
   }, [showAll]);
 
   return (
-    <>
+    <section data-cy='projects'>
       <div
         className={clsx('my-10 flex w-full flex-col gap-10', poppins.className)}
       >
@@ -46,7 +46,7 @@ const ProjectsSection = ({ showAll }: { showAll?: boolean }) => {
           </a>
         </p>
       )}
-    </>
+    </section>
   );
 };
 

@@ -14,7 +14,7 @@ const SkillsSection = () => {
   }, []);
 
   return (
-    <section className='w-full'>
+    <section className='w-full' data-cy='skills'>
       <div className='flex flex-wrap items-center justify-center gap-3'>
         {skills.map(({ _id, name, icon }, i) => (
           <SkillsCircle key={_id} delay={i} name={name} icon={icon} />
