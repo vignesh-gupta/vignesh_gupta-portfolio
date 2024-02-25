@@ -5,10 +5,9 @@ describe('template spec', () => {
   });
 });
 
-// FILEPATH: cypress/integration/home_page_spec.js
 describe('Home Page', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000'); // assuming your home page is at the root
+    cy.visit('http://localhost:3000');
   });
 
   it('renders the Hero component', () => {
