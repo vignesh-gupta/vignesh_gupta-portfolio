@@ -2,9 +2,9 @@ describe('ProjectsPage E2E', () => {
   beforeEach(() => {
     cy.visit('http://localhost:3000/projects');
     cy.intercept('GET', '**/v2023-05-03/**', { fixture: 'projects' }).as(
-      'getProjects'
+      'projects'
     );
-    cy.wait('@getProjects');
+    cy.wait('@projects');
   });
 
   it('should render the page title', () => {

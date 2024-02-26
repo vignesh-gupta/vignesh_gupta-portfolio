@@ -1,7 +1,22 @@
-describe('template spec', () => {
-  it('passes', () => {
+describe('It should test all navigates navigates', () => {
+  beforeEach(() => {
     cy.visit('http://localhost:3000');
+  });
+
+  it('Checks About navigation', () => {
+    cy.get('a[href="about"]').click();
+    cy.url().should('include', '/about');
     cy.get('h1').should('contain', 'Full Stack Developer');
+  });
+
+  it('Checks Project navigation', () => {
+    cy.get('a[href="projects"]').click();
+    cy.url().should('include', '/projects');  
+  });
+
+  it('Checks Contact navigation', () => {
+    cy.get('a[href="contact"]').click();
+    cy.url().should('include', '/contact');
   });
 });
 
