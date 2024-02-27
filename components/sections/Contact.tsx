@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContactSection = () => {
   return (
-    <section className='mb-10'>
+    <section data-cy='contact' className='mb-10'>
       <h2 className='text-2xl md:text-3xl lg:text-4xl'>Let&apos;s Connect!</h2>
       <p className='text-accent'>Take A Coffee & Chat With Me.</p>
 

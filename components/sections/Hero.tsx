@@ -2,7 +2,10 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section className='flex w-full flex-col justify-center gap-3 pt-5 md:flex-row md:justify-start md:pt-10'>
+    <section
+      data-cy='hero'
+      className='flex w-full flex-col justify-center gap-3 pt-5 md:flex-row md:justify-start md:pt-10'
+    >
       <div id='hero-img' className='relative flex items-start justify-center'>
         <Image
           src='/radiant-circle.svg'

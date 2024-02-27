@@ -52,9 +52,9 @@ const ContactPage = () => {
           poppins.className
         )}
       >
-        <h1 className='text-xl  capitalize md:text-2xl'>
+        <h3 className='text-xl  capitalize md:text-2xl'>
           Thank You For Your Time
-        </h1>
+        </h3>
         <span className='block text-accent'>
           Feel free to reach out on{' '}
           <a className='underline' href={`mailto:${CONTACT_EMAIL}`}>
@@ -71,10 +71,10 @@ const ContactPage = () => {
         poppins.className
       )}
     >
-      <h1 className='text-xl capitalize md:text-2xl'>
+      <h3 className='text-xl capitalize md:text-2xl'>
         Take A Coffee
         <span className='block text-accent'>& Chat With Me</span>
-      </h1>
+      </h3>
 
       <form
         onSubmit={handleFormSubmit}

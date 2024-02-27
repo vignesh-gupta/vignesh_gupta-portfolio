@@ -1,0 +1,86 @@
+{
+  "result": [
+    {
+      "_createdAt": "2023-08-30T14:09:38Z",
+      "isFeatured": false,
+      "imgUrl": "https://cdn.sanity.io/images/2ozbf1wl/production/972cacca4b24f253df04d8bc1ba96532d61f52ad-1852x946.png",
+      "_id": "4226a695-4aee-487a-b978-3e4c2a51d7ed",
+      "title": "Companion",
+      "description": "An AI platform to have great conversation with a virtual experts ",
+      "codeLink": "https://github.com/vignesh-gupta/companion-io",
+      "projectLink": "https://companionio.vigneshgupta.tech/",
+      "tags": ["NextJS", "OpenAI", "Pinecone", "Replicate"]
+    },
+    {
+      "_id": "71ac306e-a3f6-4076-8717-964ef623068d",
+      "title": "Meta-droid",
+      "codeLink": "https://github.com/vignesh-gupta/meta-droid",
+      "projectLink": "https://meta-droid.vigneshgupta.tech/",
+      "tags": ["landing-page", "UI", "framer-motion", "NextJS 13"],
+      "imgUrl": "https://cdn.sanity.io/images/2ozbf1wl/production/80548a7d4c91f71e2fcb4965944f964915b495e6-1854x946.png",
+      "_createdAt": "2023-08-30T14:06:09Z",
+      "description": "A landing Page of Metaverse company.",
+      "isFeatured": true
+    },
+    {
+      "_createdAt": "2024-01-13T13:49:29Z",
+      "description": "DigiBee is a Full-Stack built with Next.js for frontend and Payload as backend. It is a modern digital product marketplace where you can sell your digital products like ebooks, courses, templates, etc. It is a fully functional marketplace with a lot of features.",
+      "codeLink": "https://github.com/vignesh-gupta/digibee-marketplace",
+      "projectLink": "https://digibee.vigneshgupta.tech/",
+      "imgUrl": "https://cdn.sanity.io/images/2ozbf1wl/production/f2895d323d1d071aa98ecec1bb173f04d13e797a-1897x1080.png",
+      "_id": "7f62c4f1-d3ee-452f-aa8b-a9ba07b65889",
+      "title": "Digibee MarketPlace",
+      "tags": [
+        "React ",
+        "NextJS",
+        "Tailwind",
+        "Shadcn-UI",
+        "Payload-CMS",
+        "Typescript",
+        "Ecommerce"
+      ],
+      "isFeatured": true
+    },
+    {
+      "_createdAt": "2023-08-30T14:08:32Z",
+      "imgUrl": "https://cdn.sanity.io/images/2ozbf1wl/production/74bfd6f7c152eaabb953bf0e2170cdaba6f0d3fb-1834x946.png",
+      "tags": ["API", "React"],
+      "isFeatured": false,
+      "_id": "908b7d67-a747-4a52-9dbe-818bb3bc13f5",
+      "title": "CryptoVerse",
+      "description": "Get all the cypto stats/news/info in real time",
+      "codeLink": "https://github.com/vignesh-gupta/CryptoVerse",
+      "projectLink": "https://cryptoverse07.netlify.app/"
+    },
+    {
+      "title": "TBE Social",
+      "description": "A Pinterest clone where you can share your pins!",
+      "codeLink": "https://github.com/vignesh-gupta/TBE_Social",
+      "projectLink": "https://tbe-share.netlify.app/",
+      "tags": ["Pinterest", "clone", "React", "Sanity", "google-auth"],
+      "_id": "ab4a4925-7467-4ad7-a64d-6164c5df313f",
+      "_createdAt": "2023-08-30T14:04:20Z",
+      "isFeatured": null,
+      "imgUrl": "https://cdn.sanity.io/images/2ozbf1wl/production/0ae83b6374cd92f75afcd5cad803ea0947f2a95b-1854x946.png"
+    },
+    {
+      "_id": "c0341dd4-26ba-4324-8075-e816d86b1840",
+      "codeLink": "https://github.com/vignesh-gupta/zero-path",
+      "tags": [
+        "typescript",
+        "tailwindcss",
+        "Clerk-auth",
+        "Prisma",
+        "NextJS",
+        "shadcn-ui"
+      ],
+      "projectLink": "https://zero-path.vigneshgupta.tech/",
+      "isFeatured": true,
+      "imgUrl": "https://cdn.sanity.io/images/2ozbf1wl/production/7729573ee527b42f4ee31051bc88f9147dc39884-1616x910.png",
+      "_createdAt": "2024-01-13T13:39:10Z",
+      "title": "Zero-Path",
+      "description": "A Frontend started template for developers, who are abit familiar with Next and want to work with latest tools \u0026 technologies"
+    }
+  ],
+  "ms": 12
+}

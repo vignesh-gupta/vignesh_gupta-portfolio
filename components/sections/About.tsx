@@ -2,7 +2,7 @@
 
 const AboutSection = () => {
   return (
-    <section className='mt-10' id='aboutMe'>
+    <section data-cy='about' className='mt-10' id='aboutMe'>
       <h1 className='text-3xl md:text-4xl lg:text-5xl'>
         I&apos;m a <span className='text-accent'>Full Stack Developer</span>
       </h1>

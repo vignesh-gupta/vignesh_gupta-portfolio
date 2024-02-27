@@ -3,7 +3,7 @@ import { expertise } from '@/components/constants/mappingConstants';
 
 const ExpertiseSection = () => {
   return (
-    <section>
+    <section data-cy='expertise'>
       <h2 className='text-2xl md:text-3xl lg:text-4xl'>Expertise</h2>
 
       {/* TODO: Update the Card with actually value */}

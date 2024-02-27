@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["HCLTECH", "hotspot", "vigneshfixes"]
+  "cSpell.words": ["HCLTECH", "hotspot", "portabletext", "vigneshfixes"],
+  "conventionalCommits.scopes": ["cypress-test", "projects"]
 }

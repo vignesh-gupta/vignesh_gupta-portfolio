@@ -1,8 +1,0 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-npm run lint
-git add -A .
-
-# TODO: Fix husky pre-commit hook
-# git commit -m "[linting] 🤖✨"
