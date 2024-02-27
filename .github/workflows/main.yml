@@ -68,7 +68,7 @@ jobs:
         with:
           headed: true
           browser: chrome
-          project: ./packages/app/
+          project: .
           record: false
           install: false
           build: npm run build
