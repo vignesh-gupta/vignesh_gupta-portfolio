@@ -6,7 +6,7 @@ const config = {
   projectId,
   dataset,
   apiVersion,
-  token: process.env.NEXT_PUBLIC_SANITY_TOKEN,
+  token: process.env.SANITY_TOKEN,
   useCdn: true,
 };
 
