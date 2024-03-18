@@ -11,7 +11,7 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "@portabletext/react": "^3.0.11",
+    "@portabletext/react": "^3.0.12",
     "@sanity/client": "^6.15.3",
     "@sanity/demo": "^2.0.0",
     "@sanity/icons": "^2.8.0",
