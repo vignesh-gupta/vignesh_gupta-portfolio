@@ -17,7 +17,7 @@
     "@sanity/icons": "^2.11.2",
     "@sanity/image-url": "^1.0.2",
     "@sanity/ui": "^2.0.7",
-    "@sanity/vision": "^3.24.1",
+    "@sanity/vision": "^3.34.0",
     "@types/react-vertical-timeline-component": "^3.3.6",
     "@vercel/analytics": "^1.1.1",
     "@vercel/speed-insights": "^1.0.3",
